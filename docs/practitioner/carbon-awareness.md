@@ -52,7 +52,7 @@ Marginal carbon intensity is the carbon intensity of the power plant that would 
 
 Fossil-fueled power plants rarely scale down to 0. They have a minimum functioning threshold, and some don't scale; they are considered a consistent, always-on baseload. Because of this, we sometimes have the scenario where we curtail (throw away) renewable energy while still consuming energy from fossil fuel power plants.
 
-<!-- ![alt_text](images/image8.png "image_tooltip") -->
+![alt_text](../../src/images/PrinciplesV2-1_carbon_awareness.png "image_tooltip")
 
 In these situations, the marginal carbon intensity will be 0 gCO2eq/kWh since we know that any new demand will match the renewable energy we are curtailing.
 
@@ -64,7 +64,7 @@ When the demand for electricity goes down, utilities need to **reduce** the supp
 
 1. **Buy less energy from fossil fuel plants.**
 
-<!-- ![alt_text](images/image9.png "image_tooltip") -->
+![alt_text](../../src/images/PrinciplesV2-1_energy_market.png "image_tooltip")
    Energy from fossil fuel plants is usually the most expensive so this is the preferred method. This directly translates to burning fewer fossil fuels.
 
 1. **Buy less energy from renewable sources**. 
@@ -77,13 +77,13 @@ When the demand for electricity goes up, utilities need to increase the supply t
 1. **Buy more energy from renewable sources that are currently being curtailed**
 
 
-<!-- ![alt_text](images/image10.png "image_tooltip") -->
+![alt_text](../../src/images/PrinciplesV2-1_energy_market2.png "image_tooltip")
 
 If you are curtailing, it means you have excess energy you could dispatch. Renewable energy is already the cheapest, so curtailed renewable energy will be the cheapest dispatchable energy source. Renewable plants will then sell the energy they would have had to curtail.
 
 1. **Buy more energy from fossil fuel plants**.
 
-<!-- ![alt_text](images/image11.png "image_tooltip") -->
+![alt_text](../../src/images/PrinciplesV2-1_energy_market3.png "image_tooltip")
 
 Fossil fuels are inherently dispatchable; they can quickly increase energy production by burning more. However, coal costs money, so this is the least preferred solution.
 
@@ -119,13 +119,13 @@ Demand shifting can be further broken down into spatial and temporal shifting.
 
 Spatial shifting means moving your computation to another physical location where the current carbon intensity is lower. It might be a region that naturally has lower carbon sources of energy. For example, moving to different hemispheres depending on the season for more sunlight hours.
 
-<!-- ![alt_text](images/image13.png "image_tooltip") -->
+![alt_text](../../src/images/PrinciplesV2-1_spacial_shifting.png "image_tooltip")
 
 #### Temporal shifting
 
 If you can't shift your computation spatially to another region, another option you have is to shift to another time. Perhaps later in the day or night when it's sunnier or windier and, therefore, the carbon intensity is lower. This is called temporal demand shifting. We can predict future carbon intensity reasonably well through advances in weather forecasting.
 
-<!-- ![alt_text](images/image14.png "image_tooltip") -->
+![alt_text](../../src/images/PrinciplesV2-1_temporal_shifting.png "image_tooltip")
 
 Some of the biggest technology companies have recognised the importance of carbon awareness and are using advanced modeling techniques to implement demand shifting.
 
@@ -136,7 +136,7 @@ Some of the biggest technology companies have recognised the importance of carbo
 
 Demand shifting is the strategy of moving computation to regions or times when the carbon intensity is lowest. Demand shaping is a similar strategy. However, instead of moving demand to a different region or time, we shape our computation to match the existing supply.
 
-<!-- ![alt_text](images/image15.png "image_tooltip") -->
+![alt_text](../../src/images/PrinciplesV2-1_demand_shaping.png "image_tooltip")
 
 * If carbon intensity is low, increase the demand; do more in your applications.
 * If carbon intensity is high, decrease demand; do less in your applications.

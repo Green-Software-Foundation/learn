@@ -58,7 +58,7 @@ The **UNIPCC (Intergovernmental Panel on Climate Change)**, created by the UN in
 
 We will always emit carbon through our activities but being carbon efficient means minimizing the amount of carbon emitted per unit of work. We aim to ensure that for each gram of carbon we emit into the atmosphere, we extract the most value possible.
 
-<!-- ![alt_text](images/image1.png "image_tooltip") -->
+![alt_text](../../src/images/carbon_efficiency.jpg "image_tooltip")
 
 In the software space, the part we play in the climate solution is **building carbon-efficient applications**. Being carbon efficient is about building applications that add the same value for you or your users but which emit less carbon.
 

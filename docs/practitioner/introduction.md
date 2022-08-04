@@ -10,6 +10,8 @@ Green software is an emerging discipline at the intersection of climate science,
 
 Green software is carbon-efficient software, meaning it emits the least carbon possible. Only three activities reduce the carbon emissions of software; energy efficiency, carbon awareness, and hardware efficiency. This training will explain all of these concepts, how to apply them to your processes and how to measure them, as well as some of the international guidelines and organizations that guide and monitor this space.
 
+![alt_text](../../src/images/introduction.jpg "image_tooltip")
+
 ## Who should read this?
 
 Anyone involved in the process of building, deploying, or managing software. By studying these principles, a green software practitioner can make decisions that have a meaningful impact on the carbon pollution of their applications.
