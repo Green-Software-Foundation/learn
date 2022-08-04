@@ -23,7 +23,7 @@ The final step in this chain is represented by the end user of your product, not
 This might mean batching jobs together to take advantage of energy proportionality or  changing how a user uses your software. Let’s take a look at some of these concepts and some ways that you can become more energy efficient at every stage of the chain, right up to the final consumer.
 
 
-<!-- ![alt_text](images/image2.png "image_tooltip") -->
+![alt_text](../../src/images/energy_efficiency.jpg "image_tooltip")
 
 ## Key concepts
 

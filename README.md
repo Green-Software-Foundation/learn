@@ -7,7 +7,7 @@ This repository contains the training material for the Green Software Practition
 This is a project run through the [Community Working Group](https://grnsft.org/community-wg) in the [Green Software Foundation](https://greensoftware.foundation) and can be viewed through https://training.greensoftware.foundation
 
 ## Appointments
-Chair - Sarah Hsu - Goldman Sacs
+Chair - Sarah Hsu - Goldman Sachs
 
 ## Copyright
 This project is copyrighted under [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/).

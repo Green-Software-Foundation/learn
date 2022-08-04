@@ -36,7 +36,7 @@ By thinking in terms of embodied carbon, any device, even one not consuming elec
 
 A way to account for embodied carbon is to amortize the carbon over the expected life span of a device. For example, suppose it took 4000kg CO2eq to build a server, and we expect it to last four years. Amortization means that we can say the server emits 1000kg CO2eq/year. 
 
-<!-- ![alt_text](images/image17.png "image_tooltip") -->
+![alt_text](../../src/images/PrinciplesV2-1_amortization.png "image_tooltip")
 
 ## How to improve hardware efficiency
 
@@ -51,7 +51,7 @@ There are two main approaches to hardware efficiency:
 
 In the example we saw previously, if we can add just one more year to the lifespan of our server, then the amortized carbon drops from 1000kg CO2eq/year to 800kg CO2eq/year.
 
-<!-- ![alt_text](images/image18.png "image_tooltip") -->
+![alt_text](../../src/images/PrinciplesV2-1_lifespan.png "image_tooltip")
 
 Hardware is retired when it breaks down or struggles to handle modern workloads. Of course, hardware will always break down eventually but, as developers, we can use software to build applications that run on older hardware and extend their lifetime.
 
@@ -67,7 +67,7 @@ This is one of the main advantages of the public cloud; you know that when you d
 
 It’s important to note that simply moving operations to the public cloud will not automatically reduce your emissions. It simply gives you the space to be able to re-architect your software so that a reduction is possible.
 
-<!-- ![alt_text](images/image20.png "image_tooltip") -->
+![alt_text](../../src/images/PrinciplesV2-1_public_cloud.png "image_tooltip")
 
 ## Summary
 
