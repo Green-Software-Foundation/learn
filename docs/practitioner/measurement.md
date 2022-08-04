@@ -40,7 +40,7 @@ We have already seen how the GHG protocol asks us to bucket software emissions a
 
 Most organizations have many applications running with different architectures and in different environments. As such, the scope your emissions fall into, both in terms of energy generated as well as embodied carbon, depending on your specific scenario.  
 
-<!-- ![alt_text](images/image21.png "image_tooltip") -->
+![alt_text](../../src/images/measurement.jpg "image_tooltip")
 
 * **For cloud applications running on servers that you own**, the energy usage of your software falls into scope 2, and the embodied carbon of all your servers falls into scope 3.
 * **For cloud applications running on a public cloud**, both the energy usage of your application and the embodied carbon fall into scope 3.
@@ -91,7 +91,7 @@ The SCI is a method of scoring any software application, not limited to just clo
 
 The equation to calculate an SCI score is elegantly simple. This simplicity means it can be applied in a number of different scenarios.
 
-<!-- ![alt_text](images/image22.png "image_tooltip") -->
+![alt_text](../../src/images/measurement2.jpg "image_tooltip")
 
 `SCI = ((E *I) * M) per R`
 

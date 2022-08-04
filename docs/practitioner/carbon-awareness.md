@@ -30,11 +30,11 @@ Once on a grid, you can't control which sources supply the electricity you are u
 
 Carbon intensity varies by location since some regions have an energy mix containing more clean energy sources than others.
 
-<!-- ![alt_text](images/image6.png "image_tooltip") -->
+![alt_text](../../src/images/carbon_awareness.jpg "image_tooltip")
 
 Carbon intensity also changes over time due to the inherent variability of renewable energy caused by the unpredictability of weather conditions. For example, when it's cloudy or the wind isn't blowing, carbon intensity increases since more of the electricity in your mix comes from sources that emit carbon.
 
-<!-- ![alt_text](images/image7.png "image_tooltip") -->
+![alt_text](../../src/images/carbon_awareness2.jpg "image_tooltip")
 
 ### Dispatchability & curtailment
 
@@ -52,7 +52,7 @@ Marginal carbon intensity is the carbon intensity of the power plant that would 
 
 Fossil-fueled power plants rarely scale down to 0. They have a minimum functioning threshold, and some don't scale; they are considered a consistent, always-on baseload. Because of this, we sometimes have the scenario where we curtail (throw away) renewable energy while still consuming energy from fossil fuel power plants.
 
-![alt_text](../../src/images/PrinciplesV2-1_carbon_awareness.png "image_tooltip")
+![alt_text](../../src/images/carbon_awareness3.jpg "image_tooltip")
 
 In these situations, the marginal carbon intensity will be 0 gCO2eq/kWh since we know that any new demand will match the renewable energy we are curtailing.
 
@@ -64,7 +64,7 @@ When the demand for electricity goes down, utilities need to **reduce** the supp
 
 1. **Buy less energy from fossil fuel plants.**
 
-![alt_text](../../src/images/PrinciplesV2-1_energy_market.png "image_tooltip")
+![alt_text](../../src/images/carbon_awareness4.jpg "image_tooltip")
    Energy from fossil fuel plants is usually the most expensive so this is the preferred method. This directly translates to burning fewer fossil fuels.
 
 1. **Buy less energy from renewable sources**. 
@@ -77,13 +77,13 @@ When the demand for electricity goes up, utilities need to increase the supply t
 1. **Buy more energy from renewable sources that are currently being curtailed**
 
 
-![alt_text](../../src/images/PrinciplesV2-1_energy_market2.png "image_tooltip")
+![alt_text](../../src/images/carbon_awareness5.jpg "image_tooltip")
 
 If you are curtailing, it means you have excess energy you could dispatch. Renewable energy is already the cheapest, so curtailed renewable energy will be the cheapest dispatchable energy source. Renewable plants will then sell the energy they would have had to curtail.
 
 1. **Buy more energy from fossil fuel plants**.
 
-![alt_text](../../src/images/PrinciplesV2-1_energy_market3.png "image_tooltip")
+![alt_text](../../src/images/carbon_awareness6.jpg "image_tooltip")
 
 Fossil fuels are inherently dispatchable; they can quickly increase energy production by burning more. However, coal costs money, so this is the least preferred solution.
 
@@ -97,7 +97,7 @@ Using electricity when the carbon intensity is low is the best way to ensure inv
 
 :::
 
-<!-- ![alt_text](images/image12.png "image_tooltip") -->
+![alt_text](../../src/images/carbon_awareness7.jpg "image_tooltip")
 
 There is a global transformation happening right now. All around the world, electricity grids are changing from primarily burning fossil fuels to sourcing energy from lower carbon  sources like wind and solar. This is one of our best hopes for meeting our global reduction targets. As green software practitioners, let's see some of the ways we can help accelerate that transition.
 
