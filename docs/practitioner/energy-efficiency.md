@@ -89,3 +89,11 @@ Servers are usually not configured for aggressive or even minimal power saving. 
 * Quantifying the energy consumption of an application is a step in the right direction to start thinking about how an application can operate more efficiently. However, understanding your application's energy consumption is not the only story. The hardware your software is running on uses some of the electricity for operational overhead. This is called power usage efficiency (PUE) in the cloud space.
 * The concept of energy proportionality adds another layer of complexity since hardware becomes more efficient at turning electricity into useful operations the more it's used.
 * Understanding this gives green software practitioners a better insight into how their application behaves with respect to energy consumption in the real world.
+
+## Quiz
+1. Why do we sometimes say that electricity is a proxy for carbon?
+2. What are some examples of fossil fuels?
+3. What is clean energy?
+4. What does PUE (power usage effectiveness) measure?
+5. Which of the following is not something that is measured by energy proportionality?
+6. What is static power draw?

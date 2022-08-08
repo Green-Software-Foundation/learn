@@ -194,3 +194,14 @@ Carbon aware computing helps organizations increase their CFE percentage.
 * The SCI is carefully designed so that eliminating emissions, through energy efficiency, hardware efficiency and carbon awareness  is the only way to reduce the score. Together with a separate neutralization strategy, it can form the basis of a net-zero strategy for an organization.
 * When organizations set a target of 100% renewable power, they can either be “matched by” vs. “powered by” renewables, where “powered by” means the electrons flowing into your device can only come from renewable sources. This can be achieved by purchasing RECs as part of a PPA.
 * 24/7 hourly matching is one of the many strategies we need to employ to help accelerate the transition to a 100% renewable-powered grid.
+
+## Quiz
+
+1. What are neutralisations?
+2. What is a critical consideration for neutralizations?
+3. What approach can you take to neutralize carbon emissions from energy consumption?
+4. What is responsible for setting the standard for net zero?
+5. What is the net-zero global target?
+6. What is the goal with abatements?
+7. Which measurement protocol or method incorporates offsets?
+8. What is the minimum criteria for being carbon neutral?
