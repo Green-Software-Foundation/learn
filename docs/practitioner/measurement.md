@@ -153,3 +153,14 @@ You may calculate multiple SCI scores for the same application. The SCI score is
 * Calculating software-driven emissions using the GHG protocol is possible but can be difficult for open-source software.
 * The SCI is a metric designed specifically to calculate software emissions and is a rate rather than a total.
 * The functional unit of measurement is not prescribed in the SCI and you should choose something that reflects your application.
+
+## Quiz
+
+1. How does the Greenhouse Gas protocol ask us to measure emissions?
+2. Which of the 3 scopes used in the GHG protocol is also known as ‘value chain emissions’?
+3. If you are a cloud application, which GHG scope does your energy consumption fall into?
+4. Which of the following scenarios can not be measured using the GHG protocol?
+5. What does the acronym SCI stand for?
+6. What does ((E*I) + M) represent in the SCI equation?
+7. What does the ‘R’ represent in the SCI equation?
+8. What are the key things to consider before calculating your SCI score?

@@ -76,4 +76,12 @@ It’s important to note that simply moving operations to the public cloud will 
 * Extending the lifetime of a device has the effect of amortizing the carbon emitted so that its CO2eq/year is reduced.
 * Cloud computing is more energy efficient then an on-premise server as it can apply demand shifting as well as demand shaping.
 
+## Quiz
 
+1. What is embodied carbon?
+2. What accounts for the total carbon pollution of a computer?
+3. What are the two key ways of being more efficient with hardware?
+4. How does hardware efficiency affect the carbon pollution of a device?
+5. What is the amortized carbon of a device with an embodied carbon of 1000kg CO2eq and a lifespan of 5 years?
+6. What are some of the differences between having your servers on a public cloud compared to a private cloud?
+7. Why is it so important to include embodied carbon when calculating emissions for hardware?

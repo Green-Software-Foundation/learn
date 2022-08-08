@@ -164,3 +164,15 @@ As Green Software practitioners, we would consider canceling a process when the 
 * The nature of fossil fuels and renewable energy sources means that consuming energy when carbon intensity is low increases the demand for renewable energy sources and increases the percentage of renewable energy in the supply.
 * Demand shifting means moving your energy consumption to different locations or times of days where the carbon intensity is lower.
 * Demand shaping means adapting your energy consumption around carbon intensity variability in order to consume more in periods of low intensity and less in periods of high intensity.
+
+## Quiz
+
+1. What is carbon intensity?
+2. What is the standard unit of carbon intensity?
+3. What two variables affect carbon intensity?
+4. Which of the following is not true about marginal power plants?
+5. What is curtailment?
+6. Which of the following is not an example of demand shifting?
+7. What are the two types of demand shifting?
+8. What is demand shaping?
+9. Which of the following is an example of carbon awareness?
