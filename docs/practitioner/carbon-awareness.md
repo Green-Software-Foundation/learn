@@ -2,11 +2,15 @@
 sidebar_position: 4
 ---
 
+import Image from '@theme/IdealImage';
+
+<Image img={require('../../src/images/carbon_awareness2.jpg')} />
+
 # Carbon Awareness
 
 :::tip Principle
 
-*Do more when the electricity is cleaner and do less when the electricity is dirtier.*
+_Do more when the electricity is cleaner and do less when the electricity is dirtier._
 
 :::
 
@@ -22,7 +26,7 @@ Carbon awareness is the idea of doing more when more energy comes from low carbo
 
 Carbon intensity measures how much carbon (CO2e) is emitted per kilowatt-hour (KWh) of electricity consumed. The standard unit of carbon intensity is gCO2eq/kWh, or grams of carbon per kilowatt hour.
 
-If your computer is plugged directly into a wind farm, its electricity would have a carbon intensity of 0 gCO2eq/kWh since a wind farm emits no carbon to produce that electricity. However, most people can't plug directly into wind farms; instead, they plug into power grids supplied with electricity from various sources. 
+If your computer is plugged directly into a wind farm, its electricity would have a carbon intensity of 0 gCO2eq/kWh since a wind farm emits no carbon to produce that electricity. However, most people can't plug directly into wind farms; instead, they plug into power grids supplied with electricity from various sources.
 
 Once on a grid, you can't control which sources supply the electricity you are using; you simply get a mix of everything. So, your carbon intensity will be a mix of all the current power sources in a grid, both the lower- and the higher-carbon sources.
 
@@ -65,9 +69,9 @@ When the demand for electricity goes down, utilities need to **reduce** the supp
 1. **Buy less energy from fossil fuel plants.**
 
 ![alt_text](../../src/images/carbon_awareness4.jpg "image_tooltip")
-   Energy from fossil fuel plants is usually the most expensive so this is the preferred method. This directly translates to burning fewer fossil fuels.
+Energy from fossil fuel plants is usually the most expensive so this is the preferred method. This directly translates to burning fewer fossil fuels.
 
-1. **Buy less energy from renewable sources**. 
+1. **Buy less energy from renewable sources**.
    Renewable sources are the cheapest, so they prefer not to do this. If a renewable source doesn't manage to sell all of its electricity, it has to throw the rest away.
 
 Reducing the amount of electricity consumed in your applications can help decrease the energy's carbon intensity seeing as the first thing to be scaled back are fossil fuels.
@@ -75,7 +79,6 @@ Reducing the amount of electricity consumed in your applications can help decrea
 When the demand for electricity goes up, utilities need to increase the supply to balance supply and demand. They can do this in one of two ways:
 
 1. **Buy more energy from renewable sources that are currently being curtailed**
-
 
 ![alt_text](../../src/images/carbon_awareness5.jpg "image_tooltip")
 
@@ -93,13 +96,13 @@ Energy markets are some of the most complex markets in the world so the above ex
 
 :::tip
 
-Using electricity when the carbon intensity is low is the best way to ensure investment flows towards low-carbon emitting plants and away from high-carbon emitting  plants.
+Using electricity when the carbon intensity is low is the best way to ensure investment flows towards low-carbon emitting plants and away from high-carbon emitting plants.
 
 :::
 
 ![alt_text](../../src/images/carbon_awareness7.jpg "image_tooltip")
 
-There is a global transformation happening right now. All around the world, electricity grids are changing from primarily burning fossil fuels to sourcing energy from lower carbon  sources like wind and solar. This is one of our best hopes for meeting our global reduction targets. As green software practitioners, let's see some of the ways we can help accelerate that transition.
+There is a global transformation happening right now. All around the world, electricity grids are changing from primarily burning fossil fuels to sourcing energy from lower carbon sources like wind and solar. This is one of our best hopes for meeting our global reduction targets. As green software practitioners, let's see some of the ways we can help accelerate that transition.
 
 The primary driver for the transition is economic rather than any sustainability target. Renewables are winning because they are cheaper and getting even more affordable over time. So, to help accelerate the transition, we need to make renewable plants more profitable and fossil fuel plants less profitable. The best way to do that is to use more electricity when it's coming from lower-carbon sources like renewables and less electricity when it's coming from higher-carbon sources.
 
@@ -129,8 +132,8 @@ If you can't shift your computation spatially to another region, another option 
 
 Some of the biggest technology companies have recognised the importance of carbon awareness and are using advanced modeling techniques to implement demand shifting.
 
-* **Google Carbon Aware Data Centers** - Google launched a project to [make some of the cloud workloads carbon aware](https://blog.google/outreach-initiatives/sustainability/carbon-aware-computing-location/). They created models to predict tomorrow's carbon intensity and workload. They then shaped large-scale workloads so more would happen when and where the carbon intensity is lowest, but in such a way that they could still handle the expected load.
-* **Microsoft Carbon Aware Windows** - [Microsoft announced a project to make Windows 11 more sustainable](https://www.techradar.com/news/windows-11-is-getting-an-eco-friendly-update-but-could-microsoft-do-more). Initially, this means running Windows updates when the carbon intensity is lower.
+- **Google Carbon Aware Data Centers** - Google launched a project to [make some of the cloud workloads carbon aware](https://blog.google/outreach-initiatives/sustainability/carbon-aware-computing-location/). They created models to predict tomorrow's carbon intensity and workload. They then shaped large-scale workloads so more would happen when and where the carbon intensity is lowest, but in such a way that they could still handle the expected load.
+- **Microsoft Carbon Aware Windows** - [Microsoft announced a project to make Windows 11 more sustainable](https://www.techradar.com/news/windows-11-is-getting-an-eco-friendly-update-but-could-microsoft-do-more). Initially, this means running Windows updates when the carbon intensity is lower.
 
 ### Demand shaping
 
@@ -138,8 +141,8 @@ Demand shifting is the strategy of moving computation to regions or times when t
 
 ![alt_text](../../src/images/PrinciplesV2-1_demand_shaping.png "image_tooltip")
 
-* If carbon intensity is low, increase the demand; do more in your applications.
-* If carbon intensity is high, decrease demand; do less in your applications.
+- If carbon intensity is low, increase the demand; do more in your applications.
+- If carbon intensity is high, decrease demand; do less in your applications.
 
 Demand shaping for carbon-aware applications is all about the supply of carbon. When the carbon cost of running your application becomes high, shape the demand to match the supply of carbon. This can happen automatically, or the user can make a choice.
 
@@ -159,11 +162,11 @@ As Green Software practitioners, we would consider canceling a process when the 
 
 ## Summary
 
-* Carbon awareness means understanding that the energy you consume does not always have the same impact in terms of carbon intensity.
-* Carbon intensity varies depending on the time and place it is consumed.
-* The nature of fossil fuels and renewable energy sources means that consuming energy when carbon intensity is low increases the demand for renewable energy sources and increases the percentage of renewable energy in the supply.
-* Demand shifting means moving your energy consumption to different locations or times of days where the carbon intensity is lower.
-* Demand shaping means adapting your energy consumption around carbon intensity variability in order to consume more in periods of low intensity and less in periods of high intensity.
+- Carbon awareness means understanding that the energy you consume does not always have the same impact in terms of carbon intensity.
+- Carbon intensity varies depending on the time and place it is consumed.
+- The nature of fossil fuels and renewable energy sources means that consuming energy when carbon intensity is low increases the demand for renewable energy sources and increases the percentage of renewable energy in the supply.
+- Demand shifting means moving your energy consumption to different locations or times of days where the carbon intensity is lower.
+- Demand shaping means adapting your energy consumption around carbon intensity variability in order to consume more in periods of low intensity and less in periods of high intensity.
 
 ## Quiz
 

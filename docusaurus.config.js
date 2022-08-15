@@ -8,7 +8,8 @@ const config = {
   // Change to Site title
   title: "Green Software Training",
   // Change to site description
-  tagline: "The most significant bottleneck to adopting green software practices is a lack of knowledge.",
+  tagline:
+    "The most significant bottleneck to adopting green software practices is a lack of knowledge.",
   // Change to site url
   url: "https://training.greensoftware.foundation/",
   baseUrl: "/",
@@ -75,7 +76,7 @@ const config = {
               {
                 label: "Website",
                 href: "https://training.greensoftware.foundation",
-              }              
+              },
             ],
           },
           {
@@ -105,7 +106,7 @@ const config = {
               {
                 label: "Linkedin",
                 href: "https://www.linkedin.com/company/green-software-foundation/",
-              }              
+              },
             ],
           },
         ],
@@ -119,6 +120,18 @@ const config = {
         defaultMode: "light",
       },
     }),
+  plugins: [
+    [
+      "@docusaurus/plugin-ideal-image",
+      {
+        quality: 70,
+        max: 1030, // max resized image's size.
+        min: 640, // min resized image's size. if original is lower, use that size.
+        steps: 2, // the max number of images generated between min and max (inclusive)
+        disableInDev: false,
+      },
+    ],
+  ],
 };
 
 module.exports = config;
