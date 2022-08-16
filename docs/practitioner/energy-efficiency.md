@@ -66,7 +66,7 @@ Another way to think of PUE is as a multiplier to your application’s energy co
 
 ### Energy proportionality
 
-Energy proportionality measures **the relationship between power consumed by a computer and the rate at which useful work is done** (its utilization).
+[Energy proportionality](https://research.google/pubs/pub33387/), first proposed in 2007 by engineers at Google, measures **the relationship between power consumed by a computer and the rate at which useful work is done** (its utilization).
 
 Utilization measures how much of a computer's resources are used, usually given as a percentage. A fully utilized computer running at its maximum capacity has a high percentage, while an idle computer with no utilization has a lower percentage.
 
