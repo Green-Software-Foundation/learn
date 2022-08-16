@@ -34,7 +34,7 @@ Weather refers to the conditions of the atmosphere in a short period of time. Cl
 
 These changes can lead to flooding - both in coastal areas and due to increased rainfall - drought, wildfires and more frequent extreme weather conditions. 
 
-### Greenhouse gasses and the greenhouse effect
+### Greenhouse gases and the greenhouse effect
 
 Greenhouse gasses are a group of gasses that trap heat from solar radiation in the Earth's atmosphere. These gasses act as a blanket, increasing the temperature on the surface of the Earth. This is a natural phenomenon which has been accelerated due to man-made carbon emissions. Now the global climate is changing at a faster rate than that at which animals and plants can adapt.
 
