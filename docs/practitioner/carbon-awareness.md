@@ -2,9 +2,6 @@
 sidebar_position: 4
 ---
 
-import Image from '@theme/IdealImage';
-
-<Image img={require('../../src/images/carbon_awareness2.jpg')} />
 
 # Carbon Awareness
 
@@ -34,11 +31,11 @@ Once on a grid, you can't control which sources supply the electricity you are u
 
 Carbon intensity varies by location since some regions have an energy mix containing more clean energy sources than others.
 
-![alt_text](../../src/images/carbon_awareness.jpg "image_tooltip")
+![alt_text](../../src/images/07_variability_CI.png "image_tooltip")
 
 Carbon intensity also changes over time due to the inherent variability of renewable energy caused by the unpredictability of weather conditions. For example, when it's cloudy or the wind isn't blowing, carbon intensity increases since more of the electricity in your mix comes from sources that emit carbon.
 
-![alt_text](../../src/images/carbon_awareness2.jpg "image_tooltip")
+![alt_text](../../src/images/08_variability_CI.png "image_tooltip")
 
 ### Dispatchability & curtailment
 
@@ -56,7 +53,7 @@ Marginal carbon intensity is the carbon intensity of the power plant that would 
 
 Fossil-fueled power plants rarely scale down to 0. They have a minimum functioning threshold, and some don't scale; they are considered a consistent, always-on baseload. Because of this, we sometimes have the scenario where we curtail (throw away) renewable energy while still consuming energy from fossil fuel power plants.
 
-![alt_text](../../src/images/carbon_awareness3.jpg "image_tooltip")
+![alt_text](../../src/images/09_marginal_CI.png "image_tooltip")
 
 In these situations, the marginal carbon intensity will be 0 gCO2eq/kWh since we know that any new demand will match the renewable energy we are curtailing.
 
@@ -68,7 +65,7 @@ When the demand for electricity goes down, utilities need to **reduce** the supp
 
 1. **Buy less energy from fossil fuel plants.**
 
-![alt_text](../../src/images/carbon_awareness4.jpg "image_tooltip")
+![alt_text](../../src/images/10_marginal_CI.png "image_tooltip")
 Energy from fossil fuel plants is usually the most expensive so this is the preferred method. This directly translates to burning fewer fossil fuels.
 
 1. **Buy less energy from renewable sources**.
@@ -80,13 +77,13 @@ When the demand for electricity goes up, utilities need to increase the supply t
 
 1. **Buy more energy from renewable sources that are currently being curtailed**
 
-![alt_text](../../src/images/carbon_awareness5.jpg "image_tooltip")
+![alt_text](../../src/images/11_marginal_CI.png "image_tooltip")
 
 If you are curtailing, it means you have excess energy you could dispatch. Renewable energy is already the cheapest, so curtailed renewable energy will be the cheapest dispatchable energy source. Renewable plants will then sell the energy they would have had to curtail.
 
 1. **Buy more energy from fossil fuel plants**.
 
-![alt_text](../../src/images/carbon_awareness6.jpg "image_tooltip")
+![alt_text](../../src/images/12_marginal_CI.png "image_tooltip")
 
 Fossil fuels are inherently dispatchable; they can quickly increase energy production by burning more. However, coal costs money, so this is the least preferred solution.
 
@@ -100,7 +97,7 @@ Using electricity when the carbon intensity is low is the best way to ensure inv
 
 :::
 
-![alt_text](../../src/images/carbon_awareness7.jpg "image_tooltip")
+![alt_text](../../src/images/13_carbon_aware.png "image_tooltip")
 
 There is a global transformation happening right now. All around the world, electricity grids are changing from primarily burning fossil fuels to sourcing energy from lower carbon sources like wind and solar. This is one of our best hopes for meeting our global reduction targets. As green software practitioners, let's see some of the ways we can help accelerate that transition.
 
@@ -122,13 +119,13 @@ Demand shifting can be further broken down into spatial and temporal shifting.
 
 Spatial shifting means moving your computation to another physical location where the current carbon intensity is lower. It might be a region that naturally has lower carbon sources of energy. For example, moving to different hemispheres depending on the season for more sunlight hours.
 
-![alt_text](../../src/images/PrinciplesV2-1_spacial_shifting.png "image_tooltip")
+![alt_text](../../src/images/14_spatial_shifting.png "image_tooltip")
 
 #### Temporal shifting
 
 If you can't shift your computation spatially to another region, another option you have is to shift to another time. Perhaps later in the day or night when it's sunnier or windier and, therefore, the carbon intensity is lower. This is called temporal demand shifting. We can predict future carbon intensity reasonably well through advances in weather forecasting.
 
-![alt_text](../../src/images/PrinciplesV2-1_temporal_shifting.png "image_tooltip")
+![alt_text](../../src/images/15_temporal_shifting.png "image_tooltip")
 
 Some of the biggest technology companies have recognised the importance of carbon awareness and are using advanced modeling techniques to implement demand shifting.
 
@@ -139,7 +136,7 @@ Some of the biggest technology companies have recognised the importance of carbo
 
 Demand shifting is the strategy of moving computation to regions or times when the carbon intensity is lowest. Demand shaping is a similar strategy. However, instead of moving demand to a different region or time, we shape our computation to match the existing supply.
 
-![alt_text](../../src/images/PrinciplesV2-1_demand_shaping.png "image_tooltip")
+![alt_text](../../src/images/16_demand_shaping.png "image_tooltip")
 
 - If carbon intensity is low, increase the demand; do more in your applications.
 - If carbon intensity is high, decrease demand; do less in your applications.
