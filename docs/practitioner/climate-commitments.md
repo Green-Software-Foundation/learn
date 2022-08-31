@@ -198,10 +198,33 @@ Carbon aware computing helps organizations increase their CFE percentage.
 ## Quiz
 
 1. What are neutralisations?
+- Actions that remove carbon from the atmosphere*
+- Actions that reduce carbon emissions
+- Actions that support climate initiatives
 2. What is a critical consideration for neutralizations?
+- Volume of neutralization
+- Durability of neutralization*
+- Cost of neutralization
 3. What approach can you take to neutralize carbon emissions from energy consumption?
+- Enhance natural carbon sinks
+- Direct air capture
+- Both of the above*
 4. What is responsible for setting the standard for net zero?
+- SBTi*
+- STBi
+- STIB
 5. What is the net-zero global target?
+- Eliminate 100% of emissions by 2050
+- Eliminate 90% of emissions by 2050*
+- Eliminate 80% of emissions by 2050
 6. What is the goal with abatements?
+- Eliminate all emissions related to a company’s operations 
+- Reduce emissions related to a company’s operations by improving energy efficiency*
+- Reduce carbon emissions related to a company’s embodied carbon
 7. Which measurement protocol or method incorporates offsets?
+- GHG protocol*
+- SCI
 8. What is the minimum criteria for being carbon neutral?
+- Emissions from scopes 1-3 must be offset by neutralizations or compensations
+- Emissions from scopes 1 and 2 must be offset by neutralizations or compensations*
+- Emissions from scopes 1-2 and business travel from scope 3 must be offset by neutralizations or compensations
