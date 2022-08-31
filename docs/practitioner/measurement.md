@@ -157,10 +157,37 @@ You may calculate multiple SCI scores for the same application. The SCI score is
 ## Quiz
 
 1. How does the Greenhouse Gas protocol ask us to measure emissions?
+- By dividing emissions into three scopes*
+- By dividing emissions into embodied carbon and day-to-day emissions
+- By dividing emissions from applications running on the public cloud and the private cloud 
 2. Which of the 3 scopes used in the GHG protocol is also known as ‘value chain emissions’?
+- 1
+- 2
+- 3*
+- 1 and 2
+- all of the above
 3. If you are a cloud application, which GHG scope does your energy consumption fall into?
+- Scopes 2 and 3
+- Scope 2
+- Scope 3
+- Depends whether it’s public, private or hybrid*
 4. Which of the following scenarios can not be measured using the GHG protocol?
+- Closed-source software
+- Open-source software*
+- Both of the above
 5. What does the acronym SCI stand for?
+- Software Carbon Index
+- Software Carbon Intensity*
+- Specific Carbon Intensity
 6. What does ((E*I) + M) represent in the SCI equation?
+- Carbon*
+- Energy
+- Carbon intensity
 7. What does the ‘R’ represent in the SCI equation?
+- Repetition
+- Rate
+- Functional unit*
 8. What are the key things to consider before calculating your SCI score?
+- What to include and the functional unit you will use
+- What to include, the functional unit you will use and method of quantification*
+- What to include, the functional unit you will use, method of quantification and GHG score

@@ -168,11 +168,38 @@ As Green Software practitioners, we would consider canceling a process when the 
 ## Quiz
 
 1. What is carbon intensity?
+- The amount of carbon produced using clean energy sources
+- The amount of carbon produced per kilowatt hour*
+- 0gCO2eq/kWh
 2. What is the standard unit of carbon intensity?
+- gCO2eq/kWh
+- gCO2e/kWh
+- Either of the above*
 3. What two variables affect carbon intensity?
+- Location and time*
+- Supply and demand
+- Time and demand
 4. Which of the following is not true about marginal power plants?
+- They are dispatchable
+- They usually burn fossil fuels
+- They are located in places where clean energy sources are not available*
 5. What is curtailment?
+- Surplus energy supply
+- Energy that is thrown away due to oversupply* 
+- Reducing supply to match demand
 6. Which of the following is not an example of demand shifting?
+- Consuming more electricity when the carbon intensity is lower
+- Switching to renewable energy*
+- Pausing production when carbon intensity is higher
 7. What are the two types of demand shifting?
+- Temporal and permanent
+- Spatial and temporal*
+- Curtailment and dispatchability
 8. What is demand shaping?
+- Do more when carbon intensity is low, do less when carbon intensity is high*
+- Do more when carbon intensity is high, do less when carbon intensity is low
+- Do more when costs are low, do less when costs are high
 9. Which of the following is an example of carbon awareness?
+- Creating a piece of software that produces very low emissions
+- Canceling a process when you know carbon intensity is high* 
+- Using cloud servers instead of in-house servers

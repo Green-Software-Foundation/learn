@@ -79,9 +79,30 @@ It’s important to note that simply moving operations to the public cloud will 
 ## Quiz
 
 1. What is embodied carbon?
+- The carbon that was emitted in the creation of a device
+- The carbon emissions associated with both the creation and disposal of a device*
+- The carbon emissions associated with the disposal of a device
 2. What accounts for the total carbon pollution of a computer?
+- The embodied carbon of the device
+- The emissions produced when running the device
+- Both the above*
 3. What are the two key ways of being more efficient with hardware?
+- Extending its lifespan and reducing its usage
+- Extending its lifespan and increasing its usage*
+- Reducing its lifespan and increasing its usage
 4. How does hardware efficiency affect the carbon pollution of a device?
+- It eliminates it
+- It increases it
+- It reduces it*
 5. What is the amortized carbon of a device with an embodied carbon of 1000kg CO2eq and a lifespan of 5 years?
+- 200kg CO2eq/year*
+- 20kg CO2eq/year
+- 200kg CO2eq
 6. What are some of the differences between having your servers on a public cloud compared to a private cloud?
+- On the public cloud, you can scale up quickly
+- On a private cloud, you need to have servers running below capacity in order to meet surges in demand
+- Both the above are true*
 7. Why is it so important to include embodied carbon when calculating emissions for hardware?
+- Embodied carbon often accounts for more emissions than the emissions from the production of the device*
+- Embodied carbon represents a small but significant  of overall emissions from a device
+- Embodied carbon is the only source of emissions that should be considered when calculating overall emissions for a device? 

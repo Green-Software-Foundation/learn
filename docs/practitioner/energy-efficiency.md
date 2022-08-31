@@ -92,8 +92,26 @@ Servers are usually not configured for aggressive or even minimal power saving. 
 
 ## Quiz
 1. Why do we sometimes say that electricity is a proxy for carbon?
+- Electricity is a form of energy and all kinds of energy produces carbon
+- Using electricity produces carbon emissions
+- Fossil fuels are burned to produce electricity*
 2. What are some examples of fossil fuels?
+- Carbon and hydrogen
+- Coal, oil and natural gas*
+- Both of the above
 3. What is clean energy?
+- Energy that comes from renewable sources
+- Energy that doesn’t produce carbon emissions
+- Both the above*
 4. What does PUE (power usage effectiveness) measure?
+- Data center energy efficiency*
+- Energy consumption of an application
+- Amount of energy used in overheads combined with that consumed by servers
 5. Which of the following is not something that is measured by energy proportionality?
+- Relationship between the energy used in overheads and what goes towards the servers running an application*
+- The percentage of a computers available resources that are being used 
+- Relationship between the power consumed by a computer and the rate at which useful work is done
 6. What is static power draw?
+- The carbon cost of applications being left on standby
+- The electricity being drawn by an application in an idle state*
+- The electricity used by an application in eco mode
