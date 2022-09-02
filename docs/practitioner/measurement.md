@@ -140,7 +140,7 @@ These resources can help you to decide on measurement and calculation methods:
 * Look at [existing case studies](https://todo.com) in the Software Carbon Intensity specification. See how others have chosen to measure similar software components with similar context to yours.
 * Look at the [Software Carbon Intensity Data](https://todo.com) project. This project is responsible for providing advice on how to quantify different software components' emissions.
   
-1. Quantify
+4. Quantify
 
 Now you are ready to execute. Using the methodology described in the previous steps, start to quantify the SCI score for each software component in your boundary. Your total SCI score of your software application is the combined score of all the different components.
 
