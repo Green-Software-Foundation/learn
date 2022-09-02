@@ -68,7 +68,7 @@ When the demand for electricity goes down, utilities need to **reduce** the supp
 ![alt_text](../../src/images/10_marginal_CI.png "image_tooltip")
 Energy from fossil fuel plants is usually the most expensive so this is the preferred method. This directly translates to burning fewer fossil fuels.
 
-1. **Buy less energy from renewable sources**.
+2. **Buy less energy from renewable sources**.
    Renewable sources are the cheapest, so they prefer not to do this. If a renewable source doesn't manage to sell all of its electricity, it has to throw the rest away.
 
 Reducing the amount of electricity consumed in your applications can help decrease the energy's carbon intensity seeing as the first thing to be scaled back are fossil fuels.
@@ -81,7 +81,7 @@ When the demand for electricity goes up, utilities need to increase the supply t
 
 If you are curtailing, it means you have excess energy you could dispatch. Renewable energy is already the cheapest, so curtailed renewable energy will be the cheapest dispatchable energy source. Renewable plants will then sell the energy they would have had to curtail.
 
-1. **Buy more energy from fossil fuel plants**.
+2. **Buy more energy from fossil fuel plants**.
 
 ![alt_text](../../src/images/12_marginal_CI.png "image_tooltip")
 
