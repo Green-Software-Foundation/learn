@@ -23,7 +23,7 @@ The final step in this chain is represented by the end user of your product, not
 This might mean batching jobs together to take advantage of energy proportionality or  changing how a user uses your software. Let’s take a look at some of these concepts and some ways that you can become more energy efficient at every stage of the chain, right up to the final consumer.
 
 
-![alt_text](../../src/images/energy_efficiency.jpg "image_tooltip")
+![alt_text](../../src/images/03_energy_efficiency.png "image_tooltip")
 
 ## Key concepts
 
@@ -31,7 +31,7 @@ This might mean batching jobs together to take advantage of energy proportionali
 
 Most electricity is produced through burning fossil fuels, [usually coal](https://ourworldindata.org/grapher/world-electricity-by-source). Fossil fuels are made from decomposing plants and animals. These fuels are found in the Earth's crust and contain carbon and hydrogen, which can be burned for energy. Coal, oil, and natural gas are examples of fossil fuels.
 
-![alt_text](../../src/images/energy_efficiency2.jpg "image_tooltip")
+![alt_text](../../src/images/04_high-carbon_sources.png "image_tooltip")
 
 Most people think electricity is clean. Our hands don't get dirty when we plug something into a wall, and our laptops don't need exhaust pipes. However, since most electricity comes from burning fossil fuels and energy supply is the [single most significant](https://www.eea.europa.eu/data-and-maps/daviz/change-of-co2-eq-emissions-2#tab-chart_4) cause of carbon emissions, we can draw a direct line from electricity to carbon emissions. In these terms, electricity can be considered a proxy for carbon.
 
@@ -62,17 +62,17 @@ The data center industry uses the [power usage effectiveness](https://datacenter
 
 Another way to think of PUE is as a multiplier to your application’s energy consumption. So, for example, if your application consumed 10 kWh and the PUE of the data center where it is running is 1.5, then the actual consumption from the grid is 15 kWh: 5kWh goes towards the operational overhead of the data center, and 10 kWh goes to the servers that are running your application.
 
-![alt_text](../../src/images/energy_efficiency3.jpg "image_tooltip")
+![alt_text](../../src/images/05_power_usage.png "image_tooltip")
 
 ### Energy proportionality
 
-Energy proportionality measures **the relationship between power consumed by a computer and the rate at which useful work is done** (its utilization).
+[Energy proportionality](https://research.google/pubs/pub33387/), first proposed in 2007 by engineers at Google, measures **the relationship between power consumed by a computer and the rate at which useful work is done** (its utilization).
 
 Utilization measures how much of a computer's resources are used, usually given as a percentage. A fully utilized computer running at its maximum capacity has a high percentage, while an idle computer with no utilization has a lower percentage.
 
 The relationship between power and utilization is not proportional. Mathematically speaking, proportionality between two variables means their ratios are equivalent. For example, at 0% utilization, a computer can draw 100W; at 50%, it draws 180W; and at 100%, it draws 200W. The relationship between power consumption and utilization is not linear and does not cross the origin.
 
-![alt_text](../../src/images/energy_efficiency4.jpg "image_tooltip")
+![alt_text](../../src/images/06_energy_proportionality.png "image_tooltip")
 
 Because of this, the more we utilize a computer, the more efficient it becomes at converting electricity to practical computing operations. One way to improve hardware efficiency is to run the workload on as few servers as possible, with the servers running at the highest utilization rate, maximizing energy efficiency.
 
@@ -92,8 +92,27 @@ Servers are usually not configured for aggressive or even minimal power saving. 
 
 ## Quiz
 1. Why do we sometimes say that electricity is a proxy for carbon?
+- Electricity is a form of energy and all kinds of energy produces carbon
+- Using electricity produces carbon emissions
+- Fossil fuels are burned to produce electricity*
 2. What are some examples of fossil fuels?
+- Carbon and hydrogen
+- Coal, oil and natural gas*
+- Both of the above
 3. What is clean energy?
+- Energy that comes from renewable sources
+- Energy that doesn’t produce carbon emissions
+- Both the above*
 4. What does PUE (power usage effectiveness) measure?
+- Data center energy efficiency*
+- Energy consumption of an application
+- Amount of energy used in overheads combined with that consumed by servers
 5. Which of the following is not something that is measured by energy proportionality?
+- Relationship between the energy used in overheads and what goes towards the servers running an application*
+- The percentage of a computers available resources that are being used 
+- Relationship between the power consumed by a computer and the rate at which useful work is done
 6. What is static power draw?
+- The carbon cost of applications being left on standby
+- The electricity being drawn by an application in an idle state*
+- The electricity used by an application in eco mode
+

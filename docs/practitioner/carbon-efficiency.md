@@ -48,17 +48,17 @@ Carbon is often used as a broad term to refer to the impact of all types of emis
 
 As a result of the effects of climate change and an ever-increasing number of destructive weather events, efforts have been made by the global community to address these issues and take steps to control and limit global warming in order to mitigate and reverse the effects of climate change.
 
-The **Paris Climate Agreement** is an international treaty agreed in 2015 by 196 parties and the UN to reduce the Earth's temperature increase. The agreement is to keep the rise in global mean temperature to 2°C compared to pre-industrial levels, with a preferable lower limit of 1.5°C. The agreement is reviewed every five years and mobilizes finance to developing nations to mitigate the impacts of climate change and prepare for and adapt to the environmental effects caused by climate change. In addition, each party is expected to update its progress through a Nationally Determined Contribution (NDC). The agreement is currently signed by 193 parties.
+The [**Paris Climate Agreement**](https://unfccc.int/process-and-meetings/the-paris-agreement/the-paris-agreement) is an international treaty agreed in 2015 by 196 parties and the UN to reduce the Earth's temperature increase. The agreement is to keep the rise in global mean temperature to 2°C compared to pre-industrial levels, with a preferable lower limit of 1.5°C. The agreement is reviewed every five years and mobilizes finance to developing nations to mitigate the impacts of climate change and prepare for and adapt to the environmental effects caused by climate change. In addition, each party is expected to update its progress through a Nationally Determined Contribution (NDC). The agreement is currently signed by 193 parties.
 
-The **United Nations Framework Convention on Climate (UNFCCC)** is a group created to achieve the stabilization of greenhouse gas concentrations in the atmosphere at a level that would prevent dangerous interference with the climate system.
+The [**United Nations Framework Convention on Climate (UNFCCC)**](https://unfccc.int/process-and-meetings/the-convention/what-is-the-united-nations-framework-convention-on-climate-change) is a group created to achieve the stabilization of greenhouse gas concentrations in the atmosphere at a level that would prevent dangerous interference with the climate system.
 
-The **COP (Conference of the Parties)** is an annual event involving all parties in the United Nations Framework Convention on Climate Change. At the conference, each party member's progress on tackling global warming, as agreed as part of the Paris Climate Agreement , is reviewed and assessed. The COP is also a chance for parties to come together and make decisions that will reduce the effects of global warming. Common topics include strategies to reduce carbon, financing low carbon strategies and preservation of natural habitats.
+The [**COP (Conference of the Parties)**](https://unfccc.int/process/bodies/supreme-bodies/conference-of-the-parties-cop) is an annual event involving all parties in the United Nations Framework Convention on Climate Change. At the conference, each party member's progress on tackling global warming, as agreed as part of the Paris Climate Agreement, is reviewed and assessed. The COP is also a chance for parties to come together and make decisions that will reduce the effects of global warming. Common topics include strategies to reduce carbon, financing low carbon strategies and preservation of natural habitats.
 
-The **UNIPCC (Intergovernmental Panel on Climate Change)**, created by the UN in 1988, aims to provide governments at all levels with scientific information that they can use to develop climate policies. IPCC reports are also a key input into international climate change negotiations. The IPCC is an organization of governments that are members of the United Nations or the World Meteorological Organization (WMO). The IPCC currently has 195 members. [Read more about the IPCC](https://www.ipcc.ch/about/).
+The [**IPCC (Intergovernmental Panel on Climate Change)**](https://www.ipcc.ch/about/), created by the UN in 1988, aims to provide governments at all levels with scientific information that they can use to develop climate policies. IPCC reports are also a key input into international climate change negotiations. The IPCC is an organization of governments that are members of the United Nations or the World Meteorological Organization (WMO). The IPCC currently has 195 members. 
 
 We will always emit carbon through our activities but being carbon efficient means minimizing the amount of carbon emitted per unit of work. We aim to ensure that for each gram of carbon we emit into the atmosphere, we extract the most value possible.
 
-![alt_text](../../src/images/carbon_efficiency.jpg "image_tooltip")
+![alt_text](../../src/images/02_monitoring_climate_change.png "image_tooltip")
 
 In the software space, the part we play in the climate solution is **building carbon-efficient applications**. Being carbon efficient is about building applications that add the same value for you or your users but which emit less carbon.
 
@@ -71,10 +71,34 @@ In the software space, the part we play in the climate solution is **building ca
 ## Quiz
 
 1. What are GHGs?
-2. How can we abbreviate carbon equivalent?
-3. What is the IPCC?
-4. What is COP?
-5. What was the agreed preferred temperature rise in the Paris Climate Agreement?
-6. Which of the following statements is true?
-7. What has been the key driver of climate change in recent years?
-8. What do we need greenhouse gasses for?
+- Greenhouse Gasses*
+- Global Heating Gasses
+- Government Health Gateway
+3. How can we abbreviate carbon equivalent?
+- CO2eq or CO2e
+- carbon or CO2e
+- CO2eq or carbon
+- CO2eq or CO2e or carbon* 
+5. What is the IPCC?
+- International Panel on Climate Change
+- Intergovernmental Panel on Climate Change*
+- International Proposal on Climate Change
+7. What is COP?
+- Carbon Offsetting Project
+- Conference on Pollution
+- Conference of the Parties*
+9. What was the agreed preferred temperature rise in the Paris Climate Agreement?
+- 1.5ºC*
+- 2ºC
+- 2.5ºC
+11. Which of the following statements is true?
+- Short term changes in the weather cause long terms changes to the climate
+- Long term climate changes directly affects short-term weather conditions*
+13. What has been the key driver of climate change in recent years?
+- Naturally occurring changes
+- Human activity*
+- A combination of the above
+15. What do we need greenhouse gasses for?
+- Capturing more heat from the Sun to sustain life on Earth*
+- Maintaining the same temperature in the atmosphere
+- Nothing, they’re always damaging
