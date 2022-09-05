@@ -133,7 +133,7 @@ When organizations set 100% renewable targets purchasing RECs on the market is t
 
 #### PPAs
 
-You might also hear the term PPA used alongside RECs. A PPA is a Power Purchase Agreement, which is another way to purchase RECs. If you estimate you need 500MWh of electricity per year for a particular data center, you might sign a PPA to purchase 500MWh per year from a renewable plant. You would then get all the RECs associated with this power plant.
+You might also hear the term PPA used alongside RECs. A PPA is a [Power Purchase Agreement](https://ppp.worldbank.org/public-private-partnership/sector/energy/energy-power-agreements/power-purchase-agreements), which is another way to purchase RECs. If you estimate you need 500MWh of electricity per year for a particular data center, you might sign a PPA to purchase 500MWh per year from a renewable plant. You would then get all the RECs associated with this power plant.
 
 PPAs are typically very long-term contracts. A renewable plant can find financing with one of these agreements since it already has had a buyer for its electricity for many years.
 
