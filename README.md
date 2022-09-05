@@ -4,7 +4,7 @@ The most significant bottleneck to adopting green software practices is a lack o
 
 This repository contains the training material for the Green Software Practitioner Certification, otherwise known as the Principles of Green Software as well as other training material.
 
-This is a project run through the [Community Working Group](https://grnsft.org/community-wg) in the [Green Software Foundation](https://greensoftware.foundation) and can be viewed through https://training.greensoftware.foundation
+This is a project run through the [Community Working Group](https://grnsft.org/community-wg) in the [Green Software Foundation](https://greensoftware.foundation) and can be viewed through https://learn.greensoftware.foundation
 
 ## Appointments
 Chair - Sarah Hsu - Goldman Sachs
