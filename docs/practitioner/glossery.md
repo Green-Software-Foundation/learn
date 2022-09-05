@@ -220,10 +220,10 @@ sidebar_position: 7
 
 ## Useful Terms
 
-* [Carbon Intensity](https://training.greensoftware.foundation/practitioner/carbon-awareness#carbon-intensity) - Measures the amount of greenhouse gasses emitted per unit of electricity produced.
-* [Embodied Carbon](https://training.greensoftware.foundation/practitioner/hardware-efficiency#embodied-carbon) - The greenhouse gas emissions arising from the manufacturing, transportation, installation, maintenance, and disposal of building materials.
+* [Carbon Intensity](https://learn.greensoftware.foundation/practitioner/carbon-awareness#carbon-intensity) - Measures the amount of greenhouse gasses emitted per unit of electricity produced.
+* [Embodied Carbon](https://learn.greensoftware.foundation/practitioner/hardware-efficiency#embodied-carbon) - The greenhouse gas emissions arising from the manufacturing, transportation, installation, maintenance, and disposal of building materials.
 * [Energy Proportionality](https://training.greensoftware.foundation/practitioner/energy-efficiency#energy-proportionality) - Maximize the energy efficiency of hardware.
-* [Demand Shaping](https://training.greensoftware.foundation/practitioner/carbon-awareness#demand-shaping) - The strategy of moving workloads to regions or times when the carbon intensity is less
+* [Demand Shaping](https://learn.greensoftware.foundation/practitioner/carbon-awareness#demand-shaping) - The strategy of moving workloads to regions or times when the carbon intensity is less
 * [Greenhouse Gas protocol](https://ghgprotocol.org) - The most widely used and internationally recognized greenhouse gas accounting standard.
 * **Value chain emissions** - These are scope 3 emissions according to the GHG protocol, and the most significant source of emissions. They encompass the full range of activities needed to create a product or service, from conception to distribution.
 * **Energy proportionality** - Measures the relationship between power consumed by a computer and the rate at which useful work is done (its utilization).
