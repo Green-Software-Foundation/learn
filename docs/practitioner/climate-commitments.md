@@ -32,7 +32,7 @@ To balance those residual emissions, we need to look at other mechanisms such as
 
 ### Offsets
 
-Offsets are direct investments in emission-reduction projects through the purchase of carbon credits on the voluntary carbon market (VCM). The VCM is a decentralized market where private actors voluntarily buy and sell carbon credits that represent certified removals or reductions of GHGs from the atmosphere. 
+[Offsets](https://www.offsetguide.org/understanding-carbon-offsets/what-is-a-carbon-offset/) are direct investments in emission-reduction projects through the purchase of carbon credits on the voluntary carbon market (VCM). The VCM is a decentralized market where private actors voluntarily buy and sell carbon credits that represent certified removals or reductions of GHGs from the atmosphere. 
 
 To offset emissions, you need to purchase the equivalent volume of carbon credits to compensate for those emitted, where 1 carbon credit corresponds to 1 tonne of CO2 absorbed or reduced.
 
