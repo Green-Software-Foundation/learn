@@ -11,7 +11,7 @@ const config = {
   tagline:
     "The most significant bottleneck to adopting green software practices is a lack of knowledge.",
   // Change to site url
-  url: "https://training.greensoftware.foundation/",
+  url: "https://learn.greensoftware.foundation/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -84,7 +84,7 @@ const config = {
               },
               {
                 label: "Website",
-                href: "https://training.greensoftware.foundation",
+                href: "https://learn.greensoftware.foundation",
               },
             ],
           },
