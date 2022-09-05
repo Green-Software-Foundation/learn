@@ -25,8 +25,8 @@ In 2019 the original eight principles of green software engineering were release
 The following certification covers 6 key areas that a green software practitioner should know:
 
 1. **Carbon Efficiency**: Emit the least amount of carbon possible.
-2. **Energy Efficiency**: Consume the least amount of energy possible.
-3. **Carbon Awareness**: Do more when the electricity is low-carbon and do less when the electricity is high-carbon.
+2. **Energy Efficiency**: Use the least amount of energy possible.
+3. **Carbon Awareness**: Do more when the electricity is cleaner and do less when the electricity is dirtier.
 4. **Hardware Efficiency**: Use the least amount of embodied carbon possible.
 5. **Measuring**: What you can't measure, you can't improve.
 6. **Climate Commitments**: Understand the exact mechanism of reduction.
