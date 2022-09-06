@@ -137,8 +137,8 @@ There are two methods of quantification; measurement and calculation.
 
 These resources can help you to decide on measurement and calculation methods:
 
-* Look at [existing case studies](https://github.com/Green-Software-Foundation/software_carbon_intensity/tree/dev/case-studies) in the Software Carbon Intensity specification. See how others have chosen to measure similar software components with similar context to yours.
-* Look at the [Software Carbon Intensity Data](https://github.com/Green-Software-Foundation/sci-data/tree/main) project. This project is responsible for providing advice on how to quantify different software components' emissions.
+* Look at [existing case studies](https://standards.greensoftware.foundation/case-studies/) in the Software Carbon Intensity specification. See how others have chosen to measure similar software components with similar context to yours.
+* Look at the [Software Carbon Intensity Data](https://sci-data.greensoftware.foundation/) project. This project is responsible for providing advice on how to quantify different software components' emissions.
   
 4. Quantify
 
