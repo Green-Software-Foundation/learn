@@ -21,7 +21,7 @@ You will find out about the GHG protocol and what it means for green software pr
 
 ### Global warming vs climate change
 
-Global warming is the long-term heating of Earth's climate system observed since the pre-industrial period (between 1850 and 1900) due to human activities, primarily fossil fuel burning. Climate change is long-term shifts in temperatures and weather patterns. These shifts may be natural, but since the 1800s, human activities have been the main driver of climate change.
+[Global warming](https://climate.nasa.gov/global-warming-vs-climate-change/) is the long-term heating of Earth's climate system observed since the pre-industrial period (between 1850 and 1900) due to human activities, primarily fossil fuel burning. [Climate change](https://climate.nasa.gov/global-warming-vs-climate-change/) is long-term shifts in temperatures and weather patterns. These shifts may be natural, but since the 1800s, human activities have been the main driver of climate change.
 
 ### Climate vs weather
 
