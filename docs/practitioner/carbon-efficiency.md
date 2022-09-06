@@ -74,31 +74,31 @@ In the software space, the part we play in the climate solution is **building ca
 - Greenhouse Gasses*
 - Global Heating Gasses
 - Government Health Gateway
-3. How can we abbreviate carbon equivalent?
+2. How can we abbreviate carbon equivalent?
 - CO2eq or CO2e
 - carbon or CO2e
 - CO2eq or carbon
 - CO2eq or CO2e or carbon* 
-5. What is the IPCC?
+3. What is the IPCC?
 - International Panel on Climate Change
 - Intergovernmental Panel on Climate Change*
 - International Proposal on Climate Change
-7. What is COP?
+4. What is COP?
 - Carbon Offsetting Project
 - Conference on Pollution
 - Conference of the Parties*
-9. What was the agreed preferred temperature rise in the Paris Climate Agreement?
+5. What was the agreed preferred temperature rise in the Paris Climate Agreement?
 - 1.5ºC*
 - 2ºC
 - 2.5ºC
-11. Which of the following statements is true?
+6. Which of the following statements is true?
 - Short term changes in the weather cause long terms changes to the climate
 - Long term climate changes directly affects short-term weather conditions*
-13. What has been the key driver of climate change in recent years?
+7. What has been the key driver of climate change in recent years?
 - Naturally occurring changes
 - Human activity*
 - A combination of the above
-15. What do we need greenhouse gasses for?
+8. What do we need greenhouse gasses for?
 - Capturing more heat from the Sun to sustain life on Earth*
 - Maintaining the same temperature in the atmosphere
 - Nothing, they’re always damaging
