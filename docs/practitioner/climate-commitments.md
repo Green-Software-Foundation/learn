@@ -121,11 +121,11 @@ For most people, we live on an interconnected grid, with many producers pumping 
 
 You can't track individual electrons. Once the electrons from a wind farm are on a grid, they all mix with the electrons from a fossil fuel plant. So there is no way for a consumer to insist the electrons that it uses only come from renewable sources.
 
-#### Renewable Energy Credits (REC)
+#### Renewable Energy Certificates (REC)
 
 <!-- ![alt_text](images/image26.png "image_tooltip") -->
 
-To solve this problem, a renewable plant sells two things. The first is its electricity, which it sells into a grid. The second is a REC, a Renewable Energy Credit. 1 REC equals 1kWh of energy.
+To solve this problem, a renewable plant sells two things. The first is its electricity, which it sells into a grid. The second is a REC, a [Renewable Energy Certificates](https://www.epa.gov/green-power-markets/renewable-energy-certificates-recs). 1 REC equals 1kWh of energy.
 
 If you want to be 100% matched by renewable energy and are on the grid, the solution is to buy enough RECs to cover the amount of electricity you consume. For instance, if you consume 100 kWh of electricity every day, then to be 100% matched by renewables, you buy 100 RECs.
 
