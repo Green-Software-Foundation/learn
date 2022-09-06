@@ -32,3 +32,8 @@ The following certification covers 6 key areas that a green software practitione
 6. **Climate Commitments**: Understand the exact mechanism of reduction.
 
 Each of these chapters will introduce some new concepts and explain in detail why they are important in terms of the climate, and how you can apply them to your green software practices.
+
+## Applying the principles
+
+A Green Software pattern is a real-world example of applying the principles. If applied correctly will reduce the emissions of your software. You can find an online open-source database of software patterns reviewed and curated by the Green Software Foundation across a wide range of categories [here](https://patterns.greensoftware.foundation/). 
+![alt_text](../../src/images/GSF_Principles_Patterns_Practices.png "image_tooltip")
