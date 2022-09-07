@@ -33,7 +33,16 @@ The following certification covers 6 key areas that a green software practitione
 
 Each of these chapters will introduce some new concepts and explain in detail why they are important in terms of the climate, and how you can apply them to your green software practices.
 
-## Applying the principles
+## Principles, Patterns, and Practices.
 
-A Green Software pattern is a real-world example of applying the principles. If applied correctly will reduce the emissions of your software. You can find an online open-source database of software patterns reviewed and curated by the Green Software Foundation across a wide range of categories [here](https://patterns.greensoftware.foundation/). 
-![alt_text](../../src/images/GSF_Principles_Patterns_Practices.png "image_tooltip")
+This course's key areas and content describe the principles of green software, a core set of competencies needed to define, run and build green software.
+
+A green software pattern is a specific example of how to apply one or more principles in a real-world example. Whereas principles describe the theory that underpins green software, patterns are the practical advice software practitioners can use in their software applications today. Patterns are vendor-neutral.
+
+Green software practices are patterns applied to a specific vendor's product and inform practitioners how to use that product in the most sustainable way possible. 
+
+Practices should refer to patterns that should refer to principles.
+
+The green software foundation also publishes a [catalog of vendor-neutral green software patterns](https://patterns.greensoftware.foundation/) across various categories.
+ 
+![Green Software Principles, Patterns, and Practices](../../src/images/GSF_Principles_Patterns_Practices.png "Green Software Principles, Patterns, and Practices")
