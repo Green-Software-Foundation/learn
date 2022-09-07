@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## What is green software?
 
-Green software is an emerging discipline at the intersection of climate science, software design, electricity markets, hardware, and data center design. The Green Software Practitioner Certification shows you how to define, build, and run green software applications. This certification lays out the guidelines to help create a shared understanding of what it means to be a green software practitioner, irrespective of the application domain, industry, organization size or type (cloud vendor or self-hosted), programming language or framework.
+Green software is an emerging discipline at the intersection of climate science, software design, electricity markets, hardware, and data center design. The Green Software Practitioner training shows you how to define, build, and run green software applications. This training lays out the guidelines to help create a shared understanding of what it means to be a green software practitioner, irrespective of the application domain, industry, organization size or type (cloud vendor or self-hosted), programming language or framework.
 
 Green software is carbon-efficient software, meaning it emits the least carbon possible. Only three activities reduce the carbon emissions of software; energy efficiency, carbon awareness, and hardware efficiency. This training will explain all of these concepts, how to apply them to your processes and how to measure them, as well as some of the international guidelines and organizations that guide and monitor this space.
 
@@ -22,7 +22,7 @@ In 2019 the original eight principles of green software engineering were release
 
 ## How to be a green software practitioner
 
-The following certification covers 6 key areas that a green software practitioner should know:
+The following training covers 6 key areas that a green software practitioner should know:
 
 1. **Carbon Efficiency**: Emit the least amount of carbon possible.
 2. **Energy Efficiency**: Use the least amount of energy possible.

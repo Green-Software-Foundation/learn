@@ -6,7 +6,7 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   // Change to Site title
-  title: "Green Software Training",
+  title: "Learn Green Software",
   // Change to site description
   tagline:
     "The most significant bottleneck to adopting green software practices is a lack of knowledge.",
@@ -18,7 +18,7 @@ const config = {
   favicon: "img/favicon.ico",
   organizationName: "Green-Software-Foundation",
   // Change to GitHub repo name.
-  projectName: "training",
+  projectName: "learn",
   deploymentBranch: "gh-pages",
   i18n: {
     defaultLocale: "en",
@@ -35,7 +35,7 @@ const config = {
           routeBasePath: "/",
           // Change this to your repo.
           editUrl:
-            "https://github.com/Green-Software-Foundation/green-software-training/",
+            "https://github.com/Green-Software-Foundation/learn/",
         },
         blog: false,
         theme: {
@@ -80,7 +80,7 @@ const config = {
             items: [
               {
                 label: "Github",
-                href: "https://github.com/Green-Software-Foundation/green-software-training/",
+                href: "https://github.com/Green-Software-Foundation/learn/",
               },
               {
                 label: "Website",
