@@ -13,7 +13,7 @@ sidebar_position: 2
 
 ## Introduction
 
-Understanding the impact of greenhouse gasses on our environment is key to understanding software's own carbon footprint. You will learn about the different kinds of greenhouse gasses present in the environment, how they are emitted and measured, and what is being done by different organizations around the world to control and reduce these emissions.
+Understanding the impact of greenhouse gases on our environment is key to understanding software's own carbon footprint. You will learn about the different kinds of greenhouse gases present in the environment, how they are emitted and measured, and what is being done by different organizations around the world to control and reduce these emissions.
 
 You will find out about the GHG protocol and what it means for green software practitioners.
 
@@ -21,7 +21,7 @@ You will find out about the GHG protocol and what it means for green software pr
 
 ### Global warming vs climate change
 
-Global warming is the long-term heating of Earth's climate system observed since the pre-industrial period (between 1850 and 1900) due to human activities, primarily fossil fuel burning. Climate change is long-term shifts in temperatures and weather patterns. These shifts may be natural, but since the 1800s, human activities have been the main driver of climate change.
+[Global warming](https://climate.nasa.gov/global-warming-vs-climate-change/) is the long-term heating of Earth's climate system observed since the pre-industrial period (between 1850 and 1900) due to human activities, primarily fossil fuel burning. [Climate change](https://climate.nasa.gov/global-warming-vs-climate-change/) is long-term shifts in temperatures and weather patterns. These shifts may be natural, but since the 1800s, human activities have been the main driver of climate change.
 
 ### Climate vs weather
 
@@ -34,11 +34,11 @@ Weather refers to the conditions of the atmosphere in a short period of time. Cl
 
 These changes can lead to flooding - both in coastal areas and due to increased rainfall - drought, wildfires and more frequent extreme weather conditions. 
 
-### Greenhouse gasses and the greenhouse effect
+### Greenhouse gases and the greenhouse effect
 
-Greenhouse gasses are a group of gasses that trap heat from solar radiation in the Earth's atmosphere. These gasses act as a blanket, increasing the temperature on the surface of the Earth. This is a natural phenomenon which has been accelerated due to man-made carbon emissions. Now the global climate is changing at a faster rate than that at which animals and plants can adapt.
+Greenhouse gases are a group of gases that trap heat from solar radiation in the Earth's atmosphere. These gases act as a blanket, increasing the temperature on the surface of the Earth. This is a natural phenomenon which has been accelerated due to man-made carbon emissions. Now the global climate is changing at a faster rate than that at which animals and plants can adapt.
 
-Greenhouse gasses and the greenhouse effect are crucial to all life on Earth and often come from natural sources like animals, volcanoes, and other geological activity. The greenhouse effect allows the Earth to maintain a higher temperature than it would without them by capturing more heat from solar radiation. Like many other natural processes of the Earth, the greenhouse effect is a finely tuned balance that can be upset by multiple factors.
+Greenhouse gases and the greenhouse effect are crucial to all life on Earth and often come from natural sources like animals, volcanoes, and other geological activity. The greenhouse effect allows the Earth to maintain a higher temperature than it would without them by capturing more heat from solar radiation. Like many other natural processes of the Earth, the greenhouse effect is a finely tuned balance that can be upset by multiple factors.
 
 ### Carbon and CO<sub>2</sub>eq
 
@@ -64,41 +64,41 @@ In the software space, the part we play in the climate solution is **building ca
 
 ## Summary
 
-* Greenhouse gasses are a group of gasses contributing to global warming. Carbon is often used as a broad term to refer to the impact of all types of emissions and activities on global warming. CO2eq is a measurement term used to measure this impact.
+* Greenhouse gases are a group of gases contributing to global warming. Carbon is often used as a broad term to refer to the impact of all types of emissions and activities on global warming. CO2eq is a measurement term used to measure this impact.
 * The international community, in groups such as the UNFCCC, has come together to limit the impact of global warming by reducing emissions, aiming for a 'preferable' lower limit of 1.5°C. This was agreed through the UN IPCC in 2015 in the [Paris Climate Agreement](https://unfccc.int/process-and-meetings/the-paris-agreement/the-paris-agreement) and is monitored at the regular COP event.
 * Everything we do emits carbon into the atmosphere, and our goal is to emit the least amount of carbon possible. This constitutes the first principle of green software: carbon efficiency, emitting the least amount of carbon possible per unit of work.
 
 ## Quiz
 
 1. What are GHGs?
-- Greenhouse Gasses*
-- Global Heating Gasses
+- Greenhouse gases*
+- Global Heating gases
 - Government Health Gateway
-3. How can we abbreviate carbon equivalent?
+2. How can we abbreviate carbon equivalent?
 - CO2eq or CO2e
 - carbon or CO2e
 - CO2eq or carbon
 - CO2eq or CO2e or carbon* 
-5. What is the IPCC?
+3. What is the IPCC?
 - International Panel on Climate Change
 - Intergovernmental Panel on Climate Change*
 - International Proposal on Climate Change
-7. What is COP?
+4. What is COP?
 - Carbon Offsetting Project
 - Conference on Pollution
 - Conference of the Parties*
-9. What was the agreed preferred temperature rise in the Paris Climate Agreement?
+5. What was the agreed preferred temperature rise in the Paris Climate Agreement?
 - 1.5ºC*
 - 2ºC
 - 2.5ºC
-11. Which of the following statements is true?
+6. Which of the following statements is true?
 - Short term changes in the weather cause long terms changes to the climate
 - Long term climate changes directly affects short-term weather conditions*
-13. What has been the key driver of climate change in recent years?
+7. What has been the key driver of climate change in recent years?
 - Naturally occurring changes
 - Human activity*
 - A combination of the above
-15. What do we need greenhouse gasses for?
+8. What do we need greenhouse gases for?
 - Capturing more heat from the Sun to sustain life on Earth*
 - Maintaining the same temperature in the atmosphere
 - Nothing, they’re always damaging

@@ -109,9 +109,7 @@ Carbon intensity is lower when more energy comes from lower-carbon sources and h
 
 Being carbon aware means responding to shifts in carbon intensity by increasing or decreasing your demand. If your work allows you to be flexible with when and where you run workloads, you can shift accordingly - consuming electricity when the carbon intensity is lower and pausing production when it is higher. For example, training a Machine Learning model at a different time or region with much lower carbon intensity.
 
-Studies show these actions can result in 45% to 99% carbon reductions depending on the number of renewables powering the grid.
-
-[LIST OTHER STUDIES]
+[Studies](https://ieeexplore.ieee.org/document/6128960) show these actions can result in 45% to 99% carbon reductions depending on the number of renewables powering the grid.
 
 Demand shifting can be further broken down into spatial and temporal shifting.
 

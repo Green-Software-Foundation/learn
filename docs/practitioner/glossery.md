@@ -17,11 +17,11 @@ sidebar_position: 7
    </td>
   </tr>
   <tr>
-   <td><strong>Greenhouse gasses</strong>
+   <td><strong>Greenhouse gases</strong>
    </td>
    <td><strong>GHGs</strong>
    </td>
-   <td>Greenhouse gasses<strong> </strong>are a group of gasses that trap heat from solar radiation in the Earth's atmosphere. These gasses act as a blanket, increasing the temperature on the surface of the Earth.
+   <td>Greenhouse gases<strong> </strong>are a group of gases that trap heat from solar radiation in the Earth's atmosphere. These gases act as a blanket, increasing the temperature on the surface of the Earth.
    </td>
   </tr>
   <tr>
@@ -29,7 +29,7 @@ sidebar_position: 7
    </td>
    <td><strong>CO2</strong>
    </td>
-   <td>One of the most common greenhouse gasses.
+   <td>One of the most common greenhouse gases.
    </td>
   </tr>
   <tr>
@@ -53,7 +53,7 @@ sidebar_position: 7
    </td>
    <td><strong>CO2eq / CO2-eq / CO2e</strong>
    </td>
-   <td>Carbon is used as a common form of measurement for all greenhouse gasses. This unit of measurement indicates the potential impact of non-CO2 gasses on global warming in carbon terms.
+   <td>Carbon is used as a common form of measurement for all greenhouse gases. This unit of measurement indicates the potential impact of non-CO2 gases on global warming in carbon terms.
    </td>
   </tr>
   <tr>
@@ -77,7 +77,7 @@ sidebar_position: 7
    </td>
    <td><strong>GWP</strong>
    </td>
-   <td>The potential impact of greenhouse gasses on global warming. Measured in terms of CO2e.
+   <td>The potential impact of greenhouse gases on global warming. Measured in terms of CO2e.
    </td>
   </tr>
   <tr>
@@ -197,7 +197,7 @@ sidebar_position: 7
    </td>
    <td><strong>VCM</strong>
    </td>
-   <td>A decentralized market where private actors voluntarily buy and sell carbon credits that represent certified removals or reductions of greenhouse gasses (GHGs) in the atmosphere. 
+   <td>A decentralized market where private actors voluntarily buy and sell carbon credits that represent certified removals or reductions of greenhouse gases (GHGs) in the atmosphere. 
    </td>
   </tr>
   <tr>
@@ -220,10 +220,10 @@ sidebar_position: 7
 
 ## Useful Terms
 
-* [Carbon Intensity](https://principles.green/principles/carbon-intensity/) - Measures the amount of greenhouse gasses emitted per unit of electricity produced.
-* [Embodied Carbon](https://principles.green/principles/embodied-carbon/) - The greenhouse gas emissions arising from the manufacturing, transportation, installation, maintenance, and disposal of building materials.
-* [Energy Proportionality](https://principles.green/principles/energy-proportionality/) - Maximize the energy efficiency of hardware.
-* [Demand Shaping](https://principles.green/principles/demand-shaping/) - The strategy of moving workloads to regions or times when the carbon intensity is less
+* [Carbon Intensity](https://learn.greensoftware.foundation/practitioner/carbon-awareness#carbon-intensity) - Measures the amount of greenhouse gases emitted per unit of electricity produced.
+* [Embodied Carbon](https://learn.greensoftware.foundation/practitioner/hardware-efficiency#embodied-carbon) - The greenhouse gas emissions arising from the manufacturing, transportation, installation, maintenance, and disposal of building materials.
+* [Energy Proportionality](https://learn.greensoftware.foundation/practitioner/energy-efficiency#energy-proportionality) - Maximize the energy efficiency of hardware.
+* [Demand Shaping](https://learn.greensoftware.foundation/practitioner/carbon-awareness#demand-shaping) - The strategy of moving workloads to regions or times when the carbon intensity is less
 * [Greenhouse Gas protocol](https://ghgprotocol.org) - The most widely used and internationally recognized greenhouse gas accounting standard.
 * **Value chain emissions** - These are scope 3 emissions according to the GHG protocol, and the most significant source of emissions. They encompass the full range of activities needed to create a product or service, from conception to distribution.
 * **Energy proportionality** - Measures the relationship between power consumed by a computer and the rate at which useful work is done (its utilization).

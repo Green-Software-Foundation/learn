@@ -24,7 +24,7 @@ There are many ways to reduce emissions but it's important to understand the exa
 
 ### Abatement / Carbon Elimination
 
-The [Science Based Targets Initiative](https://sciencebasedtargets.org/) refers to a mechanism called **abatement**, which means eliminating sources of CO2 emissions associated with a company's operations and [value chain](https://www.cisl.cam.ac.uk/education/graduate-study/pgcerts/value-chain-defs) so that they do not enter the atmosphere. The value chain describes the full range of activities needed to create a product or service, from conception to distribution. This includes increasing energy efficiency to eliminate some of the emissions associated with energy generation.
+The [Science Based Targets Initiative](https://sciencebasedtargets.org/) refers to a mechanism called [abatement](https://sciencebasedtargets.org/resources/legacy/2020/09/foundations-for-net-zero-executive-summary.pdf), which means eliminating sources of CO2 emissions associated with a company's operations and [value chain](https://www.cisl.cam.ac.uk/education/graduate-study/pgcerts/value-chain-defs) so that they do not enter the atmosphere. The value chain describes the full range of activities needed to create a product or service, from conception to distribution. This includes increasing energy efficiency to eliminate some of the emissions associated with energy generation.
 
 Abatement is not enough on its own as there will always be some emissions that can't be eliminated due to technological or economic constraints, but it must form the core of every organization’s strategy as it is an area where almost every company can improve on. 
 
@@ -32,7 +32,7 @@ To balance those residual emissions, we need to look at other mechanisms such as
 
 ### Offsets
 
-Offsets are direct investments in emission-reduction projects through the purchase of carbon credits on the voluntary carbon market (VCM). The VCM is a decentralized market where private actors voluntarily buy and sell carbon credits that represent certified removals or reductions of GHGs from the atmosphere. 
+[Offsets](https://www.offsetguide.org/understanding-carbon-offsets/what-is-a-carbon-offset/) are direct investments in emission-reduction projects through the purchase of carbon credits on the voluntary carbon market (VCM). The VCM is a decentralized market where private actors voluntarily buy and sell carbon credits that represent certified removals or reductions of GHGs from the atmosphere. 
 
 To offset emissions, you need to purchase the equivalent volume of carbon credits to compensate for those emitted, where 1 carbon credit corresponds to 1 tonne of CO2 absorbed or reduced.
 
@@ -48,7 +48,7 @@ Organizations need to have plans for how to both eliminate as well as neutralize
 
 ### Compensating / Carbon Avoidance
 
-Compensations are actions that companies take to help society avoid or reduce emissions outside of their value chain. This is essentially investing in other organizations' abatement projects.
+[Compensations](https://www.abatable.com/blog/carbon-removal-vs-carbon-avoidance-projects) are actions that companies take to help society avoid or reduce emissions outside of their value chain. This is essentially investing in other organizations' abatement projects.
 
 This includes actions such as:
 
@@ -58,7 +58,7 @@ This includes actions such as:
 
 ### Neutralizing / Carbon Removal
 
-Neutralizations are actions that companies take to remove carbon from the atmosphere within or beyond their value chain. Neutralizations refer to the removal and permanent storage of atmospheric carbon to counterbalance the effect of releasing CO2 into the atmosphere. This includes actions such as:
+[Neutralizations](https://www.abatable.com/blog/carbon-removal-vs-carbon-avoidance-projects) are actions that companies take to remove carbon from the atmosphere within or beyond their value chain. Neutralizations refer to the removal and permanent storage of atmospheric carbon to counterbalance the effect of releasing CO2 into the atmosphere. This includes actions such as:
 
 * **Enhancing natural carbon sinks** that remove CO2 from the atmosphere. For example, forest restoration, since photosynthesis removes CO2 naturally. Forest expansion comes with challenges as it's essential not to impact the dynamics of farmland and food supply elsewhere. Modern farming methods can also prolong the time carbon remains stored in soil.
 * **Direct air capture** is the process of capturing CO2 from the air and storing it permanently, either underground or in long-lived products like concrete.
@@ -121,11 +121,11 @@ For most people, we live on an interconnected grid, with many producers pumping 
 
 You can't track individual electrons. Once the electrons from a wind farm are on a grid, they all mix with the electrons from a fossil fuel plant. So there is no way for a consumer to insist the electrons that it uses only come from renewable sources.
 
-#### Renewable Energy Credits (REC)
+#### Renewable Energy Certificates (REC)
 
 <!-- ![alt_text](images/image26.png "image_tooltip") -->
 
-To solve this problem, a renewable plant sells two things. The first is its electricity, which it sells into a grid. The second is a REC, a Renewable Energy Credit. 1 REC equals 1kWh of energy.
+To solve this problem, a renewable plant sells two things. The first is its electricity, which it sells into a grid. The second is a REC, a [Renewable Energy Certificates](https://www.epa.gov/green-power-markets/renewable-energy-certificates-recs). 1 REC equals 1kWh of energy.
 
 If you want to be 100% matched by renewable energy and are on the grid, the solution is to buy enough RECs to cover the amount of electricity you consume. For instance, if you consume 100 kWh of electricity every day, then to be 100% matched by renewables, you buy 100 RECs.
 
@@ -133,7 +133,7 @@ When organizations set 100% renewable targets purchasing RECs on the market is t
 
 #### PPAs
 
-You might also hear the term PPA used alongside RECs. A PPA is a Power Purchase Agreement, which is another way to purchase RECs. If you estimate you need 500MWh of electricity per year for a particular data center, you might sign a PPA to purchase 500MWh per year from a renewable plant. You would then get all the RECs associated with this power plant.
+You might also hear the term PPA used alongside RECs. A PPA is a [Power Purchase Agreement](https://ppp.worldbank.org/public-private-partnership/sector/energy/energy-power-agreements/power-purchase-agreements), which is another way to purchase RECs. If you estimate you need 500MWh of electricity per year for a particular data center, you might sign a PPA to purchase 500MWh per year from a renewable plant. You would then get all the RECs associated with this power plant.
 
 PPAs are typically very long-term contracts. A renewable plant can find financing with one of these agreements since it already has had a buyer for its electricity for many years.
 
@@ -141,7 +141,7 @@ PPAs encourage something called **additionality**. Purchasing a PPA drives the c
 
 ### 24/7 Hourly Matching
 
-When it comes to 100% renewable claims, the critical question is, what is the granularity of matching? Do you sum up and net off yearly, monthly, weekly, daily, or hourly? That question is essential because to truly transition to renewable energy, we need 100% of the power to come from low-carbon energy sources like renewables 100% of the time. This fine granular matching is often called *24/7 hourly matching*.
+When it comes to 100% renewable claims, the critical question is, what is the granularity of matching? Do you sum up and net off yearly, monthly, weekly, daily, or hourly? That question is essential because to truly transition to renewable energy, we need 100% of the power to come from low-carbon energy sources like renewables 100% of the time. This fine granular matching is often called *[24/7 hourly matching](https://www.epa.gov/green-power-markets/247-hourly-matching-electricity)*.
 
 24/7 hourly matching is one of the many strategies we need to employ to help accelerate the transition to a 100% renewable-powered grid. For example, [Google](https://sustainability.google/progress/energy/) and [Microsoft](https://blogs.microsoft.com/blog/2021/07/14/made-to-measure-sustainability-commitment-progress-and-updates/) have both committed to 24/7 hourly matching by 2030.
 
