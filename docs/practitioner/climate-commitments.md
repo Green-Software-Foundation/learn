@@ -24,7 +24,7 @@ There are many ways to reduce emissions but it's important to understand the exa
 
 ### Abatement / Carbon Elimination
 
-The [Science Based Targets Initiative](https://sciencebasedtargets.org/) refers to a mechanism called [abatement](https://sciencebasedtargets.org/resources/legacy/2020/09/foundations-for-net-zero-executive-summary.pdf), which means eliminating sources of CO2 emissions associated with a company's operations and value chain so that they do not enter the atmosphere. This includes increasing energy efficiency to eliminate some of the emissions associated with energy generation.
+The [Science Based Targets Initiative](https://sciencebasedtargets.org/) refers to a mechanism called [abatement](https://sciencebasedtargets.org/resources/legacy/2020/09/foundations-for-net-zero-executive-summary.pdf), which means eliminating sources of CO2 emissions associated with a company's operations and [value chain](https://www.cisl.cam.ac.uk/education/graduate-study/pgcerts/value-chain-defs) so that they do not enter the atmosphere. The value chain describes the full range of activities needed to create a product or service, from conception to distribution. This includes increasing energy efficiency to eliminate some of the emissions associated with energy generation.
 
 Abatement is not enough on its own as there will always be some emissions that can't be eliminated due to technological or economic constraints, but it must form the core of every organization’s strategy as it is an area where almost every company can improve on. 
 
