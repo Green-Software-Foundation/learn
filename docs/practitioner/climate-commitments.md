@@ -58,7 +58,7 @@ This includes actions such as:
 
 ### Neutralizing / Carbon Removal
 
-Neutralizations are actions that companies take to remove carbon from the atmosphere within or beyond their value chain. Neutralizations refer to the removal and permanent storage of atmospheric carbon to counterbalance the effect of releasing CO2 into the atmosphere. This includes actions such as:
+[Neutralizations](https://www.abatable.com/blog/carbon-removal-vs-carbon-avoidance-projects) are actions that companies take to remove carbon from the atmosphere within or beyond their value chain. Neutralizations refer to the removal and permanent storage of atmospheric carbon to counterbalance the effect of releasing CO2 into the atmosphere. This includes actions such as:
 
 * **Enhancing natural carbon sinks** that remove CO2 from the atmosphere. For example, forest restoration, since photosynthesis removes CO2 naturally. Forest expansion comes with challenges as it's essential not to impact the dynamics of farmland and food supply elsewhere. Modern farming methods can also prolong the time carbon remains stored in soil.
 * **Direct air capture** is the process of capturing CO2 from the air and storing it permanently, either underground or in long-lived products like concrete.
