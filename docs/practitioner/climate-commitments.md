@@ -48,7 +48,7 @@ Organizations need to have plans for how to both eliminate as well as neutralize
 
 ### Compensating / Carbon Avoidance
 
-Compensations are actions that companies take to help society avoid or reduce emissions outside of their value chain. This is essentially investing in other organizations' abatement projects.
+[Compensations](https://www.abatable.com/blog/carbon-removal-vs-carbon-avoidance-projects) are actions that companies take to help society avoid or reduce emissions outside of their value chain. This is essentially investing in other organizations' abatement projects.
 
 This includes actions such as:
 
