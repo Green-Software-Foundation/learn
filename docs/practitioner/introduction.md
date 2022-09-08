@@ -39,7 +39,7 @@ This course's key areas and content describe the **principles** of green softwar
 
 A green software **pattern** is a specific example of how to apply one or more principles in a real-world example. Whereas principles describe the theory that underpins green software, patterns are the practical advice software practitioners can use in their software applications today. Patterns are vendor-neutral.
 
-Green software **practices** are patterns applied to a specific vendor's product and inform practitioners how to use that product in the most sustainable way possible. 
+A green software **practice** is a pattern applied to a specific vendor's product and informs practitioners about how to use that product in a more sustainable way. 
 
 Practices should refer to patterns that should refer to principles.
 
