@@ -32,3 +32,17 @@ The following training covers 6 key areas that a green software practitioner sho
 6. **Climate Commitments**: Understand the exact mechanism of reduction.
 
 Each of these chapters will introduce some new concepts and explain in detail why they are important in terms of the climate, and how you can apply them to your green software practices.
+
+## Principles, Patterns, and Practices.
+
+This course's key areas and content describe the **principles** of green software, a core set of competencies needed to define, run and build green software.
+
+A green software **pattern** is a specific example of how to apply one or more principles in a real-world example. Whereas principles describe the theory that underpins green software, patterns are the practical advice software practitioners can use in their software applications today. Patterns are vendor-neutral.
+
+A green software **practice** is a pattern applied to a specific vendor's product and informs practitioners about how to use that product in a more sustainable way. 
+
+Practices should refer to patterns that should refer to principles.
+
+The green software foundation also publishes a [catalog of vendor-neutral green software patterns](https://patterns.greensoftware.foundation/) across various categories.
+ 
+![Green Software Principles, Patterns, and Practices](../../src/images/GSF_Principles_Patterns_Practices.png "Green Software Principles, Patterns, and Practices")
