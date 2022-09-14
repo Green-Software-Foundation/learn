@@ -37,7 +37,7 @@ Each of these chapters will introduce some new concepts and explain in detail wh
 
 This course's key areas and content describe the **principles** of green software, a core set of competencies needed to define, run and build green software.
 
-A green software **pattern** is a specific example of how to apply one or more principles in a real-world example. Whereas principles describe the theory that underpins green software, patterns are the practical advice software practitioners can use in their software applications today. Patterns are vendor-neutral.
+A green software [**pattern**](https://patterns.greensoftware.foundation/) is a specific example of how to apply one or more principles in a real-world example. Whereas principles describe the theory that underpins green software, patterns are the practical advice software practitioners can use in their software applications today. Patterns are vendor-neutral.
 
 A green software **practice** is a pattern applied to a specific vendor's product and informs practitioners about how to use that product in a more sustainable way. 
 
