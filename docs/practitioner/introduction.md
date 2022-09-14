@@ -45,4 +45,4 @@ Practices should refer to patterns that should refer to principles.
 
 The green software foundation also publishes a [catalog of vendor-neutral green software patterns](https://patterns.greensoftware.foundation/) across various categories.
  
-![Green Software Principles, Patterns, and Practices](../../src/images/GSF_Principles_Patterns_Practices.png "Green Software Principles, Patterns, and Practices")
+![Green Software Principles, Patterns, and Practices](../../src/images/GSF_Principles_Patterns_Practices_v2.png "Green Software Principles, Patterns, and Practices")
