@@ -2,14 +2,15 @@
 sidebar_position: 2
 ---
 
+import Quiz from "/src/components/Quiz";
+
 # Carbon Efficiency
 
 :::tip Principle
 
-*Emit the least amount of carbon possible.*
+_Emit the least amount of carbon possible._
 
 :::
-
 
 ## Introduction
 
@@ -27,12 +28,12 @@ You will find out about the GHG protocol and what it means for green software pr
 
 Weather refers to the conditions of the atmosphere in a short period of time. Climate refers to the conditions of the atmosphere over long periods of time. Any changes to the long-term condition of the atmosphere will also cause changes to the short-term conditions. An obvious comparison is that if the average temperature of the atmosphere increases, the average temperature of the weather in any given season will also increase. Some examples of measurable changes to weather conditions due to climate change are:
 
-* Changes to the water cycle, including rainfall
-* Melting of ice
-* Heating of the land, air, and ocean
-* Changes in ocean currents, acidity, and salinity
+- Changes to the water cycle, including rainfall
+- Melting of ice
+- Heating of the land, air, and ocean
+- Changes in ocean currents, acidity, and salinity
 
-These changes can lead to flooding - both in coastal areas and due to increased rainfall - drought, wildfires and more frequent extreme weather conditions. 
+These changes can lead to flooding - both in coastal areas and due to increased rainfall - drought, wildfires and more frequent extreme weather conditions.
 
 ### Greenhouse gases and the greenhouse effect
 
@@ -42,7 +43,7 @@ Greenhouse gases and the greenhouse effect are crucial to all life on Earth and 
 
 ### Carbon and CO<sub>2</sub>eq
 
-Carbon is often used as a broad term to refer to the impact of all types of emissions and activities on global warming. CO<sub>2</sub>eq, which stands for carbon equivalence, is a measurement term used to measure this impact.  For example, 1 ton of methane has the same warming effect as about 80 tons of CO<sub>2</sub>, so we normalize it to 80 tons CO<sub>2</sub>eq. We may shorten even further to just carbon, which is a term often used to refer to all GHGs.
+Carbon is often used as a broad term to refer to the impact of all types of emissions and activities on global warming. CO<sub>2</sub>eq, which stands for carbon equivalence, is a measurement term used to measure this impact. For example, 1 ton of methane has the same warming effect as about 80 tons of CO<sub>2</sub>, so we normalize it to 80 tons CO<sub>2</sub>eq. We may shorten even further to just carbon, which is a term often used to refer to all GHGs.
 
 ## Monitoring climate change
 
@@ -54,7 +55,7 @@ The [**United Nations Framework Convention on Climate (UNFCCC)**](https://unfccc
 
 The [**COP (Conference of the Parties)**](https://unfccc.int/process/bodies/supreme-bodies/conference-of-the-parties-cop) is an annual event involving all parties in the United Nations Framework Convention on Climate Change. At the conference, each party member's progress on tackling global warming, as agreed as part of the Paris Climate Agreement, is reviewed and assessed. The COP is also a chance for parties to come together and make decisions that will reduce the effects of global warming. Common topics include strategies to reduce carbon, financing low carbon strategies and preservation of natural habitats.
 
-The [**IPCC (Intergovernmental Panel on Climate Change)**](https://www.ipcc.ch/about/), created by the UN in 1988, aims to provide governments at all levels with scientific information that they can use to develop climate policies. IPCC reports are also a key input into international climate change negotiations. The IPCC is an organization of governments that are members of the United Nations or the World Meteorological Organization (WMO). The IPCC currently has 195 members. 
+The [**IPCC (Intergovernmental Panel on Climate Change)**](https://www.ipcc.ch/about/), created by the UN in 1988, aims to provide governments at all levels with scientific information that they can use to develop climate policies. IPCC reports are also a key input into international climate change negotiations. The IPCC is an organization of governments that are members of the United Nations or the World Meteorological Organization (WMO). The IPCC currently has 195 members.
 
 We will always emit carbon through our activities but being carbon efficient means minimizing the amount of carbon emitted per unit of work. We aim to ensure that for each gram of carbon we emit into the atmosphere, we extract the most value possible.
 
@@ -64,41 +65,91 @@ In the software space, the part we play in the climate solution is **building ca
 
 ## Summary
 
-* Greenhouse gases are a group of gases contributing to global warming. Carbon is often used as a broad term to refer to the impact of all types of emissions and activities on global warming. CO2eq is a measurement term used to measure this impact.
-* The international community, in groups such as the UNFCCC, has come together to limit the impact of global warming by reducing emissions, aiming for a 'preferable' lower limit of 1.5°C. This was agreed through the UN IPCC in 2015 in the [Paris Climate Agreement](https://unfccc.int/process-and-meetings/the-paris-agreement/the-paris-agreement) and is monitored at the regular COP event.
-* Everything we do emits carbon into the atmosphere, and our goal is to emit the least amount of carbon possible. This constitutes the first principle of green software: carbon efficiency, emitting the least amount of carbon possible per unit of work.
+- Greenhouse gases are a group of gases contributing to global warming. Carbon is often used as a broad term to refer to the impact of all types of emissions and activities on global warming. CO2eq is a measurement term used to measure this impact.
+- The international community, in groups such as the UNFCCC, has come together to limit the impact of global warming by reducing emissions, aiming for a 'preferable' lower limit of 1.5°C. This was agreed through the UN IPCC in 2015 in the [Paris Climate Agreement](https://unfccc.int/process-and-meetings/the-paris-agreement/the-paris-agreement) and is monitored at the regular COP event.
+- Everything we do emits carbon into the atmosphere, and our goal is to emit the least amount of carbon possible. This constitutes the first principle of green software: carbon efficiency, emitting the least amount of carbon possible per unit of work.
 
 ## Quiz
 
-1. What are GHGs?
-- Greenhouse gases*
-- Global Heating gases
-- Government Health Gateway
-2. How can we abbreviate carbon equivalent?
-- CO2eq or CO2e
-- carbon or CO2e
-- CO2eq or carbon
-- CO2eq or CO2e or carbon* 
-3. What is the IPCC?
-- International Panel on Climate Change
-- Intergovernmental Panel on Climate Change*
-- International Proposal on Climate Change
-4. What is COP?
-- Carbon Offsetting Project
-- Conference on Pollution
-- Conference of the Parties*
-5. What was the agreed preferred temperature rise in the Paris Climate Agreement?
-- 1.5ºC*
-- 2ºC
-- 2.5ºC
-6. Which of the following statements is true?
-- Short term changes in the weather cause long terms changes to the climate
-- Long term climate changes directly affects short-term weather conditions*
-7. What has been the key driver of climate change in recent years?
-- Naturally occurring changes
-- Human activity*
-- A combination of the above
-8. What do we need greenhouse gases for?
-- Capturing more heat from the Sun to sustain life on Earth*
-- Maintaining the same temperature in the atmosphere
-- Nothing, they’re always damaging
+<Quiz
+  QuizList={[
+    {
+      question: "What are GHGs?",
+      answers: [
+        { text: "Greenhouse gases", isCorrect: true },
+        { text: "Global Heating gases", isCorrect: false },
+        { text: "Government Health Gateway", isCorrect: false },
+      ],
+    },
+    {
+      question: "How can we abbreviate carbon equivalent?",
+      answers: [
+        { text: "CO2eq or CO2e", isCorrect: false },
+        { text: "carbon or CO2e", isCorrect: false },
+        { text: "CO2eq or carbon", isCorrect: false },
+        { text: "CO2eq or CO2e or carbon", isCorrect: true },
+      ],
+    },
+    {
+      question: "What is the IPCC?",
+      answers: [
+        { text: "International Panel on Climate Change", isCorrect: false },
+        { text: "Intergovernmental Panel on Climate Change", isCorrect: true },
+        { text: "International Proposal on Climate Change", isCorrect: false },
+      ],
+    },
+    {
+      question: "What is COP?",
+      answers: [
+        { text: "Carbon Offsetting Project", isCorrect: false },
+        { text: "Conference on Pollution", isCorrect: false },
+        { text: "Conference of the Parties", isCorrect: true },
+      ],
+    },
+    {
+      question:
+        "What was the agreed preferred temperature rise in the Paris Climate Agreement?",
+      answers: [
+        { text: "1.5ºC", isCorrect: true },
+        { text: "2ºC", isCorrect: false },
+        { text: "2.5ºC", isCorrect: false },
+      ],
+    },
+    {
+      question: "Which of the following statements is true?",
+      answers: [
+        {
+          text: "Short term changes in the weather cause long terms changes to the climate",
+          isCorrect: false,
+        },
+        {
+          text: "Long term climate changes directly affects short-term weather conditions",
+          isCorrect: true,
+        },
+      ],
+    },
+    {
+      question:
+        "What has been the key driver of climate change in recent years?",
+      answers: [
+        { text: "Naturally occurring changes", isCorrect: false },
+        { text: "Human activity", isCorrect: true },
+        { text: "A combination of the above", isCorrect: false },
+      ],
+    },
+    {
+      question: "What do we need greenhouse gases for?",
+      answers: [
+        {
+          text: "Capturing more heat from the Sun to sustain life on Earth",
+          isCorrect: true,
+        },
+        {
+          text: "Maintaining the same temperature in the atmosphere",
+          isCorrect: false,
+        },
+        { text: "Nothing, they’re always damaging", isCorrect: false },
+      ],
+    },
+  ]}
+/>

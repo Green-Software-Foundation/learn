@@ -2,11 +2,13 @@
 sidebar_position: 5
 ---
 
+import Quiz from "/src/components/Quiz";
+
 # Measurement
 
 :::tip Principle
 
-*What you can't measure, you can't improve.*
+_What you can't measure, you can't improve._
 
 :::
 
@@ -22,15 +24,15 @@ We will look at each of the measurement methodologies and explain how to calcula
 
 ## The GHG protocol
 
-The [Greenhouse Gas protocol](https://ghgprotocol.org) is the most widely used and internationally recognized greenhouse gas accounting standard. [92%](https://ghgprotocol.org/about-us) of Fortune 500 companies use the GHG protocol when calculating and disclosing their carbon emissions. 
+The [Greenhouse Gas protocol](https://ghgprotocol.org) is the most widely used and internationally recognized greenhouse gas accounting standard. [92%](https://ghgprotocol.org/about-us) of Fortune 500 companies use the GHG protocol when calculating and disclosing their carbon emissions.
 
 The GHG protocol divides emissions into three scopes:
 
-* **Scope 1**: Direct emissions from **operations** owned or controlled by the reporting organization, such as on-site fuel combustion or fleet vehicles.
-* **Scope 2**: Indirect emissions related to **emission generation of purchased energy**, such as heat and electricity.
-* **Scope 3**: Other indirect emissions from all the other activities you are engaged in. Including all **emissions from an organization's supply chain;** business travel for employees, and the electricity customers may consume when using your product.
+- **Scope 1**: Direct emissions from **operations** owned or controlled by the reporting organization, such as on-site fuel combustion or fleet vehicles.
+- **Scope 2**: Indirect emissions related to **emission generation of purchased energy**, such as heat and electricity.
+- **Scope 3**: Other indirect emissions from all the other activities you are engaged in. Including all **emissions from an organization's supply chain;** business travel for employees, and the electricity customers may consume when using your product.
 
-Scope 3, sometimes referred to as value chain emissions, is the most significant source of emissions and the most complex to calculate for many organizations. These encompass the full range of activities needed to create a product or service, from conception to distribution. In the case of a laptop, for example, every raw material used in its production emits carbon when being extracted and processed. Value chain emissions also include emissions from the use of the laptop, meaning the emissions from the energy used to power the laptop after it has been sold to a customer. 
+Scope 3, sometimes referred to as value chain emissions, is the most significant source of emissions and the most complex to calculate for many organizations. These encompass the full range of activities needed to create a product or service, from conception to distribution. In the case of a laptop, for example, every raw material used in its production emits carbon when being extracted and processed. Value chain emissions also include emissions from the use of the laptop, meaning the emissions from the energy used to power the laptop after it has been sold to a customer.
 
 Through this approach, it's possible to sum up all the GHG emissions from every organization and person in the world and reach a global total.
 
@@ -38,20 +40,20 @@ Through this approach, it's possible to sum up all the GHG emissions from every 
 
 We have already seen how the GHG protocol asks us to bucket software emissions according to scopes 1-3. But how does this work when it comes to software?
 
-Most organizations have many applications running with different architectures and in different environments. As such, the scope your emissions fall into, both in terms of energy generated as well as embodied carbon, depending on your specific scenario.  
+Most organizations have many applications running with different architectures and in different environments. As such, the scope your emissions fall into, both in terms of energy generated as well as embodied carbon, depending on your specific scenario.
 
 ![alt_text](../../src/images/22_scope.png "image_tooltip")
 
-* **For cloud applications running on servers that you own**, the energy usage of your software falls into scope 2, and the embodied carbon of all your servers falls into scope 3.
-* **For cloud applications running on a public cloud**, both the energy usage of your application and the embodied carbon fall into scope 3.
-* In scenarios where **you are running a hybrid private/public cloud application**, part of its emissions will fall into scope 2 and part will fall into scope 3.
-* Similarly, for your customer-facing **front-end application**, energy usage falls into your organization's scope 3, since your customer will purchase the energy to power their device.
+- **For cloud applications running on servers that you own**, the energy usage of your software falls into scope 2, and the embodied carbon of all your servers falls into scope 3.
+- **For cloud applications running on a public cloud**, both the energy usage of your application and the embodied carbon fall into scope 3.
+- In scenarios where **you are running a hybrid private/public cloud application**, part of its emissions will fall into scope 2 and part will fall into scope 3.
+- Similarly, for your customer-facing **front-end application**, energy usage falls into your organization's scope 3, since your customer will purchase the energy to power their device.
 
 For software, regardless of whether it's run on infrastructure you own, rent, or consumers own, there are three parameters to consider for bucketing emissions:
 
-* How much energy it consumes
-* How clean or dirty that electricity is
-* How much hardware it needs to function
+- How much energy it consumes
+- How clean or dirty that electricity is
+- How much hardware it needs to function
 
 ### Is it possible to calculate a total for software carbon emissions?
 
@@ -96,15 +98,15 @@ The equation to calculate an SCI score is elegantly simple. This simplicity mean
 `SCI = ((E *I) * M) per R`
 
 `E` = Energy consumed by a software system
-`I` = Location-based marginal carbon emissions_
-`M` = Embodied emissions of a software system._
+`I` = Location-based marginal carbon emissions*
+`M` = Embodied emissions of a software system.*
 `R` = Functional unit (e.g. carbon per additional user, API-call, ML job, etc)
 
 This summarizes to:
 
 `SCI = C per R` (Carbon per `R`)
 
-`R` is the core characteristic of the SCI and turns it into an intensity rather than a total. This is what we call a *functional unit*.
+`R` is the core characteristic of the SCI and turns it into an intensity rather than a total. This is what we call a _functional unit_.
 
 ## How to calculate your SCI score
 
@@ -132,14 +134,14 @@ Now you have a list of the software components you want to measure and the funct
 
 There are two methods of quantification; measurement and calculation.
 
-* **Measurement** is using counters of some form. For example, measuring the energy consumption of your software component by using a hardware device in the wall socket. Or using counters on hardware that directly measure energy consumption. If you can directly count your units, you should use the measurement approach.
-* **Calculation** involves indirect counting, often using a model of some form. For instance, if you cannot directly measure your application's energy consumption but instead have a model that estimates the energy consumption based on the CPU utilization, this is considered calculation rather than measurement.
+- **Measurement** is using counters of some form. For example, measuring the energy consumption of your software component by using a hardware device in the wall socket. Or using counters on hardware that directly measure energy consumption. If you can directly count your units, you should use the measurement approach.
+- **Calculation** involves indirect counting, often using a model of some form. For instance, if you cannot directly measure your application's energy consumption but instead have a model that estimates the energy consumption based on the CPU utilization, this is considered calculation rather than measurement.
 
 These resources can help you to decide on measurement and calculation methods:
 
-* Look at [existing case studies](https://standards.greensoftware.foundation/case-studies/) in the Software Carbon Intensity specification. See how others have chosen to measure similar software components with similar context to yours.
-* Look at the [Software Carbon Intensity Data](https://sci-data.greensoftware.foundation/) project. This project is responsible for providing advice on how to quantify different software components' emissions.
-  
+- Look at [existing case studies](https://standards.greensoftware.foundation/case-studies/) in the Software Carbon Intensity specification. See how others have chosen to measure similar software components with similar context to yours.
+- Look at the [Software Carbon Intensity Data](https://sci-data.greensoftware.foundation/) project. This project is responsible for providing advice on how to quantify different software components' emissions.
+
 4. Quantify
 
 Now you are ready to execute. Using the methodology described in the previous steps, start to quantify the SCI score for each software component in your boundary. Your total SCI score of your software application is the combined score of all the different components.
@@ -148,46 +150,168 @@ You may calculate multiple SCI scores for the same application. The SCI score is
 
 ## Summary
 
-* The GHG protocol is a metric for measuring an organization's total carbon emissions and is used by organizations all over the world.
-* The GHG protocol puts carbon emissions into three scopes. Scope 3, also known as value chain emissions, refers to the emissions from organizations that supply others in a chain. In this way, one organization's scope 1 and 2 will sum up into another organization's scope 3.
-* Calculating software-driven emissions using the GHG protocol is possible but can be difficult for open-source software.
-* The SCI is a metric designed specifically to calculate software emissions and is a rate rather than a total.
-* The functional unit of measurement is not prescribed in the SCI and you should choose something that reflects your application.
+- The GHG protocol is a metric for measuring an organization's total carbon emissions and is used by organizations all over the world.
+- The GHG protocol puts carbon emissions into three scopes. Scope 3, also known as value chain emissions, refers to the emissions from organizations that supply others in a chain. In this way, one organization's scope 1 and 2 will sum up into another organization's scope 3.
+- Calculating software-driven emissions using the GHG protocol is possible but can be difficult for open-source software.
+- The SCI is a metric designed specifically to calculate software emissions and is a rate rather than a total.
+- The functional unit of measurement is not prescribed in the SCI and you should choose something that reflects your application.
 
 ## Quiz
 
-1. How does the Greenhouse Gas protocol ask us to measure emissions?
-- By dividing emissions into three scopes*
-- By dividing emissions into embodied carbon and day-to-day emissions
-- By dividing emissions from applications running on the public cloud and the private cloud 
-2. Which of the 3 scopes used in the GHG protocol is also known as ‘value chain emissions’?
-- 1
-- 2
-- 3*
-- 1 and 2
-- all of the above
-3. If you are a cloud application, which GHG scope does your energy consumption fall into?
-- Scopes 2 and 3
-- Scope 2
-- Scope 3
-- Depends whether it’s public, private or hybrid*
-4. Which of the following scenarios can not be measured using the GHG protocol?
-- Closed-source software
-- Open-source software*
-- Both of the above
-5. What does the acronym SCI stand for?
-- Software Carbon Index
-- Software Carbon Intensity*
-- Specific Carbon Intensity
-6. What does ((E*I) + M) represent in the SCI equation?
-- Carbon*
-- Energy
-- Carbon intensity
-7. What does the ‘R’ represent in the SCI equation?
-- Repetition
-- Rate
-- Functional unit*
-8. What are the key things to consider before calculating your SCI score?
-- What to include and the functional unit you will use
-- What to include, the functional unit you will use and method of quantification*
-- What to include, the functional unit you will use, method of quantification and GHG score
+<Quiz
+  QuizList={[
+    {
+      question:
+        "How does the Greenhouse Gas protocol ask us to measure emissions?",
+      answers: [
+        {
+          text: "By dividing emissions into three scopes",
+          isCorrect: true,
+        },
+        {
+          text: "By dividing emissions into embodied carbon and day-to-day emissions",
+          isCorrect: false,
+        },
+        {
+          text: "By dividing emissions from applications running on the public cloud and the private cloud",
+          isCorrect: false,
+        },
+      ],
+    },
+    {
+      question:
+        "Which of the 3 scopes used in the GHG protocol is also known as ‘value chain emissions’?",
+      answers: [
+        {
+          text: "1",
+          isCorrect: false,
+        },
+        {
+          text: "2",
+          isCorrect: false,
+        },
+        {
+          text: "3",
+          isCorrect: true,
+        },
+        {
+          text: "1 and 2",
+          isCorrect: false,
+        },
+        {
+          text: "all of the above",
+          isCorrect: false,
+        },
+      ],
+    },
+    {
+      question:
+        "If you are a cloud application, which GHG scope does your energy consumption fall into?",
+      answers: [
+        {
+          text: "Scopes 2 and 3",
+          isCorrect: false,
+        },
+        {
+          text: "Scope 2",
+          isCorrect: false,
+        },
+        {
+          text: "Scope 3",
+          isCorrect: false,
+        },
+        {
+          text: "Depends whether it’s public, private or hybrid",
+          isCorrect: true,
+        },
+      ],
+    },
+    {
+      question:
+        "Which of the following scenarios can not be measured using the GHG protocol?",
+      answers: [
+        {
+          text: "Closed-source software",
+          isCorrect: false,
+        },
+        {
+          text: "Open-source software",
+          isCorrect: true,
+        },
+        {
+          text: "Both of the above",
+          isCorrect: false,
+        },
+      ],
+    },
+    {
+      question: "What does the acronym SCI stand for?",
+      answers: [
+        {
+          text: "Software Carbon Index",
+          isCorrect: false,
+        },
+        {
+          text: "Software Carbon Intensity",
+          isCorrect: true,
+        },
+        {
+          text: "Specific Carbon Intensity",
+          isCorrect: false,
+        },
+      ],
+    },
+    {
+      question: "What does ((E*I) + M) represent in the SCI equation?",
+      answers: [
+        {
+          text: "Carbon",
+          isCorrect: true,
+        },
+        {
+          text: "Energy",
+          isCorrect: false,
+        },
+        {
+          text: "Carbon intensity",
+          isCorrect: false,
+        },
+      ],
+    },
+    {
+      question: "What does the ‘R’ represent in the SCI equation?",
+      answers: [
+        {
+          text: "Repetition",
+          isCorrect: false,
+        },
+        {
+          text: "Rate",
+          isCorrect: false,
+        },
+        {
+          text: "Functional unit",
+          isCorrect: true,
+        },
+      ],
+    },
+    {
+      question:
+        "What are the key things to consider before calculating your SCI score?",
+      answers: [
+        {
+          text: "What to include and the functional unit you will use",
+          isCorrect: false,
+        },
+        {
+          text: "What to include, the functional unit you will use and method of quantification",
+          isCorrect: true,
+        },
+        {
+          text: "What to include, the functional unit you will use, method of quantification and GHG score",
+          isCorrect: false,
+        },
+      ],
+    },
+  ]}
+/>
