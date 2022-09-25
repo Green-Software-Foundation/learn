@@ -101,16 +101,16 @@ Servers are usually not configured for aggressive or even minimal power saving. 
 - Both of the above
 3. What is clean energy?
 - Energy that comes from renewable sources
-- Energy that doesn’t produce carbon emissions
-- Both the above*
+- Energy that doesn’t produce carbon emissions*
+- Both the above
 4. What does PUE (power usage effectiveness) measure?
 - Data center energy efficiency*
 - Energy consumption of an application
 - Amount of energy used in overheads combined with that consumed by servers
 5. Which of the following is not something that is measured by energy proportionality?
-- Relationship between the energy used in overheads and what goes towards the servers running an application*
+- Relationship between the energy used in overheads and what goes towards the servers running an application
 - The percentage of a computers available resources that are being used 
-- Relationship between the power consumed by a computer and the rate at which useful work is done
+- Relationship between the power consumed by a computer and the rate at which useful work is done*
 6. What is static power draw?
 - The carbon cost of applications being left on standby
 - The electricity being drawn by an application in an idle state*
