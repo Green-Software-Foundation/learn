@@ -28,8 +28,8 @@ The following training covers 6 key areas that a green software practitioner sho
 2. **Energy Efficiency**: Use the least amount of energy possible.
 3. **Carbon Awareness**: Do more when the electricity is cleaner and do less when the electricity is dirtier.
 4. **Hardware Efficiency**: Use the least amount of embodied carbon possible.
-5. **Measuring**: What you can't measure, you can't improve.
-6. **Climate Commitments**: Understand the exact mechanism of reduction.
+5. **Measurement**: What you can't measure, you can't improve.
+6. **Climate Commitments**: Understand the exact mechanism of carbon reduction.
 
 Each of these chapters will introduce some new concepts and explain in detail why they are important in terms of the climate, and how you can apply them to your green software practices.
 
