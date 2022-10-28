@@ -177,14 +177,6 @@ sidebar_position: 7
    </td>
   </tr>
   <tr>
-   <td><strong>kilowatt hours</strong>
-   </td>
-   <td><strong>kWh</strong>
-   </td>
-   <td>Energy consumption is measured in <strong>kilowatt hours (kWh).</strong> 
-   </td>
-  </tr>
-  <tr>
    <td><strong>grams of carbon per kilowatt hour</strong>
    </td>
    <td><strong>gCO2eq/kWh</strong>
