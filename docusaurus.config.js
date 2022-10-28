@@ -80,7 +80,7 @@ const config = {
             items: [
               {
                 label: "Github",
-                href: "https://github.com/Green-Software-Foundation/learn/",
+                href: "https://github.com/Green-Software-Foundation/training/",
               },
               {
                 label: "Website",
