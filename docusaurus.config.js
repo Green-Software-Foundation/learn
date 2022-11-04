@@ -8,8 +8,7 @@ const config = {
   // Change to Site title
   title: "Learn Green Software",
   // Change to site description
-  tagline:
-    "The most significant bottleneck to adopting green software practices is a lack of knowledge.",
+  tagline: "Learn how to make your software applications more sustainable and build a career in green software",
   // Change to site url
   url: "https://learn.greensoftware.foundation/",
   baseUrl: "/",
@@ -34,8 +33,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           routeBasePath: "/",
           // Change this to your repo.
-          editUrl:
-            "https://github.com/Green-Software-Foundation/training/tree/main/",
+          editUrl: "https://github.com/Green-Software-Foundation/training/tree/main/",
         },
         blog: false,
         theme: {
@@ -59,26 +57,22 @@ const config = {
     ({
       navbar: {
         // Change to project name
-        title: "Green Software Training",
+        title: "Green Software Practitioner",
         logo: {
-          alt: "Green Software Training Logo",
+          alt: "Green Software Practitioner Logo",
           src: "img/logo.svg",
         },
-        items: [
-          {
-            href: "https://greensoftware.foundation/",
-            position: "right",
-            label: "a Green Software Foundation project",
-          },
-        ],
+        items: [{
+          href: "https://greensoftware.foundation/",
+          position: "right",
+          label: "a Green Software Foundation project",
+        }, ],
       },
       footer: {
         style: "dark",
-        links: [
-          {
+        links: [{
             title: "Links",
-            items: [
-              {
+            items: [{
                 label: "Github",
                 href: "https://github.com/Green-Software-Foundation/training/",
               },
@@ -90,8 +84,7 @@ const config = {
           },
           {
             title: "LEGAL",
-            items: [
-              {
+            items: [{
                 label: "Trademark Policy",
                 href: "https://greensoftware.foundation/policy/trademark",
               },
@@ -103,8 +96,7 @@ const config = {
           },
           {
             title: "GSF Info",
-            items: [
-              {
+            items: [{
                 label: "Green Software Foundation",
                 href: "https://greensoftware.foundation",
               },
@@ -138,6 +130,53 @@ const config = {
         min: 640, // min resized image's size. if original is lower, use that size.
         steps: 2, // the max number of images generated between min and max (inclusive)
         disableInDev: false,
+      },
+    ],
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [ // The course was originally posted under practitioner
+          {
+            to: '/introduction',
+            from: '/practitioner/introduction',
+          },
+          {
+            to: '/introduction',
+            from: '/practitioner/introduction',
+          },
+          {
+            to: '/introduction',
+            from: '/practitioner/introduction',
+          },
+          {
+            to: '/carbon-efficiency',
+            from: '/practitioner/carbon-efficiency',
+          },
+          {
+            to: '/energy-efficiency',
+            from: '/practitioner/energy-efficiency',
+          },
+          {
+            to: '/carbon-awareness',
+            from: '/practitioner/carbon-awareness',
+          },
+          {
+            to: '/hardware-efficiency',
+            from: '/practitioner/hardware-efficiency',
+          },
+          {
+            to: '/measurement',
+            from: '/practitioner/measurement',
+          },
+          {
+            to: '/climate-commitments',
+            from: '/practitioner/climate-commitments',
+          },
+          {
+            to: '/glossary', // Note there is a spelling correction here also
+            from: '/practitioner/glossery',
+          },
+        ]
       },
     ],
   ],
