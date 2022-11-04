@@ -141,14 +141,6 @@ const config = {
             from: '/practitioner/introduction',
           },
           {
-            to: '/introduction',
-            from: '/practitioner/introduction',
-          },
-          {
-            to: '/introduction',
-            from: '/practitioner/introduction',
-          },
-          {
             to: '/carbon-efficiency',
             from: '/practitioner/carbon-efficiency',
           },
