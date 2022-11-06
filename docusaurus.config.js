@@ -63,53 +63,57 @@ const config = {
           src: "img/logo.svg",
         },
         items: [{
+          href: "https://training.linuxfoundation.org/training/green-software-for-practitioners-lfc131/",
+          position: "right",
+          label: "Take the course",
+        }, {
           href: "https://greensoftware.foundation/",
           position: "right",
           label: "a Green Software Foundation project",
-        }, ],
+        },],
       },
       footer: {
         style: "dark",
         links: [{
-            title: "Links",
-            items: [{
-                label: "Github",
-                href: "https://github.com/Green-Software-Foundation/training/",
-              },
-              {
-                label: "Website",
-                href: "https://learn.greensoftware.foundation",
-              },
-            ],
+          title: "Links",
+          items: [{
+            label: "Github",
+            href: "https://github.com/Green-Software-Foundation/training/",
           },
           {
-            title: "LEGAL",
-            items: [{
-                label: "Trademark Policy",
-                href: "https://greensoftware.foundation/policy/trademark",
-              },
-              {
-                label: "Terms and Privacy Policy",
-                href: "https://greensoftware.foundation/policy/terms",
-              },
-            ],
+            label: "Website",
+            href: "https://learn.greensoftware.foundation",
+          },
+          ],
+        },
+        {
+          title: "LEGAL",
+          items: [{
+            label: "Trademark Policy",
+            href: "https://greensoftware.foundation/policy/trademark",
           },
           {
-            title: "GSF Info",
-            items: [{
-                label: "Green Software Foundation",
-                href: "https://greensoftware.foundation",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/gsfcommunity",
-              },
-              {
-                label: "Linkedin",
-                href: "https://www.linkedin.com/company/green-software-foundation/",
-              },
-            ],
+            label: "Terms and Privacy Policy",
+            href: "https://greensoftware.foundation/policy/terms",
           },
+          ],
+        },
+        {
+          title: "GSF Info",
+          items: [{
+            label: "Green Software Foundation",
+            href: "https://greensoftware.foundation",
+          },
+          {
+            label: "Twitter",
+            href: "https://twitter.com/gsfcommunity",
+          },
+          {
+            label: "Linkedin",
+            href: "https://www.linkedin.com/company/green-software-foundation/",
+          },
+          ],
+        },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Joint Development Foundation Projects, LLC, Green Software Foundation Series`,
       },
