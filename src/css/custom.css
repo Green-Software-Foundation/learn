@@ -51,3 +51,7 @@ body{
   margin-bottom: -44px;
   margin-top: 32px;
 }
+.navbar__item:first-of-type{
+  background-color: var(--ifm-color-primary);
+  color: white;
+}
