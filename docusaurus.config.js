@@ -63,9 +63,9 @@ const config = {
           src: "img/logo.svg",
         },
         items: [{
-          href: "https://training.linuxfoundation.org/training/green-software-for-practitioners-lfc131/",
+          href: "https://grnsft.org/practitioner/lf-exam",
           position: "right",
-          label: "Take the course",
+          label: "Take the exam",
         }, {
           href: "https://greensoftware.foundation/",
           position: "right",
