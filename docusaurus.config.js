@@ -8,7 +8,7 @@ const config = {
   // Change to Site title
   title: "Learn Green Software",
   // Change to site description
-  tagline: "Learn how to make your software applications more sustainable and build a career in green software",
+  tagline: "If you want to make your software applications more sustainable and build a career in green software, then this training is for you",
   // Change to site url
   url: "https://learn.greensoftware.foundation/",
   baseUrl: "/",
@@ -124,6 +124,56 @@ const config = {
         disableSwitch: true,
         defaultMode: "light",
       },
+      metadata: [{
+        name: "twitter:card",
+        content: "summary",
+      },
+      {
+        name: "twitter:site",
+        content: "@gsfcommunity",
+      },
+      {
+        name: "twitter:title",
+        content: "Green Software Practitioner",
+      },
+      {
+        name: "twitter:description",
+        content: "If you want to make your software applications more sustainable and build a career in green software, then this training is for you",
+      },
+      {
+        name: "twitter:image",
+        content: "https://learn.greensoftware.foundation/img/og-image.png",
+      },
+      {
+        name: "twitter:creator",
+        content: "@gsfcommunity",
+      },
+      {
+        name: "og:title",
+        content: "Green Software Practitioner",
+      },
+      {
+        name: "og:description",
+        content: "If you want to make your software applications more sustainable and build a career in green software, then this training is for you",
+      },
+      {
+        name: "og:image",
+        content: "https://learn.greensoftware.foundation/img/og-image.png",
+      },
+      {
+        name: "og:url",
+        content: "https://learn.greensoftware.foundation/",
+      },
+      {
+        name: "og:site_name",
+        content: "Green Software Practitioner",
+      },
+      {
+        name: "og:type",
+        content: "website",
+      },
+
+      ]
     }),
   plugins: [
     [
