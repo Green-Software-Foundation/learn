@@ -57,9 +57,9 @@ const config = {
     ({
       navbar: {
         // Change to project name
-        title: "Green Software Practitioner",
+        title: "Green Software for Practitioners",
         logo: {
-          alt: "Green Software Practitioner Logo",
+          alt: "Green Software for Practitioners Logo",
           src: "img/logo.svg",
         },
         items: [{
@@ -134,7 +134,7 @@ const config = {
       },
       {
         name: "twitter:title",
-        content: "Green Software Practitioner",
+        content: "Green Software for Practitioners",
       },
       {
         name: "twitter:description",
@@ -150,7 +150,7 @@ const config = {
       },
       {
         name: "og:title",
-        content: "Green Software Practitioner",
+        content: "Green Software for Practitioners",
       },
       {
         name: "og:description",
@@ -166,7 +166,7 @@ const config = {
       },
       {
         name: "og:site_name",
-        content: "Green Software Practitioner",
+        content: "Green Software for Practitioners",
       },
       {
         name: "og:type",
