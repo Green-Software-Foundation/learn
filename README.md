@@ -14,7 +14,7 @@ This project is copyrighted under [Creative Commons Attribution 4.0](https://cre
 No Patent License.
 
 ## License
-This project is licensed under the MIT License - see the [LICENCE](LICENCE) file for details.
+This project is licensed under the MIT License - see the [LICENCE](https://github.com/Green-Software-Foundation/training/blob/main/LICENSE) file for details.
 
 ## Contributing
 
