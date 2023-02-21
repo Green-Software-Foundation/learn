@@ -10,7 +10,7 @@ Il software verde (Green Software) è una disciplina emergente che si colloca al
 
 Il software verde è un software efficiente dal punto di vista delle emissioni di carbonio, ovvero che emette la minor quantità possibile di emissioni di carbonio. Solo tre attività riducono le emissioni di carbonio del software: l'efficienza energetica, la consapevolezza delle emissioni di carbonio e l'efficienza dell'hardware. Questa formazione spiegherà tutti questi concetti, come applicarli ai vostri processi e come misurarli, oltre ad alcune delle linee guida e delle organizzazioni internazionali che guidano e monitorano questo settore.
 
-![alt_text](../../src/images/it/01_efficienza_del_carbonio.png "image_tooltip")
+![alt_text](./images/01_efficienza_del_carbonio.png "image_tooltip")
 
 ## Chi dovrebbe leggere questa guida?
 
@@ -45,4 +45,4 @@ Le pratiche dovrebbero fare riferimento a modelli che dovrebbero fare riferiment
 
 La Green Software Foundation pubblica anche un [catalogo di modelli di software verde neutrali rispetto ai fornitori](https://patterns.greensoftware.foundation/) in varie categorie.
  
-![Green Software Principles, Patterns, and Practices](../../src/images/it/GSF_Principles_Patterns_Practices.png "Green Software Principles, Patterns, and Practices")
+![Green Software Principles, Patterns, and Practices](./images/GSF_Principles_Patterns_Practices.png "Green Software Principles, Patterns, and Practices")

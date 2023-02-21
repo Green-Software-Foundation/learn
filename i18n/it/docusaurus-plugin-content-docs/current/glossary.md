@@ -210,12 +210,12 @@ sidebar_position: 9
   </tr>
 </table>
 
-## Useful Terms
+## Termini utili
 
-* [Carbon Intensity](https://learn.greensoftware.foundation/practitioner/carbon-awareness/#carbon-intensity) - Measures the amount of greenhouse gases emitted per unit of electricity produced.
-* [Demand Shaping](https://learn.greensoftware.foundation/practitioner/carbon-awareness/#demand-shaping) - The strategy of moving workloads to regions or times when the carbon intensity is less
-* [Greenhouse Gas protocol](https://ghgprotocol.org) - The most widely used and internationally recognized greenhouse gas accounting standard.
-* [Value chain emissions](https://www.cisl.cam.ac.uk/education/graduate-study/pgcerts/value-chain-defs) - These are scope 3 emissions according to the GHG protocol, and the most significant source of emissions. They encompass the full range of activities needed to create a product or service, from conception to distribution.
-* [Energy proportionality](https://learn.greensoftware.foundation/practitioner/energy-efficiency/#energy-proportionality) - Measures the relationship between power consumed by a computer and the rate at which useful work is done (its utilization).
-* [Static power draw](https://learn.greensoftware.foundation/practitioner/energy-efficiency/#static-power-draw) - This refers to how much electricity is drawn when a device is in an idle state. 
-* [Embodied Carbon](https://learn.greensoftware.foundation/practitioner/hardware-efficiency/#embodied-carbon) (also known as "embedded carbon") - The amount of carbon pollution emitted during the creation and disposal of a device.
+* [Intensità di carbonio](./carbon-awareness/#carbon-intensity) - Misura la quantità di gas serra emessi per unità di elettricità prodotta.
+* [Adattamento della domanda](./carbon-awareness/#demand-shaping) - Strategia che consiste nello spostare i carichi di lavoro in regioni o orari in cui l'intensità di carbonio è minore.
+* [Protocollo sui gas a effetto serra](https://ghgprotocol.org) - Lo standard di contabilizzazione dei gas a effetto serra più diffuso e riconosciuto a livello internazionale.
+* [Emissioni della catena del valore](https://www.cisl.cam.ac.uk/education/graduate-study/pgcerts/value-chain-defs) - Sono le emissioni di portata 3 secondo il protocollo GHG e la fonte più significativa di emissioni. Comprendono l'intera gamma di attività necessarie per creare un prodotto o un servizio, dalla concezione alla distribuzione.
+* [Proporzionalità energetica](./energy-efficiency/#energy-proportionality) - Misura la relazione tra l'energia consumata da un computer e la velocità con cui viene svolto il lavoro utile (il suo utilizzo).
+* [Assorbimento statico](./energy-efficiency/#static-power-draw) - Si riferisce alla quantità di elettricità consumata quando un dispositivo è in stato di inattività.
+* [Carbonio incorporato](./hardware-efficiency/#embodied-carbon) (noto anche come "carbonio intrappolato") - La quantità di inquinamento da carbonio emesso durante la creazione e lo smaltimento di un dispositivo.

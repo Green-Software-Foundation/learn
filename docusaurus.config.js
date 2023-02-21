@@ -21,7 +21,7 @@ const config = {
   deploymentBranch: "gh-pages",
   i18n: {
     defaultLocale: "en",
-    locales: ["en"],
+    locales: ["en","it"],
   },
 
   presets: [
@@ -62,7 +62,12 @@ const config = {
           alt: "Green Software Practitioner Logo",
           src: "img/logo.svg",
         },
-        items: [{
+        items: [
+        {
+          type: 'localeDropdown',
+          position: 'left',
+        },
+        {
           href: "https://grnsft.org/practitioner/lf-exam",
           position: "right",
           label: "Take the exam",
