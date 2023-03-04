@@ -3,6 +3,8 @@ sidebar_position: 2
 ---
 
 # Introduzione
+> *This translation is a community translation, it has limited support and might not be up to date with the latest version in English.*
+> *Questa traduzione è una traduzione community, ha un supporto limitato e potrebbe non essere aggiornata con l'ultima versione in inglese.*
 
 ## Cos'è il software verde?
 
