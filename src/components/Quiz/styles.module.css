@@ -5,7 +5,7 @@
 }
 .radio_btn__wrapper {
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
   gap: 8px;
   border: 1px solid;
