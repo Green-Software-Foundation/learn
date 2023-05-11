@@ -213,7 +213,7 @@ sidebar_position: 9
 ## Useful Terms
 
 * [Carbon Intensity](./carbon-awareness/#carbon-intensity) - Measures the amount of greenhouse gases emitted per unit of electricity produced.
-* [Demand Shaping](./carbon-awareness/#demand-shaping) - The strategy of moving workloads to regions or times when the carbon intensity is less
+* [Demand Shaping](./carbon-awareness/#demand-shaping) - The strategy of shaping our computation to match the existing clean electricity supply.
 * [Greenhouse Gas protocol](https://ghgprotocol.org) - The most widely used and internationally recognized greenhouse gas accounting standard.
 * [Value chain emissions](https://www.cisl.cam.ac.uk/education/graduate-study/pgcerts/value-chain-defs) - These are scope 3 emissions according to the GHG protocol, and the most significant source of emissions. They encompass the full range of activities needed to create a product or service, from conception to distribution.
 * [Energy proportionality](./energy-efficiency/#energy-proportionality) - Measures the relationship between power consumed by a computer and the rate at which useful work is done (its utilization).
