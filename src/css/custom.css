@@ -51,7 +51,61 @@ body{
   margin-bottom: -44px;
   margin-top: 32px;
 }
-.navbar__item:first-of-type{
+.navbar__items--right .navbar__item:first-of-type{
   background-color: var(--ifm-color-primary);
   color: white;
+}
+
+.newsletter-form{
+  background: var(--ifm-color-primary);
+  text-align: center;
+  padding: 2rem ;
+  margin-top: 2rem;
+}
+.newsletter-form--content{
+  max-width: 24rem;
+  margin: auto;
+  text-align: center;
+}
+.newsletter-form--title{
+  color: white;
+  font-size: 2rem;
+}
+.newsletter-form--subtitle{
+  color: white;
+}
+.newsletter-form--input{
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+.newsletter-form--button{
+  display: block;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  margin: 1rem auto 0 auto;
+  background-color: white;
+  color: var(--ifm-color-primary);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out;
+}
+.newsletter-form--button:hover{
+  background-color: var(--ifm-color-gray-200);
+}
+.newsletter-form--error{
+  background-color: var(--ifm-color-danger);
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  color: #fff;
+}
+.newsletter-form--success{
+  background-color: var(--ifm-color-success);
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  color: #fff;
 }
