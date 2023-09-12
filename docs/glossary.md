@@ -37,7 +37,7 @@ sidebar_position: 9
    </td>
    <td><strong>CH4</strong>
    </td>
-   <td>A common gaseous hydrocarbon that has a warming effect 25 times that of CO2.
+   <td>A common gaseous hydrocarbon that has a warming effect of ~25 times that of CO2 over 100 years.
    </td>
   </tr>
   <tr>
