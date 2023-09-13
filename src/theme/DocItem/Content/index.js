@@ -60,7 +60,6 @@ export default function DocItemContent({ children }) {
             </p>
             <input
               id="EMAIL"
-              autoFocus
               type="email"
               value={fields.EMAIL}
               onChange={handleFieldChange}
