@@ -82,7 +82,7 @@ const config = {
         links: [{
           title: "Links",
           items: [{
-            label: "Github",
+            label: "GitHub",
             href: "https://github.com/Green-Software-Foundation/training/",
           },
           {
