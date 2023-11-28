@@ -93,7 +93,7 @@ sidebar_position: 9
    </td>
    <td><strong>MMTCDE</strong>
    </td>
-   <td>二氧化碳当量的测量术语
+   <td>二氧化碳当量的测量术语。
    </td>
   </tr>
   <tr>
@@ -172,7 +172,7 @@ sidebar_position: 9
    </td>
    <td><strong>J</strong>
    </td>
-   <td>能量以 <strong>焦耳 (J) 为单位进行测量</strong>. 
+   <td>能量以 <strong>焦耳 (J) 为单位进行测量</strong>。
    </td>
   </tr>
   <tr>
