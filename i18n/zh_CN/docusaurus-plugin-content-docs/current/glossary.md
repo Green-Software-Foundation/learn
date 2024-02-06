@@ -188,7 +188,7 @@ sidebar_position: 9
    </td>
    <td><strong>VCM</strong>
    </td>
-   <td>一个分散的市场，私人参与者自愿购买和销售碳信用额度，这些碳信用额度代表经认证的大气中的温室气体的清除或减少量。 
+   <td>一个去中心化的市场，私人参与者自愿购买和销售碳信用额度，这些碳信用额度代表经认证的大气中的温室气体的清除或减少量。 
    </td>
   </tr>
   <tr>
@@ -214,7 +214,7 @@ sidebar_position: 9
 * [碳强度](./carbon-awareness/#carbon-intensity) - 衡量每单位发电量排放的温室气体量。
 * [需求塑造](./carbon-awareness/#demand-shaping) - 使我们的计算和现有清洁电力供应相匹配的策略。
 * [温室气体核算体系](https://ghgprotocol.org) - 使用最广泛、国际公认的温室气体核算标准。
-* [价值链排放](https://www.cisl.cam.ac.uk/education/graduate-study/pgcerts/value-chain-defs) - 根据温室气体协议，这些属于范围3的排放，也是最重要的排放源。 它们涵盖了创建产品或服务从构思到分销所需的全部活动。
-* [能量比例](./energy-efficiency/#energy-proportionality) - 用于衡量计算机消耗的功率与完成有用工作的速率（其利用率）之间的关系。
+* [价值链排放](https://www.cisl.cam.ac.uk/education/graduate-study/pgcerts/value-chain-defs) - 根据温室气体协议，这些属于范围3的排放，也是最重要的排放源。它们涵盖了创建产品或服务所需的全部活动，从产品构思到最终分销给客户。
+* [能量比例](./energy-efficiency/#energy-proportionality) - 用于度量计算机消耗的功率与完成有效工作的比率（其利用率）之间的关系。
 * [静态功耗](./energy-efficiency/#static-power-draw) -当设备处于空闲状态时所消耗的电量。 
 * [隐含碳](./hardware-efficiency/#embodied-carbon) (也称为“嵌入碳”) - 设备制造和处置过程中排放的碳污染量。
