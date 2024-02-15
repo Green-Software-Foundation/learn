@@ -105,7 +105,7 @@ sidebar_position: 9
    </td>
   </tr>
   <tr>
-   <td><strong>締約国会議</strong>
+   <td><strong>締約国会議（Conference of the Parties）</strong>
    </td>
    <td><strong>COP</strong>
    </td>
@@ -113,7 +113,7 @@ sidebar_position: 9
    </td>
   </tr>
   <tr>
-   <td><strong>国連気候変動枠組条約</strong>
+   <td><strong>国連気候変動枠組条約（United Nations Framework Convention on Climate）</strong>
    </td>
    <td><strong>UNFCCC</strong>
    </td>
@@ -121,7 +121,7 @@ sidebar_position: 9
    </td>
   </tr>
   <tr>
-   <td><strong>気候変動に関する政府間パネル</strong>
+   <td><strong>気候変動に関する政府間パネル（Intergovernmental Panel on Climate Change）</strong>
    </td>
    <td><strong>IPCC</strong>
    </td>
@@ -129,7 +129,7 @@ sidebar_position: 9
    </td>
   </tr>
   <tr>
-   <td><strong>科学に基づく目標設定イニシアチブ</strong>
+   <td><strong>科学に基づく目標設定イニシアチブ（Science Based Targets initiative）</strong>
    </td>
    <td><strong>SBTi</strong>
    </td>
@@ -137,7 +137,7 @@ sidebar_position: 9
    </td>
   </tr>
   <tr>
-   <td><strong>無炭素エネルギー</strong>
+   <td><strong>無炭素エネルギー（Carbon-free energy）</strong>
    </td>
    <td><strong>CFE</strong>
    </td>
@@ -145,7 +145,7 @@ sidebar_position: 9
    </td>
   </tr>
   <tr>
-   <td><strong>電力購入契約</strong>
+   <td><strong>電力購入契約（Power Purchase Agreement）</strong>
    </td>
    <td><strong>PPA</strong>
    </td>
@@ -153,7 +153,7 @@ sidebar_position: 9
    </td>
   </tr>
   <tr>
-   <td><strong>再生可能エネルギークレジット</strong>
+   <td><strong>再生可能エネルギークレジット（Renewable Energy Credit）</strong>
    </td>
    <td><strong>REC</strong>
    </td>
@@ -161,7 +161,7 @@ sidebar_position: 9
    </td>
   </tr>
   <tr>
-   <td><strong>パリ気候協定（パリ協定）</strong>
+   <td><strong>パリ気候協定（パリ協定、Paris Climate Agreement）</strong>
    </td>
    <td><strong>PCA</strong>
    </td>
@@ -185,7 +185,7 @@ sidebar_position: 9
    </td>
   </tr>
   <tr>
-   <td><strong>自主的炭素市場</strong>
+   <td><strong>自主的炭素市場（Voluntary Carbon Market）</strong>
    </td>
    <td><strong>VCM</strong>
    </td>
@@ -201,7 +201,7 @@ sidebar_position: 9
    </td>
   </tr>
   <tr>
-   <td><strong>ソフトウェア炭素強度</strong>
+   <td><strong>Software Carbon Intensity</strong>
    </td>
    <td><strong>SCI</strong>
    </td>
@@ -214,7 +214,7 @@ sidebar_position: 9
 
 * [炭素強度](./carbon-awareness/#carbon-intensity) - 単位発電量当たりで排出される温室効果ガスの量を測定。
 * [デマンドシェーピング（需要形成）](./carbon-awareness/#demand-shaping) - 既存のクリーンな電力供給にマッチングさせるためにコンピュータ使用を調整する戦略。
-* [温室効果ガスプロトコル](https://ghgprotocol.org) - 最も広く使用され、国際的に認知されている温室効果ガス計算基準。
+* [GHGプロトコル](https://ghgprotocol.org) - 最も広く使用され、国際的に認知されている温室効果ガス計算基準。
 * [バリューチェーン排出量](https://www.cisl.cam.ac.uk/education/graduate-study/pgcerts/value-chain-defs) - GHGプロトコルに基づくスコープ3排出量であり、最も大きな排出源。バリューチェーン排出量は、構想から流通まで、製品やサービスの創出に必要なあらゆる活動を網羅します。
 * [エネルギー比例性](./energy-efficiency/#energy-proportionality) - コンピュータが消費する電力と、有用な作業が行われる比率（コンピュータの利用率）との関係を測定します。
 * [静的電力消費量](./energy-efficiency/#static-power-draw) - デバイスがアイドル状態のときに消費される電力の量を指します。
