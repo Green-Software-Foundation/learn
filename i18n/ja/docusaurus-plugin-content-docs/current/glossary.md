@@ -137,7 +137,7 @@ sidebar_position: 9
    </td>
   </tr>
   <tr>
-   <td><strong>無炭素エネルギー（Carbon-free energy）</strong>
+   <td><strong>カーボンフリー エネルギー（Carbon-free energy）</strong>
    </td>
    <td><strong>CFE</strong>
    </td>
@@ -153,11 +153,11 @@ sidebar_position: 9
    </td>
   </tr>
   <tr>
-   <td><strong>再生可能エネルギークレジット（Renewable Energy Credit）</strong>
+   <td><strong>再生可能エネルギー クレジット（Renewable Energy Credit）</strong>
    </td>
    <td><strong>REC</strong>
    </td>
-   <td>再生可能エネルギークレジット（再生可能エネルギー証書ともいう）は、再生可能エネルギー源によって発電されたエネルギーを表します。
+   <td>再生可能エネルギー クレジット（再生可能エネルギー証書ともいう）は、再生可能エネルギー源によって発電されたエネルギーを表します。
    </td>
   </tr>
   <tr>
@@ -193,7 +193,7 @@ sidebar_position: 9
    </td>
   </tr>
   <tr>
-   <td><strong>ベリファイド・カーボン・スタンダード（Verified Carbon Standard）</strong>
+   <td><strong>ベリファイド カーボン スタンダード（Verified Carbon Standard）</strong>
    </td>
    <td><strong>VCS</strong>
    </td>
@@ -201,7 +201,7 @@ sidebar_position: 9
    </td>
   </tr>
   <tr>
-   <td><strong>Software Carbon Intensity</strong>
+   <td><strong>ソフトウェア炭素強度</strong>
    </td>
    <td><strong>SCI</strong>
    </td>
@@ -213,7 +213,7 @@ sidebar_position: 9
 ## Useful Terms
 
 * [炭素強度](./carbon-awareness/#carbon-intensity) - 単位発電量当たりで排出される温室効果ガスの量を測定。
-* [デマンドシェーピング（需要形成）](./carbon-awareness/#demand-shaping) - 既存のクリーンな電力供給にマッチングさせるためにコンピュータ使用を調整する戦略。
+* [デマンド シェーピング（需要形成）](./carbon-awareness/#demand-shaping) - 既存のクリーンな電力供給にマッチングさせるためにコンピュータ使用を調整する戦略。
 * [GHGプロトコル](https://ghgprotocol.org) - 最も広く使用され、国際的に認知されている温室効果ガス計算基準。
 * [バリューチェーン排出量](https://www.cisl.cam.ac.uk/education/graduate-study/pgcerts/value-chain-defs) - GHGプロトコルに基づくスコープ3排出量であり、最も大きな排出源。バリューチェーン排出量は、構想から流通まで、製品やサービスの創出に必要なあらゆる活動を網羅します。
 * [エネルギー比例性](./energy-efficiency/#energy-proportionality) - コンピュータが消費する電力と、有用な作業が行われる比率（コンピュータの利用率）との関係を測定します。
