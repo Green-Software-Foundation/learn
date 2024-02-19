@@ -1,8 +1,12 @@
 ---
 sidebar_position: 2
+title: 简介
 ---
 
-# 简介
+:::note
+This is a community contributed translation. It has limited support and might not match the latest English language version of the course.
+这是社区贡献的翻译。它的支持有限，可能与课程的最新英语版本不匹配。
+:::
 
 ## 什么是绿色软件？
 
