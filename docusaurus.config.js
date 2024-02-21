@@ -21,7 +21,7 @@ const config = {
   deploymentBranch: "gh-pages",
   i18n: {
     defaultLocale: "en",
-    locales: ["en","it"],
+    locales: ["en","it","zh-CN"],
   },
 
   presets: [

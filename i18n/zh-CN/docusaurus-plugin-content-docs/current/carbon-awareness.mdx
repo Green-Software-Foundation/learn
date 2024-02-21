@@ -1,0 +1,289 @@
+---
+sidebar_position: 5
+title: 碳意识
+---
+
+import Quiz from "/src/components/Quiz";
+
+:::note
+This is a community contributed translation. It has limited support and might not match the latest English language version of the course.
+这是社区贡献的翻译。它的支持有限，可能与课程的最新英语版本不匹配
+:::
+
+:::tip 原则
+
+多使用清洁能源，少使用非清洁能源。
+
+:::
+
+## 简介
+
+在不同的地方和时间，电力是由不同的来源生产出来的，带来碳排放也不同。诸如风能、太阳能或水力发电等来源的电力，是清洁的可再生能源，碳排放量几乎没有。而另一方面，使用化石燃料发电会不同程度的排放二氧化碳。例如，虽然天然气和煤炭的碳排放量都高于可再生能源，但天然气发电厂的碳排放量低于煤炭发电厂。
+
+碳意识即当能量更多地来自低碳来源时多做，当能量更多地来自高碳来源时少做。
+
+## 关键概念
+
+### 碳强度
+
+碳强度测量每消耗 1 千瓦时（KWh）电力排放多少碳（CO2e）。碳强度的标准单位是 gCO2eq/kWh，即碳克数每千瓦时。
+
+如果您的电脑能够直接接入风力发电的电网，其电力的碳强度为 0g CO2eq/kWh，因为风力发电厂在生产电力时不会排放任何碳。然而，大多数人并不能直接接入风力发电场的电网，而是接入具有不同电力来源的电网。
+
+一旦接入电网，您就无法控制使用哪种电力供应；您只能获得各种电力的混合。因此，您的碳强度将是当前电网中所有电力来源的混合值，包括低碳来源和高碳来源。
+
+### 碳强度的可变性
+
+碳强度因地区而异，因为有些地区的能源组合中清洁能源的比例高于其他地区。
+
+![alt_text](./images/07_variability_CI.png "image_tooltip")
+
+天气条件的不可预测性导致可再生能源天然具备可变性，故而碳强度也会随着时间的推移发生变化。例如，当阴天或无风时，碳强度就会增加，因为您的电力组合中会有更多的电力是由产生碳排放的能量源生产的。
+
+![alt_text](./images/08_variability_CI.png "image_tooltip")
+
+#### 可调度性与缩减
+
+电力需求在一天当中是不断变化的，而电力供应始终需要有能力去迎合这种需求的变化。如果电力公司生产的电力不足以满足需求，就会出现由欠压（电力线的电压水平下降）导致的局部限电。相反，如果电力公司生产的电力超过了需求，为了防止基础设施烧毁，断路器就会跳闸，导致停电。
+
+电力的需求和供应在任何时候都需要保持平衡，而这通常是电力供应商的责任。
+
+就煤炭等化石燃料而言，控制其电力供应较为容易，这被称为**可调度性**。但对于风力发电场等可再生能源来说，控制电力供应并不容易（我们无法控制风力的大小）。当电源产生的电力超过了所需电力，剩余的电力就会被浪费，这就是**缩减**。
+
+### 边际碳强度
+
+如果您突然需要获得更多电力，例如需要开灯，那么这些电能就来自边际发电厂，而当边际发电厂是可调度的，通常意味着边际发电厂在使用化石燃料供电。
+
+边际碳强度是指为了让任何新的需求都能得到满足而不得不使用的发电厂的碳强度。
+
+化石燃料发电厂的规模很少降到 0。它们有一个最低运行阈值，有些甚至不需要扩大规模；它们被认为是一种稳定的、永远在线的基荷。正因为如此，我们有时会在缩减（丢弃）可再生能源的同时，仍然消耗化石燃料发电厂的能源。
+
+![alt_text](./images/09_marginal_CI.png "image_tooltip")
+
+在这种情况下，边际碳强度将为 0 gCO2eq/kWh，因为我们知道任何新的需求都将与我们缩减的可再生能源相匹配。
+
+### 能源市场
+
+世界各地的具体市场模式各不相同，但大致遵循相同的模式。
+
+当电力需求下降时，公用事业公司需要**减少**供应，以平衡供需。可以通过以下两种方式来实现这一目标：
+
+1. **减少从化石燃料发电厂购买能源**
+
+![alt_text](./images/10_marginal_CI.png "image_tooltip")
+化石燃料工厂提供的能源通常最为昂贵，因此这是首选方法。也意味着直接减少了化石燃料的燃烧。
+
+2. **减少购买可再生能源**
+
+可再生能源最便宜，所以公用事业公司不倾向于这么做。如果来自于可再生能源的电力无法全部售出，就只能舍弃剩余的电力。
+
+减少应用的用电量有助于降低其能源碳强度，因为首先削减的是源于化石燃料的电力。
+
+当电力需求上升时，电力公司需要增加电力供应以平衡供需。他们可以通过以下两种方式之一来实现这一目标：
+
+1. **从目前被缩减的可再生能源中购买更多能源**
+
+![alt_text](./images/11_marginal_CI.png "image_tooltip")
+
+如果您正在缩减能源，这意味着您有多余的能源可以调度。因为可再生能源已经是最便宜的能源了，那么被缩减的可再生能源将会是最便宜的可调度能源。这样可再生发电厂就可以出售他们本来需要缩减的能源。
+
+2. **从化石燃料发电厂购买更多能源**
+
+![alt_text](./images/12_marginal_CI.png "image_tooltip")
+
+化石燃料具备固有的可调度性；它们可以通过增加燃烧速度提高能源产量。然而，煤炭成本高昂，因此这是最不可取的解决方案。
+
+能源市场是世界上最复杂的市场之一，而上述解释只是一种简化。但重要的是理解，我们的目标是增加对可再生能源等低碳能源的投资，并减少对煤炭等高碳能源的投资。确保资金流向正确方向的最好途径就是确保使用碳强度最低的电力。
+
+## 如何提高碳意识
+
+:::tip
+
+在碳强度较低时使用电力，是确保投资流向低碳排放电厂、远离高碳排放电厂的最佳途径。
+
+:::
+
+![alt_text](./images/13_carbon_aware.png "image_tooltip")
+
+目前，全球正在发生一场变革。在世界各地，电网正在由以化石燃料发电为主转向风能和太阳能等低碳发电方式为主。这是我们实现全球减排目标的最大希望之一。作为绿色软件从业者，让我们一起看看可以通过哪些方式来帮助加速这一转变。
+
+转型的主要驱动力是经济而非任何可持续发展目标。可再生能源之所以胜出，是因为它们的成本更低，并且随着时间的推移，价格会越来越低廉。为了助力转型加速，我们需要提高可再生能源发电厂的利润，降低化石燃料发电厂的利润。实践这一点的最好的办法即当电力来自可再生能源等低碳能源时，多用电；当电力来自高碳能源时，少用电。
+
+当更多的能源源于低碳能源时，碳强度较低，而当更多的能源源自高碳能源时，碳强度较高。
+
+### 需求转移
+
+碳意识意味着通过增加或减少需求来应对碳强度的变化。如果您的工作允许您灵活选择运行工作负载的时间和地点，您就可以进行相应的转移 —— 在碳强度较低时消耗电力，在碳强度较高时暂停工作。例如，在碳强度更低的不同时间或地区训练机器学习模型。
+
+[研究](https://ieeexplore.ieee.org/document/6128960)表明，根据电网中可再生能源的数量，这些措施可以减少 45% 到 99% 的碳排放。
+
+而需求转移可进一步划分为空间转移和时间转移。
+
+#### 空间转移
+
+空间转移是指将计算转移到当前碳强度较低的另一个物理位置。这可能是一个天然具备低碳能源的地区。例如，根据季节移动到不同的半球以获得更多的日照时间。
+
+![alt_text](./images/14_spatial_shifting.png "image_tooltip")
+
+#### 时间转移
+
+如果无法将计算从空间上转移到另一个区域，那么还可以将计算转移到另一个时间段。在白天或晚上的某些时段，也许阳光更充足或风更大，碳强度也更低。这就是所谓的时间需求转移。随着天气预报的进步，我们可以很好地预测未来的碳强度。
+
+![alt_text](./images/15_temporal_shifting.png "image_tooltip")
+
+一些大型科技公司已经认识到碳意识的重要性，并正在利用先进的建模技术实现需求转移。
+
+- **谷歌碳感知数据中心** - 谷歌发起了一个[使部分云工作负载实现碳感知的项目](https://blog.google/outreach-initiatives/sustainability/carbon-aware-computing-location/)。他们创建了预测未来碳强度和工作量的模型。然后塑造大规模工作负载，以便在碳强度最低的时间和地点进行更多的工作，但其方式仍能处理预期负载。
+- **微软碳感知Windows** - [微软宣布了一个让 Windows 11 更具可持续性的项目](https://www.techradar.com/news/windows-11-is-getting-an-eco-friendly-update-but-could-microsoft-do-more)。这意味着在碳强度较低时运行 Windows 更新。
+
+### 需求塑造
+
+需求转移是一种将计算转移到碳强度最低的地区或时间的策略。需求塑造是一种类似的策略。不过，我们并不是将需求转移到不同的地区或时间，而是根据现有的供应来调整我们的计算。
+
+![alt_text](./images/16_demand_shaping.png "image_tooltip")
+
+- 如果碳强度低，则增加需求；在应用中多做一些。
+- 如果碳强度高，则降低需求；在应用中少做一些。
+
+碳感知应用程序的需求塑造与碳的供应息息相关。当运行应用程序的碳成本变得很高时，就要调整需求，使其与碳供应相匹配。这可以自动实现，也可以由用户做出选择。
+
+环保模式就是需求塑造的一个例子。汽车或洗衣机等日常电器中都有环保模式。启动时，为了消耗更少的资源（燃气或电力），会牺牲一定的性能。由于需要对性能进行权衡，因此生态模式总是作为一种选择提供给用户。
+
+软件应用程序也可以采用环保模式，自动或经用户同意做出减少碳排放的决定。
+
+自动调整流媒体质量的视频会议软件就是一个例子。当带宽不足时，视频不会一直以最高质量进行流式传输，而是降低视频质量，优先传输音频。
+
+另一个例子是 TCP/IP。传输速度会随着网络上广播的数据量的增加而提高。
+
+第三个例子是网络的渐进增强。网络体验的改善取决于终端用户设备上可用的资源和带宽。
+
+需求塑造与可持续发展的一个更广泛的概念有关，即减少消耗。我们可以通过提高资源利用率来实现很多目标，但我们也需要在某些时候减少消耗。
+
+作为绿色软件的实践者，我们会考虑在碳强度较高时取消某个进程，而不是转移需求 —— 降低应用程序的需求以及终端用户的期望。
+
+## 总结
+
+- 碳意识是指需要理解您消耗的能源在碳强度方面的影响并不总是相同的。
+- 碳强度随消耗的时间和地点而变化。
+- 化石燃料和可再生能源的性质意味着，在碳强度较低时消耗能源，会增加对可再生能源的需求，并提高可再生能源在供应中的比例。
+- 需求转移是指将能源消耗转移到碳强度较低的不同地点或时间。
+- 需求塑造是指根据碳强度的变化调整能源消耗，以便在低碳强度时期消耗更多，在高碳强度时期消耗更少。
+
+
+## Quiz
+
+<Quiz
+  QuizList={[
+    {
+      question: "What is carbon intensity?",
+      answers: [
+        {
+          text: "The amount of carbon produced using clean energy sources",
+          isCorrect: false,
+        },
+        {
+          text: "The amount of carbon produced per kilowatt hour",
+          isCorrect: true,
+        },
+        { text: "0gCO2eq/kWh", isCorrect: false },
+      ],
+    },
+    {
+      question: "What is the standard unit of carbon intensity?",
+      answers: [
+        { text: "gCO2eq/kWh", isCorrect: false },
+        { text: "gCO2e/kWh", isCorrect: false },
+        { text: "Either of the above", isCorrect: true },
+      ],
+    },
+    {
+      question: "What two variables affect carbon intensity?",
+      answers: [
+        { text: "Location and time", isCorrect: true },
+        { text: "Supply and demand", isCorrect: false },
+        { text: "Time and demand", isCorrect: false },
+      ],
+    },
+    {
+      question:
+        "Which of the following is not true about marginal power plants?",
+      answers: [
+        { text: "They are dispatchable", isCorrect: false },
+        { text: "They usually burn fossil fuels", isCorrect: false },
+        {
+          text: "They are located in places where clean energy sources are not available",
+          isCorrect: true,
+        },
+      ],
+    },
+    {
+      question: "What is curtailment?",
+      answers: [
+        { text: "Surplus energy supply", isCorrect: false },
+        {
+          text: "Energy that is thrown away due to oversupply",
+          isCorrect: true,
+        },
+        { text: "Reducing supply to match demand", isCorrect: false },
+      ],
+    },
+    {
+      question:
+        "Which of the following is not an example of carbon aware computing?",
+      answers: [
+        {
+          text: "Consuming more electricity when the carbon intensity is lower",
+          isCorrect: false,
+        },
+        { text: "Switching to renewable energy", isCorrect: true },
+        {
+          text: "Pausing production when carbon intensity is higher",
+          isCorrect: false,
+        },
+      ],
+    },
+    {
+      question: "What are the two types of demand shifting?",
+      answers: [
+        { text: "Temporal and permanent", isCorrect: false },
+        { text: "Spatial and temporal", isCorrect: true },
+        { text: "Curtailment and dispatchability", isCorrect: false },
+      ],
+    },
+    {
+      question: "What is demand shaping?",
+      answers: [
+        {
+          text: "Do more when carbon intensity is low, do less when carbon intensity is high",
+          isCorrect: true,
+        },
+        {
+          text: "Do more when carbon intensity is high, do less when carbon intensity is low",
+          isCorrect: false,
+        },
+        {
+          text: "Do more when costs are low, do less when costs are high",
+          isCorrect: false,
+        },
+      ],
+    },
+    {
+      question: "Which of the following is an example of carbon awareness?",
+      answers: [
+        {
+          text: "Creating a piece of software that produces very low emissions",
+          isCorrect: false,
+        },
+        {
+          text: "Canceling a process when you know carbon intensity is high",
+          isCorrect: true,
+        },
+        {
+          text: "Using cloud servers instead of in-house servers",
+          isCorrect: false,
+        },
+      ],
+    },
+  ]}
+/>
+

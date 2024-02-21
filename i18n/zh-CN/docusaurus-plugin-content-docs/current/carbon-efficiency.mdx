@@ -1,0 +1,159 @@
+---
+sidebar_position: 3
+title: 碳效率
+---
+
+import Quiz from "/src/components/Quiz";
+
+:::note
+This is a community contributed translation. It has limited support and might not match the latest English language version of the course.
+这是社区贡献的翻译。它的支持有限，可能与课程的最新英语版本不匹配
+:::
+
+:::tip 原则
+
+_排放尽可能少的碳。_
+
+:::
+
+## 简介
+
+了解温室气体对环境的影响是了解软件自身碳足迹的关键。在本章，您将了解在环境中存在哪些不同种类的温室气体、它们如何被排放以及该如何测量它们的排放。此外，您将了解世界各地不同组织正在采取哪些措施以控制和减少这些温室气体排放。
+
+您将了解温室气体核算体系（GHG protocol）及其对绿色软件从业者的意义。
+
+## 关键概念
+
+### 全球变暖 vs 气候变化
+
+[全球变暖](https://climate.nasa.gov/global-warming-vs-climate-change/)是自前工业化时期（1850年至1900年）以来观测到的地球气候系统长期变暖现象。该现象由人类活动引起，主要原因是化石燃料的燃烧。[气候变化](https://climate.nasa.gov/global-warming-vs-climate-change/) 指气温和天气模式的长期变化。尽管一些变化是自然引发的，但自 1800 年代以来，人类活动一直是气候变化的主要驱动因素。
+
+### 气候 vs 天气
+
+天气是指短期的气象情况，而气候指长期的气象情况。任何长期气象情况的变化都会引发短期的气象变化。一个显而易见的对照是，如果大气平均温度升高，那么任何特定季节的平均气温也会升高。以下列举了一些由于气候变化而引起的可测量天气变化：
+
+- 包括降雨在内的水循环变化
+- 冰川消融
+- 陆地、空气和海洋温度升高
+- 洋流的变化和海洋酸度、盐度的变化
+
+这些变化可能导致洪水（包括沿海地区的洪水，以及由于降雨量增加而引发的洪水）、干旱、野火和更频繁的极端天气现象。
+
+### 温室气体和温室效应
+
+温室气体是一类在地球大气中吸收太阳辐射热量的气体。这些气体就像一层覆盖地球的毯子，提升了地球表面的温度。这是一种自然现象，但人为碳排放会加速该现象。现在，全球气候正以超过动植物能适应的速度发生着变化。
+
+温室气体和温室效应对地球上的所有生命都至关重要，通常温室气体源于动物、火山和其他地质活动等自然资源。通过温室气体从太阳辐射中捕获更多热量，温室效应确保地球保持比没有温室气体时更高的温度。与地球上许多其他自然进程一样，温室效应是一种微妙调节的平衡，它可能会被多种因素破坏。
+
+### 碳和二氧化碳当量（CO2eq）
+
+碳通常被当做广义的术语，用于指代所有类型的温室气体排放以及影响全球变暖的活动。二氧化碳当量（CO2eq/CO2-eq/ CO2e）是用于衡量碳排影响的测量性术语。例如，1 吨甲烷与 [20 年内的 84 吨二氧化碳](https://energy.ec.europa.eu/topics/oil-gas-and-coal/macet-emissions_en)具有相同的变暖效应，所以我们将 1 吨甲烷标准化为 84 吨 CO2eq。我们甚至可以进一步简化为“碳”，因为“碳”这个术语通常用于指代所有温室气体。
+
+## 监控气候变化
+
+由于气候变化的影响和日益增多的破坏性天气事件，国际社会正在努力解决这些问题，并采取措施控制和限制全球变暖，以缓解和扭转气候变化带来的影响。
+
+[**巴黎气候协议**](https://unfccc.int/process-and-meetings/the-paris-agreement/the-paris-agreement) 是以减少地球温度升高的国际条约，由 196 个缔约方和联合国于 2015 年商定。该协议约定：相较于工业革命前时期，全球平均气上升控制在2°C以内，优选下限为1.5°C。该协议每五年审查一次，为发展中国家筹集资金，以减轻气候变化的影响，并为气候变化造成的环境影响做好准备。此外，各缔约方将预计通过国家自主贡献（NDC）更新其进展情况。目前该协议已有 193 个缔约方签署。
+
+[**联合国气候变化框架公约（UNFCCC）**](https://unfccc.int/process-and-meetings/the-convention/what-is-the-united-nations-framework-convention-on-climate-change)是全球性组织，旨在将大气中温室气体浓度稳定在不会对气候系统造成危险干扰的水平。
+
+[**缔约方会议（COP）**](https://unfccc.int/process/bodies/supreme-bodies/conference-of-the-parties-cop) 是一项由所有联合国气候变化框架公约的缔约方参与的年度活动。各方齐聚一堂，根据《巴黎气候协定》，审查并评估各缔约方在应对全球变暖方面取得的进展。同时，各方也将在会议上为减轻全球变暖所带来的影响做出决策。会议的常见主题包括减少碳排放的战略、为低碳战略提供资金以及保护自然栖息地。
+
+[**政府间气候变化专门委员会（IPCC）**](https://www.ipcc.ch/about/) 由联合国于 1988 年创建，旨在为各级政府提供用于制定气候政策的科学信息。IPCC 报告也是国际气候变化谈判的重要参考输入。 IPCC 由联合国成员或世界气象组织 (WMO) 成员组成，目前有 195 名成员。
+
+我们始终会因我们的活动产生碳排放，但碳效率意味着我们能够最大限度地减少每单位活动的碳排放量。我们旨在确保我们向大气排放的每一克碳都能获得最大的价值。
+
+![alt_text](./images/02_monitoring_climate_change.png "image_tooltip")
+
+在软件领域，我们可以通过**构建高碳效率的应用程序**在气候解决方案中发挥作用。而构建具有高碳效率的应用程序意味着该程序在为您或您的用户提供同等价值时，程序的碳排放量会更少。
+
+## 总结
+
+- 温室气体是一类导致全球变暖的气体。碳通常被用作一个广义术语，指所有对全球变暖产生影响的各类气体排放与活动。CO2eq 则是用于衡量这种影响的测量术语。
+- 国际社会齐心协力，依仗联合国气候变化框架公约等，通过减少排放来限制全球变暖的影响，目标是实现控制全球平均气温上升 1.5°C 的优选下限。该要求是联合国 IPCC 于 2015 年在巴黎气候协议会议上(https://unfccc.int/process-and-meetings/the-paris-agreement/the-paris-agreement) 中达成的协议，并定期于缔约方会议上进行监督。
+- 我们所做的一切都会向大气中排放碳，而我们的目标是尽可能减少碳排放量。这构成了绿色软件的首要原则：碳效率，即每单位的软件活动排放尽可能少的碳。
+
+## Quiz
+
+<Quiz
+  QuizList={[
+    {
+      question: "What are GHGs?",
+      answers: [
+        { text: "Greenhouse gases", isCorrect: true },
+        { text: "Global Heating gases", isCorrect: false },
+        { text: "Government Health Gateway", isCorrect: false },
+      ],
+    },
+    {
+      question: "How can we abbreviate carbon equivalent?",
+      answers: [
+        { text: "CO2eq or CO2e", isCorrect: false },
+        { text: "carbon or CO2e", isCorrect: false },
+        { text: "CO2eq or carbon", isCorrect: false },
+        { text: "CO2eq or CO2e or carbon", isCorrect: true },
+      ],
+    },
+    {
+      question: "What is the IPCC?",
+      answers: [
+        { text: "International Panel on Climate Change", isCorrect: false },
+        { text: "Intergovernmental Panel on Climate Change", isCorrect: true },
+        { text: "International Proposal on Climate Change", isCorrect: false },
+      ],
+    },
+    {
+      question: "What is COP?",
+      answers: [
+        { text: "Carbon Offsetting Project", isCorrect: false },
+        { text: "Conference on Pollution", isCorrect: false },
+        { text: "Conference of the Parties", isCorrect: true },
+      ],
+    },
+    {
+      question:
+        "What was the agreed preferred limit to the temperature rise in the Paris Climate Agreement?",
+      answers: [
+        { text: "1.5ºC", isCorrect: true },
+        { text: "2ºC", isCorrect: false },
+        { text: "2.5ºC", isCorrect: false },
+      ],
+    },
+    {
+      question: "Which of the following statements is true?",
+      answers: [
+        {
+          text: "Short term changes in the weather indicate long term changes to the climate",
+          isCorrect: false,
+        },
+        {
+          text: "Long term climate changes affect short-term weather conditions",
+          isCorrect: true,
+        },
+      ],
+    },
+    {
+      question:
+        "What has been the key driver of climate change in recent years?",
+      answers: [
+        { text: "Naturally occurring changes", isCorrect: false },
+        { text: "Human activity", isCorrect: true },
+        { text: "A combination of the above", isCorrect: false },
+      ],
+    },
+    {
+      question: "What do we need greenhouse gases for?",
+      answers: [
+        {
+          text: "Capturing more heat from the Sun to sustain life on Earth",
+          isCorrect: true,
+        },
+        {
+          text: "Reflecting heat away from the Earth",
+          isCorrect: false,
+        },
+        { text: "Nothing, they’re always damaging", isCorrect: false },
+      ],
+    },
+  ]}
+/>
