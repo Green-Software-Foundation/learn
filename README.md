@@ -46,6 +46,10 @@ Then to run the project locally type
 
 `yarn run docusaurus start`
 
+To test one of the translations use
+
+`yarn run docusaurus start --locale <locale>`
+
 and visit https://localhost:3000 in your favorite browser or whatever the command above prints out in the terminal.
 
 ## Site Configuration

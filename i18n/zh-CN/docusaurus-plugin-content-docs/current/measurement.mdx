@@ -1,0 +1,320 @@
+---
+sidebar_position: 7
+title: 衡量
+---
+
+import Quiz from "/src/components/Quiz";
+
+:::note
+This is a community contributed translation. It has limited support and might not match the latest English language version of the course.
+这是社区贡献的翻译。它的支持有限，可能与课程的最新英语版本不匹配
+:::
+
+:::tip 原则
+
+_没有度量就没有改进。_
+
+:::
+
+## 简介
+
+温室气体（Greenhouse Gas，GHG）核算体系是组织衡量其总碳排放量最常用的方法。了解 GHG 范围以及如何按照行业标准衡量软件，将帮助您了解您当前在实践绿色软件原则方面的程度以及未来能够改进的程度。
+
+作为 GHG 核算体系的补充，您还可以使用软件碳强度（Software Carbon Intensity，SCI）规范。GHG 是适用于所有类型组织的通用衡量方法，而 SCI 专门用于测量软件排放率，并旨在激励消除这些排放。
+
+GHG 是衡量总排放量的核算体系，SCI 作为工具使消除软件驱动的碳排放成为可能。
+
+我们将介绍每种衡量方法，并解释如何在不同情况下进行计算。
+
+## 温室气体核算体系
+
+[温室气体核算体系](https://ghgprotocol.org)是目前使用最广泛和国际公认的温室气体核算标准。 [92%](https://ghgprotocol.org/about-us) 的财富 500 强企业在计算和披露碳排放时会使用温室气体核算体系。
+
+温室气体核算体系将排放分为三个范围：
+
+- **范围 一**: 报告组织所拥有或控制的**运营活动**的直接排放，例如现场实地燃料燃烧或车队车辆排放。
+- **范围 二**: 与所**购买的能源**（例如热能和电力）相关的间接排放。
+- **范围 三**: 来自于您参与的所有其他活动带来的间接排放。包括所有**组织供应链的排放**，员工差旅以及客户在使用您的产品时可能消耗的电力所产生的排放。
+
+范围三，有时也被称为价值链排放，是最重要的排放来源，对许多组织来说也是最复杂的计算部分。这些排放涵盖了在生产产品或服务时从构思到分销所需的所有活动。以笔记本电脑为例，其生产过程中使用的每种原材料在被提取和加工时都会排放碳。价值链排放还包括笔记本电脑的使用排放，即将笔记本电脑销售给客户后用于为其供电的能源所产生的排放。
+
+通过这种方法，可以总结出世界上每个组织和个人的温室气体排放量，并得出一个全球总量。
+
+### 我的应用属于哪一范围？
+
+我们已经看到 GHG 核算体系如何要求我们根据范围一至三划分软件排放量。但对于软件来说，GHG 核算体系是如何工作的呢？
+
+大多数组织都有许多在不同架构和环境中运行的应用程序。因此您的排放范围（无论是能源产生的还是隐含碳）取决于您的具体的情况。
+
+![alt_text](./images/22_scope.png "image_tooltip")
+
+- **对于在您自己服务器上运行的云应用程序**，软件的能源使用属于范围二，而所有服务器的隐含碳属于范围三。
+- **对于公有云上运行的云应用程序**，无论是应用程序的能源使用还是隐含碳都属于范围三。
+- 在**运行混合私有/公共云应用程序**的情况下，部分排放将属于范围二，而部分排放将属于范围三。
+- 同样，对于面向客户的**前端应用**，应用的能源消耗属于组织的范围三，因为您的客户将购买能源为其设备供电。
+
+对于软件来说，无论它是在您拥有、租用还是客户拥有的基础设施上运行，都需要考虑以下三个参数来确定排放量：
+
+- 它消耗了多少能源？
+- 所使用的电力是清洁能源还是非清洁能源？
+- 它需要多少硬件才能正常运行？
+
+### 能否计算软件碳排放的总量？
+
+要计算软件碳排放的总量，您需要获取关于能源消耗、碳强度和软件运行依赖的硬件的详细数据。对于组织自己的闭源软件产品，即使可以通过遥测或日志跟踪其使用情况，收集这些数据也具有挑战性。
+
+开源软件维护者无法像闭源软件那样清楚地了解其软件的使用方式和地点、能源消耗量以及使用的硬件。
+
+开源项目通常有来自多个组织的多位贡献者。因此，目前尚不清楚谁应该负责计算排放量以及谁负责消除排放量。考虑到开源软件在典型企业技术栈中占据了 90% 的比例，很明显存在大量未计入的碳排放量。
+
+### 软件碳排放总量是否能够完整展现全部情况？
+
+总量只是描述事物状态的一种指标。为了做出正确的决策，您需要关注许多不同的指标。
+
+想象这一场景，您是一家组织的领导者，负责减少软件排放。您测量了第一季度的排放量，结果总计为 34 吨。在进行一些消减排放的项目投资后，您发现到第二季度，排放量增加至 45 吨。这是否意味着您的努力失败了呢？
+
+不一定。我们知道，单独的总量并不能完整地反映整个情况，必须查看其他指标才能判断减排项目是否成功。例如，如果您同时测量了碳强度和碳总量，您可能会得出不同的观点。在同一个项目中，如果第一季度的碳强度为 3.3 克 CO2eq/ 用户，而第二季度为 2.9 克 CO2eq/ 用户，您可能会认为该项目是成功的，并继续进一步投资。
+
+虽然总量告诉您，组织的碳排放总体上有所增加，但强度提供了一个更完整的视角，有助于更明智地决策如何继续进行。
+
+## 软件碳强度规范
+
+[软件碳强度（SCI）规范](https://grnsft.org/sci)是由绿色软件基金会的标准工作组开发的一种方法论，旨在根据可持续性维度对软件进行评分，并鼓励采取减少碳排放的行动。
+
+它并不是 GHG 核算体系的替代品，而是一种附加指标，帮助软件团队了解他们的软件在碳排放方面的行为，以便做出更明智的决策。GHG 核算体系计算的是**总排放量**，而 SCI 是计算**排放速率**。以汽车术语来说，SCI 更像是一个每加仑行驶公里数的测量，而 GHG 核算体系更像是一个汽车制造商及其每年生产的所有汽车的总碳足迹。
+
+SCI 将软件的碳排放分为**运营排放**（软件运行产生的碳排放）和**隐含排放**（运行软件所需的物理资源产生的碳排放），而不是将其划分为范围一至三。此外，SCI 是一种强度指标，而不是总量指标，更能涵盖开源软件。
+
+需要注意的重要一点是，无法以购买中和、补偿等形式的碳排抵消额，或购买可再生能源信用额的形式抵消电力来降低 SCI 分数。这意味着一个组织如果只是花钱购买碳信用而没有努力减少排放，是无法获得较好的 SCI 分数的。
+
+抵消是任何气候战略的重要组成部分；然而，抵消并非消除，因此不包含在 SCI 指标中。
+
+如果您使应用程序更加**节能、硬件高效**或**碳感知**，您的 SCI 分数将会降低。降低 SCI 分数的唯一途径就是投入时间或资源到这三个原则之一。因此，采用 SCI 作为软件应用程序的测量标准，同时结合 GHG 核算体系，将推动对绿色软件三大支柱之一的投资。
+
+### SCI 方程式
+
+SCI 是一种对任何软件应用进行评分的方法，不仅限于云端应用或终端用户应用，还包括介于两者之间的各种类型的应用。它提供了一种通用语言来描述软件在碳排放方面的行为，以及如何通过改变软件来消除部分排放。
+
+计算 SCI 分数的方程式非常简单且优雅。这种简单性意味着它可以应用于许多不同的场景。
+
+![alt_text](./images/23_SCI.png "image_tooltip")
+
+`SCI = ((E *I) + M) per R`
+
+`E` = 软件系统消耗的能源
+`I` = 基于位置的边际碳排放*
+`M` = 软件系统的隐含排放*
+`R` = 功能单元（例如，每增加一个用户、每个API调用、每个机器学习任务等）
+
+总结如下：
+
+`SCI = C per R` (每个`R`的碳排放量)
+
+`R` 是 SCI 的核心特征，将其转化为强度而不是总量。这就是我们所称的_功能单元_。
+
+## 如何计算 SCI 分数
+
+按照以下四个步骤计算 SCI 分数。
+
+1. 决定需包含的内容
+
+在 SCI 分数中包含或排除哪些软件组件意味着定义软件的边界，从哪里开始及到哪里结束。
+
+对于包含的每个软件组件，您需要测量其影响。对于排除的每个主要组件，您需要解释原因。
+
+SCI 规范目前并没有就包含/不包含哪些内容做任何要求。然而，您必须把所有起支持作用的、对软件运行有重要贡献的基础设施和系统包含在内。
+
+因为您缩小了软件边界并排除了更多的软件组件，您的 SCI 分数可能会降低。相反，您的 SCI 分数可能会增加，因为您包括了此前排除的软件组件。所以在报告您的 SCI 分数，特别是分数提升时，披露您的软件边界是至关重要的。
+
+2. 选择功能单元
+
+正如我们所见，SCI 是一个速率指标而不是总量指标，它会根据所选择的功能单元测量排放强度。目前 SCI 规范不规定功能单元，您可以自由选择最能描述应用程序扩展性的单元。例如，如果您的应用程序按用户数量扩展，则选择用户作为功能单元。
+
+未来的 SCI 版本可能会为不同类型的应用程序规定特定的功能单元，以便于比较。例如，我们可能要求流媒体应用程序选择分钟作为其功能单元，以便在所有流媒体应用程序之间进行标准化测量。
+
+3. 决定如何测量您的排放量
+
+现在您已经列出了要测量的软件组件和用于测量的功能单元。下一步是决定如何测量每个软件组件的排放量。
+
+有两种方法：测量和计算。
+
+- **测量**是使用某种形式的计数器。例如，通过使用墙上插座的硬件设备来测量您的软件组件的能源消耗。或者使用硬件上的计数器直接测量能源消耗。如果您可以直接计数，则应使用测量方法。
+- **计算**包括间接计数，通常使用某种形式的模型。例如，如果您无法直接测量应用程序的能源消耗，而是有一个基于 CPU 利用率的模型估计能源消耗，这被视为计算而不是测量。
+
+以下资源可帮助您决定采用测量或计算的方式：
+
+- 查看[软件碳强度指南](https://sci-guide.greensoftware.foundation/)项目。该项目负责提供有关如何量化不同软件组件排放量的建议。
+
+4. 量化
+
+现在您已经准备好开始执行了。使用前面步骤中描述的方法，开始量化边界内每个软件组件的 SCI 得分。您的软件应用程序的 SCI 总分是所有不同组件的分数之和。
+
+您可以为同一个应用程序计算多个 SCI 分数。SCI 分数是有助于了解您的应用程序在不同情景下的碳排放行为的有用信息。例如，流媒体应用程序可能会选择每分钟的碳排放量作为指标。它还可以计算每个用户每天的碳排放量。每美元收入的碳排放量指标可能会提供另一个有用的维度。
+
+## 总结
+
+- GHG 核算体系是衡量组织总碳排放的衡量标准，被世界各地的组织所使用。
+- GHG 核算体系将碳排放分为三个范围。范围三，也称为价值链排放，指的是组织在供应链中所产生的排放。因此，一个组织的范围一和范围二的排放可能将汇总成另一个组织范围三的排放。
+- 使用 GHG 核算体系计算软件驱动的排放是可行的，但对于开源软件来说可能会很困难。
+- SCI 是一种专门设计用于计算软件排放的衡量标准，它是一种速率指标而非总量指标。
+- SCI 没有规定测量的功能单元，您应选择可以反映您的应用程序的内容。
+
+## Quiz
+
+<Quiz
+  QuizList={[
+    {
+      question:
+        "How does the Greenhouse Gas protocol ask us to measure emissions?",
+      answers: [
+        {
+          text: "By dividing emissions into three scopes",
+          isCorrect: true,
+        },
+        {
+          text: "By dividing emissions into embodied carbon and day-to-day emissions",
+          isCorrect: false,
+        },
+        {
+          text: "By dividing emissions from applications running on the public cloud and the private cloud",
+          isCorrect: false,
+        },
+      ],
+    },
+    {
+      question:
+        "Which of the 3 scopes used in the GHG protocol is also known as ‘value chain emissions’?",
+      answers: [
+        {
+          text: "1",
+          isCorrect: false,
+        },
+        {
+          text: "2",
+          isCorrect: false,
+        },
+        {
+          text: "3",
+          isCorrect: true,
+        },
+        {
+          text: "1 and 2",
+          isCorrect: false,
+        },
+        {
+          text: "all of the above",
+          isCorrect: false,
+        },
+      ],
+    },
+    {
+      question:
+        "If you are a cloud application, which GHG scope does your energy consumption fall into?",
+      answers: [
+        {
+          text: "Scopes 2 and 3",
+          isCorrect: false,
+        },
+        {
+          text: "Scope 2",
+          isCorrect: false,
+        },
+        {
+          text: "Scope 3",
+          isCorrect: false,
+        },
+        {
+          text: "Depends whether it’s public, private or hybrid",
+          isCorrect: true,
+        },
+      ],
+    },
+    {
+      question:
+        "Which of the following scenarios is more challenging to measure using the GHG protocol?",
+      answers: [
+        {
+          text: "Closed-source software",
+          isCorrect: false,
+        },
+        {
+          text: "Open-source software",
+          isCorrect: true,
+        },
+        {
+          text: "Both of the above",
+          isCorrect: false,
+        },
+      ],
+    },
+    {
+      question: "What does the acronym SCI stand for?",
+      answers: [
+        {
+          text: "Software Carbon Index",
+          isCorrect: false,
+        },
+        {
+          text: "Software Carbon Intensity",
+          isCorrect: true,
+        },
+        {
+          text: "Specific Carbon Intensity",
+          isCorrect: false,
+        },
+      ],
+    },
+    {
+      question: "What does ((E*I) + M) represent in the SCI equation?",
+      answers: [
+        {
+          text: "Carbon",
+          isCorrect: true,
+        },
+        {
+          text: "Energy",
+          isCorrect: false,
+        },
+        {
+          text: "Carbon intensity",
+          isCorrect: false,
+        },
+      ],
+    },
+    {
+      question: "What does the ‘R’ represent in the SCI equation?",
+      answers: [
+        {
+          text: "Repetition",
+          isCorrect: false,
+        },
+        {
+          text: "Rate",
+          isCorrect: false,
+        },
+        {
+          text: "Functional unit",
+          isCorrect: true,
+        },
+      ],
+    },
+    {
+      question:
+        "What are the key things to consider before calculating your SCI score?",
+      answers: [
+        {
+          text: "What to include and the functional unit you will use",
+          isCorrect: false,
+        },
+        {
+          text: "What to include, the functional unit you will use and method of quantification",
+          isCorrect: true,
+        },
+        {
+          text: "What to include, the functional unit you will use, method of quantification and GHG score",
+          isCorrect: false,
+        },
+      ],
+    },
+  ]}
+/>

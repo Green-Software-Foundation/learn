@@ -1,0 +1,212 @@
+---
+sidebar_position: 6
+title: 硬件效率
+---
+
+import Quiz from "/src/components/Quiz";
+
+:::note
+This is a community contributed translation. It has limited support and might not match the latest English language version of the course.
+这是社区贡献的翻译。它的支持有限，可能与课程的最新英语版本不匹配
+:::
+
+:::tip 原则
+
+_产生尽量少的隐含碳。_
+
+:::
+
+## 简介
+
+对于绿色软件实践者，创建软件时所用的硬件是值得考量的一个重要元素。
+
+通过本章节，你会了解到隐含碳是隐藏在硬件中的碳排放量，并了解到你可以采用不同措施减少硬件制造、销毁和运行过程中产生的碳排放影响，比如延长硬件的使用寿命或者切换至云服务器。
+
+## 关键概念
+
+### 隐含碳
+
+你正在用来阅读本章节的设备在生产时会产生碳排放，并且当其使用寿命结束时，对其处理可能会释放更多的碳。隐含碳（又称为嵌入碳）是指设备制造和销毁过程中的碳排放量。
+
+当计算运行软件的总碳排放量时，计算机运行软件产生的碳排放和计算机的隐含碳都必须计入在内。
+
+![alt_text](./images/17_embodioed_carbon.png "image_tooltip")
+
+隐含碳会随着终端用户设备显著变化。苏黎世大学的[研究](https://www.ifi.uzh.ch/dam/jcr:fa4e956e-7a53-4038-98a5-00e09e2f4303/Study_Digitalization_Climate_Protection_Summary_Oct2017.pd)表明一些设备生产时产生的碳排放可能显著高于使用时。因此隐含碳成本有时可能显著高于为其供电的碳成本。
+
+考虑到隐含碳，所有设备，即使不耗电，仍在其生命周期内产生了碳排放。
+
+### 分摊碳排放
+
+一种计算隐含碳的方式时将设备预计的碳排放分摊到生命周期内。例如假设生产一台服务器需要4000kg CO2eq 的碳排放，并且我们预计这台服务器的使用寿命是四年。通过分摊，我们可以说这台服务器会每年产生 1000kg CO2eq 的碳排放。
+
+![alt_text](./images/18_amortization.png "image_tooltip")
+
+## 如何提高硬件效率
+
+如果我们将隐含碳纳入考虑，显然当我们决定购买计算机时，它已排放了不少碳。计算机的生命周期也是有限的，这意味着它们终有一天会不能适应新的负载进而需要被置换。从这个角度考虑，硬件代表了碳排放，所以当我们希望实现高碳效率时，我们所使用的硬件也必须高碳效率。
+
+提高硬件效率主要有两种方法：
+
+- 对于终端用户， **延长设备的使用时间**。
+- 对于云计算， **提高设备利用率**。
+
+### 延长硬件寿命
+
+在先前我们看到的例子中，我们仅增加服务器一年的使用时间，分摊到每年后，它的隐含碳就会从1000kg CO2eq/年 减少到 800kg CO2eq/年。
+
+![alt_text](./images/19_lifespan.png "image_tooltip")
+
+当硬件无法工作或难以处理所需负载时会被淘汰。当然硬件最后一定会无法工作，但是作为软件开发人员的我们可以构建能够在旧硬件上工作的应用，以延长设备的使用周期。
+
+### 提高设备利用率
+
+在云领域中，提高硬件效率通常意味着提升服务器的利用率。使用一台利用率为 100% 的服务器，相较于使用五台利用率 20% 的服务器，能减少更多的隐含碳。就像拥有一辆每天使用的车相较于拥有五辆车并在一周内每天使用不同的车更高效一样，使用满负荷运行的服务器比使用更多低负荷运行的服务器更高效。虽然运行时排放量相同，但隐含碳会更低得多。
+
+![alt_text](./images/20_increasing_utilization.png "image_tooltip")
+
+满足峰值需求是产生低利用率服务器的主要原因。将服务器的利用率保持在 20%，就能在不影响性能的情况下应对需求高峰。但是这些闲置量也同时意味着被浪费的隐含碳量。硬件高碳效率意味着确保设备在尽量长的周期内被尽量高频的使用。
+
+公有云的主要优点是当你需要扩容时，它总能承担完成任务。当多个组织使用公有云时，空闲的容量总能被用于其他需要的人，所以服务器不会被闲置。
+
+值得注意的是，仅仅将业务转移到公有云并不会自动减少碳排放量。它只是为您提供了重新架构软件的空间，使减排成为可能。
+
+![alt_text](./images/21_private_vs_public_cloud.png "image_tooltip")
+
+## 总结
+
+- 隐含碳是在设备生产和损耗过程中释放的碳污染量。
+- 当计算运行软件的总碳排放量时，计算机运行软件产生的碳排放和计算机的隐含碳都必须计入在内。
+- 延长设备的使用周期能分摊碳排放量，从而减少每年的 CO2eq 碳。
+- 云计算相较于本地部署的服务器更节能，因为它可以进行需求转移和需求塑造。
+
+## Quiz
+
+<Quiz
+  QuizList={[
+    {
+      question: "What is embodied carbon?",
+      answers: [
+        {
+          text: "The carbon that was emitted in the creation of a device",
+          isCorrect: false,
+        },
+        {
+          text: "The carbon emissions associated with both the creation and disposal of a device",
+          isCorrect: true,
+        },
+        {
+          text: "The carbon emissions associated with the disposal of a device",
+          isCorrect: false,
+        },
+      ],
+    },
+    {
+      question: "What accounts for the total carbon pollution of a computer?",
+      answers: [
+        {
+          text: "The embodied carbon of the device",
+          isCorrect: false,
+        },
+        {
+          text: "The emissions produced when running the device",
+          isCorrect: false,
+        },
+        {
+          text: "Both the above",
+          isCorrect: true,
+        },
+      ],
+    },
+    {
+      question:
+        "What are the two key ways of being more efficient with hardware?",
+      answers: [
+        {
+          text: "Extending its lifespan and reducing its utilization",
+          isCorrect: false,
+        },
+        {
+          text: "Extending its lifespan and increasing its utilization",
+          isCorrect: true,
+        },
+        {
+          text: "Reducing its lifespan and increasing its utilization",
+          isCorrect: false,
+        },
+      ],
+    },
+    {
+      question:
+        "How does hardware efficiency affect the carbon pollution of a device?",
+      answers: [
+        {
+          text: "It eliminates it",
+          isCorrect: false,
+        },
+        {
+          text: "It increases it",
+          isCorrect: false,
+        },
+        {
+          text: "It reduces it",
+          isCorrect: true,
+        },
+      ],
+    },
+    {
+      question:
+        "What is the amortized carbon of a device with an embodied carbon of 1000kg CO2eq and a lifespan of 5 years?",
+      answers: [
+        {
+          text: "200kg CO2eq/year",
+          isCorrect: true,
+        },
+        {
+          text: "20kg CO2eq/year",
+          isCorrect: false,
+        },
+        {
+          text: "200kg CO2eq",
+          isCorrect: false,
+        },
+      ],
+    },
+    {
+      question:
+        "What are some of the differences between having your servers on a public cloud compared to a private cloud?",
+      answers: [
+        {
+          text: "On the public cloud, you can scale up quickly",
+          isCorrect: false,
+        },
+        {
+          text: "On a private cloud, you need to have servers running below capacity in order to meet surges in demand",
+          isCorrect: false,
+        },
+        {
+          text: "Both the above are true",
+          isCorrect: true,
+        },
+      ],
+    },
+    {
+      question:
+        "Why is it so important to include embodied carbon when calculating emissions for hardware?",
+      answers: [
+        {
+          text: "Embodied carbon sometimes accounts for more emissions than the emissions from the electricity powering the device",
+          isCorrect: true,
+        },
+        {
+          text: "Embodied carbon represents a small but significant  of overall emissions from a device",
+          isCorrect: false,
+        },
+        {
+          text: "Embodied carbon is the only source of emissions that should be considered when calculating overall emissions for a device?",
+          isCorrect: false,
+        },
+      ],
+    },
+  ]}
+/>
