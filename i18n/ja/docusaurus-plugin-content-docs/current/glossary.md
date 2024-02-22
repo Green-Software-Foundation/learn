@@ -1,8 +1,12 @@
 ---
 sidebar_position: 9
+title: 用語集
 ---
 
-# 用語集
+:::note
+This is a community contributed translation. It has limited support and might not match the latest English language version of the course.
+これはコミュニティによって提供された翻訳です。サポートが限定されているため、コースの最新の英語版と一致しない可能性があります。
+:::
 
 ## 頭字語
 
