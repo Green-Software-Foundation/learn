@@ -12,21 +12,29 @@ We welcome community contributed translations of the course.
 
 ### Prepare your translation
 
-To make the process simpler we have created a [locale template](https://github.com/Green-Software-Foundation/learn/tree/main/i18n/template) that you can duplicate and update -
+To make the process simpler we have created a [locale template](https://github.com/Green-Software-Foundation/learn/tree/main/i18n/template) that you can duplicate and update.
 
 To prepare your translation follow these steps:
 
 1. Fork the repository: https://github.com/Green-Software-Foundation/learn/fork
 2. Create a new branch for your translation - e.g. "translation-de".
-3. Duplicate the template folder - "/i18n/template".
-4. Name the new folder based on the language locale code - (e.g. 'de' for German) https://simplelocalize.io/data/locales/
+3. Duplicate the template locale folder - "/i18n/template".
+4. Name the new folder based on the [language locale code](https://simplelocalize.io/data/locales/) - e.g. 'de' for German
 5. Update the course content in the "docusaurus-plugin-content-docs/current" folder.
 6. Optionally update the images in "docusaurus-plugin-content-docs/current/images". Contact us if you need access to the original image assets.
 7. Update the UI elements in "docusaurus-theme-classic/footer.json" & "docusaurus-theme-classic/navbar.json".
 
+### Test your translation
+
+```
+npm -g install yarn
+yarn install
+yarn run docusaurus start --locale <locale>
+```
+
 ### Submit for review
 
-1. Raise a Pull Request for your translation against the **main** branch.
+1. Raise a [Pull Request](https://github.com/Green-Software-Foundation/learn/pulls) for your translation against the **[main](https://github.com/Green-Software-Foundation/learn/tree/main)** branch.
 2. The PR will be reviewed by the the project team and feedback will be provided within 4 weeks.
 
 ### Go Live
