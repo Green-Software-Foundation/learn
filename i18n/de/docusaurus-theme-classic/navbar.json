@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "Green Software for Practitioners",
+    "description": "Der Titel in der Navigationsleiste"
+  },
+  "item.label.Take the exam": {
+    "message": "Mach die Zertifizierung Green Software for Practitioners (LFC131) ",
+    "description": "Navbar-Element mit Beschriftung"
+  },
+  "item.label.a Green Software Foundation project": {
+    "message": "ein Green Software Foundation Projekt",
+    "description": "Navbar-Element mit dem Label ein Green Software Foundation Projekt"
+  }
+}
