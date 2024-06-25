@@ -1,10 +1,10 @@
 ---
 sidebar_position: 9
-title: Glossary
+title: Glossaire
 ---
 
 :::note
-This is a community contributed translation. It has limited support and might not match the latest English language version of the course.
+Il s’agit d’une traduction fournie par la communauté. Le support est limité et pourrait ne pas correspondre à la version anglaise la plus récente du cours.
 :::
 
 ## Acronyms
@@ -12,213 +12,213 @@ This is a community contributed translation. It has limited support and might no
 
 <table>
   <tr>
-   <td><strong>Term</strong>
+   <td><strong>Terme</strong>
    </td>
-   <td><strong>Acronym</strong>
+   <td><strong>Acronyme</strong>
    </td>
-   <td><strong>Definition</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Greenhouse gases</strong>
-   </td>
-   <td><strong>GHGs</strong>
-   </td>
-   <td>Greenhouse gases<strong> </strong>are a group of gases that trap heat from solar radiation in the Earth's atmosphere. These gases act as a blanket, increasing the temperature on the surface of the Earth.
+   <td><strong>Définition</strong>
    </td>
   </tr>
   <tr>
-   <td><strong>Carbon dioxide</strong>
+   <td><strong>Gaz à effet de serre</strong>
+   </td>
+   <td><strong>GES</strong>
+   </td>
+   <td><strong>Les gaz à effet de serre</strong>sont un groupe de gaz qui emprisonnent la chaleur du rayonnement solaire dans l’atmosphère terrestre. Ces gaz agissent comme une couverture, augmentant la température à la surface de la Terre.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Dioxide de carbone</strong>
    </td>
    <td><strong>CO2</strong>
    </td>
-   <td>One of the most common greenhouse gases.
+   <td>C'est l’un des gaz à effet de serre les plus courants.
    </td>
   </tr>
   <tr>
-   <td><strong>Methane</strong>
+   <td><strong>Méthane</strong>
    </td>
    <td><strong>CH4</strong>
    </td>
-   <td>A common gaseous hydrocarbon, which has a warming effect 84 times that of CO2 over 20 years and 28 times that of CO2 over 100 years.
+   <td>C'est un hydrocarbure gazeux commun, qui a un effet de réchauffement 84 fois supérieur à celui du CO2 sur 20 ans et 28 fois supérieur à celui du CO2 sur 100 ans.
    </td>
   </tr>
   <tr>
-   <td><strong>Sulfur hexafluoride</strong>
+   <td><strong>Hexafluorure de soufre</strong>
    </td>
    <td><strong>SF6</strong>
    </td>
-   <td>A man-made gas used as an electrical insulator that has a warming effect 23,500 times that of CO2. 
+   <td>C'est un gaz artificiel utilisé comme isolant électrique et qui a un effet de réchauffement 23500 fois supérieur à celui du CO2. 
    </td>
   </tr>
   <tr>
-   <td><strong>Carbon dioxide equivalent</strong>
+   <td><strong>Equivalent dioxyde de carbone</strong>
    </td>
    <td><strong>CO2eq / CO2-eq / CO2e</strong>
    </td>
-   <td>Carbon is used as a common form of measurement for all greenhouse gases. This unit of measurement indicates the potential impact of non-CO2 gases on global warming in carbon terms.
+   <td>Le carbone est utilisé comme une méthode commune de mesure pour tous les gaz à effet de serre. Cette unité de mesure indique l’impact potentiel des gaz autres que le CO2 sur le réchauffement climatique en terme de carbone.
    </td>
   </tr>
   <tr>
-   <td><strong>Kilowatt hours</strong>
+   <td><strong>Kilowatt heures</strong>
    </td>
    <td><strong>kWh</strong>
    </td>
-   <td>The standard unit of measurement for energy consumption.
+   <td>L’unité de mesure standard pour la consommation d’énergie.
    </td>
   </tr>
   <tr>
-   <td><strong>Power usage effectiveness </strong>
+   <td><strong>Indicateur d'efficacité énergétique</strong>
    </td>
    <td><strong>PUE</strong>
    </td>
-   <td>The metric used to measure data center energy efficiency. 
+   <td>Mesure utilisée pour mesurer l’efficacité énergétique des centres de données.
    </td>
   </tr>
   <tr>
-   <td><strong>Global warming potential</strong>
+   <td><strong>Potentiel de réchauffement global</strong>
    </td>
-   <td><strong>GWP</strong>
+   <td><strong>PRG</strong>
    </td>
-   <td>The potential impact of greenhouse gases on global warming. Measured in terms of CO2e.
-   </td>
-  </tr>
-  <tr>
-   <td><strong>World Meteorological Organization</strong>
-   </td>
-   <td><strong>WMO</strong>
-   </td>
-   <td>A specialized agency of the United Nations whose mandate covers weather, climate and water resources.
+   <td>L’impact potentiel des gaz à effet de serre sur le réchauffement de la planète. Mesuré en CO2e.
    </td>
   </tr>
   <tr>
-   <td><strong>Million metric tonnes of carbon dioxide equivalent </strong>
+   <td><strong>Organisation météorologique mondiale</strong>
+   </td>
+   <td><strong>OMM</strong>
+   </td>
+   <td>Une agence spécialisée des Nations Unies dont le mandat traite du temps, du climat et des ressources en eau.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Métrique des millions de tonnes d’équivalent en dioxyde de carbone</strong>
    </td>
    <td><strong>MMTCDE</strong>
    </td>
-   <td>Measurement term for CO2eq
+   <td>Terme de mesure pour le CO2eq
    </td>
   </tr>
   <tr>
-   <td><strong>Nationally Determined Contribution</strong>
+   <td><strong>Contribution déterminée au niveau national</strong>
    </td>
-   <td><strong>NDC</strong>
+   <td><strong>CDN</strong>
    </td>
-   <td>The means by which members of the Paris Climate Agreement are expected to update their progress.
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Conference of the Parties</strong>
-   </td>
-   <td><strong>COP</strong>
-   </td>
-   <td>An annual event involving all parties in the United Nations Framework Convention on Climate Change. 
+   <td>Les moyens par lesquels les membres de l’Accord de Paris sur le climat devraient actualiser leurs progrès.
    </td>
   </tr>
   <tr>
-   <td><strong>United Nations Framework Convention on Climate Change</strong>
+   <td><strong>Conférence des Parties</strong>
    </td>
-   <td><strong>UNFCCC</strong>
+   <td><strong>CP</strong>
    </td>
-   <td>A group created to achieve the stabilization of greenhouse gas concentrations in the atmosphere at a level that would prevent dangerous interference with the climate system.
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Intergovernmental Panel on Climate Change</strong>
-   </td>
-   <td><strong>IPCC</strong>
-   </td>
-   <td>The objective of the IPCC is to provide governments at all levels with scientific information that they can use to develop climate policies.
+   <td>Un événement annuel impliquant toutes les parties à la Convention-cadre des Nations Unies sur les changements climatiques. 
    </td>
   </tr>
   <tr>
-   <td><strong>Science Based Targets initiative</strong>
+   <td><strong>Convention-cadre des Nations Unies sur les changements climatiques</strong>
+   </td>
+   <td><strong>CCNUCC</strong>
+   </td>
+   <td>Un groupe créé pour stabiliser les concentrations de gaz à effet de serre dans l’atmosphère à un niveau qui empêcherait toute interférence dangereuse avec le système climatique.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Groupe d’experts intergouvernemental sur l’évolution du climat</strong>
+   </td>
+   <td><strong>GIEC</strong>
+   </td>
+   <td>L’objectif du GIEC est de fournir aux gouvernements à tous les niveaux des informations scientifiques qu’ils peuvent utiliser pour élaborer des politiques climatiques.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Initiative des objectifs scientifiques</strong>
    </td>
    <td><strong>SBTi</strong>
    </td>
-   <td>A body that defines and promotes best practice in science-based target setting. For example, creating the standards for net zero
+   <td>Un organisme qui définit et promeut les meilleures pratiques en matière d’établissement d’objectifs fondés sur la science. Par exemple, créer des normes pour le zéro carbone.
    </td>
   </tr>
   <tr>
-   <td><strong>Carbon-free energy</strong>
+   <td><strong>Energies décarbonées</strong>
    </td>
    <td><strong>CFE</strong>
    </td>
-   <td>This term is usually used to talk about the percentage of renewable energy used as a proportion of the total energy used
+   <td>Ce terme est généralement utilisé pour parler du pourcentage d’énergie renouvelable utilisée en proportion de l’énergie totale utilisée.
    </td>
   </tr>
   <tr>
-   <td><strong>Power Purchase Agreement</strong>
+   <td><strong>Contrat d’Achat Direct d’Energie Renouvelable</strong>
    </td>
-   <td><strong>PPA</strong>
+   <td><strong>CADER</strong>
    </td>
-   <td>A contract you sign with a power plant to purchase RECs
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Renewable Energy Credit</strong>
-   </td>
-   <td><strong>REC</strong>
-   </td>
-   <td>Renewable energy credits (also known as renewable energy certificates) represent the energy generated by renewable energy sources
+   <td>Un contrat que vous signez avec une centrale électrique pour acheter des CERs.
    </td>
   </tr>
   <tr>
-   <td><strong>Paris Climate Agreement</strong>
+   <td><strong>Crédits d'énergie renouvelable</strong>
    </td>
-   <td><strong>PCA</strong>
+   <td><strong>CER</strong>
    </td>
-   <td>An international treaty agreed in 2015 by 196 parties and the UN to reduce the Earth's temperature increase
+   <td>Les crédits d’énergie renouvelable (également appelés certificats d’énergie renouvelable) représentent l’énergie produite par les sources d’énergie renouvelable.
    </td>
   </tr>
   <tr>
-   <td><strong>joules</strong>
+   <td><strong>Accord climatique de Paris</strong>
+   </td>
+   <td><strong>ACP</strong>
+   </td>
+   <td>Un traité international approuvé en 2015 par 196 parties et l’ONU pour réduire l’augmentation de la température de la Terre.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Joules</strong>
    </td>
    <td><strong>J</strong>
    </td>
-   <td>Energy is measured in <strong>joules (J)</strong>. 
+   <td>L'énergie est mesurée en <strong>joules (J)</strong>. 
    </td>
   </tr>
   <tr>
-   <td><strong>grams of carbon per kilowatt hour</strong>
+   <td><strong>Grammes de carbone par kilowatt-heure</strong>
    </td>
    <td><strong>gCO2eq/kWh</strong>
    </td>
-   <td>The standard unit of carbon intensity is <strong>gCO2eq/kWh</strong>, or grams of carbon per kilowatt hour.
+   <td>L’unité standard d’intensité en carbone est <strong>gCO2eq/kWh</strong>, ou grammes de carbone par kilowatt-heure.
    </td>
   </tr>
   <tr>
-   <td><strong>Voluntary Carbon Market</strong>
+   <td><strong>Marché volontaire du carbone</strong>
    </td>
-   <td><strong>VCM</strong>
+   <td><strong>MVC</strong>
    </td>
-   <td>A decentralized market where private actors voluntarily buy and sell carbon credits that represent certified removals or reductions of greenhouse gases (GHGs) in the atmosphere. 
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Verified Carbon Standard</strong>
-   </td>
-   <td><strong>VCS</strong>
-   </td>
-   <td>A standard for certifying carbon emissions reductions.
+   <td>Un marché décentralisé où les acteurs privés achètent et vendent volontairement des crédits carbone qui représentent des absorptions ou des réductions certifiées de gaz à effet de serre (GES) dans l’atmosphère. 
    </td>
   </tr>
   <tr>
-   <td><strong>Software Carbon Intensity</strong>
+   <td><strong>Standard de vérification du carbone</strong>
+   </td>
+   <td><strong>SVC</strong>
+   </td>
+   <td>Une norme pour certifier les réductions d’émissions de carbone.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Intensité en carbone des logiciels</strong>
    </td>
    <td><strong>SCI</strong>
    </td>
-   <td>A standard which gives an actionable approach to software designers, developers and operations to measure the carbon impacts of their systems.
+   <td>Une norme qui donne une approche concrète aux concepteurs de logiciels, aux développeurs et aux opérations pour mesurer les impacts carbone de leurs systèmes.
    </td>
   </tr>
 </table>
 
-## Useful Terms
+## Termes utiles
 
-* [Carbon Intensity](./carbon-awareness/#carbon-intensity) - Measures the amount of greenhouse gases emitted per unit of electricity produced.
-* [Demand Shaping](./carbon-awareness/#demand-shaping) - The strategy of shaping our computation to match the existing clean electricity supply.
-* [Greenhouse Gas protocol](https://ghgprotocol.org) - The most widely used and internationally recognized greenhouse gas accounting standard.
-* [Value chain emissions](https://www.cisl.cam.ac.uk/education/graduate-study/pgcerts/value-chain-defs) - These are scope 3 emissions according to the GHG protocol, and the most significant source of emissions. They encompass the full range of activities needed to create a product or service, from conception to distribution.
-* [Energy proportionality](./energy-efficiency/#energy-proportionality) - Measures the relationship between power consumed by a computer and the rate at which useful work is done (its utilization).
-* [Static power draw](./energy-efficiency/#static-power-draw) - This refers to how much electricity is drawn when a device is in an idle state. 
-* [Embodied Carbon](./hardware-efficiency/#embodied-carbon) (also known as "embedded carbon") - The amount of carbon pollution emitted during the creation and disposal of a device.
+* [Intensité carbone](./carbon-awareness/#carbon-intensity) - Mesure la quantité de gaz à effet de serre émis par unité d’électricité produite.
+* [Planification de la demande](./carbon-awareness/#demand-shaping) - La stratégie de planifier notre calcul pour correspondre à l’approvisionnement en électricité propre.
+* [Protocole des GES](https://ghgprotocol.org) - Norme de comptabilisation des gaz à effet de serre la plus utilisée et reconnue mondialement.
+* [Émissions de la chaîne de valeur](https://www.cisl.cam.ac.uk/education/graduate-study/pgcerts/value-chain-defs) - Il s’agit des émissions du périmètre 3 selon le protocole des GES et la source la plus importante d’émissions. Ils englobent l’ensemble des activités nécessaires à la création d’un produit ou d’un service, de la conception à la distribution.
+* [Proportionnalité énergétique](./energy-efficiency/#energy-proportionality) - Mesure la relation entre la puissance consommée par un ordinateur et la vitesse à laquelle le travail utile est effectué (son utilisation).
+* [Consommation d’électricité statique](./energy-efficiency/#static-power-draw) - Il s’agit de la quantité d’électricité consommée lorsqu’un appareil est dans un état inactif.
+* [Empreinte carbone](./hardware-efficiency/#embodied-carbon) (connu aussi en tant que "carbone intrinsèque") - La quantité de pollution au carbone émise lors de la création et de l’élimination d’un appareil.
