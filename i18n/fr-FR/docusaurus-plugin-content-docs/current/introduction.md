@@ -28,11 +28,11 @@ En 2019, la version originale des huit principes du génie logiciel éco-respons
 La formation suivante couvre six domaines clés qu’un spécialiste des logiciels écologiques devrait connaître:
 
 1. **Efficacité carbone**: Émettre le moins de carbone possible.
-2. **Efficacité énergétique** : Utiliser le moins d’énergie possible.
-3. **Sensibilisation au carbone** : Faire plus lorsque l’électricité est plus propre et faites moins lorsque l’électricité est plus carbonées.
-4. **Efficacité du matériel** : Utiliser le moins de carbone induit possible.
-5. **Mesure** : Ce que vous ne pouvez pas mesurer, vous ne pouvez pas l’améliorer.
-6. **Engagements climatiques** : Comprendre le mécanisme exact de réduction du carbone.
+2. **Efficacité énergétique**: Utiliser le moins d’énergie possible.
+3. **Sensibilisation au carbone**: Faire plus lorsque l’électricité est plus propre et faites moins lorsque l’électricité est plus carbonées.
+4. **Efficacité du matériel**: Utiliser le moins de carbone induit possible.
+5. **Mesure**: Ce que vous ne pouvez pas mesurer, vous ne pouvez pas l’améliorer.
+6. **Engagements climatiques**: Comprendre le mécanisme exact de réduction du carbone.
 
 Chacun de ces chapitres présentera de nouveaux concepts et expliquera en détail pourquoi ils sont importants en termes de climat, et comment vous pouvez les appliquer à vos pratiques de logiciels éco-responsables.
 
@@ -46,6 +46,6 @@ Un logiciel éco-responsable **pratique** est un modèle appliqué au produit d�
 
 Les pratiques devraient faire référence à des modèles qui eux-mêmes devraient faire référence à des principes.
 
-La Green Software Foundation publie également un [catalogue de modèles de logiciels éco-responsables neutres pour les fournisseurs] (https://patterns.greensoftware.foundation/) dans diverses catégories.
+La Green Software Foundation publie également un [catalogue de modèles de logiciels éco-responsables neutres pour les fournisseurs](https://patterns.greensoftware.foundation/) dans diverses catégories.
  
 ![Green Software Principles, Patterns, and Practices](./images/GSF_Principles_Patterns_Practices_v2.png "Green Software Principles, Patterns, and Practices")
