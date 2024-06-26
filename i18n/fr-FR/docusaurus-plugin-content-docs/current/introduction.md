@@ -4,48 +4,48 @@ title: Introduction
 ---
 
 :::note
-This is a community contributed translation. It has limited support and might not match the latest English language version of the course.
+Il s’agit d’une traduction fournie par la communauté. Le support est limité et pourrait ne pas correspondre à la version anglaise la plus récente du cours.
 :::
 
-## What is green software?
+## Qu’est-ce qu’un logiciel éco-responsable?
 
-Green software is an emerging discipline at the intersection of climate science, software design, electricity markets, hardware, and data center design.
+Le logiciel éco-responsable est une discipline émergente à l’intersection de la science du climat, de la conception de logiciels, des marchés de l’électricité, du matériel et de la conception de centres de données.
 
-Green software is carbon-efficient software, meaning it emits the least carbon possible. Only three activities reduce the carbon emissions of software; energy efficiency, carbon awareness, and hardware efficiency. This training will explain all of these concepts, how to apply them to your processes and how to measure them, as well as some of the international guidelines and organizations that guide and monitor this space.
+Le logiciel éco-responsable est un logiciel efficace en terme d'émissions carbone, ce qui signifie qu’il émet le moins de carbone possible. Seules trois activités réduisent les émissions de carbone des logiciels: l’efficacité énergétique, la sensibilisation au carbone et l’efficacité matérielle. Cette formation expliquera tous ces concepts, comment les appliquer à vos processus et comment les mesurer, ainsi que certaines des directives internationales et les organisations qui guident et surveillent ce domaine.
 
 ![alt_text](./images/01_carbon_efficiency.png "image_tooltip")
 
-## Who should read this?
+## A qui s'adresse cette formation?
 
-Anyone involved in the process of building, deploying, or managing software. By studying these principles, a green software practitioner can make decisions that have a meaningful impact on the carbon pollution of their applications.
+A toute personne impliquée dans le processus de création, de déploiement ou de gestion de logiciels. En étudiant ces principes, un praticien de logiciels éco-responsables peut prendre des décisions qui ont un impact significatif sur la pollution par le carbone de leurs applications.
 
-## History
+## Histoire
 
-In 2019 the original eight principles of green software engineering were released. This 2022 update of the principles took on feedback received over the years, merging some principles and adding a new one regarding understanding climate commitments.
+En 2019, la version originale des huit principes du génie logiciel éco-responsable a été publiée. Cette mise à jour des principes datant de 2022 a pris en compte les commentaires reçus au fil des ans, fusionnant certains principes et en ajoutant un nouveau concernant la compréhension des engagements climatiques.
 
-## How to be a green software practitioner
+## Comment être un praticien du logiciel éco-responsable?
 
-The following training covers 6 key areas that a green software practitioner should know:
+La formation suivante couvre six domaines clés qu’un spécialiste des logiciels écologiques devrait connaître:
 
-1. **Carbon Efficiency**: Emit the least amount of carbon possible.
-2. **Energy Efficiency**: Use the least amount of energy possible.
-3. **Carbon Awareness**: Do more when the electricity is cleaner and do less when the electricity is dirtier.
-4. **Hardware Efficiency**: Use the least amount of embodied carbon possible.
-5. **Measurement**: What you can't measure, you can't improve.
-6. **Climate Commitments**: Understand the exact mechanism of carbon reduction.
+1. **Efficacité carbone**: Émettre le moins de carbone possible.
+2. **Efficacité énergétique** : Utiliser le moins d’énergie possible.
+3. **Sensibilisation au carbone** : Faire plus lorsque l’électricité est plus propre et faites moins lorsque l’électricité est plus carbonées.
+4. **Efficacité du matériel** : Utiliser le moins de carbone induit possible.
+5. **Mesure** : Ce que vous ne pouvez pas mesurer, vous ne pouvez pas l’améliorer.
+6. **Engagements climatiques** : Comprendre le mécanisme exact de réduction du carbone.
 
-Each of these chapters will introduce some new concepts and explain in detail why they are important in terms of the climate, and how you can apply them to your green software practices.
+Chacun de ces chapitres présentera de nouveaux concepts et expliquera en détail pourquoi ils sont importants en termes de climat, et comment vous pouvez les appliquer à vos pratiques de logiciels éco-responsables.
 
-## Principles, Patterns, and Practices.
+## Principes, modèles et pratiques.
 
-This course's key areas and content describe the **principles** of green software, a core set of competencies needed to define, run and build green software.
+Les principaux domaines et le contenu de ce cours décrivent les **principes** du logiciel éco-responsable, un ensemble de compétences de base nécessaires pour définir, exécuter et créer un logiciel éco-responsable.
 
-A green software [**pattern**](https://patterns.greensoftware.foundation/) is a specific example of how to apply one or more principles in a real-world example. Whereas principles describe the theory that underpins green software, patterns are the practical advice software practitioners can use in their software applications today. Patterns are vendor-neutral.
+Un logiciel éco-responsable [**modèle**](https://patterns.greensoftware.foundation/) est un exemple précis de la façon d’appliquer un ou plusieurs principes dans un cas réel. Alors que les principes décrivent la théorie qui sous-tend le logiciel éco-responsable, les modèles sont les conseils pratiques que les praticiens du logiciel peuvent utiliser dans leurs applications logicielles aujourd’hui. Les modèles sont neutres pour les fournisseurs.
 
-A green software **practice** is a pattern applied to a specific vendor's product and informs practitioners about how to use that product in a more sustainable way. 
+Un logiciel éco-responsable **pratique** est un modèle appliqué au produit d’un fournisseur spécifique et informe les praticiens sur la façon d’utiliser ce produit de manière plus durable.
 
-Practices should refer to patterns that should refer to principles.
+Les pratiques devraient faire référence à des modèles qui eux-mêmes devraient faire référence à des principes.
 
-The green software foundation also publishes a [catalog of vendor-neutral green software patterns](https://patterns.greensoftware.foundation/) across various categories.
+La Green Software Foundation publie également un [catalogue de modèles de logiciels éco-responsables neutres pour les fournisseurs] (https://patterns.greensoftware.foundation/) dans diverses catégories.
  
 ![Green Software Principles, Patterns, and Practices](./images/GSF_Principles_Patterns_Practices_v2.png "Green Software Principles, Patterns, and Practices")
