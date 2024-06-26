@@ -1,168 +1,168 @@
 ---
 sidebar_position: 6
-title: Hardware Efficiency
+title: Efficacité matérielle
 ---
 
 import Quiz from "/src/components/Quiz";
 
 :::note
-This is a community contributed translation. It has limited support and might not match the latest English language version of the course.
+Il s’agit d’une traduction fournie par la communauté. Le support est limité et pourrait ne pas correspondre à la version anglaise la plus récente du cours.
 :::
 
-:::tip Principle
+:::tip Principe
 
-_Use the least amount of embodied carbon possible._
+_Utiliser le moins de carbone induit possible._
 
 :::
 
 ## Introduction
 
-The hardware used in the process of creating your software is an important element to consider for a Green Software practitioner.
+Le matériel utilisé dans le processus de création de votre logiciel est un élément important à considérer pour un praticien du logiciel éco-responsable.
 
-You will see how embodied carbon is a hidden cost when it comes to hardware and the different measures you can take to reduce the impact that the creation, destruction and running of this hardware involves. For example, extending its lifetime or switching to cloud servers.
+Vous verrez comment le carbone induit a un coût caché quand il s’agit de matériel et les différentes mesures que vous pouvez prendre pour réduire l’impact que la création, la destruction et le fonctionnement de ce matériel implique. Par exemple, étendre sa durée de vie ou passer à des serveurs dans le cloud.
 
-## Key concepts
+## Concepts clés
 
-### Embodied carbon
+### Carbone induit
 
-The device you are using to read this on produced carbon when it was manufactured and, once it reaches the end of life, disposing of it may release more. Embodied carbon (also referred to as "embedded carbon") is the amount of carbon pollution emitted during the creation and disposal of a device.
+L’appareil que vous utilisez pour lire ce document a produit du carbone lors de sa fabrication et, une fois qu’il aura atteint sa fin de vie, son élimination en libérera plus encore. Le carbone induit (également appelé "carbone incorporé") est la quantité de pollution carbone émise lors de la création et l’élimination d’un appareil.
 
-When calculating the total carbon pollution for computers running software, both the carbon pollution associated with running the computer as well as the embodied carbon of the computer must be accounted for.
+Lors du calcul de la pollution totale en carbone pour les ordinateurs exécutant un logiciel, il faut tenir compte à la fois de la pollution associée à l’utilisation mais aussi à celle liée au carbone induit de cet ordinateur.
 
 ![alt_text](./images/17_embodioed_carbon.png "image_tooltip")
 
-Embodied carbon varies significantly between end-user devices. For some devices, the carbon emitted during manufacturing is much higher than that emitted during usage, as illustrated by a [study](https://www.ifi.uzh.ch/dam/jcr:fa4e956e-7a53-4038-98a5-00e09e2f4303/Study_Digitalization_Climate_Protection_Summary_Oct2017.pdf) from University of Zurich. As a result, the embodied carbon cost can sometimes be much higher than the carbon cost of the electricity powering it.
+Le carbone induit varie considérablement entre les appareils des utilisateurs finaux. Pour certains appareils, le carbone émis pendant la fabrication est beaucoup plus élevé que celui émis pendant l’utilisation, comme l’illustre une [étude] (https://www.ifi.uzh.ch/dam/jcr:fa4e956e-7a53-4038-98a5-00e09e2f4303/Study_Digitalization_Climate_Protection_Summary_Oct2017.pdf) de l’Université de Zurich. Par conséquent, le coût du carbone induit d'un appareil peut être parfois beaucoup plus élevé que le coût du carbone de l’électricité utilisée pour l’alimenter.
 
-By thinking in terms of embodied carbon, any device, even one not consuming electricity, is responsible for the release of carbon over its lifetime.
+En pensant en termes de carbone induit, tout appareil, même celui qui ne consomme pas d’électricité, est responsable de l'émission de carbone au cours de sa durée de vie.
 
-### Amortization
+### Amortisation
 
-A way to account for embodied carbon is to amortize the carbon over the expected life span of a device. For example, suppose it took 4000kg CO2eq to build a server, and we expect it to last four years. Amortization means that we can say the server emits 1000kg CO2eq/year.
+Une façon de tenir compte du carbone induit est d’amortir le carbone sur la durée de vie prévue d’un appareil. Par exemple, supposons qu’il ait fallu 4000kg de CO2eq pour construire un serveur, et nous nous attendons à ce qu’il dure quatre ans. L’amortissement signifie que nous pouvons dire que le serveur émet 1000 kg CO2eq/an.
 
 ![alt_text](./images/18_amortization.png "image_tooltip")
 
-## How to improve hardware efficiency
+## Comment améliorer l’efficacité du matériel
 
-If we take into account the embodied carbon, it is clear that by the time we come to buy a computer, it's already emitted a good deal of carbon. Computers also have a limited lifespan, which means they eventually are unable to handle modern workloads and need to be replaced. In these terms, hardware is a proxy for carbon, and since our goal is to be carbon efficient, we must also be hardware efficient.
+Si l’on tient compte du carbone induit, il est clair que lorsque nous achetons un ordinateur, il a déjà émit une bonne quantité de carbone. Les ordinateurs ont également une durée de vie limitée, ce qui signifie qu’ils sont éventuellement incapables de gérer les charges de travail récentes et doivent être remplacés. En d'autres termes, le matériel est un substitut pour le carbone, et puisque notre objectif est d’être efficace sur le plan du carbone, nous devons également être efficaces sur au niveau du matériel.
 
-There are two main approaches to hardware efficiency:
+Il existe deux approches principales pour l’efficacité du matériel :
 
-- For end-user devices, it's **extending the lifespan** of the hardware.
-- For cloud computing, it's **increasing the utilization** of the device.
+- Pour les appareils des utilisateurs finaux, il s’agit de **prolonger la durée de vie** du matériel.
+- Pour le cloud computing, il s’agit **d’augmenter l’utilisation** du matériel.
 
-### Extending the lifespan of hardware
+### Prolonger la durée de vie du matériel
 
-In the example we saw previously, if we can add just one more year to the lifespan of our server, then the amortized carbon drops from 1000kg CO2eq/year to 800kg CO2eq/year.
+Dans l’exemple que nous avons vu précédemment, si nous pouvons ajouter juste une année de plus à la durée de vie de notre serveur, alors le carbone amorti tombe de 1000kg CO2eq/an à 800kg CO2eq/an.
 
 ![alt_text](./images/19_lifespan.png "image_tooltip")
 
-Hardware is retired when it breaks down or struggles to handle modern workloads. Of course, hardware will always break down eventually but, as developers, we can use software to build applications that run on older hardware and extend their lifetime.
+Le matériel est retiré lorsqu’il tombe en panne ou a du mal à gérer les charges de travail modernes. Bien sûr, le matériel finira toujours par tomber en panne, mais en tant que développeurs, nous pouvons utiliser des logiciels pour créer des applications qui fonctionnent sur du matériel plus ancien et prolonger leur durée de vie.
 
-### Increasing device utilization
+### Augmenter l’utilisation des appareils
 
-In the cloud space, hardware efficiency most often translates to an increase in the utilization of servers. It’s better to use one server at 100% utilization than 5 servers at 20% utilization because of the cost of embodied carbon. In the same way that owning one car and using it every day of the week is much better than owning five and using a different one each day of the week, it is much more efficient to use servers at their full capacity rather than employing several at below capacity. Although emissions are the same, the embodied carbon that is used is much lower.
+Dans le cloud, l’efficacité matérielle se traduit le plus souvent par une augmentation de l’utilisation des serveurs. Il est préférable d’utiliser un serveur à 100% d’utilisation que 5 serveurs à 20% d’utilisation en raison du coût du carbone induit. De la même manière que posséder une voiture et l’utiliser tous les jours de la semaine est préférable à en posséder cinq et en utiliser une différente chaque jour de la semaine, il est beaucoup plus efficace d’utiliser les serveurs à leur pleine capacité plutôt que d’en employer plusieurs à une capacité moindre. Bien que les émissions soient les mêmes, le carbone induit utilisé est beaucoup plus faible.
 
 ![alt_text](./images/20_increasing_utilization.png "image_tooltip")
 
-The most common reason for having under-utilized servers is so that peak capacity is accounted for. Running servers at 20% means that you know you will be able to handle peaks in demand without impacting performance. However, in the meantime, all that spare capacity just sitting there idle represents wasted embodied carbon. Being hardware efficient means making sure that every hardware device is being utilized as much as possible for as long as possible.
+La raison la plus courante d’avoir des serveurs sous-utilisés est la prise en compte des pics d'utilisation. L’exécution de serveurs à 20 % signifie que vous savez que vous serez en mesure de gérer les pics de demande sans affecter les performances. Cependant, entre-temps, toutes ces capacités inutilisées représentent le gaspillage de carbone induit. Être efficace sur le plan matériel signifie s’assurer que chaque périphérique matériel est utilisé le plus longtemps possible.
 
-This is one of the main advantages of the public cloud; you know that when you do need to scale up, the space will be there to take up the slack. With multiple organizations making use of the public cloud, spare capacity can always be made available to whoever needs it, so that no servers are sitting idle.
+C’est l’un des principaux avantages du cloud public; vous savez que lorsque vous devez prendre de l’expansion, les ressources seront là pour prendre le relais. Avec plusieurs organisations partageant le même cloud public, la capacité en réserve peut toujours être mise à la disposition de quiconque en a besoin, de sorte qu’aucun serveur ne reste inactif.
 
-It’s important to note that simply moving operations to the public cloud will not automatically reduce your emissions. It simply gives you the space to be able to re-architect your software so that a reduction is possible.
+Il est important de noter que le simple déplacement des opérations vers le cloud public ne réduira pas automatiquement vos émissions. Il vous donne simplement les ressources pour pouvoir ré-architecturer votre logiciel afin qu’une réduction soit possible.
 
 ![alt_text](./images/21_private_vs_public_cloud.png "image_tooltip")
 
-## Summary
+## Synthèse
 
-- Embodied carbon is the amount of carbon pollution emitted during the creation and disposal of a device.
-- When calculating your total carbon pollution, you must consider both that which is emitted when running the computer as well as the embodied carbon associated with its creation and disposal.
-- Extending the lifetime of a device has the effect of amortizing the carbon emitted so that its CO2eq/year is reduced.
-- Cloud computing is more energy efficient than an on-premise server as it can apply demand shifting as well as demand shaping.
+- Le carbone induit est la quantité de pollution au carbone émise lors de la création et l’élimination d’un appareil.
+- Lorsque vous calculez votre pollution totale en carbone, vous devez tenir compte à la fois de ce qui est émis lors de l’utilisation de l’ordinateur et aussi du carbone induit associé à sa création et à son élimination.
+- L’allongement de la durée de vie d’un appareil a pour effet d’amortir le carbone émis afin de réduire son CO2eq/an.
+- Le cloud computing est plus économe en énergie qu’un serveur sur site car il permet le déplacement géographique ou temporel de la charge de travail ainsi que la planification de la demande.
 
 ## Quiz
 
 <Quiz
   QuizList={[
     {
-      question: "What is embodied carbon?",
+      question: "Qu'est-ce que le carbone induit?",
       answers: [
         {
-          text: "The carbon that was emitted in the creation of a device",
+          text: "Le carbone qui a été émis lors de la création d’un appareil",
           isCorrect: false,
         },
         {
-          text: "The carbon emissions associated with both the creation and disposal of a device",
+          text: "Les émissions de carbone associées à la création et à l’élimination d’un appareil",
           isCorrect: true,
         },
         {
-          text: "The carbon emissions associated with the disposal of a device",
+          text: "Les émissions de carbone associées à l’élimination d’un appareil",
           isCorrect: false,
         },
       ],
     },
     {
-      question: "What accounts for the total carbon pollution of a computer?",
+      question: "Qu’est-ce qui compte pour la pollution carbone totale d’un ordinateur?",
       answers: [
         {
-          text: "The embodied carbon of the device",
+          text: "Le carbone induit de l'appareil",
           isCorrect: false,
         },
         {
-          text: "The emissions produced when running the device",
+          text: "Les émissions produites par l'utilisation de l'appareil",
           isCorrect: false,
         },
         {
-          text: "Both the above",
-          isCorrect: true,
-        },
-      ],
-    },
-    {
-      question:
-        "What are the two key ways of being more efficient with hardware?",
-      answers: [
-        {
-          text: "Extending its lifespan and reducing its utilization",
-          isCorrect: false,
-        },
-        {
-          text: "Extending its lifespan and increasing its utilization",
-          isCorrect: true,
-        },
-        {
-          text: "Reducing its lifespan and increasing its utilization",
-          isCorrect: false,
-        },
-      ],
-    },
-    {
-      question:
-        "How does hardware efficiency affect the carbon pollution of a device?",
-      answers: [
-        {
-          text: "It eliminates it",
-          isCorrect: false,
-        },
-        {
-          text: "It increases it",
-          isCorrect: false,
-        },
-        {
-          text: "It reduces it",
+          text: "Les deux réponses ci-dessus",
           isCorrect: true,
         },
       ],
     },
     {
       question:
-        "What is the amortized carbon of a device with an embodied carbon of 1000kg CO2eq and a lifespan of 5 years?",
+        "Quelles sont les deux principales façons d’être plus efficace avec le matériel?",
       answers: [
         {
-          text: "200kg CO2eq/year",
+          text: "Prolonger sa durée de vie et réduire son utilisation",
+          isCorrect: false,
+        },
+        {
+          text: "Prolonger sa durée de vie et augmenter son utilisation",
           isCorrect: true,
         },
         {
-          text: "20kg CO2eq/year",
+          text: "Réduire sa durée de vie et augmenter son utilisation",
+          isCorrect: false,
+        },
+      ],
+    },
+    {
+      question:
+        "Comment l’efficacité matérielle affecte-t-elle la pollution carbone d’un appareil?",
+      answers: [
+        {
+          text: "Il l'élimine",
+          isCorrect: false,
+        },
+        {
+          text: "Il l'accroit",
+          isCorrect: false,
+        },
+        {
+          text: "Il la réduit",
+          isCorrect: true,
+        },
+      ],
+    },
+    {
+      question:
+        "Quel est le carbone amorti d’un appareil avec un carbone induit de 1000kg CO2eq et une durée de vie de 5 ans?",
+      answers: [
+        {
+          text: "200kg CO2eq/an",
+          isCorrect: true,
+        },
+        {
+          text: "20kg CO2eq/an",
           isCorrect: false,
         },
         {
@@ -173,36 +173,36 @@ It’s important to note that simply moving operations to the public cloud will 
     },
     {
       question:
-        "What are some of the differences between having your servers on a public cloud compared to a private cloud?",
+        "Quelles sont les différences entre avoir vos serveurs sur un cloud public et un cloud privé?",
       answers: [
         {
-          text: "On the public cloud, you can scale up quickly",
+          text: "Sur le cloud public, vous pouvez augmenter la charge rapidement",
           isCorrect: false,
         },
         {
-          text: "On a private cloud, you need to have servers running below capacity in order to meet surges in demand",
+          text: "Sur un cloud privé, vous devez disposer de serveurs fonctionnant en dessous de leur capacité afin de répondre aux pics de demande",
           isCorrect: false,
         },
         {
-          text: "Both the above are true",
+          text: "Les deux réponses ci-dessus",
           isCorrect: true,
         },
       ],
     },
     {
       question:
-        "Why is it so important to include embodied carbon when calculating emissions for hardware?",
+        "Pourquoi est-il si important d’inclure le carbone induit dans le calcul des émissions pour le matériel?",
       answers: [
         {
-          text: "Embodied carbon sometimes accounts for more emissions than the emissions from the electricity powering the device",
+          text: "Le carbone induit représente parfois plus d’émissions carbone que celles associees à l’électricité alimentant l’appareil",
           isCorrect: true,
         },
         {
-          text: "Embodied carbon represents a small but significant proportion of overall emissions from a device",
+          text: "Le carbone induit représente une petite mais importante proportion des émissions globales d’un appareil",
           isCorrect: false,
         },
         {
-          text: "Embodied carbon is the only source of emissions that should be considered when calculating overall emissions for a device?",
+          text: "Le carbone induit est la seule source d’émissions dont il faut tenir compte dans le calcul des émissions globales d’un appareil",
           isCorrect: false,
         },
       ],
