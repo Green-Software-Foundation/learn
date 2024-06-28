@@ -4,7 +4,7 @@ title: Einleitung
 ---
 
 :::note
-Dies ist eine von der Gemeinschaft erstellte Übersetzung. Sie hat nur begrenzte Unterstützung und entspricht möglicherweise nicht der neuesten deutschen Version des Kurses.
+Dies ist eine von der Gemeinschaft erstellte Übersetzung. Sie hat begrenzte Unterstützung und entspricht möglicherweise nicht der neuesten deutschen Version des Kurses.
 :::
 
 ## Was ist Green Software?

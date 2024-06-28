@@ -4,7 +4,7 @@ title: Glossar
 ---
 
 :::note
-Dies ist eine gemeinschaftlich erstellte Übersetzung. Sie hat nur begrenzte Unterstützung und entspricht möglicherweise nicht der neuesten deutschen Version des Kurses.
+Dies ist eine gemeinschaftlich erstellte Übersetzung. Sie hat begrenzte Unterstützung und entspricht möglicherweise nicht der neuesten deutschen Version des Kurses.
 :::
 
 ## Akronyme
@@ -218,7 +218,7 @@ Dies ist eine gemeinschaftlich erstellte Übersetzung. Sie hat nur begrenzte Unt
 * [Carbon Intensity](./carbon-awareness/#carbon-intensity) - Misst die Menge an Treibhausgasen, die pro erzeugter Stromeinheit ausgestoßen wird.
 * [Demand Shaping](./carbon-awareness/#demand-shaping) - Die Strategie, unsere Berechnungen so zu gestalten, dass sie mit dem bestehenden Angebot an sauberem Strom übereinstimmen.
 * [GHG Protokol](https://ghgprotocol.org) -  Der am weitesten verbreitete und international anerkannte Standard für die Bilanzierung von Treibhausgasen.
-* [Emissionen der Wertschöpfungskette](https://www.cisl.cam.ac.uk/education/graduate-study/pgcerts/value-chain-defs) - Dies sind Scope-3-Emissionen gemäß dem Treibhausgasprotokoll und die wichtigste Emissionsquelle. Sie umfassen das gesamte Spektrum der Aktivitäten, die zur Herstellung eines Produkts oder einer Dienstleistung erforderlich sind, von der Konzeption bis zum Vertrieb.
+* [Emissionen der Wertschöpfungskette](https://www.cisl.cam.ac.uk/education/graduate-study/pgcerts/value-chain-defs) - Dies sind Bereich-3-Emissionen gemäß dem Treibhausgasprotokoll und die wichtigste Emissionsquelle. Sie umfassen das gesamte Spektrum der Aktivitäten, die zur Herstellung eines Produkts oder einer Dienstleistung erforderlich sind, von der Konzeption bis zum Vertrieb.
 * [Energieproportionalität](./energy-efficiency/#energy-proportionality) - Misst das Verhältnis zwischen der von einem Computer verbrauchten Leistung und der Rate, mit der nützliche Arbeit geleistet wird (seine Auslastung).
 * [Statische Leistungsaufnahme](./energy-efficiency/#static-power-draw) - Dieser Wert gibt an, wie viel Strom verbraucht wird, wenn sich ein Gerät im Ruhezustand befindet. 
 * [Verkörperter Kohlenstoff](./hardware-efficiency/#embodied-carbon)  (auch bekannt als "eingebetteter Kohlenstoff") - Die Menge der Kohlenstoffverschmutzung, die bei der Herstellung und Entsorgung eines Geräts entsteht.
