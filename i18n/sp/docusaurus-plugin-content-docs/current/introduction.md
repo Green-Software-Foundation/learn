@@ -27,12 +27,12 @@ La siguiente capacitación cubre las seis(6) áreas clave que un practicante de 
 
 
 
-1. **Eficiencia de Carbono**: Emitir la menor cantidad de carbono posible.
-2. **Eficiencia Energética**: Utilizar la menor cantidad de energía o electricidad posible.
-3. **Conciencia sobre el Carbono**: Hacer más cuando la electricidad sea más limpia y hacer menos carga cuando la electricidad sea más sucia.
-4. **Eficiencia del Hardware**: Utilizar la menor cantidad de carbono incorporado posible.
+1. **Eficiencia de carbono**: Emitir la menor cantidad de carbono posible.
+2. **Eficiencia 3nergética**: Utilizar la menor cantidad de energía o electricidad posible.
+3. **Conciencia sobre el carbono**: Hacer más cuando la electricidad sea más limpia y hacer menos carga cuando la electricidad sea más sucia.
+4. **Eficiencia del hardware**: Utilizar la menor cantidad de carbono incorporado posible.
 5. **Medición**: Lo que no se puede medir, no se puede mejorar.
-6. **Compromisos Climáticos**: Comprender el mecanismo exacto de reducción de carbono.
+6. **Compromisos climáticos**: Comprender el mecanismo exacto de reducción de carbono.
 
 Cada uno de estos capítulos introducirá algunos conceptos nuevos y explicará en detalle por qué son importantes en términos del clima, y cómo puede aplicarlos a sus prácticas de software verde.
 
