@@ -1,8 +1,11 @@
 ---
 sidebar_position: 2
+title: Introducción
 ---
 
-# Introducción
+:::note
+*This is a community contributed translation. It has limited support and might not match the latest English language version of the course.* Esta es una traducción aportada por la comunidad. Tiene soporte limitado y podría no coincidir con la versión más reciente del curso en inglés.
+:::
 
 ## ¿Qué es el software verde?
 
