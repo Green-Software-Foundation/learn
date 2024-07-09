@@ -1,205 +1,203 @@
 ---
 sidebar_position: 6
+title: Eficiencia del hardware
 ---
 
 import Quiz from "/src/components/Quiz";
 
-# Hardware Efficiency
+:::note
+*This is a community contributed translation. It has limited support and might not match the latest English language version of the course.* Esta es una traducción aportada por la comunidad. Tiene soporte limitado y podría no coincidir con la versión más reciente del curso en inglés.
+:::
 
 :::tip Principle
 
-_Use the least amount of embodied carbon possible._
+_Usar la menor cantidad posible de carbono incorporado._
 
 :::
 
-## Introduction
+## Introducción
 
-The hardware used in the process of creating your software is an important element to consider for a Green Software practitioner.
+El hardware usado en el proceso de creación de tu software es un elemento importante a considerar para un profesional o practicante del software verde.
 
-You will see how embodied carbon is a hidden cost when it comes to hardware and the different measures you can take to reduce the impact that the creation, destruction and running of this hardware involves. For example, extending its lifetime or switching to cloud servers.
+Verás cómo el carbono incorporado es un costo oculto cuando se trata de hardware y las diferentes medidas que puedes tomar para reducir el impacto que implica la creación, destrucción y funcionamiento de dicho hardware. Por ejemplo, extender su vida útil o migrar a servidores en la nube.
 
-## Key concepts
+## Conceptos clave
 
-### Embodied carbon
+### Carbono incorporado
 
-The device you are using to read this on produced carbon when it was manufactured and, once it reaches the end of life, disposing of it may release more. Embodied carbon (also referred to as "embedded carbon") is the amount of carbon pollution emitted during the creation and disposal of a device.
+El dispositivo que estás usando para leer esto produjo carbono cuando fue fabricado y, una vez que alcance el final de su vida útil, desecharlo puede liberar aún más. El carbono incorporado (también conocido como "carbono embebido") es la cantidad de contaminación por carbono emitida durante la fabricación y disposición(eliminación) de un dispositivo.
 
-When calculating the total carbon pollution for computers running software, both the carbon pollution associated with running the computer as well as the embodied carbon of the computer must be accounted for.
+Cuando se calcula la contaminación total por carbono de las computadoras que ejecutan software, se debe considerar tanto la contaminación por carbono asociada al funcionamiento de la computadora como el carbono incorporado de la computadora.
 
 ![alt_text](./images/17_embodioed_carbon.png "image_tooltip")
 
-Embodied carbon varies significantly between end-user devices. For some devices, the carbon emitted during manufacturing is much higher than that emitted during usage, as illustrated by a [study](https://www.ifi.uzh.ch/dam/jcr:fa4e956e-7a53-4038-98a5-00e09e2f4303/Study_Digitalization_Climate_Protection_Summary_Oct2017.pdf) from University of Zurich. As a result, the embodied carbon cost can sometimes be much higher than the carbon cost of the electricity powering it.
+El carbono incorporado varía significativamente entre los dispositivos de usuario  final. Para algunos dispositivos, el carbono emitido durante la fabricación es mucho mayor que el emitido durante su uso, como lo ilustra un [estudio](https://www.ifi.uzh.ch/dam/jcr:fa4e956e-7a53-4038-98a5-00e09e2f4303/Study_Digitalization_Climate_Protection_Summary_Oct2017.pdf) de la Universidad de Zúrich. Como resultado, el costo del carbono incorporado a veces puede ser mucho mayor que el costo del carbono de la electricidad que lo alimenta.
 
-By thinking in terms of embodied carbon, any device, even one not consuming electricity, is responsible for the release of carbon over its lifetime.
+Al pensar en términos de carbono incorporado, cualquier dispositivo, incluso uno que no consuma electricidad, es responsable por la liberación de carbono a lo largo de su vida útil.
 
-### Amortization
+### Amortización
 
-A way to account for embodied carbon is to amortize the carbon over the expected life span of a device. For example, suppose it took 4000kg CO2eq to build a server, and we expect it to last four years. Amortization means that we can say the server emits 1000kg CO2eq/year.
+Una forma de calcular el carbono incorporado es amortizar el carbono durante la vida útil esperada de un dispositivo. Por ejemplo, supongamos que se necesitaron 4000 kg de CO2eq para construir un servidor y esperamos que dure cuatro años. La amortización significa que podemos decir que el servidor emite 1000 kg de CO2eq por año.
 
 ![alt_text](./images/18_amortization.png "image_tooltip")
 
-## How to improve hardware efficiency
+## Cómo mejorar la eficiencia del hardware
 
-If we take into account the embodied carbon, it is clear that by the time we come to buy a computer, it's already emitted a good deal of carbon. Computers also have a limited lifespan, which means they eventually are unable to handle modern workloads and need to be replaced. In these terms, hardware is a proxy for carbon, and since our goal is to be carbon efficient, we must also be hardware efficient.
+Si tenemos en cuenta el carbono incorporado, es evidente que, para cuando compramos una computadora, ya ha emitido una buena cantidad de carbono. Las computadoras también tienen una vida útil limitada, lo que significa que eventualmente no podrán manejar cargas de trabajo modernas y necesitarán ser reemplazadas. En estos términos, el hardware es un indicador de carbono, y dado que nuestro objetivo es ser eficientes en carbono, también debemos ser eficientes en hardware.
 
-There are two main approaches to hardware efficiency:
+Hay dos enfoques principales para la eficiencia del hardware:
 
-- For end-user devices, it's **extending the lifespan** of the hardware.
-- For cloud computing, it's **increasing the utilization** of the device.
+- Para los dispositivos de usuario final, es **extender la vida útil** del hardware.
+- Para la computación en la nube, es **incrementar la utilización** del dispositivo.
 
-### Extending the lifespan of hardware
+### Prolongar la vida útil del hardware
 
-In the example we saw previously, if we can add just one more year to the lifespan of our server, then the amortized carbon drops from 1000kg CO2eq/year to 800kg CO2eq/year.
+En el ejemplo que vimos anteriormente, si podemos añadir un año más a la vida útil de nuestro servidor, entonces el carbono amortizado disminuye de 1000 kg CO2eq/año a 800 kg CO2eq/año.
 
 ![alt_text](./images/19_lifespan.png "image_tooltip")
 
-Hardware is retired when it breaks down or struggles to handle modern workloads. Of course, hardware will always break down eventually but, as developers, we can use software to build applications that run on older hardware and extend their lifetime.
+El hardware es retirado (u obsoleto) cuando se descompone o tiene dificultades para manejar cargas de trabajo modernas. Por supuesto, el hardware eventualmente siempre se descompondrá, pero como desarrolladores también podemos usar software para construir aplicaciones que funcionen en hardware más antiguo y extender su vida útil.
 
-### Increasing device utilization
+### Incrementar la utilización del dispositivo
 
-In the cloud space, hardware efficiency most often translates to an increase in the utilization of servers. It’s better to use one server at 100% utilization than 5 servers at 20% utilization because of the cost of embodied carbon. In the same way that owning one car and using it every day of the week is much better than owning five and using a different one each day of the week, it is much more efficient to use servers at their full capacity rather than employing several at below capacity. Although emissions are the same, the embodied carbon that is used is much lower.
+En el ámbito de la nube, la eficiencia del hardware a menudo se traduce en un aumento del uso de los servidores. Es mejor usar un servidor al 100% de su capacidad que 5 servidores al 20% de utilización debido al costo del carbono incorporado. De la misma manera que es mejor tener un coche y usarlo todos los días de la semana que tener cinco y usar uno diferente cada día de la semana, es mucho más eficiente usar los servidores a su máxima capacidad en lugar de emplear varios por debajo de su capacidad. Aunque las emisiones sean las mismas, el carbono incorporado utilizado es mucho menor.
 
 ![alt_text](./images/20_increasing_utilization.png "image_tooltip")
 
-The most common reason for having under-utilized servers is so that peak capacity is accounted for. Running servers at 20% means that you know you will be able to handle peaks in demand without impacting performance. However, in the meantime, all that spare capacity just sitting there idle represents wasted embodied carbon. Being hardware efficient means making sure that every hardware device is being utilized as much as possible for as long as possible.
+La razón más común para tener servidores subutilizados es asegurar que se pueda manejar la capacidad máxima. Ejecutar servidores al 20% significa que sabes que podrás manejar picos en la demanda sin impactar el rendimiento. Sin embargo, mientras tanto, toda esa capacidad sobrante que está inactiva representa carbono incorporado desperdiciado. Ser eficiente en hardware significa asegurarse de que cada dispositivo de hardware se utilice tanto como sea posible durante el mayor tiempo posible.
 
-This is one of the main advantages of the public cloud; you know that when you do need to scale up, the space will be there to take up the slack. With multiple organizations making use of the public cloud, spare capacity can always be made available to whoever needs it, so that no servers are sitting idle.
+Esta es una de las principales ventajas de la nube pública: sabes que cuando necesites escalar, el espacio estará disponible para soportar la carga. Con múltiples organizaciones utilizando la nube pública, la capacidad sobrante siempre puede estar disponible para quien la necesite, de modo que ningún servidor quede ocioso (inactivo).
 
-It’s important to note that simply moving operations to the public cloud will not automatically reduce your emissions. It simply gives you the space to be able to re-architect your software so that a reduction is possible.
+Es importante señalar que simplemente mover las operaciones a la nube pública no reducirá automáticamente las emisiones. Simplemente da el espacio para poder redefinir la arquitectura de tu software, de manera que una reducción de emisiones de carbono sea posible.
 
 ![alt_text](./images/21_private_vs_public_cloud.png "image_tooltip")
 
-## Summary
+## Resumen
 
-- Embodied carbon is the amount of carbon pollution emitted during the creation and disposal of a device.
-- When calculating your total carbon pollution, you must consider both that which is emitted when running the computer as well as the embodied carbon associated with its creation and disposal.
-- Extending the lifetime of a device has the effect of amortizing the carbon emitted so that its CO2eq/year is reduced.
-- Cloud computing is more energy efficient than an on-premise server as it can apply demand shifting as well as demand shaping.
+- El carbono incorporado es la cantidad de contaminación por carbono emitida durante la creación y eliminación de un dispositivo.
+- Al calcular la contaminación total por carbono, debes considerar tanto la que se emite al utilizar la computadora como el carbono incorporado asociado con su creación y eliminación.
+- Extender la vida útil de un dispositivo tiene el efecto de amortizar el carbono emitido, de modo que se reduce su CO2eq/año.
+- La computación en la nube es más eficiente energéticamente que un servidor local, ya que puede aplicar tanto el cambio de la demanda como la transformación de la demanda.
 
 ## Quiz
 
 <Quiz
   QuizList={[
     {
-      question: "What is embodied carbon?",
+      question: "¿Qué es el carbono incorporado?",
       answers: [
         {
-          text: "The carbon that was emitted in the creation of a device",
+          text: "El carbono que se emitió en la fabricación de un dispositivo.",
           isCorrect: false,
         },
         {
-          text: "The carbon emissions associated with both the creation and disposal of a device",
+          text: "Las emisiones de carbono asociadas tanto con la fabricación como con la disposición de un dispositivo",
           isCorrect: true,
         },
         {
-          text: "The carbon emissions associated with the disposal of a device",
+          text: "Las emisiones de carbono asociadas con la disposición de un dispositivo.",
           isCorrect: false,
         },
       ],
     },
     {
-      question: "What accounts for the total carbon pollution of a computer?",
+      question: "¿Qué cuenta para la contaminación total de carbono de una computadora?",
       answers: [
         {
-          text: "The embodied carbon of the device",
+          text: "El carbono incorporado del dispositivo.",
           isCorrect: false,
         },
         {
-          text: "The emissions produced when running the device",
+          text: "Las emisiones producidas al usar el dispositivo.",
           isCorrect: false,
         },
         {
-          text: "Both the above",
+          text: "Todas las anteriores.",
           isCorrect: true,
         },
       ],
     },
     {
-      question:
-        "What are the two key ways of being more efficient with hardware?",
+      question: "¿Cuáles son las dos formas clave de ser más eficiente con el hardware?",
       answers: [
         {
-          text: "Extending its lifespan and reducing its utilization",
+          text: "Extender su vida útil y reducir su utilización.",
           isCorrect: false,
         },
         {
-          text: "Extending its lifespan and increasing its utilization",
+          text: "Extender su vida útil y aumentar su utilización.",
           isCorrect: true,
         },
         {
-          text: "Reducing its lifespan and increasing its utilization",
+          text: "Reducir su vida útil y aumentar su utilización.",
           isCorrect: false,
         },
       ],
     },
     {
-      question:
-        "How does hardware efficiency affect the carbon pollution of a device?",
+      question: "¿Cómo afecta la eficiencia del hardware a la contaminación de carbono de un dispositivo?",
       answers: [
         {
-          text: "It eliminates it",
+          text: "La elimina.",
           isCorrect: false,
         },
         {
-          text: "It increases it",
+          text: "La aumenta.",
           isCorrect: false,
         },
         {
-          text: "It reduces it",
+          text: "La reduce.",
           isCorrect: true,
         },
       ],
     },
     {
-      question:
-        "What is the amortized carbon of a device with an embodied carbon of 1000kg CO2eq and a lifespan of 5 years?",
+      question: "¿Cuál es el carbono amortizado de un dispositivo con un carbono incorporado de 1000 kg de CO2eq y una vida útil de 5 años?",
       answers: [
         {
-          text: "200kg CO2eq/year",
+          text: "200 kg de CO2eq/año.",
           isCorrect: true,
         },
         {
-          text: "20kg CO2eq/year",
+          text: "20 kg de CO2eq/año.",
           isCorrect: false,
         },
         {
-          text: "200kg CO2eq",
+          text: "200 kg de CO2eq.",
           isCorrect: false,
         },
       ],
     },
     {
-      question:
-        "What are some of the differences between having your servers on a public cloud compared to a private cloud?",
+      question: "¿Cuáles son algunas de las diferencias entre tener tus servidores en una nube pública en comparación con una nube privada?",
       answers: [
         {
-          text: "On the public cloud, you can scale up quickly",
+          text: "En la nube pública, puedes escalar rápidamente.",
           isCorrect: false,
         },
         {
-          text: "On a private cloud, you need to have servers running below capacity in order to meet surges in demand",
+          text: "En una nube privada, necesitas tener servidores funcionando por debajo de su capacidad para satisfacer los aumentos en la demanda.",
           isCorrect: false,
         },
         {
-          text: "Both the above are true",
+          text: "Todas las anteriores.",
           isCorrect: true,
         },
       ],
     },
     {
-      question:
-        "Why is it so important to include embodied carbon when calculating emissions for hardware?",
+      question: "¿Por qué es tan importante considerar el carbono incorporado al calcular las emisiones de hardware?",
       answers: [
         {
-          text: "Embodied carbon sometimes accounts for more emissions than the emissions from the electricity powering the device",
+          text: "El carbono incorporado a veces representa más emisiones que las emisiones de la electricidad que consume el dispositivo.",
           isCorrect: true,
         },
         {
-          text: "Embodied carbon represents a small but significant proportion of overall emissions from a device",
+          text: "El carbono incorporado representa una pequeña pero significativa proporción de las emisiones totales de un dispositivo.",
           isCorrect: false,
         },
         {
-          text: "Embodied carbon is the only source of emissions that should be considered when calculating overall emissions for a device?",
+          text: "El carbono incorporado es la única fuente de emisiones que debe considerarse al calcular las emisiones totales de un dispositivo.",
           isCorrect: false,
         },
       ],
