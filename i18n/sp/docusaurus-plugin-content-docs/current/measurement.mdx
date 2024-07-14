@@ -136,28 +136,29 @@ Las futuras iteraciones de la SCI podrían prescribir unidades funcionales espec
 
 Now you have a list of the software components you want to measure and the functional unit you will use to measure them. The next step is to decide how you will quantify the emissions of each software component.
 
-There are two methods of quantification; measurement and calculation.
+Hay dos métodos de cuantificación: medición y cálculo.
 
-- **Measurement** is using counters of some form. For example, measuring the energy consumption of your software component by using a hardware device in the wall socket. Or using counters on hardware that directly measure energy consumption. If you can directly count your units, you should use the measurement approach.
-- **Calculation** involves indirect counting, often using a model of some form. For instance, if you cannot directly measure your application's energy consumption but instead have a model that estimates the energy consumption based on the CPU utilization, this is considered calculation rather than measurement.
+- **Medición** consiste en el uso directo de contadores. Por ejemplo, medir el consumo de energía de su componente de software utilizando un dispositivo de hardware en el enchufe de la pared, o usar contadores en el hardware que midan directamente el consumo de energía. Si puede contar directamente sus unidades, debe utilizar el método de medición.
 
-These resources can help you to decide on measurement and calculation methods:
+- **Cálculo** consiste en el uso directo de contadores, frecuentemente mediante algún modelo de cálculo. Por ejemplo, si no puedes medir directamente el consumo de energía de tu aplicación, pero tienes un modelo que estima el consumo de energía basado en el uso de la CPU, esto se considera cálculo en lugar de medición.
 
-- Look at the [Software Carbon Intensity Guide](https://sci-guide.greensoftware.foundation/) project. This project is responsible for providing advice on how to quantify different software components' emissions.
+Estos recursos pueden ayudarle a decidir sobre los métodos de medición y cálculo:
 
-4. Quantify
+- Consulta el proyecto [*Software Carbon Intensity Guide*](https://sci-guide.greensoftware.foundation/). Este proyecto es responsable de proveer asesoramiento sobre cómo cuantificar las emisiones de distintos componentes de software.
 
-Now you are ready to execute. Using the methodology described in the previous steps, start to quantify the SCI score for each software component in your boundary. Your total SCI score of your software application is the combined score of all the different components.
+4. Cuantificar
 
-You may calculate multiple SCI scores for the same application. The SCI score is helpful information to understand how your application behaves with respect to carbon emissions in different scenarios. For example, a streaming application might choose carbon per minute as a metric. It might also calculate the carbon per user per day. The carbon per $ revenue metric might give another helpful dimension.
+Ahora está listo para ejecutar. Usando la metodología descrita en los pasos anteriores, comience a cuantificar el puntaje SCI para cada componente de software dentro de sus límites. La puntuación SCI total de su aplicación de software es el puntaje combinado de todos los diferentes componentes.
 
-## Summary
+Es posible calcular múltiples puntajes SCI para la misma aplicación. El puntaje SCI es una información útil para comprender cómo se comporta su aplicación con respecto a las emisiones de carbono en diferentes escenarios. Por ejemplo, una aplicación de streaming podría elegir el carbono por minuto como métrica. También podría calcular el carbono de usuario por día. La métrica de carbono por ingresos en dólares podría proporcionar otra dimensión útil.
 
-- The GHG protocol is a metric for measuring an organization's total carbon emissions and is used by organizations all over the world.
-- The GHG protocol puts carbon emissions into three scopes. Scope 3, also known as value chain emissions, refers to the emissions from organizations that supply others in a chain. In this way, one organization's scope 1 and 2 will sum up into another organization's scope 3.
-- Calculating software-driven emissions using the GHG protocol is possible but can be difficult for open-source software.
-- The SCI is a metric designed specifically to calculate software emissions and is a rate rather than a total.
-- The functional unit of measurement is not prescribed in the SCI and you should choose something that reflects your application.
+## Resumen
+
+- El protocolo GHG (GEI en español) es una métrica para medir las emisiones totales de carbono de una organización y es usado por organizaciones de todo el mundo.
+- El protocolo GHG clasifica las emisiones de carbono en tres alcances. El Alcance 3, también conocido como emisiones de la cadena de valor, se refiere a las emisiones de las organizaciones que suministran a otras en una cadena. De esta manera, los alcances 1 y 2 de una organización se suman al alcance 3 de otra organización.
+- Es posible calcular las emisiones impulsadas por software utilizando el protocolo GHG, pero puede dificultarse para el software de código abierto.
+- SCI es una métrica diseñada específicamente para calcular las emisiones de software y es una tasa en lugar de un total.
+- La unidad funcional de medición no está prescrita para el  la métrica SCI y debe elegirse algo que refleje su aplicación.
 
 ## Quiz
 
@@ -165,25 +166,25 @@ You may calculate multiple SCI scores for the same application. The SCI score is
   QuizList={[
     {
       question:
-        "How does the Greenhouse Gas protocol ask us to measure emissions?",
+        "¿Cómo nos pide el protocolo de Gases de Efecto Invernadero (GHG, por sus siglas en inglés) que midamos las emisiones?",
       answers: [
         {
-          text: "By dividing emissions into three scopes",
+          text: "Dividiendo las emisiones en tres alcances.",
           isCorrect: true,
         },
         {
-          text: "By dividing emissions into embodied carbon and day-to-day emissions",
+          text: "Dividiendo las emisiones en carbono incorporado y emisiones diarias.",
           isCorrect: false,
         },
         {
-          text: "By dividing emissions from applications running on the public cloud and the private cloud",
+          text: "Dividiendo las emisiones de aplicaciones que se ejecutan en la nube pública y privada.",
           isCorrect: false,
         },
       ],
     },
     {
       question:
-        "Which of the 3 scopes used in the GHG protocol is also known as ‘value chain emissions’?",
+        "¿Cuál de los 3 alcances utilizados en el protocolo GHG también se conoce como 'emisiones de la cadena de valor'?",
       answers: [
         {
           text: "1",
@@ -198,120 +199,120 @@ You may calculate multiple SCI scores for the same application. The SCI score is
           isCorrect: true,
         },
         {
-          text: "1 and 2",
+          text: "1 y 2",
           isCorrect: false,
         },
         {
-          text: "all of the above",
+          text: "Todos los anteriores.",
           isCorrect: false,
         },
       ],
     },
     {
       question:
-        "If you are a cloud application, which GHG scope does your energy consumption fall into?",
+        "Si tiene su aplicación en la nube, ¿a qué alcance del GHG pertenece su consumo de energía?",
       answers: [
         {
-          text: "Scopes 2 and 3",
+          text: "Alcances 2 y 3,",
           isCorrect: false,
         },
         {
-          text: "Scope 2",
+          text: "Alcance 2,",
           isCorrect: false,
         },
         {
-          text: "Scope 3",
+          text: "Alcance 3.",
           isCorrect: false,
         },
         {
-          text: "Depends whether it’s public, private or hybrid",
+          text: "Depende si es nube pública, privada o híbrida.",
           isCorrect: true,
         },
       ],
     },
     {
       question:
-        "Which of the following scenarios is more challenging to measure using the GHG protocol?",
+        "¿Cuál de los siguientes escenarios es más difícil de medir usando el protocolo GHG?",
       answers: [
         {
-          text: "Closed-source software",
+          text: "Software de código cerrado.",
           isCorrect: false,
         },
         {
-          text: "Open-source software",
+          text: "Software de código abierto.",
           isCorrect: true,
         },
         {
-          text: "Both of the above",
+          text: "Todos los anteriores.",
           isCorrect: false,
         },
       ],
     },
     {
-      question: "What does the acronym SCI stand for?",
+      question: "¿Qué significa el acrónimo SCI?",
       answers: [
         {
-          text: "Software Carbon Index",
+          text: "Índice de Carbono del Software (Software Carbon Index)).",
           isCorrect: false,
         },
         {
-          text: "Software Carbon Intensity",
+          text: "Intensidad de Carbono del Software (Software Carbon Intensity).",
           isCorrect: true,
         },
         {
-          text: "Specific Carbon Intensity",
+          text: "Intensidad de Carbono Específica (Specific Carbon Intensity).",
           isCorrect: false,
         },
       ],
     },
     {
-      question: "What does ((E*I) + M) represent in the SCI equation?",
+      question: "¿Qué representa ((E*I) + M) en la ecuación SCI?",
       answers: [
         {
-          text: "Carbon",
+          text: "Carbono.",
           isCorrect: true,
         },
         {
-          text: "Energy",
+          text: "Energía.",
           isCorrect: false,
         },
         {
-          text: "Carbon intensity",
+          text: "Intensidad de carbono.",
           isCorrect: false,
         },
       ],
     },
     {
-      question: "What does the ‘R’ represent in the SCI equation?",
+      question: "¿Qué representa la 'R' en la ecuación SCI?",
       answers: [
         {
-          text: "Repetition",
+          text: "Repetición.",
           isCorrect: false,
         },
         {
-          text: "Rate",
+          text: "Tasa.",
           isCorrect: false,
         },
         {
-          text: "Functional unit",
+          text: "Unidad funcional.",
           isCorrect: true,
         },
       ],
     },
     {
       question:
-        "What are the key things to consider before calculating your SCI score?",
+        "¿Cuáles son los aspectos clave a considerar antes de calcular tu puntuación SCI?",
       answers: [
         {
-          text: "What to include and the functional unit you will use",
+          text: "Qué incluir y la unidad funcional que usará.",
           isCorrect: false,
         },
         {
-          text: "What to include, the functional unit you will use and method of quantification",
+          text: "Qué incluir, la unidad funcional que usará y el método de cuantificación.",
           isCorrect: true,
         },
         {
-          text: "What to include, the functional unit you will use, method of quantification and GHG score",
+          text: "Qué incluir, la unidad funcional que usará, el método de cuantificación y la puntuación GHG.",
           isCorrect: false,
         },
       ],
