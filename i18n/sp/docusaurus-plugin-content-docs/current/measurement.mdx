@@ -17,10 +17,9 @@ _Lo que no se puede medir, no se puede mejorar._
 
 ## Introduction
 
-El Protocolo de Gases de Efecto Invernadero (GHG, por sus siglas en inglés), es el método más usado por las organizaciones para medir sus emisiones totales de carbono. Comprender los alcances del GHG y cómo medir su software en comparación con los estándares de la industria te ayudará a ver en qué medida está aplicando los principios de software verde y cuánto le falta por mejorar.
+El Protocolo de Gases de Efecto Invernadero (GHG, por sus siglas en inglés), es el método más usado por las organizaciones para medir sus emisiones totales de carbono. Comprender los alcances del GHG y cómo medir su software en relación con los estándares de la industria, le ayudará a ver en qué medida está aplicando los principios de software verde y cuánto le falta por mejorar.
 
 Para complementar el protocolo GHG, también puede utilizar la especificación de Intensidad de Carbono del Software (SCI, por sus siglas en inglés). Mientras que el GHG es una medida más genérica adecuada para todo tipo de organizaciones, el SCI es específicamente para medir la tasa de emisiones del software y está diseñado para incentivar la eliminación de dichas emisiones.
-
 
 Mientras el GHG es un protocolo para medir las emisiones totales, el SCI es una herramienta para habilitar la eliminación de las emisiones generadas por el software.
 
@@ -42,7 +41,7 @@ A través de este enfoque, es posible sumar todas las emisiones de GHG de cada o
 
 ### ¿En cuál alcance estaría mi aplicación?
 
-Ya hemos visto cómo el protocolo GHG nos pide clasificar las emisiones de software según los alcances 1-3. Pero ¿cómo funciona esto cuando se trata de software?
+Ya hemos visto cómo el protocolo GHG nos pide clasificar las emisiones de software según los alcances 1-3. Pero ¿cómo funciona esto cuando se trata del software?
 
 La mayoría de las organizaciones tienen muchas aplicaciones que se ejecutan con diferentes arquitecturas y en diferentes entornos. Por lo anterior, el alcance en el que caen sus emisiones, tanto en términos de energía generada como de carbono incorporado, depende de su escenario específico.
 
@@ -51,7 +50,7 @@ La mayoría de las organizaciones tienen muchas aplicaciones que se ejecutan con
 - **Para aplicaciones en la nube que se ejecutan en servidores de los que eres dueño**, el uso de energía de su software cae en el alcance 2, y el carbono incorporado de todos sus servidores cae en el alcance 3.
 - **Para aplicaciones en la nube que se ejecutan en una nube pública**, tanto el uso de energía de su aplicación como el carbono incorporado caen en el alcance 3.
 - En escenarios donde **estás ejecutando una aplicación sobre una nube híbrida (nube privada/pública)**, parte de sus emisiones caerá en el alcance 2 y parte en el alcance 3.
-- Similarmente, para su **aplicación front-end** orientada al cliente, el uso de energía cae en el alcance 3 de su organización, ya que su cliente comprará la energía para alimentar su dispositivo.
+- Similarmente, para su **aplicación front-end** (interfaz de usuario) orientada al cliente, el uso de energía cae en el alcance 3 de su organización, ya que su cliente comprará la energía para alimentar su dispositivo.
 
 Para el software, independientemente de si se ejecuta en infraestructura propia, alquilada o de propiedad de los consumidores, hay tres parámetros a considerar para clasificar las emisiones:
 
@@ -63,31 +62,31 @@ Para el software, independientemente de si se ejecuta en infraestructura propia,
 
 Para calcular el total de las emisiones de carbono del software, necesita acceso a datos detallados sobre el consumo de energía, la intensidad de carbono y el hardware en el que se ejecuta su software. Estos datos son difíciles de recopilar, incluso en el caso de los productos de software de código cerrado de una organización, donde pueden rastrear su uso con telemetría o registros.
 
-Quienes mantienen el software de código abierto no tienen la misma visibilidad sobre cómo y dónde se usa su software, cuánta energía se consume y en qué hardware.
+Quienes mantienen el software de código abierto no tienen la misma visibilidad sobre cómo y dónde se usa su software, cuánta energía se consume y sobre qué hardware se ejecuta.
 
-Los proyectos de código abierto suelen tener múltiples colaboradores de múltiples organizaciones. Como resultado, no está claro quién debería ser responsable de calcular las emisiones y quién es responsable de eliminarlas. Cuando también se considera que el software de código abierto constituye el 90% de la pila típica de una empresa, queda claro que habrá una gran cantidad de emisiones de carbono que no se contabilizan.
+Los proyectos de código abierto suelen tener múltiples colaboradores de múltiples organizaciones. Como resultado, no está claro quién debería ser responsable de calcular las emisiones y quién es el responsable de eliminarlas. Cuando también se considera que el software de código abierto constituye el 90% de la pila típica de una empresa, queda claro que habrá una gran cantidad de emisiones de carbono que no se contabilizarán.
 
 ### ¿Los totales cuentan toda la historia?
 
-Un total es únicamente una métrica que describe el estado de algo. Para tomar las decisiones correctas, necesitas observar muchas métricas diferentes.
+Un total es únicamente una métrica que describe el estado de algo. Para tomar las decisiones correctas, necesita observar muchas métricas diferentes.
 
-Imagina un escenario en el que eres el líder de una organización y estás encargado de reducir las emisiones de su software. Mides las emisiones en el primer trimestre (Q1) y obtienes un total de 34 toneladas. Después de invertir en proyectos que eliminan emisiones, descubres que para el segundo trimestre (Q2) las emisiones han aumentado a 45 toneladas. ¿Significa esto que sus esfuerzos fracasaron?
+Imagine un escenario en el que es el líder de una organización y está encargado de reducir las emisiones de su software. Mide las emisiones en el primer trimestre (Q1) y obtiene un total de 34 toneladas. Después de invertir en proyectos que eliminan emisiones, descubre que para el segundo trimestre (Q2) las emisiones han aumentado a 45 toneladas. ¿Significa esto que sus esfuerzos fracasaron?
 
-No necesariamente. Sabemos que un total por sí solo no cuenta toda la historia y debemos observar otras métricas para determinar si un proyecto de reducción de emisiones ha tenido éxito. Por ejemplo, si mide la intensidad de carbono además del total de carbono, podría tener una perspectiva diferente. En el mismo proyecto, si la intensidad de carbono era de 3.3g CO2eq/usuario en Q1, y 2.9g CO2eq/usuario en Q2, podría considerar que el proyecto fue un éxito y continuar invirtiendo en este.
+No necesariamente. Sabemos que un total por sí solo no cuenta toda la historia, y debemos observar otras métricas para determinar si un proyecto de reducción de emisiones ha tenido éxito. Por ejemplo, si mide la intensidad de carbono además del total de carbono, podría tener una perspectiva diferente. En el mismo proyecto, si la intensidad de carbono era de 3,3g CO2eq/usuario en Q1, y 2,9g CO2eq/usuario en Q2, podría considerar que el proyecto fue un éxito y continuar invirtiendo en este.
 
-Mientras que el total te informó que las emisiones de carbono de su organización habían aumentado en general, la intensidad proporcionó una perspectiva más completa que le ayudaría a tomar una decisión más informada sobre cómo proceder.
+Mientras que el total le informó que las emisiones de carbono de su organización habían aumentado en general, la intensidad proporcionó una perspectiva más completa que le ayudaría a tomar una decisión más informada sobre cómo proceder.
 
 ## Especificación de la Intensidad de Carbono del Software
 
-La [especificación de la Intensidad de Carbono del Software (SCI)](https://grnsft.org/sci) es una metodología desarrollada por el Grupo de Trabajo de Normas de la Green Software Foundation, diseñada para evaluar una aplicación de software en términos de sostenibilidad y fomentar acciones orientadas a la eliminación de emisiones.
+La [especificación de la Intensidad de Carbono del Software (SCI)](https://grnsft.org/sci) es una metodología desarrollada por el Grupo de Trabajo de Normas de la Green Software Foundation, diseñada para evaluar una aplicación de software en términos de sostenibilidad, así como fomentar acciones orientadas a la eliminación de emisiones.
 
-No es un reemplazo del protocolo GHG, sino una métrica adicional que ayuda a los equipos de software a comprender cómo se comporta su software en términos de emisiones de carbono para que puedan tomar decisiones más informadas. Mientras que el protocolo GHG calcula las **emisiones totales**, el SCI se trata de calcular la **tasa de emisiones**. En términos automotrices, el SCI es más como una medición de millas por galón y el protocolo GHG es más como la huella de carbono total de un fabricante de carros y todos los carros que producen cada año.
+No es un reemplazo del protocolo GHG, sino una métrica adicional que ayuda a los equipos de software a comprender cómo se comporta su software en términos de emisiones de carbono para que puedan tomar decisiones más informadas. Mientras que el protocolo GHG calcula las **emisiones totales**, el SCI se trata de calcular la **tasa de emisiones**. En términos automotrices, el SCI es más como una medición de millas por galón y el protocolo GHG es más como la huella de carbono total de un fabricante de carros y de todos los carros que producen cada año.
 
 En lugar de clasificar las emisiones de carbono del software en los alcances 1-3, las clasifica en emisiones operativas (emisiones de carbono del funcionamiento del software) y emisiones incorporadas (emisiones de carbono de los recursos físicos necesarios para ejecutar el software). Además, es una intensidad en lugar de un total, lo que es más inclusivo para el software de código abierto.
 
 Un aspecto importante a tener en cuenta es que no es posible reducir su puntuación SCI comprando bonos de carbono en forma de neutralizaciones, compensaciones o créditos de energía renovable. Esto significa que una organización que no haga esfuerzos para reducir sus emisiones, sino que simplemente gaste dinero en créditos de carbono, no puede lograr una buena puntuación SCI.
 
-Los bonos de carbono son un componente esencial de cualquier estrategia climática; sin embargo, dichos bonos no son eliminaciones y, por lo tanto, no se incluyen en la métrica SCI.
+Los bonos de carbono son un componente esencial de cualquier estrategia climática. Sin embargo, dichos bonos no son eliminaciones y, por lo tanto, no se incluyen en la métrica SCI.
 
 Si hace que su aplicación sea más **eficiente en energía, eficiente en hardware** o **consciente del carbono**, su puntuación SCI disminuirá. La única manera de reducir su puntuación SCI es invertir tiempo o recursos en uno de esos tres principios. Por lo tanto, adoptar el SCI como métrica para su aplicación de software junto con el protocolo GHG impulsará la inversión en uno de los tres pilares del software verde.
 
@@ -99,7 +98,7 @@ La ecuación para calcular la puntuación SCI es elegantemente simple. Esta simp
 
 ![alt_text](./images/23_SCI.png "image_tooltip")
 
-`SCI = ((E *I) + M) per R`
+`SCI = ((E *I) + M) por R`
 
 `E` = Energía consumida por un sistema de software.
 `I` = Emisiones de carbono marginales basadas en la ubicación.* 
@@ -108,7 +107,7 @@ La ecuación para calcular la puntuación SCI es elegantemente simple. Esta simp
 
 Esto se resume en:
 
-`SCI = C per R` (Carbon per `R`)
+`SCI = C por R` (Carbono por `R`)
 
 `R` es la característica central de la SCI y lo convierte en una intensidad en lugar de un total. Esto es lo que llamamos una _unidad funcional_.
 
@@ -122,7 +121,7 @@ Qué componentes de software incluir o excluir en la puntuación SCI significa d
 
 Para cada componente de software que incluya, necesitará medir su impacto. Para cada componente importante que excluya, necesitará explicar por qué.
 
-La especificación SCI actualmente no exige qué incluir y qué no incluir. Sin embargo, debe incluir toda la infraestructura y sistemas que soportan y contribuyen significativamente a la operación del software.
+La especificación SCI actualmente no exige qué incluir y qué no incluir. Sin embargo, debe incluir toda la infraestructura y sistemas de soporte que contribuyen significativamente a la operación del software.
 
 Su puntuación SCI podría disminuir si ajusta los límites de su software y excluye más componentes de software. Por el contrario, su puntuación SCI podría aumentar si incluye componentes de software que excluyó previamente. Por lo tanto, cuando informe su puntuación SCI, especialmente cualquier mejora en la puntuación, es esencial revelar los límites de su software.
 
@@ -140,7 +139,7 @@ Hay dos métodos de cuantificación: medición y cálculo.
 
 - **Medición** consiste en el uso directo de contadores. Por ejemplo, medir el consumo de energía de su componente de software utilizando un dispositivo de hardware en el enchufe de la pared, o usar contadores en el hardware que midan directamente el consumo de energía. Si puede contar directamente sus unidades, debe utilizar el método de medición.
 
-- **Cálculo** consiste en el uso directo de contadores, frecuentemente mediante algún modelo de cálculo. Por ejemplo, si no puedes medir directamente el consumo de energía de tu aplicación, pero tiene un modelo que estima el consumo de energía basado en el uso de la CPU, esto se considera cálculo en lugar de medición.
+- **Cálculo** consiste en el uso directo de contadores, frecuentemente mediante algún modelo de cálculo. Por ejemplo, si no puedes medir directamente el consumo de energía de su aplicación, pero tiene un modelo que estima el consumo de energía basado en el uso de la CPU, esto se considera cálculo en lugar de medición.
 
 Estos recursos pueden ayudarle a decidir sobre los métodos de medición y cálculo:
 
@@ -154,7 +153,7 @@ Es posible calcular múltiples puntajes SCI para la misma aplicación. El puntaj
 
 ## Resumen
 
-- El protocolo GHG (GEI en español) es una métrica para medir las emisiones totales de carbono de una organización y es usado por organizaciones de todo el mundo.
+- El protocolo GHG (GEI, en español) es una métrica para medir las emisiones totales de carbono de una organización y es usado por organizaciones de todo el mundo.
 - El protocolo GHG clasifica las emisiones de carbono en tres alcances. El Alcance 3, también conocido como emisiones de la cadena de valor, se refiere a las emisiones de las organizaciones que suministran a otras en una cadena. De esta manera, los alcances 1 y 2 de una organización se suman al alcance 3 de otra organización.
 - Es posible calcular las emisiones impulsadas por software utilizando el protocolo GHG, pero puede dificultarse para el software de código abierto.
 - SCI es una métrica diseñada específicamente para calcular las emisiones de software y es una tasa en lugar de un total.
@@ -252,7 +251,7 @@ Es posible calcular múltiples puntajes SCI para la misma aplicación. El puntaj
       question: "¿Qué significa el acrónimo SCI?",
       answers: [
         {
-          text: "Índice de Carbono del Software (Software Carbon Index)).",
+          text: "Índice de Carbono del Software (Software Carbon Index).",
           isCorrect: false,
         },
         {
@@ -301,7 +300,7 @@ Es posible calcular múltiples puntajes SCI para la misma aplicación. El puntaj
     },
     {
       question:
-        "¿Cuáles son los aspectos clave a considerar antes de calcular tu puntuación SCI?",
+        "¿Cuáles son los aspectos clave a considerar antes de calcular su puntuación SCI?",
       answers: [
         {
           text: "Qué incluir y la unidad funcional que usará.",

@@ -9,7 +9,7 @@ title: Introducción
 
 ## ¿Qué es el software verde?
 
-El software verde (* *green software* * en Inglés), es una disciplina que emerge de la intersección de la ciencia climática, el diseño de software, los mercados de energía o electricidad, el hardware y el diseño de centros de datos.
+El software verde (*green software*, en inglés), es una disciplina que emerge de la intersección de la ciencia climática, el diseño de software, los mercados de energía o electricidad, el hardware y el diseño de centros de datos.
 
 El software verde es un software eficiente en carbono, es decir, emite la menor cantidad de carbono posible. Sólo tres actividades reducen las emisiones de carbono del software: la eficiencia energética, conciencia sobre el carbono y la eficiencia del hardware. Este entrenamiento o capacitación le explicará todos estos conceptos, cómo aplicarlos a sus procesos y cómo medirlos, así como algunos de los lineamientos y organismos internacionales que guían y monitorean este ámbito.
 

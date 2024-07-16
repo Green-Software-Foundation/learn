@@ -25,7 +25,7 @@ Los profesionales o practicantes del software verde asumen la responsabilidad de
 
 El paso final en esta cadena está representado por el usuario final de su producto, no el producto terminado en sí. Esto significa que nuestro objetivo no es simplemente crear el código más eficiente en energía o el software más "verde", sino pensar en el usuario final y cómo asegurarnos de que no esté creando emisiones de carbono innecesarias.
 
-Esto podría significar la ejecución conjunta de cargas de trabajo para aprovechar la proporcionalidad energética o cambiar la forma en que un usuario utiliza tu software. Veamos algunos de estos conceptos, así como algunas formas en las que se puede ser más eficiente energéticamente en cada etapa de la cadena, hasta llegar al consumidor final.
+Esto podría significar la ejecución conjunta de cargas de trabajo para aprovechar la proporcionalidad energética o cambiar la forma en que un usuario utiliza su software. Veamos algunos de estos conceptos, así como algunas formas en las que se puede ser más eficiente energéticamente en cada etapa de la cadena, hasta llegar al consumidor final.
 
 ![alt_text](./images/03_energy_efficiency.png "image_tooltip")
 
@@ -51,20 +51,20 @@ La energía limpia proviene de fuentes renovables y de emisión cero que no cont
 
 ### Medición de la energía
 
-- La energía se mide en julios (J), es la medida del Sistema Internacional de Unidades [SI](https://en.wikipedia.org/wiki/International_System_of_Units).
+- La energía se mide en julios (J), es la medida del Sistema Internacional de Unidades [(SI)](https://en.wikipedia.org/wiki/International_System_of_Units).
 - La potencia se mide en vatios, donde 1 vatio (W) es una tasa correspondiente a un julio por segundo.
 - Un kilovatio (kW) es, por lo tanto, también una tasa correspondiente a 1000 julios por segundo.
 - Un kilovatio-hora (kWh) es una medida de energía (J) correspondiente a un kilovatio de potencia sostenido durante una hora.
 
 ## Cómo mejorar la eficiencia energética
 
-Ahora que sabemos cómo se produce la energía y su costo asociado en términos de emisiones (basado en el uso de fuentes de energía con bajo o alto contenido de carbono), veamos algunas formas en que los profesionales o practicantes del software verde pueden mejorar la eficiencia energética. Comprender la efectividad del consumo de energía, así como la proporcionalidad de esta, significa que puedes tomar mejores decisiones sobre cómo usarla de la manera más eficiente posible y desperdiciar menos.
+Ahora que sabemos cómo se produce la energía y su costo asociado en términos de emisiones (basado en el uso de fuentes de energía con bajo o alto contenido de carbono), veamos algunas formas en que los profesionales o practicantes del software verde pueden mejorar la eficiencia energética. Comprender la efectividad del consumo de energía, así como la proporcionalidad de esta, significa que puede tomar mejores decisiones sobre cómo usarla de la manera más eficiente posible y desperdiciar menos.
 
 ### Efectividad del uso de la energía
 
 La industria de los centros de datos utiliza la [efectividad del uso de la energía](https://datacenters.lbl.gov/sites/default/files/WP49-PUE%20A%20Comprehensive%20Examination%20of%20the%20Metric_v6.pdf) (PUE, por sus siglas en inglés) como medida desarrollada por *Green Grid* en 2006, para **medir la eficiencia energética de los centros de datos**. Específicamente, esto se relaciona con cuánta energía utiliza el equipo informático en comparación con la refrigeración y otros gastos generales que soportan a dicho equipo. Cuando el PUE de un centro de datos está cerca de 1,0, la computación está usando casi toda la energía. Cuando el PUE es 2,0, esto significa que se requiere un vatio adicional de potencia informática para enfriar y distribuir energía al equipo informático por cada vatio de potencia informática que usa.
 
-Otra forma de pensar en el PUE es como un multiplicador del consumo de energía de tu aplicación. Por ejemplo, si tu aplicación consume 10 kWh y el PUE del centro de datos donde se ejecuta es 1,5, entonces el consumo real de la red es de 15 kWh: 5 kWh destinados a los gastos operativos del centro de datos y 10 kWh destinados a los servidores donde se está ejecutanto tu aplicación.
+Otra forma de pensar en el PUE es como un multiplicador del consumo de energía de su aplicación. Por ejemplo, si su aplicación consume 10 kWh y el PUE del centro de datos donde se ejecuta es 1,5, entonces el consumo real de la red es de 15 kWh: 5 kWh destinados a los gastos operativos del centro de datos y 10 kWh destinados a los servidores donde se está ejecutanto su aplicación.
 
 ![alt_text](./images/05_power_usage.png "image_tooltip")
 
@@ -90,7 +90,7 @@ Los servidores generalmente no están configurados para un ahorro de energía m�
 
 - La electricidad es un indicador de carbono, por lo que construir una aplicación que sea eficiente en energía es equivalente a construir una aplicación que sea eficiente en carbono.
 - El software verde asume la responsabilidad de su consumo de electricidad y está diseñado para consumir lo menos posible.
-- Cuantificar el consumo de energía de una aplicación es un paso en la dirección correcta para comenzar a pensar en cómo una aplicación puede operar de manera más eficiente. Sin embargo, comprender el consumo de energía de tu aplicación no es la único a tener en cuenta. El hardware en el que se ejecuta tu software utiliza parte de la electricidad para la operación (gastos operacionales). Esto se denomina efectividad del uso de la energía (PUE) en el espacio de la nube.
+- Cuantificar el consumo de energía de una aplicación es un paso en la dirección correcta para comenzar a pensar en cómo una aplicación puede operar de manera más eficiente. Sin embargo, comprender el consumo de energía de su aplicación no es la único a tener en cuenta. El hardware en el que se ejecuta su software utiliza parte de la electricidad para la operación (gastos operacionales). Esto se denomina efectividad del uso de la energía (PUE) en el espacio de la nube.
 - El concepto de proporcionalidad energética añade otra capa de complejidad, ya que el hardware se vuelve más eficiente en convertir electricidad en operaciones útiles cuanto más se utiliza.
 - Comprender esto da a los profesionales o prácticantes del software verde una mejor perspectiva de cómo se comporta su aplicación con respecto al consumo de energía en el mundo real.
 
@@ -190,11 +190,11 @@ Los servidores generalmente no están configurados para un ahorro de energía m�
           isCorrect: true,
         },
         {
-          text: "Una aplicación que consume 15kWh en un centro de datos con un PUE de 1.2",
+          text: "Una aplicación que consume 15kWh en un centro de datos con un PUE de 1,2",
           isCorrect: false,
         },
         {
-          text: "Una aplicación que consume 10kWh en un centro de datos con un PUE de 1.5",
+          text: "Una aplicación que consume 10kWh en un centro de datos con un PUE de 1,5",
           isCorrect: false,
         },
       ],
