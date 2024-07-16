@@ -21,7 +21,7 @@ La energía es la capacidad de hacer un trabajo. Existen muchas formas diferente
 
 Todo software consume electricidad, desde las aplicaciones que se ejecutan en teléfonos móviles hasta el entrenamiento de modelos de aprendizaje automático en centros de datos. Una de las mejores formas de reducir el consumo de electricidad y las emisiones de carbono subsecuentes generadas por el software, es hacer que las aplicaciones sean más eficientes energéticamente. Sin embargo, ahí no termina nuestra responsabilidad.
 
-Los profesionales o practicantes del software verde asumen la responsabilidad de la energía consumida por sus productos y los diseñan para consumir la menos posible. Debemos asegurarnos de que en cada paso del proceso, haya el menor desperdicio posible y que la mayor parte de la energía se destine al siguiente paso.
+Los profesionales o practicantes del software verde asumen la responsabilidad del consumo energético de sus productos y los diseñan para que tengan el menor consumo de energía posible. Se debe asegurar que en cada paso del proceso haya el menor desperdicio y que la mayor parte de la energía se destine al siguiente paso.
 
 El paso final en esta cadena está representado por el usuario final de su producto, no el producto terminado en sí. Esto significa que nuestro objetivo no es simplemente crear el código más eficiente en energía o el software más "verde", sino pensar en el usuario final y cómo asegurarnos de que no esté creando emisiones de carbono innecesarias.
 
@@ -51,7 +51,7 @@ La energía limpia proviene de fuentes renovables y de emisión cero que no cont
 
 ### Medición de la energía
 
-- La energía se mide en julios (J), la unidad del [SI](https://en.wikipedia.org/wiki/International_System_of_Units).
+- La energía se mide en julios (J), es la medida del Sistema Internacional de Unidades [SI](https://en.wikipedia.org/wiki/International_System_of_Units).
 - La potencia se mide en vatios, donde 1 vatio (W) es una tasa correspondiente a un julio por segundo.
 - Un kilovatio (kW) es, por lo tanto, también una tasa correspondiente a 1000 julios por segundo.
 - Un kilovatio-hora (kWh) es una medida de energía (J) correspondiente a un kilovatio de potencia sostenido durante una hora.
@@ -62,15 +62,15 @@ Ahora que sabemos cómo se produce la energía y su costo asociado en términos 
 
 ### Efectividad del uso de la energía
 
-La industria de los centros de datos utiliza la [efectividad del uso de la energía](https://datacenters.lbl.gov/sites/default/files/WP49-PUE%20A%20Comprehensive%20Examination%20of%20the%20Metric_v6.pdf) (PUE, por sus siglas en inglés), desarrollada por *Green Grid* en 2006, para **medir la eficiencia energética de los centros de datos**. Específicamente, esto se relaciona con cuánta energía utiliza el equipo informático en comparación con la refrigeración y otros gastos generales que soportan a dicho equipo. Cuando el PUE de un centro de datos está cerca de 1.0, la computación está usando casi toda la energía. Cuando el PUE es 2.0, esto significa que se requiere un vatio adicional de potencia informática para enfriar y distribuir energía al equipo informático por cada vatio de potencia informática que usa.
+La industria de los centros de datos utiliza la [efectividad del uso de la energía](https://datacenters.lbl.gov/sites/default/files/WP49-PUE%20A%20Comprehensive%20Examination%20of%20the%20Metric_v6.pdf) (PUE, por sus siglas en inglés) como medida desarrollada por *Green Grid* en 2006, para **medir la eficiencia energética de los centros de datos**. Específicamente, esto se relaciona con cuánta energía utiliza el equipo informático en comparación con la refrigeración y otros gastos generales que soportan a dicho equipo. Cuando el PUE de un centro de datos está cerca de 1,0, la computación está usando casi toda la energía. Cuando el PUE es 2,0, esto significa que se requiere un vatio adicional de potencia informática para enfriar y distribuir energía al equipo informático por cada vatio de potencia informática que usa.
 
-Otra forma de pensar en el PUE es como un multiplicador del consumo de energía de tu aplicación. Por ejemplo, si tu aplicación consume 10 kWh y el PUE del centro de datos donde se ejecuta es 1.5, entonces el consumo real de la red es de 15 kWh: 5 kWh destinados a los gastos operativos del centro de datos y 10 kWh destinados a los servidores donde se está ejecutanto tu aplicación.
+Otra forma de pensar en el PUE es como un multiplicador del consumo de energía de tu aplicación. Por ejemplo, si tu aplicación consume 10 kWh y el PUE del centro de datos donde se ejecuta es 1,5, entonces el consumo real de la red es de 15 kWh: 5 kWh destinados a los gastos operativos del centro de datos y 10 kWh destinados a los servidores donde se está ejecutanto tu aplicación.
 
 ![alt_text](./images/05_power_usage.png "image_tooltip")
 
 ### Proporcionalidad energética
 
-La [Proporcionalidad energética](https://research.google/pubs/pub33387/), propuesta por primera vez en 2007 por ingenieros de Google, mide **la relación entre la energía consumida por una computadora y la tasa a la que se realiza el trabajo útil** (su utilización).
+La [proporcionalidad energética](https://research.google/pubs/pub33387/), propuesta por primera vez en 2007 por ingenieros de Google, mide **la relación entre la energía consumida por una computadora y la tasa a la que se realiza el trabajo útil** (su utilización).
 
 La utilización mide la proporción de recursos usados de la computadora (o computador), generalmente expresado como un porcentaje. Una computadora completamente utilizada que funciona a su máxima capacidad tiene un porcentaje alto, mientras que una computadora inactiva sin utilización tiene un porcentaje bajo.
 
@@ -84,7 +84,7 @@ Debido a esto, cuanto más utilizamos una computadora, más eficiente se vuelve 
 
 El consumo de energía estático de una computadora es **cuánta electricidad consume cuando está en estado inactivo**. El consumo de energía estático varía según la configuración y los componentes de hardware, pero todas las partes tienen algún consumo de energía estático. Esta es una de las razones por las que las computadoras de escritorio, los portátiles y los dispositivos de usuario final tienen modos de ahorro de energía. Si el dispositivo está inactivo, eventualmente activará un modo de hibernación y pondrá el disco y la pantalla en modo suspensión o incluso cambiará la frecuencia de la CPU. Estos modos de ahorro de energía ahorran electricidad, pero tienen otros inconvenientes, como un reinicio más lento cuando el dispositivo se activa nuevamente.
 
-Los servidores generalmente no están configurados para un ahorro de energía máximo o incluso mínimo. Muchos casos de uso que se ejecutan en servidores demandan la capacidad total tan rápidamente como sea posible, porque el servidor necesita responder a demandas que cambian rápidamente, lo que lleva a muchos servidores en modo inactivo durante períodos de baja demanda. Un servidor inactivo tiene un costo de carbono tanto del carbono incorporado o embebido como de su utilización ineficiente.
+Los servidores generalmente no están configurados para un ahorro de energía máximo o incluso mínimo. Muchos casos de uso que se ejecutan en servidores demandan la capacidad total tan rápidamente como sea posible, porque el servidor necesita responder a demandas que cambian rápidamente, lo que lleva a muchos servidores a mantenerse en modo inactivo durante períodos de baja demanda. Un servidor inactivo tiene un costo de carbono tanto del carbono incorporado o embebido como de su utilización ineficiente.
 
 ## Resumen
 
