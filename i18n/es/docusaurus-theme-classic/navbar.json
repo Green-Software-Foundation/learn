@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "Green Software Practitioner",
+    "description": "The title in the navbar"
+  },
+  "item.label.Take the exam": {
+    "message": "Tomar el examen",
+    "description": "Navbar item with label Take the exam"
+  },
+  "item.label.a Green Software Foundation project": {
+    "message": "Un proyecto de Green Software Foundation",
+    "description": "Navbar item with label a Green Software Foundation project"
+  }
+}

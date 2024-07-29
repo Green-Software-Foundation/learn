@@ -1,0 +1,320 @@
+---
+sidebar_position: 7
+title: Medición
+---
+
+import Quiz from "/src/components/Quiz";
+
+:::note
+*This is a community contributed translation. It has limited support and might not match the latest English language version of the course.* Esta es una traducción aportada por la comunidad. Tiene soporte limitado y podría no coincidir con la versión más reciente del curso en inglés.
+:::
+
+:::tip Principio
+
+_Lo que no se puede medir, no se puede mejorar._
+
+:::
+
+## Introduction
+
+El Protocolo de Gases de Efecto Invernadero (GHG, por sus siglas en inglés), es el método más usado por las organizaciones para medir sus emisiones totales de carbono. Comprender los alcances del GHG y cómo medir su software en relación con los estándares de la industria, le ayudará a ver en qué medida está aplicando los principios de software verde y cuánto le falta por mejorar.
+
+Para complementar el protocolo GHG, también puede utilizar la especificación de Intensidad de Carbono del Software (SCI, por sus siglas en inglés). Mientras que el GHG es una medida más genérica adecuada para todo tipo de organizaciones, el SCI es específicamente para medir la tasa de emisiones del software y está diseñado para incentivar la eliminación de dichas emisiones.
+
+Mientras el GHG es un protocolo para medir las emisiones totales, el SCI es una herramienta para habilitar la eliminación de las emisiones generadas por el software.
+
+Analizaremos cada una de las metodologías de medición y explicaremos cómo calcularlas.
+
+## El protocolo GHG
+
+El [Protocolo de Gases de Efecto Invernadero (GHG)](https://ghgprotocol.org) es el estándar de cálculo de gases de efecto invernadero más utilizado y reconocido internacionalmente. El 92% de las empresas de Fortune 500 utilizan el protocolo GHG para calcular y divulgar sus emisiones de carbono.
+
+El protocolo GHG divide las emisiones en tres alcances:
+
+- **Alcance 1**: Emisiones directas desde las **operaciones** propias o controladas por el reportaje de la organización, como la combustión de combustibles en sitio o la flotilla de vehículos.
+- **Alcance 2**: Emisiones indirectas relacionadas con la **generación de emisiones de la energía comprada**, como el calor y la electricidad.
+- **Alcance 3**: Otras emisiones indirectas de todas las demás actividades en las que se participa, incluyendo todas las **emisiones de la cadena de suministro de una organización**; viajes de negocios de los empleados y la electricidad que los clientes pueden consumir cuando usa su producto.
+
+El Alcance 3, a veces denominado emisiones de la cadena de valor, es la fuente más significativa de emisiones y la más compleja de calcular para muchas organizaciones. Estas abarcan toda la gama de actividades necesarias para crear un producto o servicio, desde la concepción hasta la distribución. En el caso de una computadora portátil, por ejemplo, cada materia prima utilizada en su producción emite carbono cuando se extrae y se procesa. Las emisiones de la cadena de valor también incluyen las emisiones del uso de la computadora portátil, lo que significa las emisiones de la energía utilizada para alimentar la computadora portátil después de que ha sido vendida a un cliente.
+
+A través de este enfoque, es posible sumar todas las emisiones de GHG de cada organización y persona en el mundo y alcanzar un total global.
+
+### ¿En cuál alcance estaría mi aplicación?
+
+Ya hemos visto cómo el protocolo GHG nos pide clasificar las emisiones de software según los alcances 1-3. Pero ¿cómo funciona esto cuando se trata del software?
+
+La mayoría de las organizaciones tienen muchas aplicaciones que se ejecutan con diferentes arquitecturas y en diferentes entornos. Por lo anterior, el alcance en el que caen sus emisiones, tanto en términos de energía generada como de carbono incorporado, depende de su escenario específico.
+
+![alt_text](./images/22_scope.png "image_tooltip")
+
+- **Para aplicaciones en la nube que se ejecutan en servidores de los que eres dueño**, el uso de energía de su software cae en el alcance 2, y el carbono incorporado de todos sus servidores cae en el alcance 3.
+- **Para aplicaciones en la nube que se ejecutan en una nube pública**, tanto el uso de energía de su aplicación como el carbono incorporado caen en el alcance 3.
+- En escenarios donde **estás ejecutando una aplicación sobre una nube híbrida (nube privada/pública)**, parte de sus emisiones caerá en el alcance 2 y parte en el alcance 3.
+- Similarmente, para su **aplicación front-end** (interfaz de usuario) orientada al cliente, el uso de energía cae en el alcance 3 de su organización, ya que su cliente comprará la energía para alimentar su dispositivo.
+
+Para el software, independientemente de si se ejecuta en infraestructura propia, alquilada o de propiedad de los consumidores, hay tres parámetros a considerar para clasificar las emisiones:
+
+- Cuánta energía consume
+- Qué tan limpia o sucia es esa electricidad
+- Cuánto hardware necesita para funcionar.
+
+### ¿Es posible calcular un total para las emisiones de carbono del software?
+
+Para calcular el total de las emisiones de carbono del software, necesita acceso a datos detallados sobre el consumo de energía, la intensidad de carbono y el hardware en el que se ejecuta su software. Estos datos son difíciles de recopilar, incluso en el caso de los productos de software de código cerrado de una organización, donde pueden rastrear su uso con telemetría o registros.
+
+Quienes mantienen el software de código abierto no tienen la misma visibilidad sobre cómo y dónde se usa su software, cuánta energía se consume y sobre qué hardware se ejecuta.
+
+Los proyectos de código abierto suelen tener múltiples colaboradores de múltiples organizaciones. Como resultado, no está claro quién debería ser responsable de calcular las emisiones y quién es el responsable de eliminarlas. Cuando también se considera que el software de código abierto constituye el 90% de la pila típica de una empresa, queda claro que habrá una gran cantidad de emisiones de carbono que no se contabilizarán.
+
+### ¿Los totales cuentan toda la historia?
+
+Un total es únicamente una métrica que describe el estado de algo. Para tomar las decisiones correctas, necesita observar muchas métricas diferentes.
+
+Imagine un escenario en el que es el líder de una organización y está encargado de reducir las emisiones de su software. Mide las emisiones en el primer trimestre (Q1) y obtiene un total de 34 toneladas. Después de invertir en proyectos que eliminan emisiones, descubre que para el segundo trimestre (Q2) las emisiones han aumentado a 45 toneladas. ¿Significa esto que sus esfuerzos fracasaron?
+
+No necesariamente. Sabemos que un total por sí solo no cuenta toda la historia, y debemos observar otras métricas para determinar si un proyecto de reducción de emisiones ha tenido éxito. Por ejemplo, si mide la intensidad de carbono además del total de carbono, podría tener una perspectiva diferente. En el mismo proyecto, si la intensidad de carbono era de 3,3g CO2eq/usuario en Q1, y 2,9g CO2eq/usuario en Q2, podría considerar que el proyecto fue un éxito y continuar invirtiendo en este.
+
+Mientras que el total le informó que las emisiones de carbono de su organización habían aumentado en general, la intensidad proporcionó una perspectiva más completa que le ayudaría a tomar una decisión más informada sobre cómo proceder.
+
+## Especificación de la Intensidad de Carbono del Software
+
+La [especificación de la Intensidad de Carbono del Software (SCI)](https://grnsft.org/sci) es una metodología desarrollada por el Grupo de Trabajo de Normas de la Green Software Foundation, diseñada para evaluar una aplicación de software en términos de sostenibilidad, así como fomentar acciones orientadas a la eliminación de emisiones.
+
+No es un reemplazo del protocolo GHG, sino una métrica adicional que ayuda a los equipos de software a comprender cómo se comporta su software en términos de emisiones de carbono para que puedan tomar decisiones más informadas. Mientras que el protocolo GHG calcula las **emisiones totales**, el SCI se trata de calcular la **tasa de emisiones**. En términos automotrices, el SCI es más como una medición de millas por galón y el protocolo GHG es más como la huella de carbono total de un fabricante de carros y de todos los carros que producen cada año.
+
+En lugar de clasificar las emisiones de carbono del software en los alcances 1-3, las clasifica en emisiones operativas (emisiones de carbono del funcionamiento del software) y emisiones incorporadas (emisiones de carbono de los recursos físicos necesarios para ejecutar el software). Además, es una intensidad en lugar de un total, lo que es más inclusivo para el software de código abierto.
+
+Un aspecto importante a tener en cuenta es que no es posible reducir su puntuación SCI comprando bonos de carbono en forma de neutralizaciones, compensaciones o créditos de energía renovable. Esto significa que una organización que no haga esfuerzos para reducir sus emisiones, sino que simplemente gaste dinero en créditos de carbono, no puede lograr una buena puntuación SCI.
+
+Los bonos de carbono son un componente esencial de cualquier estrategia climática. Sin embargo, dichos bonos no son eliminaciones y, por lo tanto, no se incluyen en la métrica SCI.
+
+Si hace que su aplicación sea más **eficiente en energía, eficiente en hardware** o **consciente del carbono**, su puntuación SCI disminuirá. La única manera de reducir su puntuación SCI es invertir tiempo o recursos en uno de esos tres principios. Por lo tanto, adoptar el SCI como métrica para su aplicación de software junto con el protocolo GHG impulsará la inversión en uno de los tres pilares del software verde.
+
+### La ecuación para cálculo del SCI
+
+SCI es un método de puntuación para cualquier aplicación de software, no limitado solo a aplicaciones en la nube o aplicaciones de usuario final, sino a todo tipo de aplicaciones intermedias. SCI proporciona un lenguaje común para describir cómo se comporta el software con respecto a las emisiones de carbono y cómo un cambio propuesto podría eliminar algunas de estas.
+
+La ecuación para calcular la puntuación SCI es elegantemente simple. Esta simplicidad significa que puede aplicarse en una variedad de escenarios distintos.
+
+![alt_text](./images/23_SCI.png "image_tooltip")
+
+`SCI = ((E *I) + M) por R`
+
+`E` = Energía consumida por un sistema de software.
+`I` = Emisiones de carbono marginales basadas en la ubicación.* 
+`M` = Emisiones incorporadas de un sistema de software.* 
+`R` = Unidad funcional (por ejemplo, carbono por usuario adicional, llamada API, trabajo de ML, etc.).
+
+Esto se resume en:
+
+`SCI = C por R` (Carbono por `R`)
+
+`R` es la característica central de la SCI y lo convierte en una intensidad en lugar de un total. Esto es lo que llamamos una _unidad funcional_.
+
+## Cómo calcular su puntuación SCI
+
+Siga estos cuatro pasos para calcular su puntuación SCI.
+
+1. Decida qué incluir
+
+Qué componentes de software incluir o excluir en la puntuación SCI significa definir los límites de su software; dónde comienza y dónde termina.
+
+Para cada componente de software que incluya, necesitará medir su impacto. Para cada componente importante que excluya, necesitará explicar por qué.
+
+La especificación SCI actualmente no exige qué incluir y qué no incluir. Sin embargo, debe incluir toda la infraestructura y sistemas de soporte que contribuyen significativamente a la operación del software.
+
+Su puntuación SCI podría disminuir si ajusta los límites de su software y excluye más componentes de software. Por el contrario, su puntuación SCI podría aumentar si incluye componentes de software que excluyó previamente. Por lo tanto, cuando informe su puntuación SCI, especialmente cualquier mejora en la puntuación, es esencial revelar los límites de su software.
+
+2. Elija su unidad funcional
+
+Como hemos visto, la SCI es una tasa en lugar de un total y mide la intensidad de las emisiones según la unidad funcional elegida. La especificación actualmente no prescribe una unidad funcional y es libre de elegir la que mejor describa cómo se escala su aplicación. Por ejemplo, si su aplicación escala por el número de usuarios, entonces elija usuarios como su unidad funcional.
+
+Las futuras iteraciones de la SCI podrían prescribir unidades funcionales específicas para diferentes tipos de aplicaciones para ayudar con la comparabilidad. Por ejemplo, podríamos pedir a las aplicaciones de streaming que elijan minutos como su unidad funcional para estandarizar la medición en todas las aplicaciones de streaming.
+
+3. Decida cómo medir sus emisiones
+
+Ahora tiene una lista de los componentes de software que desea medir y la unidad funcional que utilizará para medirlos. El siguiente paso es decidir cómo cuantificará las emisiones de cada componente de software.
+
+Hay dos métodos de cuantificación: medición y cálculo.
+
+- **Medición** consiste en el uso directo de contadores. Por ejemplo, medir el consumo de energía de su componente de software utilizando un dispositivo de hardware en el enchufe de la pared, o usar contadores en el hardware que midan directamente el consumo de energía. Si puede contar directamente sus unidades, debe utilizar el método de medición.
+
+- **Cálculo** consiste en el uso directo de contadores, frecuentemente mediante algún modelo de cálculo. Por ejemplo, si no puedes medir directamente el consumo de energía de su aplicación, pero tiene un modelo que estima el consumo de energía basado en el uso de la CPU, esto se considera cálculo en lugar de medición.
+
+Estos recursos pueden ayudarle a decidir sobre los métodos de medición y cálculo:
+
+- Consulte el proyecto [*Software Carbon Intensity Guide*](https://sci-guide.greensoftware.foundation/). Este proyecto es responsable de proveer asesoramiento sobre cómo cuantificar las emisiones de distintos componentes de software.
+
+4. Cuantificar
+
+Ahora está listo para ejecutar. Usando la metodología descrita en los pasos anteriores, comience a cuantificar el puntaje SCI para cada componente de software dentro de sus límites. La puntuación SCI total de su aplicación de software es el puntaje combinado de todos los diferentes componentes.
+
+Es posible calcular múltiples puntajes SCI para la misma aplicación. El puntaje SCI es una información útil para comprender cómo se comporta su aplicación con respecto a las emisiones de carbono en diferentes escenarios. Por ejemplo, una aplicación de streaming podría elegir el carbono por minuto como métrica. También podría calcular el carbono de usuario por día. La métrica de carbono por ingresos en una medida monetaria podría proporcionar otra dimensión útil.
+
+## Resumen
+
+- El protocolo GHG (GEI, en español) es una métrica para medir las emisiones totales de carbono de una organización y es usado por organizaciones de todo el mundo.
+- El protocolo GHG clasifica las emisiones de carbono en tres alcances. El Alcance 3, también conocido como emisiones de la cadena de valor, se refiere a las emisiones de las organizaciones que suministran a otras en una cadena. De esta manera, los alcances 1 y 2 de una organización se suman al alcance 3 de otra organización.
+- Es posible calcular las emisiones impulsadas por software utilizando el protocolo GHG, pero puede dificultarse para el software de código abierto.
+- SCI es una métrica diseñada específicamente para calcular las emisiones de software y es una tasa en lugar de un total.
+- La unidad funcional de medición no está prescrita para el  la métrica SCI y debe elegirse algo que refleje su aplicación.
+
+## Quiz
+
+<Quiz
+  QuizList={[
+    {
+      question:
+        "¿Cómo nos pide el protocolo de Gases de Efecto Invernadero (GHG, por sus siglas en inglés) que midamos las emisiones?",
+      answers: [
+        {
+          text: "Dividiendo las emisiones en tres alcances.",
+          isCorrect: true,
+        },
+        {
+          text: "Dividiendo las emisiones en carbono incorporado y emisiones diarias.",
+          isCorrect: false,
+        },
+        {
+          text: "Dividiendo las emisiones de aplicaciones que se ejecutan en la nube pública y privada.",
+          isCorrect: false,
+        },
+      ],
+    },
+    {
+      question:
+        "¿Cuál de los 3 alcances utilizados en el protocolo GHG también se conoce como 'emisiones de la cadena de valor'?",
+      answers: [
+        {
+          text: "1",
+          isCorrect: false,
+        },
+        {
+          text: "2",
+          isCorrect: false,
+        },
+        {
+          text: "3",
+          isCorrect: true,
+        },
+        {
+          text: "1 y 2",
+          isCorrect: false,
+        },
+        {
+          text: "Todos los anteriores.",
+          isCorrect: false,
+        },
+      ],
+    },
+    {
+      question:
+        "Si tiene su aplicación en la nube, ¿a qué alcance del GHG pertenece su consumo de energía?",
+      answers: [
+        {
+          text: "Alcances 2 y 3,",
+          isCorrect: false,
+        },
+        {
+          text: "Alcance 2,",
+          isCorrect: false,
+        },
+        {
+          text: "Alcance 3.",
+          isCorrect: false,
+        },
+        {
+          text: "Depende si es nube pública, privada o híbrida.",
+          isCorrect: true,
+        },
+      ],
+    },
+    {
+      question:
+        "¿Cuál de los siguientes escenarios es más difícil de medir usando el protocolo GHG?",
+      answers: [
+        {
+          text: "Software de código cerrado.",
+          isCorrect: false,
+        },
+        {
+          text: "Software de código abierto.",
+          isCorrect: true,
+        },
+        {
+          text: "Todos los anteriores.",
+          isCorrect: false,
+        },
+      ],
+    },
+    {
+      question: "¿Qué significa el acrónimo SCI?",
+      answers: [
+        {
+          text: "Índice de Carbono del Software (Software Carbon Index).",
+          isCorrect: false,
+        },
+        {
+          text: "Intensidad de Carbono del Software (Software Carbon Intensity).",
+          isCorrect: true,
+        },
+        {
+          text: "Intensidad de Carbono Específica (Specific Carbon Intensity).",
+          isCorrect: false,
+        },
+      ],
+    },
+    {
+      question: "¿Qué representa ((E*I) + M) en la ecuación SCI?",
+      answers: [
+        {
+          text: "Carbono.",
+          isCorrect: true,
+        },
+        {
+          text: "Energía.",
+          isCorrect: false,
+        },
+        {
+          text: "Intensidad de carbono.",
+          isCorrect: false,
+        },
+      ],
+    },
+    {
+      question: "¿Qué representa la 'R' en la ecuación SCI?",
+      answers: [
+        {
+          text: "Repetición.",
+          isCorrect: false,
+        },
+        {
+          text: "Tasa.",
+          isCorrect: false,
+        },
+        {
+          text: "Unidad funcional.",
+          isCorrect: true,
+        },
+      ],
+    },
+    {
+      question:
+        "¿Cuáles son los aspectos clave a considerar antes de calcular su puntuación SCI?",
+      answers: [
+        {
+          text: "Qué incluir y la unidad funcional que usará.",
+          isCorrect: false,
+        },
+        {
+          text: "Qué incluir, la unidad funcional que usará y el método de cuantificación.",
+          isCorrect: true,
+        },
+        {
+          text: "Qué incluir, la unidad funcional que usará, el método de cuantificación y la puntuación GHG.",
+          isCorrect: false,
+        },
+      ],
+    },
+  ]}
+/>

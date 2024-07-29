@@ -1,0 +1,220 @@
+---
+sidebar_position: 4
+title: Eficiencia energética
+---
+
+import Quiz from "/src/components/Quiz";
+
+:::note
+*This is a community contributed translation. It has limited support and might not match the latest English language version of the course.* Esta es una traducción aportada por la comunidad. Tiene soporte limitado y podría no coincidir con la versión más reciente del curso en inglés.
+:::
+
+:::tip Principio
+
+_Usar la menor cantidad de energía posible._
+
+:::
+
+## Introducción
+
+La energía es la capacidad de hacer un trabajo. Existen muchas formas diferentes de energía, como el calor, la eléctrica y la química, y un tipo de energía puede convertirse en otro. Por ejemplo, convertimos la energía química del carbón en energía eléctrica. En otras palabras, la electricidad es energía secundaria convertida desde otro tipo de energía. De esta manera, podemos pensar en la energía como una medida de la electricidad usada.
+
+Todo software consume electricidad, desde las aplicaciones que se ejecutan en teléfonos móviles hasta el entrenamiento de modelos de aprendizaje automático en centros de datos. Una de las mejores formas de reducir el consumo de electricidad y las emisiones de carbono subsecuentes generadas por el software, es hacer que las aplicaciones sean más eficientes energéticamente. Sin embargo, ahí no termina nuestra responsabilidad.
+
+Los profesionales o practicantes del software verde asumen la responsabilidad del consumo energético de sus productos y los diseñan para que tengan el menor consumo de energía posible. Se debe asegurar que en cada paso del proceso haya el menor desperdicio y que la mayor parte de la energía se destine al siguiente paso.
+
+El paso final en esta cadena está representado por el usuario final de su producto, no el producto terminado en sí. Esto significa que nuestro objetivo no es simplemente crear el código más eficiente en energía o el software más "verde", sino pensar en el usuario final y cómo asegurarnos de que no esté creando emisiones de carbono innecesarias.
+
+Esto podría significar la ejecución conjunta de cargas de trabajo para aprovechar la proporcionalidad energética o cambiar la forma en que un usuario utiliza su software. Veamos algunos de estos conceptos, así como algunas formas en las que se puede ser más eficiente energéticamente en cada etapa de la cadena, hasta llegar al consumidor final.
+
+![alt_text](./images/03_energy_efficiency.png "image_tooltip")
+
+## Conceptos clave
+
+### Combustibles fósiles y fuentes de energía altas en carbono
+
+La mayor parte de la electricidad es producida mediante la quema de combustibles fósiles, [usualmente conocido como  carbón](https://ourworldindata.org/grapher/world-electricity-by-source). Los combustibles fósiles se forman a partir de la descomposición de plantas y animales. Estos combustibles se encuentran en la corteza terrestre y contienen carbono e hidrógeno, que pueden ser quemados para obtener energía. El carbón, el petróleo y el gas natural son ejemplos de combustibles fósiles.
+
+![alt_text](./images/04_high-carbon_sources.png "image_tooltip")
+
+La mayoría de personas piensan que la electricidad es limpia. Nuestras manos no se ensucian cuando enchufamos algo a la pared, y nuestros portátiles no necesitan tubos de escape. Sin embargo, debido a que la mayor parte de la electricidad proviene de la quema de combustibles fósiles y que el suministro de energía es la [causa más significativa](https://www.eea.europa.eu/data-and-maps/daviz/change-of-co2-eq-emissions-2#tab-chart_4) de las emisiones de carbono, podemos trazar una línea directa desde la electricidad hasta las emisiones de carbono. En estos términos, la electricidad puede ser considerada un indicador de carbono.
+
+Si nuestro objetivo es ser eficientes en carbono, esto significa que nuestro objetivo también es ser eficientes energéticamente, ya que la energía es un indicador de carbono. Esto significa utilizar la menor cantidad de energía posible por unidad de trabajo.
+
+### Fuentes de energía bajas en carbono
+
+La energía limpia proviene de fuentes renovables y de emisión cero que no contaminan la atmósfera cuando se usan, y además ahorran energía mediante prácticas energéticamente eficientes. Existen solapamientos entre la energía limpia, verde y renovable. Así es como podemos diferenciarlas:
+
+- **Energía limpia**: no produce emisiones de carbono, por ejemplo, la nuclear.
+- **Energía verde**: se obtiene de la naturaleza.
+- **Energía renovable**: fuentes que no se agotan o caducan, por ejemplo, la solar y la eólica.
+
+### Medición de la energía
+
+- La energía se mide en julios (J), es la medida del Sistema Internacional de Unidades [(SI)](https://en.wikipedia.org/wiki/International_System_of_Units).
+- La potencia se mide en vatios, donde 1 vatio (W) es una tasa correspondiente a un julio por segundo.
+- Un kilovatio (kW) es, por lo tanto, también una tasa correspondiente a 1000 julios por segundo.
+- Un kilovatio-hora (kWh) es una medida de energía (J) correspondiente a un kilovatio de potencia sostenido durante una hora.
+
+## Cómo mejorar la eficiencia energética
+
+Ahora que sabemos cómo se produce la energía y su costo asociado en términos de emisiones (basado en el uso de fuentes de energía con bajo o alto contenido de carbono), veamos algunas formas en que los profesionales o practicantes del software verde pueden mejorar la eficiencia energética. Comprender la efectividad del consumo de energía, así como la proporcionalidad de esta, significa que puede tomar mejores decisiones sobre cómo usarla de la manera más eficiente posible y desperdiciar menos.
+
+### Efectividad del uso de la energía
+
+La industria de los centros de datos utiliza la [efectividad del uso de la energía](https://datacenters.lbl.gov/sites/default/files/WP49-PUE%20A%20Comprehensive%20Examination%20of%20the%20Metric_v6.pdf) (PUE, por sus siglas en inglés) como medida desarrollada por *Green Grid* en 2006, para **medir la eficiencia energética de los centros de datos**. Específicamente, esto se relaciona con cuánta energía utiliza el equipo informático en comparación con la refrigeración y otros gastos generales que soportan a dicho equipo. Cuando el PUE de un centro de datos está cerca de 1,0, la computación está usando casi toda la energía. Cuando el PUE es 2,0, esto significa que se requiere un vatio adicional de potencia informática para enfriar y distribuir energía al equipo informático por cada vatio de potencia informática que usa.
+
+Otra forma de pensar en el PUE es como un multiplicador del consumo de energía de su aplicación. Por ejemplo, si su aplicación consume 10 kWh y el PUE del centro de datos donde se ejecuta es 1,5, entonces el consumo real de la red es de 15 kWh: 5 kWh destinados a los gastos operativos del centro de datos y 10 kWh destinados a los servidores donde se está ejecutanto su aplicación.
+
+![alt_text](./images/05_power_usage.png "image_tooltip")
+
+### Proporcionalidad energética
+
+La [proporcionalidad energética](https://research.google/pubs/pub33387/), propuesta por primera vez en 2007 por ingenieros de Google, mide **la relación entre la energía consumida por una computadora y la tasa a la que se realiza el trabajo útil** (su utilización).
+
+La utilización mide la proporción de recursos usados de la computadora (o computador), generalmente expresado como un porcentaje. Una computadora completamente utilizada que funciona a su máxima capacidad tiene un porcentaje alto, mientras que una computadora inactiva sin utilización tiene un porcentaje bajo.
+
+La relación entre la potencia y la utilización no es proporcional. Matemáticamente hablando, la proporcionalidad entre dos variables significa que sus razones (o ratios) son equivalentes. Por ejemplo, a 0% de utilización, una computadora puede consumir 100W; al 50%, consume 180W; y al 100%, consume 200W. La relación entre el consumo de energía y la utilización no es lineal y no cruza el origen.
+
+![alt_text](./images/06_energy_proportionality_updated.png "image_tooltip")
+
+Debido a esto, cuanto más utilizamos una computadora, más eficiente se vuelve en convertir electricidad en operaciones de cómputo prácticas. Una forma de mejorar la eficiencia del hardware es ejecutar la carga de trabajo en la menor cantidad posible de servidores, con los servidores funcionando a la tasa de utilización más alta, maximizando la eficiencia energética.
+
+#### Consumo de energía en modo reposo
+
+El consumo de energía en modo reposo de una computadora es **cuánta electricidad consume cuando está en estado inactivo**. El consumo de energía estático varía según la configuración y los componentes de hardware, pero todas las partes tienen algún consumo de energía estático. Esta es una de las razones por las que las computadoras de escritorio, los portátiles y los dispositivos de usuario final tienen modos de ahorro de energía. Si el dispositivo está inactivo, eventualmente activará un modo de hibernación y pondrá el disco y la pantalla en modo suspensión o incluso cambiará la frecuencia de la CPU. Estos modos de ahorro de energía ahorran electricidad, pero tienen otros inconvenientes, como un reinicio más lento cuando el dispositivo se activa nuevamente.
+
+Los servidores generalmente no están configurados para un ahorro de energía máximo o incluso mínimo. Muchos casos de uso que se ejecutan en servidores demandan la capacidad total tan rápidamente como sea posible, porque el servidor necesita responder a demandas que cambian rápidamente, lo que lleva a muchos servidores a mantenerse en modo inactivo durante períodos de baja demanda. Un servidor inactivo tiene un costo de carbono tanto del carbono incorporado o embebido como de su utilización ineficiente.
+
+## Resumen
+
+- La electricidad es un indicador de carbono, por lo que construir una aplicación que sea eficiente en energía es equivalente a construir una aplicación que sea eficiente en carbono.
+- El software verde asume la responsabilidad de su consumo de electricidad y está diseñado para consumir lo menos posible.
+- Cuantificar el consumo de energía de una aplicación es un paso en la dirección correcta para comenzar a pensar en cómo una aplicación puede operar de manera más eficiente. Sin embargo, comprender el consumo de energía de su aplicación no es la único a tener en cuenta. El hardware en el que se ejecuta su software utiliza parte de la electricidad para la operación (gastos operacionales). Esto se denomina efectividad del uso de la energía (PUE) en el espacio de la nube.
+- El concepto de proporcionalidad energética añade otra capa de complejidad, ya que el hardware se vuelve más eficiente en convertir electricidad en operaciones útiles cuanto más se utiliza.
+- Comprender esto da a los profesionales o prácticantes del software verde una mejor perspectiva de cómo se comporta su aplicación con respecto al consumo de energía en el mundo real.
+
+
+## Quiz
+
+<Quiz
+  QuizList={[
+    {
+      question:
+        "¿Por qué a veces decimos que la electricidad es un indicador de carbono?",
+      answers: [
+        {
+          text: "La electricidad es una forma de energía y todo tipo de energía produce carbono.",
+          isCorrect: false,
+        },
+        {
+          text: "Usar electricidad produce emisiones de carbono.",
+          isCorrect: false,
+        },
+        {
+          text: "Se queman combustibles fósiles para producir electricidad.",
+          isCorrect: true,
+        },
+      ],
+    },
+    {
+      question: "¿Cuáles son algunos ejemplos de combustibles fósiles?",
+      answers: [
+        { text: "Carbono e hidrógeno.", isCorrect: false },
+        { text: "Carbón, petróleo y gas natural.", isCorrect: true },
+        { text: "Todas las anteriores.", isCorrect: false },
+      ],
+    },
+    {
+      question: "¿Qué es la energía limpia?",
+      answers: [
+        { text: "Energía que proviene de fuentes renovables.", isCorrect: false },
+        {
+          text: "Energía que no produce emisiones de carbono.",
+          isCorrect: true,
+        },
+        { text: "Todas las anteriores.", isCorrect: false },
+      ],
+    },
+    {
+      question: "¿Qué mide la efectividad del uso de la energía (PUE)?",
+      answers: [
+        { text: "La eficiencia energética de un centro de datos.", isCorrect: true },
+        { text: "El consumo de energía de una aplicación.", isCorrect: false },
+        {
+          text: "La cantidad de energía utilizada en gastos generales junto con la consumida por los servidores.",
+          isCorrect: false,
+        },
+      ],
+    },
+    {
+      question:
+        "¿Cuál de las siguientes es una medida de la proporcionalidad energética?",
+      answers: [
+        {
+          text: "La relación entre la energía utilizada en gastos generales y la que va hacia los servidores que ejecutan una aplicación.",
+          isCorrect: false,
+        },
+        {
+          text: "El porcentaje de los recursos disponibles de una computadora que se están utilizando.",
+          isCorrect: false,
+        },
+        {
+          text: "La relación entre la energía consumida por una computadora y la tasa a la que se realiza el trabajo útil.",
+          isCorrect: true,
+        },
+      ],
+    },
+    {
+      question: "¿Cuál es la unidad del SI para la energía?",
+      answers: [
+        {
+          text: "Vatios.",
+          isCorrect: false,
+        },
+        {
+          text: "Kilovatios.",
+          isCorrect: false,
+        },
+        {
+          text: "Julios.",
+          isCorrect: true,
+        },
+      ],
+    },
+    {
+      question: "¿Qué aplicación consume más energía?",
+      answers: [
+        {
+          text: "Una aplicación que consume 20kWh en un centro de datos con un PUE de 1",
+          isCorrect: true,
+        },
+        {
+          text: "Una aplicación que consume 15kWh en un centro de datos con un PUE de 1,2",
+          isCorrect: false,
+        },
+        {
+          text: "Una aplicación que consume 10kWh en un centro de datos con un PUE de 1,5",
+          isCorrect: false,
+        },
+      ],
+    },
+    {
+      question: "¿Qué es el consumo de energía en modo reposo?",
+      answers: [
+        {
+          text: "El costo de carbono de las aplicaciones que se dejan en modo de espera.",
+          isCorrect: false,
+        },
+        {
+          text: "La electricidad que consume una aplicación en estado inactivo.",
+          isCorrect: true,
+        },
+        {
+          text: "La electricidad que utiliza una aplicación en modo ecológico.",
+          isCorrect: false,
+        },
+      ],
+    },
+  ]}
+/>

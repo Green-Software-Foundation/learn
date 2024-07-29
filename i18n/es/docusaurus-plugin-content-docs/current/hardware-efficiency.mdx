@@ -1,0 +1,206 @@
+---
+sidebar_position: 6
+title: Eficiencia del hardware
+---
+
+import Quiz from "/src/components/Quiz";
+
+:::note
+*This is a community contributed translation. It has limited support and might not match the latest English language version of the course.* Esta es una traducción aportada por la comunidad. Tiene soporte limitado y podría no coincidir con la versión más reciente del curso en inglés.
+:::
+
+:::tip Principio
+
+_Usar la menor cantidad posible de carbono incorporado._
+
+:::
+
+## Introducción
+
+El hardware usado en el proceso de creación de tu software es un elemento importante a considerar para un profesional o practicante del software verde.
+
+Verá cómo el carbono incorporado es un costo oculto cuando se trata de hardware y las diferentes medidas que puede tomar para reducir el impacto que implica la creación, destrucción y funcionamiento de dicho hardware. Por ejemplo, extender su vida útil o migrar a servidores en la nube.
+
+## Conceptos clave
+
+### Carbono incorporado
+
+El dispositivo que está usando para leer esto produjo carbono cuando fue fabricado y, una vez que alcance el final de su vida útil, desecharlo puede liberar aún más. El carbono incorporado (también conocido como "carbono embebido") es la cantidad de contaminación por carbono emitida durante la fabricación y disposición(eliminación) de un dispositivo.
+
+Cuando se calcula la contaminación total por carbono de las computadoras que ejecutan software, se debe considerar tanto la contaminación por carbono asociada al funcionamiento de la computadora como el carbono incorporado de la computadora.
+
+![alt_text](./images/17_embodioed_carbon.png "image_tooltip")
+
+El carbono incorporado varía significativamente entre los dispositivos de usuario  final. Para algunos dispositivos, el carbono emitido durante la fabricación es mucho mayor que el emitido durante su uso, como lo ilustra un [estudio](https://www.ifi.uzh.ch/dam/jcr:fa4e956e-7a53-4038-98a5-00e09e2f4303/Study_Digitalization_Climate_Protection_Summary_Oct2017.pdf) de la Universidad de Zúrich. Como resultado, el costo del carbono incorporado a veces puede ser mucho mayor que el costo del carbono de la electricidad que lo alimenta.
+
+Al pensar en términos de carbono incorporado, cualquier dispositivo, incluso uno que no consuma electricidad, es responsable por la liberación de carbono a lo largo de su vida útil.
+
+### Amortización
+
+Una forma de calcular el carbono incorporado es amortizar el carbono durante la vida útil esperada de un dispositivo. Por ejemplo, supongamos que se necesitaron 4000 kg de CO2eq para construir un servidor y esperamos que dure cuatro años. La amortización significa que podemos decir que el servidor emite 1000 kg de CO2eq por año.
+
+![alt_text](./images/18_amortization.png "image_tooltip")
+
+## Cómo mejorar la eficiencia del hardware
+
+Si tenemos en cuenta el carbono incorporado, es evidente que, para cuando compramos una computadora, ya ha emitido una buena cantidad de carbono. Las computadoras también tienen una vida útil limitada, lo que significa que eventualmente no podrán manejar cargas de trabajo modernas y necesitarán ser reemplazadas. En estos términos, el hardware es un indicador de carbono, y dado que nuestro objetivo es ser eficientes en carbono, también debemos ser eficientes en hardware.
+
+Hay dos enfoques principales para la eficiencia del hardware:
+
+- Para los dispositivos de usuario final, es **extender la vida útil** del hardware.
+- Para la computación en la nube, es **incrementar la utilización** del dispositivo.
+
+### Prolongar la vida útil del hardware
+
+En el ejemplo que vimos anteriormente, si podemos añadir un año más a la vida útil de nuestro servidor, entonces el carbono amortizado disminuye de 1000 kg CO2eq/año a 800 kg CO2eq/año.
+
+![alt_text](./images/19_lifespan.png "image_tooltip")
+
+El hardware es retirado (u obsoleto) cuando se descompone o tiene dificultades para manejar cargas de trabajo modernas. Por supuesto, el hardware eventualmente siempre se descompondrá, pero como desarrolladores también podemos usar software para construir aplicaciones que funcionen en hardware más antiguo y extender su vida útil.
+
+### Incrementar la utilización del dispositivo
+
+En el ámbito de la nube, la eficiencia del hardware a menudo se traduce en un aumento del uso de los servidores. Es mejor usar un servidor al 100% de su capacidad que 5 servidores al 20% de utilización debido al costo del carbono incorporado. De la misma manera que es mejor tener un coche y usarlo todos los días de la semana que tener cinco y usar uno diferente cada día de la semana, es mucho más eficiente usar los servidores a su máxima capacidad en lugar de emplear varios por debajo de su capacidad. Aunque las emisiones sean las mismas, el carbono incorporado utilizado es mucho menor.
+
+![alt_text](./images/20_increasing_utilization.png "image_tooltip")
+
+La razón más común para tener servidores subutilizados es asegurar que se pueda manejar la capacidad máxima. Ejecutar servidores al 20% significa que sabes que podrá manejar picos en la demanda sin impactar el rendimiento. Sin embargo, mientras tanto, toda esa capacidad sobrante que está inactiva representa carbono incorporado desperdiciado. Ser eficiente en hardware significa asegurarse de que cada dispositivo de hardware se utilice tanto como sea posible durante el mayor tiempo posible.
+
+Esta es una de las principales ventajas de la nube pública: sabe que cuando necesite escalar, el espacio estará disponible para soportar la carga. Con múltiples organizaciones utilizando la nube pública, la capacidad sobrante siempre puede estar disponible para quien la necesite, de modo que ningún servidor quede ocioso (o inactivo).
+
+Es importante señalar que simplemente mover las operaciones a la nube pública no reducirá automáticamente las emisiones. Simplemente da el espacio para poder redefinir la arquitectura de su software, de manera que una reducción de emisiones de carbono sea posible.
+
+![alt_text](./images/21_private_vs_public_cloud.png "image_tooltip")
+
+## Resumen
+
+- El carbono incorporado es la cantidad de contaminación por carbono emitida durante la creación y eliminación de un dispositivo.
+- Al calcular la contaminación total por carbono, debe considerar tanto la que se emite al utilizar la computadora como el carbono incorporado asociado con su creación y eliminación.
+- Extender la vida útil de un dispositivo tiene el efecto de amortizar el carbono emitido, de modo que se reduce su CO2eq/año.
+- La computación en la nube es más eficiente energéticamente que un servidor local, ya que puede aplicar tanto el cambio de la demanda como la transformación de la demanda.
+
+## Quiz
+
+<Quiz
+  QuizList={[
+    {
+      question: "¿Qué es el carbono incorporado?",
+      answers: [
+        {
+          text: "El carbono que se emitió en la fabricación de un dispositivo.",
+          isCorrect: false,
+        },
+        {
+          text: "Las emisiones de carbono asociadas tanto con la fabricación como con la disposición de un dispositivo",
+          isCorrect: true,
+        },
+        {
+          text: "Las emisiones de carbono asociadas con la disposición de un dispositivo.",
+          isCorrect: false,
+        },
+      ],
+    },
+    {
+      question: "¿Qué cuenta para la contaminación total de carbono de una computadora?",
+      answers: [
+        {
+          text: "El carbono incorporado del dispositivo.",
+          isCorrect: false,
+        },
+        {
+          text: "Las emisiones producidas al usar el dispositivo.",
+          isCorrect: false,
+        },
+        {
+          text: "Todas las anteriores.",
+          isCorrect: true,
+        },
+      ],
+    },
+    {
+      question: "¿Cuáles son las dos formas clave de ser más eficiente con el hardware?",
+      answers: [
+        {
+          text: "Extender su vida útil y reducir su utilización.",
+          isCorrect: false,
+        },
+        {
+          text: "Extender su vida útil y aumentar su utilización.",
+          isCorrect: true,
+        },
+        {
+          text: "Reducir su vida útil y aumentar su utilización.",
+          isCorrect: false,
+        },
+      ],
+    },
+    {
+      question: "¿Cómo afecta la eficiencia del hardware a la contaminación de carbono de un dispositivo?",
+      answers: [
+        {
+          text: "La elimina.",
+          isCorrect: false,
+        },
+        {
+          text: "La aumenta.",
+          isCorrect: false,
+        },
+        {
+          text: "La reduce.",
+          isCorrect: true,
+        },
+      ],
+    },
+    {
+      question: "¿Cuál es el carbono amortizado de un dispositivo con un carbono incorporado de 1000 kg de CO2eq y una vida útil de 5 años?",
+      answers: [
+        {
+          text: "200 kg de CO2eq/año.",
+          isCorrect: true,
+        },
+        {
+          text: "20 kg de CO2eq/año.",
+          isCorrect: false,
+        },
+        {
+          text: "200 kg de CO2eq.",
+          isCorrect: false,
+        },
+      ],
+    },
+    {
+      question: "¿Cuáles son algunas de las diferencias entre tener sus servidores en una nube pública en comparación con una nube privada?",
+      answers: [
+        {
+          text: "En la nube pública, puedes escalar rápidamente.",
+          isCorrect: false,
+        },
+        {
+          text: "En una nube privada, necesita tener servidores funcionando por debajo de su capacidad para satisfacer los aumentos en la demanda.",
+          isCorrect: false,
+        },
+        {
+          text: "Todas las anteriores.",
+          isCorrect: true,
+        },
+      ],
+    },
+    {
+      question: "¿Por qué es tan importante considerar el carbono incorporado al calcular las emisiones de hardware?",
+      answers: [
+        {
+          text: "El carbono incorporado a veces representa más emisiones que las emisiones de la electricidad que consume el dispositivo.",
+          isCorrect: true,
+        },
+        {
+          text: "El carbono incorporado representa una pequeña pero significativa proporción de las emisiones totales de un dispositivo.",
+          isCorrect: false,
+        },
+        {
+          text: "El carbono incorporado es la única fuente de emisiones que debe considerarse al calcular las emisiones totales de un dispositivo.",
+          isCorrect: false,
+        },
+      ],
+    },
+  ]}
+/>
