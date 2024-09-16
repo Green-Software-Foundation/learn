@@ -11,7 +11,7 @@ Il s’agit d’une traduction fournie par la communauté. Le support est limit�
 
 Le logiciel éco-responsable est une discipline émergente à l’intersection de la science du climat, de la conception de logiciels, des marchés de l’électricité, du matériel et de la conception de centres de données.
 
-Le logiciel éco-responsable est un logiciel efficace en terme d'émissions carbone, ce qui signifie qu’il émet le moins de carbone possible. Seules trois activités réduisent les émissions de carbone des logiciels: l’efficacité énergétique, la sensibilisation au carbone et l’efficacité matérielle. Cette formation expliquera tous ces concepts, comment les appliquer à vos processus et comment les mesurer, ainsi que certaines des directives internationales et les organisations qui guident et surveillent ce domaine.
+Le logiciel éco-responsable est un logiciel efficace en terme d'émissions carbone, ce qui signifie qu’il émet le moins de carbone possible. Seules trois activités réduisent les émissions de carbone des logiciels: l’efficacité énergétique, la conscience du carbone émis et l’efficacité matérielle. Cette formation expliquera tous ces concepts, comment les appliquer à vos processus et comment les mesurer, ainsi que certaines des directives internationales et les organisations qui guident et surveillent ce domaine.
 
 ![alt_text](./images/01_carbon_efficiency.png "image_tooltip")
 
@@ -29,7 +29,7 @@ La formation suivante couvre six domaines clés qu’un spécialiste des logicie
 
 1. **Efficacité carbone**: Émettre le moins de carbone possible.
 2. **Efficacité énergétique**: Utiliser le moins d’énergie possible.
-3. **Sensibilisation au carbone**: Faire plus lorsque l’électricité est plus propre et faites moins lorsque l’électricité est plus carbonées.
+3. **Conscience du carbone émis**: Faire plus lorsque l’électricité est plus propre et faire moins lorsque l’électricité est plus carbonée.
 4. **Efficacité du matériel**: Utiliser le moins de carbone induit possible.
 5. **Mesure**: Ce que vous ne pouvez pas mesurer, vous ne pouvez pas l’améliorer.
 6. **Engagements climatiques**: Comprendre le mécanisme exact de réduction du carbone.
