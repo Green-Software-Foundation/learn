@@ -13,7 +13,7 @@ Le logiciel éco-responsable est une discipline émergente à l’intersection d
 
 Le logiciel éco-responsable est un logiciel efficace en carbone, ce qui signifie qu’il émet le moins de carbone possible. Seules trois activités réduisent les émissions de carbone des logiciels: l’efficacité énergétique, la conscience du carbone émis et l’efficacité matérielle. Cette formation expliquera tous ces concepts, comment les appliquer à vos processus et comment les mesurer, ainsi que certaines des directives internationales et les organisations qui guident et surveillent ce domaine.
 
-![alt_text](./images/01_carbon_efficiency.png "image_tooltip")
+![alt_text](./images/01_carbon_efficiency_FR.png "image_tooltip")
 
 ## A qui s'adresse cette formation?
 
@@ -48,4 +48,4 @@ Les pratiques devraient faire référence à des modèles qui eux-mêmes devraie
 
 La Green Software Foundation publie également un [catalogue de modèles de logiciels éco-responsables neutres pour les fournisseurs](https://patterns.greensoftware.foundation/) dans diverses catégories.
  
-![Green Software Principles, Patterns, and Practices](./images/GSF_Principles_Patterns_Practices_v2.png "Green Software Principles, Patterns, and Practices")
+![Green Software Principles, Patterns, and Practices](./images/GSF_Principles_Patterns_Practices_v2_FR.png "Green Software Principles, Patterns, and Practices")
