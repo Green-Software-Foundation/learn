@@ -41,13 +41,13 @@ L'intensité carbone varie aussi au fil du temps en raison de la variabilité in
 
 ![alt_text](./images/08_variability_CI_FR.png "image_tooltip")
 
-### Dispatchabilité & réduction
+### Répartition & réduction
 
 La demande en électricité varie au cours de la journée et les fournisseurs ont besoin de pouvoir toujours répondre à cette demande. Une baisse de tension (diminution du niveau de voltage dans la ligne électrique) se produit si un fournisseur ne produit pas suffisament d'électricité pour répondre à la demande. A l'inverse, si un fournisseur produit plus d'électricité que nécessaire, alors pour empêcher l'infrastructure de griller, les disjoncteurs se déclenchent et on a des pannes d'électricité.
 
 Il est nécessaire d'avoir un équilibre entre l'offre et la demande d'électricité à tout moment et c'est généralement la responsabilite du fournisseur de service.
 
-Dans le cas des combustibles fossiles tels que le charbon, il est plus facile de contrôler la puissance produite pour cette alimentation; c'est ce qu'on appelle **dispatchabilité**. Cependant, dans le cas des sources d'énergies renouvelables telles que les parcs éoliens, la puissance produite ne peut pas être facilement controlée (on ne peut pas maîtriser la force du vent). Si la source d'energie produit plus d'électricité que nécessaire, cette électricité est rejetée, c'est ce qu'on appelle la **réduction**.
+Dans le cas des combustibles fossiles tels que le charbon, il est plus facile de contrôler la puissance produite pour cette alimentation; c'est ce qu'on appelle la **répartition**. Cependant, dans le cas des sources d'énergies renouvelables telles que les parcs éoliens, la puissance produite ne peut pas être facilement controlée (on ne peut pas maîtriser la force du vent). Si la source d'energie produit plus d'électricité que nécessaire, cette électricité est rejetée, c'est ce qu'on appelle la **réduction**.
 
 ### Intensité carbone marginale
 
@@ -109,13 +109,13 @@ Le principal moteur de la transition est économique plutôt que tout objectif l
 
 L’intensité carbone est plus faible lorsque plus d’énergie provient de sources à faible teneur en carbone et plus élevée lorsqu’elle provient de sources à plus forte teneur en carbone.
 
-### Déplacement de la demande
+### Décalage de la demande
 
 Être conscient du carbone signifie réagir aux changements d’intensité carbone en augmentant ou en diminuant votre demande. Si votre travail vous permet d’être flexible quant au moment et à l’endroit où vous exécutez des charges de travail, vous pouvez vous déplacer en conséquence - consommer de l’électricité lorsque l’intensité carbone est plus faible et interrompre la production lorsqu’elle est plus élevée. Par exemple, former un modèle d’apprentissage automatique à un autre moment ou dans une autre région ayant une intensité carbone beaucoup plus faible.
 
-[Des études](https://ieeexplore.ieee.org/document/6128960) montrent que ces mesures peuvent entraîner des réductions de 45 à 99 % des émissions de carbone, selon le nombre d’énergies renouvelables qui alimentent le réseau.
+[Des études](https://ieeexplore.ieee.org/document/6128960) montrent que ces mesures peuvent entraîner des réductions de 45 à 99% des émissions de carbone, selon le nombre d’énergies renouvelables qui alimentent le réseau.
 
-Le déplacement de la demande peut être décomposé en déplacement spatial et temporel.
+Le décalage de la demande peut être décomposé en déplacement spatial et temporel.
 
 #### Déplacement géographique
 
@@ -125,27 +125,27 @@ Le déplacement géographique consiste à déplacer votre calcul vers un autre e
 
 #### Déplacement temporel
 
-Si vous ne pouvez pas déplacer votre calcul spatialement vers une autre région, une autre option est de passer à un autre moment. Peut-être plus tard dans la journée ou la nuit, lorsque le temps est plus ensoleillé ou plus venteux et que, par conséquent, l’intensité carbone est plus faible, ce qu’on appelle le déplacement temporel de la demande. Nous pouvons raisonnablement bien prédire l’intensité future du carbone grâce aux progrès des prévisions météorologiques.
+Si vous ne pouvez pas déplacer votre calcul spatialement vers une autre région, une autre option est de passer à un autre moment. Peut-être plus tard dans la journée ou la nuit, lorsque le temps est plus ensoleillé ou plus venteux et que, par conséquent, l’intensité carbone est plus faible, ce qu’on appelle le décalage temporel de la demande. Nous pouvons raisonnablement bien prédire l’intensité future du carbone grâce aux progrès des prévisions météorologiques.
 
 ![alt_text](./images/15_temporal_shifting_FR.png "image_tooltip")
 
-Certaines des plus grandes entreprises technologiques ont reconnu l’importance de la conscience du carbone émis et utilisent des techniques de modélisation avancées pour mettre en œuvre le déplacement de la demande.
+Certaines des plus grandes entreprises technologiques ont reconnu l’importance de la conscience du carbone émis et utilisent des techniques de modélisation avancées pour mettre en œuvre le décalage de la demande.
 
 - **Centre de données Google conscients du carbone** - Google a lancé un projet pour [sensibiliser au carbone certaines des charges de travail](https://blog.google/outreach-initiatives/sustainability/carbon-aware-computing-location/). Ils ont créé des modèles pour prédire l’intensité et la charge de travail dans le futur. Ils ont ensuite façonné des charges de travail à grande échelle afin que plus de choses se produisent quand et où l’intensité carbone est la plus faible, mais de manière à pouvoir encore gérer la charge attendue.
 - **Microsoft Carbon Aware Windows** - [Microsoft a annoncé un projet pour rendre Windows 11 plus durable](https://www.techradar.com/news/windows-11-is-getting-an-eco-friendly-update-but-could-microsoft-do-more). Dans un premier temps, cela signifie exécuter des mises à jour Windows lorsque l’intensité carbone est inférieure.
 
-### Planification de la demande
+### Adaptation de la demande
 
-La planification de la demande est la stratégie qui consiste à déplacer le calcul vers les régions ou les périodes où l’intensité carbone est la plus faible. Cependant, au lieu de déplacer la demande vers une région ou une heure différente, nous façonnons notre calcul pour correspondre à l’offre existante.
+L'adaptation de la demande est la stratégie qui consiste à déplacer le calcul vers les régions ou les périodes où l’intensité carbone est la plus faible. Cependant, au lieu de déplacer la demande vers une région ou une heure différente, nous façonnons notre calcul pour correspondre à l’offre existante.
 
 ![alt_text](./images/16_demand_shaping_FR.png "image_tooltip")
 
 - Si l’intensité carbone est faible, augmentez la demande; faites plus dans vos applications.
 - Si l’intensité carbone est élevée, diminuez la demande; faites moins dans vos applications.
 
-La planification de la demande pour les applications sensibles au carbone concerne l’offre de carbone. Lorsque le coût en carbone de l’exploitation de votre application devient élevé, définissez la demande en fonction de l’offre de carbone. Cela peut être géré automatiquement, ou l’utilisateur peut faire un choix.
+L'adaptation de la demande pour les applications sensibles au carbone concerne l’offre de carbone. Lorsque le coût en carbone de l’exploitation de votre application devient élevé, définissez la demande en fonction de l’offre de carbone. Cela peut être géré automatiquement, ou l’utilisateur peut faire un choix.
 
-Le mode Eco est un exemple de planification de la demande. Les modes Eco se trouvent dans les appareils ménagers comme les voitures ou les machines à laver. Lorsqu’elle est activée, une partie de la performance est sacrifiée afin de consommer moins de ressources (gaz ou électricité). Parce qu’il y a ce compromis avec la performance, les modes éco sont toujours présentés à un utilisateur comme un choix.
+Le mode Eco est un exemple d'adaptation de la demande. Les modes Eco se trouvent dans les appareils ménagers comme les voitures ou les machines à laver. Lorsqu’elle est activée, une partie de la performance est sacrifiée afin de consommer moins de ressources (gaz ou électricité). Parce qu’il y a ce compromis avec la performance, les modes éco sont toujours présentés à un utilisateur comme un choix.
 
 Les applications logicielles peuvent également avoir des modes éco qui peuvent - automatiquement ou avec le consentement de l’utilisateur - prendre des décisions pour réduire les émissions de carbone.
 
@@ -155,16 +155,16 @@ Un autre exemple est le protocol TCP/IP. La vitesse de transfert augmente en ré
 
 Un troisième exemple est l’amélioration progressive avec le web. L’expérience Web s’améliore en fonction des ressources et de la bande passante disponibles sur l’appareil de l’utilisateur final.
 
-La planification de la demande est liée à un concept plus large de durabilité, qui consiste à réduire la consommation. Nous pouvons faire beaucoup en devenant plus efficaces avec les ressources, mais nous devons aussi consommer moins à un moment donné.
+L'adaptation de la demande est liée à un concept plus large de durabilité, qui consiste à réduire la consommation. Nous pouvons faire beaucoup en devenant plus efficaces avec les ressources, mais nous devons aussi consommer moins à un moment donné.
 
-En tant que praticiens de Green Software, nous devrions envisager d’annuler un processus lorsque l’intensité carbone est élevée au lieu de déplacer la demande - réduisant ainsi les exigences de notre application et les attentes de nos utilisateurs finaux.
+En tant que praticiens de Green Software, nous devrions envisager d’annuler un processus lorsque l’intensité carbone est élevée au lieu de décaler la demande - réduisant ainsi les exigences de notre application et les attentes de nos utilisateurs finaux.
 
 ## Synthèse
 
 - La conscience du carbone émis signifie comprendre que l’énergie que vous consommez n’a pas toujours le même impact en termes d’intensité carbone.
 - L’intensité carbone varie en fonction du moment et du lieu de consommation.
 - La nature des combustibles fossiles et des sources d’énergie renouvelables signifie que la consommation d’énergie lorsque l’intensité carbone est faible augmente la demande de sources d’énergie renouvelables et augmente le pourcentage d’énergie renouvelable dans l’offre.
-- La planification de la demande signifie déplacer votre consommation d’énergie à différents endroits ou à différents moments de la journée où l’intensité carbone est inférieure.
+- Le décalage de la demande signifie déplacer votre consommation d’énergie à différents endroits ou à différents moments de la journée où l’intensité carbone est inférieure.
 - Façonner la demande signifie adapter votre consommation d’énergie en fonction de la variabilité de l’intensité carbone afin de consommer plus dans les périodes de faible intensité et moins dans les périodes de forte intensité.
 
 ## Quiz
@@ -240,15 +240,15 @@ En tant que praticiens de Green Software, nous devrions envisager d’annuler un
       ],
     },
     {
-      question: "Quels sont les deux types d’évolution de la demande ?",
+      question: "Quels sont les deux types de décalage de la demande ?",
       answers: [
         { text: "Temporel et permanent", isCorrect: false },
         { text: "spatial et temporel", isCorrect: true },
-        { text: "Réduction et dispatchabilité", isCorrect: false },
+        { text: "Réduction et répartition", isCorrect: false },
       ],
     },
     {
-      question: "Qu’est-ce que la planification de la demande?",
+      question: "Qu’est-ce que l'adaptation de la demande?",
       answers: [
         {
           text: "Faites plus lorsque l’intensité carbone est faible, faites moins lorsque l’intensité carbone est élevée",

@@ -110,9 +110,9 @@ Il s’agit d’une traduction fournie par la communauté. Le support est limit�
   <tr>
    <td><strong>Conférence des Parties</strong>
    </td>
-   <td><strong>CP</strong>
+   <td><strong>COP</strong>
    </td>
-   <td>Un événement annuel impliquant toutes les parties à la Convention-cadre des Nations Unies sur les changements climatiques. 
+   <td>Un événement annuel impliquant toutes les parties à la Convention-cadre des Nations Unies sur le changement climatique.
    </td>
   </tr>
   <tr>
@@ -216,7 +216,7 @@ Il s’agit d’une traduction fournie par la communauté. Le support est limit�
 ## Termes utiles
 
 * [Intensité carbone](./carbon-awareness/#carbon-intensity) - Mesure la quantité de gaz à effet de serre émis par unité d’électricité produite.
-* [Planification de la demande](./carbon-awareness/#demand-shaping) - La stratégie de planifier notre calcul pour correspondre à l’approvisionnement en électricité propre.
+* [L'adaptation de la demande](./carbon-awareness/#demand-shaping) - La stratégie de planifier notre calcul pour correspondre à l’approvisionnement en électricité propre.
 * [Protocole des GES](https://ghgprotocol.org) - Norme de comptabilisation des gaz à effet de serre la plus utilisée et reconnue mondialement.
 * [Émissions de la chaîne de valeur](https://www.cisl.cam.ac.uk/education/graduate-study/pgcerts/value-chain-defs) - Il s’agit des émissions du périmètre 3 selon le protocole des GES et la source la plus importante d’émissions. Ils englobent l’ensemble des activités nécessaires à la création d’un produit ou d’un service, de la conception à la distribution.
 * [Proportionnalité énergétique](./energy-efficiency/#energy-proportionality) - Mesure la relation entre la puissance consommée par un ordinateur et la vitesse à laquelle le travail utile est effectué (son utilisation).

@@ -21,7 +21,7 @@ A toute personne impliquée dans le processus de création, de déploiement ou d
 
 ## Histoire
 
-En 2019, la version originale des huit principes du génie logiciel éco-responsable a été publiée. Cette mise à jour des principes datant de 2022 a pris en compte les commentaires reçus au fil des ans, fusionnant certains principes et en ajoutant un nouveau concernant la compréhension des engagements climatiques.
+En 2019, la version originale des huit principes du génie logiciel éco-responsable a été publiée. Cette mise à jour des principes datant de 2022 a pris en compte les commentaires reçus au fil des ans, fusionnant certains principes et en ajoutant un nouveau concernant la compréhension des engagements en faveur du climat.
 
 ## Comment être un praticien du logiciel éco-responsable?
 
@@ -32,7 +32,7 @@ La formation suivante couvre six domaines clés qu’un spécialiste des logicie
 3. **Conscience du carbone émis**: Faire plus lorsque l’électricité est plus propre et faire moins lorsque l’électricité est plus carbonée.
 4. **Efficacité du matériel**: Utiliser le moins de carbone induit possible.
 5. **Mesure**: Ce que vous ne pouvez pas mesurer, vous ne pouvez pas l’améliorer.
-6. **Engagements climatiques**: Comprendre le mécanisme exact de réduction du carbone.
+6. **Engagements en faveur du climat**: Comprendre le mécanisme exact de réduction du carbone.
 
 Chacun de ces chapitres présentera de nouveaux concepts et expliquera en détail pourquoi ils sont importants en termes de climat, et comment vous pouvez les appliquer à vos pratiques de logiciels éco-responsables.
 
