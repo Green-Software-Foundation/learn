@@ -140,7 +140,7 @@ Il s’agit d’une traduction fournie par la communauté. Le support est limit�
    </td>
   </tr>
   <tr>
-   <td><strong>Energies décarbonées</strong>
+   <td><strong>Energie décarbonée</strong>
    </td>
    <td><strong>CFE</strong>
    </td>
@@ -184,7 +184,7 @@ Il s’agit d’une traduction fournie par la communauté. Le support est limit�
    </td>
    <td><strong>gCO2eq/kWh</strong>
    </td>
-   <td>L’unité standard d’intensité en carbone est <strong>gCO2eq/kWh</strong>, ou grammes de carbone par kilowatt-heure.
+   <td>L’unité standard d’intensité carbone est <strong>gCO2eq/kWh</strong>, ou grammes de carbone par kilowatt-heure.
    </td>
   </tr>
   <tr>
@@ -204,7 +204,7 @@ Il s’agit d’une traduction fournie par la communauté. Le support est limit�
    </td>
   </tr>
   <tr>
-   <td><strong>Intensité en carbone des logiciels</strong>
+   <td><strong>Intensité carbone du logiciel</strong>
    </td>
    <td><strong>SCI</strong>
    </td>
