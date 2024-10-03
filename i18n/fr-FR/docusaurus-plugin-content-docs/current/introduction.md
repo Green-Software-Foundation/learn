@@ -30,7 +30,7 @@ La formation suivante couvre six domaines clés qu’un spécialiste des logicie
 1. **Efficacité en carbone**: Émettre le moins de carbone possible.
 2. **Efficacité énergétique**: Utiliser le moins d’énergie possible.
 3. **Conscience du carbone émis**: Faire plus lorsque l’électricité est plus propre et faire moins lorsque l’électricité est plus carbonée.
-4. **Efficacité du matériel**: Utiliser le moins de carbone induit possible.
+4. **Efficacité du matériel**: Utiliser le moins de carbone incorporé possible.
 5. **Mesure**: Ce que vous ne pouvez pas mesurer, vous ne pouvez pas l’améliorer.
 6. **Engagements en faveur du climat**: Comprendre le mécanisme exact de réduction du carbone.
 

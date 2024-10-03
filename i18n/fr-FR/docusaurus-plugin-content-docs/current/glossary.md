@@ -76,11 +76,11 @@ Il s’agit d’une traduction fournie par la communauté. Le support est limit�
    </td>
   </tr>
   <tr>
-   <td><strong>Potentiel de réchauffement global</strong>
+   <td><strong>Potentiel de réchauffement climatique</strong>
    </td>
-   <td><strong>PRG</strong>
+   <td><strong>PRC</strong>
    </td>
-   <td>L’impact potentiel des gaz à effet de serre sur le réchauffement de la planète. Mesuré en CO2e.
+   <td>L’impact potentiel des gaz à effet de serre sur le réchauffement climatique. Mesuré en CO2e.
    </td>
   </tr>
   <tr>
@@ -221,4 +221,4 @@ Il s’agit d’une traduction fournie par la communauté. Le support est limit�
 * [Émissions de la chaîne de valeur](https://www.cisl.cam.ac.uk/education/graduate-study/pgcerts/value-chain-defs) - Il s’agit des émissions du périmètre 3 selon le protocole des GES et la source la plus importante d’émissions. Ils englobent l’ensemble des activités nécessaires à la création d’un produit ou d’un service, de la conception à la distribution.
 * [Proportionnalité énergétique](./energy-efficiency/#energy-proportionality) - Mesure la relation entre la puissance consommée par un ordinateur et la vitesse à laquelle le travail utile est effectué (son utilisation).
 * [Consommation d’électricité statique](./energy-efficiency/#static-power-draw) - Il s’agit de la quantité d’électricité consommée lorsqu’un appareil est dans un état inactif.
-* [Empreinte carbone](./hardware-efficiency/#embodied-carbon) (connu aussi en tant que "carbone intrinsèque") - La quantité de pollution au carbone émise lors de la création et de l’élimination d’un appareil.
+* [Carbone incorporé](./hardware-efficiency/#embodied-carbon) La quantité de pollution au carbone émise lors de la création et de l’élimination d’un appareil.
