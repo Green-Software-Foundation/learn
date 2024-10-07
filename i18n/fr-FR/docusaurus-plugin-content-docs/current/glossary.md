@@ -136,7 +136,7 @@ Il s’agit d’une traduction fournie par la communauté. Le support est limit�
    </td>
    <td><strong>SBTi</strong>
    </td>
-   <td>Un organisme qui définit et promeut les meilleures pratiques en matière d’établissement d’objectifs fondés sur la science. Par exemple, créer des normes pour le zéro carbone.
+   <td>Un organisme qui définit et promeut les meilleures pratiques en matière d’établissement d’objectifs fondés sur la science. Par exemple, créer des normes pour le zéro émission.
    </td>
   </tr>
   <tr>
