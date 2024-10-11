@@ -72,7 +72,7 @@ Il s’agit d’une traduction fournie par la communauté. Le support est limit�
    </td>
    <td><strong>PUE</strong>
    </td>
-   <td>Mesure utilisée pour mesurer l’efficacité énergétique des centres de données.
+   <td>Indicateur utilisé pour indiquer l’efficacité énergétique des centres de données.
    </td>
   </tr>
   <tr>
@@ -132,7 +132,7 @@ Il s’agit d’une traduction fournie par la communauté. Le support est limit�
    </td>
   </tr>
   <tr>
-   <td><strong>Initiative des objectifs scientifiques</strong>
+   <td><strong>Initiative des objectifs basés sur la science</strong>
    </td>
    <td><strong>SBTi</strong>
    </td>
@@ -164,9 +164,9 @@ Il s’agit d’une traduction fournie par la communauté. Le support est limit�
    </td>
   </tr>
   <tr>
-   <td><strong>Accord climatique de Paris</strong>
+   <td><strong>Accord de Paris sur le Climat</strong>
    </td>
-   <td><strong>ACP</strong>
+   <td><strong>APC</strong>
    </td>
    <td>Un traité international approuvé en 2015 par 196 parties et l’ONU pour réduire l’augmentation de la température de la Terre.
    </td>
@@ -218,7 +218,7 @@ Il s’agit d’une traduction fournie par la communauté. Le support est limit�
 * [Intensité carbone](./carbon-awareness/#carbon-intensity) - Mesure la quantité de gaz à effet de serre émis par unité d’électricité produite.
 * [L'adaptation de la demande](./carbon-awareness/#demand-shaping) - La stratégie de planifier notre calcul pour correspondre à l’approvisionnement en électricité propre.
 * [Protocole des GES](https://ghgprotocol.org) - Norme de comptabilisation des gaz à effet de serre la plus utilisée et reconnue mondialement.
-* [Émissions de la chaîne de valeur](https://www.cisl.cam.ac.uk/education/graduate-study/pgcerts/value-chain-defs) - Il s’agit des émissions du périmètre 3 selon le protocole des GES et la source la plus importante d’émissions. Ils englobent l’ensemble des activités nécessaires à la création d’un produit ou d’un service, de la conception à la distribution.
+* [Émissions de la chaîne de valeur](https://www.cisl.cam.ac.uk/education/graduate-study/pgcerts/value-chain-defs) - Il s’agit des émissions du scope 3 selon le protocole des GES et la source la plus importante d’émissions. Ils englobent l’ensemble des activités nécessaires à la création d’un produit ou d’un service, de la conception à la distribution.
 * [Proportionnalité énergétique](./energy-efficiency/#energy-proportionality) - Mesure la relation entre la puissance consommée par un ordinateur et la vitesse à laquelle le travail utile est effectué (son utilisation).
 * [Consommation d’électricité statique](./energy-efficiency/#static-power-draw) - Il s’agit de la quantité d’électricité consommée lorsqu’un appareil est dans un état inactif.
 * [Carbone incorporé](./hardware-efficiency/#embodied-carbon) La quantité de pollution au carbone émise lors de la création et de l’élimination d’un appareil.
