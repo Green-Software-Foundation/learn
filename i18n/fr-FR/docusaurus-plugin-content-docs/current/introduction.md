@@ -17,7 +17,7 @@ Le logiciel durable est un logiciel efficace en carbone, ce qui signifie qu’il
 
 ## A qui s'adresse cette formation?
 
-A toute personne impliquée dans le processus de création, de déploiement ou de gestion de logiciels. En étudiant ces principes, un professionnel de logiciel durable peut prendre des décisions qui ont un impact significatif sur la pollution par le carbone de leurs applications.
+A toute personne impliquée dans le processus de création, de déploiement ou de gestion de logiciels. En étudiant ces principes, un professionnel du logiciel durable peut prendre des décisions qui ont un impact significatif sur la pollution par le carbone de leurs applications.
 
 ## Histoire
 
@@ -42,7 +42,7 @@ Les principaux domaines et le contenu de ce cours décrivent les **principes** d
 
 Un logiciel durable [**modèle**](https://patterns.greensoftware.foundation/) est un exemple précis de la façon d’appliquer un ou plusieurs principes dans un cas réel. Alors que les principes décrivent la théorie qui sous-tend le logiciel durable, les modèles sont les conseils pratiques que les professionnels du logiciel peuvent utiliser dans leurs applications logicielles aujourd’hui. Les modèles sont neutres pour les fournisseurs.
 
-Un logiciel durable **pratique** est un modèle appliqué au produit d’un fournisseur spécifique et informe les professionnels sur la façon d’utiliser ce produit de manière plus durable.
+Une **pratique** de logiciel durable est un modèle appliqué au produit d’un fournisseur spécifique qui informe les professionnels sur la façon d’utiliser ce produit de manière plus durable.
 
 Les pratiques devraient faire référence à des modèles qui eux-mêmes devraient faire référence à des principes.
 
