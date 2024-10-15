@@ -4,7 +4,7 @@ title: Introduction
 ---
 
 :::note
-Il s’agit d’une traduction fournie par la communauté. Le support est limité et pourrait ne pas correspondre à la version anglaise la plus récente du cours.
+Il s’agit d’une traduction fournie par la communauté. Le support est limité et pourrait ne pas correspondre à la version anglaise la plus récente.
 :::
 
 ## Qu’est-ce qu’un logiciel durable?
@@ -40,9 +40,9 @@ Chacun de ces chapitres présentera de nouveaux concepts et expliquera en détai
 
 Les principaux domaines et le contenu de ce cours décrivent les **principes** du logiciel durable, un ensemble de compétences de base nécessaires pour définir, exécuter et créer un logiciel durable.
 
-Un logiciel durable [**modèle**](https://patterns.greensoftware.foundation/) est un exemple précis de la façon d’appliquer un ou plusieurs principes dans un cas réel. Alors que les principes décrivent la théorie qui sous-tend le logiciel durable, les modèles sont les conseils pratiques que les professionnels du logiciel peuvent utiliser dans leurs applications logicielles aujourd’hui. Les modèles sont neutres pour les fournisseurs.
+Un [**modèle**](https://patterns.greensoftware.foundation/) de logiciel durable est un exemple précis de la façon d’appliquer un ou plusieurs principes dans un cas réel. Alors que les principes décrivent la théorie qui sous-tend le logiciel durable, les modèles sont les conseils pratiques que les professionnels du logiciel peuvent utiliser dans leurs applications logicielles aujourd’hui. Les modèles sont indépendants des fournisseurs.
 
-Une **pratique** de logiciel durable est un modèle appliqué au produit d’un fournisseur spécifique qui informe les professionnels sur la façon d’utiliser ce produit de manière plus durable.
+Une **pratique** de logiciel durable est un modèle appliqué à un produit spécifique d’un fournisseur et informe les professionnels sur la façon d’utiliser ce produit de manière plus durable.
 
 Les pratiques devraient faire référence à des modèles qui eux-mêmes devraient faire référence à des principes.
 
