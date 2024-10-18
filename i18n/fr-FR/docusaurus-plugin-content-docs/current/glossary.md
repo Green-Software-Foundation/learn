@@ -4,11 +4,10 @@ title: Glossaire
 ---
 
 :::note
-Il s’agit d’une traduction fournie par la communauté. Le support est limité et pourrait ne pas correspondre à la version anglaise la plus récente du cours.
+Il s’agit d’une traduction fournie par la communauté. Le support est limité et pourrait ne pas correspondre à la toute dernière version en anglais.
 :::
 
-## Acronyms
-
+## Acronymes
 
 <table>
   <tr>
