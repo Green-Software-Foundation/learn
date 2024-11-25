@@ -23,7 +23,7 @@ Il s’agit d’une traduction fournie par la communauté. Le support est limit�
    </td>
    <td><strong>GES</strong>
    </td>
-   <td><strong>Les gaz à effet de serre</strong>sont un groupe de gaz qui emprisonnent la chaleur du rayonnement solaire dans l’atmosphère terrestre. Ces gaz agissent comme une couverture, augmentant la température à la surface de la Terre.
+   <td><strong>Les gaz à effet de serre </strong>sont un groupe de gaz qui emprisonnent la chaleur du rayonnement solaire dans l’atmosphère terrestre. Ces gaz agissent comme une couverture, augmentant la température à la surface de la Terre.
    </td>
   </tr>
   <tr>
@@ -47,7 +47,7 @@ Il s’agit d’une traduction fournie par la communauté. Le support est limit�
    </td>
    <td><strong>SF6</strong>
    </td>
-   <td>C'est un gaz artificiel utilisé comme isolant électrique et qui a un effet de réchauffement 23500 fois supérieur à celui du CO2. 
+   <td>C'est un gaz artificiel utilisé comme isolant électrique et qui a un effet de réchauffement 23 500 fois supérieur à celui du CO2. 
    </td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ Il s’agit d’une traduction fournie par la communauté. Le support est limit�
    </td>
   </tr>
   <tr>
-   <td><strong>Indicateur d'efficacité énergétique</strong>
+   <td><strong>Indicateur d'efficacité énergétique (Power Usage Effectiveness)</strong>
    </td>
    <td><strong>PUE</strong>
    </td>
@@ -87,7 +87,7 @@ Il s’agit d’une traduction fournie par la communauté. Le support est limit�
    </td>
    <td><strong>OMM</strong>
    </td>
-   <td>Une agence spécialisée des Nations Unies dont le mandat traite du temps, du climat et des ressources en eau.
+   <td>Une agence spécialisée des Nations Unies dont le mandat traite de la météo, du climat et des ressources en eau.
    </td>
   </tr>
   <tr>
@@ -95,7 +95,7 @@ Il s’agit d’une traduction fournie par la communauté. Le support est limit�
    </td>
    <td><strong>MMTCDE</strong>
    </td>
-   <td>Terme de mesure pour le CO2eq
+   <td>Terme de mesure pour le CO2eq.
    </td>
   </tr>
   <tr>
@@ -111,7 +111,7 @@ Il s’agit d’une traduction fournie par la communauté. Le support est limit�
    </td>
    <td><strong>COP</strong>
    </td>
-   <td>Un événement annuel impliquant toutes les parties à la Convention-cadre des Nations Unies sur le changement climatique.
+   <td>Un événement annuel impliquant toutes les parties à la Convention-cadre des Nations Unies sur les changements climatiques.
    </td>
   </tr>
   <tr>
@@ -131,7 +131,7 @@ Il s’agit d’une traduction fournie par la communauté. Le support est limit�
    </td>
   </tr>
   <tr>
-   <td><strong>Initiative des objectifs basés sur la science</strong>
+   <td><strong>Initiative des objectifs basés sur la science (Science Based Targets initiative)</strong>
    </td>
    <td><strong>SBTi</strong>
    </td>
@@ -139,7 +139,7 @@ Il s’agit d’une traduction fournie par la communauté. Le support est limit�
    </td>
   </tr>
   <tr>
-   <td><strong>Energie décarbonée</strong>
+   <td><strong>Energie décarbonée (Carbon-free energy)</strong>
    </td>
    <td><strong>CFE</strong>
    </td>
@@ -216,8 +216,8 @@ Il s’agit d’une traduction fournie par la communauté. Le support est limit�
 
 * [Intensité carbone](./carbon-awareness/#carbon-intensity) - Mesure la quantité de gaz à effet de serre émis par unité d’électricité produite.
 * [L'adaptation de la demande](./carbon-awareness/#demand-shaping) - La stratégie de planifier notre calcul pour correspondre à l’approvisionnement en électricité propre.
-* [Protocole des GES](https://ghgprotocol.org) - Norme de comptabilisation des gaz à effet de serre la plus utilisée et reconnue mondialement.
-* [Émissions de la chaîne de valeur](https://www.cisl.cam.ac.uk/education/graduate-study/pgcerts/value-chain-defs) - Il s’agit des émissions du scope 3 selon le protocole des GES et la source la plus importante d’émissions. Ils englobent l’ensemble des activités nécessaires à la création d’un produit ou d’un service, de la conception à la distribution.
+* [Protocole GES](https://ghgprotocol.org) - Norme de comptabilisation des gaz à effet de serre la plus utilisée et reconnue mondialement.
+* [Émissions de la chaîne de valeur](https://www.cisl.cam.ac.uk/education/graduate-study/pgcerts/value-chain-defs) - Il s’agit des émissions du scope 3 selon le protocole GES et la source la plus importante d’émissions. Ils englobent l’ensemble des activités nécessaires à la création d’un produit ou d’un service, de la conception à la distribution.
 * [Proportionnalité énergétique](./energy-efficiency/#energy-proportionality) - Mesure la relation entre la puissance consommée par un ordinateur et la vitesse à laquelle le travail utile est effectué (son utilisation).
 * [Consommation d’électricité en veille](./energy-efficiency/#static-power-draw) - Il s’agit de la quantité d’électricité consommée lorsqu’un appareil est dans un état inactif.
-* [Carbone incorporé](./hardware-efficiency/#embodied-carbon) La quantité de pollution au carbone émise lors de la création et de l’élimination d’un appareil.
+* [Carbone incorporé](./hardware-efficiency/#embodied-carbon) - La quantité de pollution au carbone émise lors de la création et de l’élimination d’un appareil.
