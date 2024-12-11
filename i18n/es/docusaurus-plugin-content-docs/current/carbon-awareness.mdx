@@ -1,0 +1,283 @@
+---
+sidebar_position: 5
+title: Conciencia sobre el carbono
+---
+
+import Quiz from "/src/components/Quiz";
+
+:::note
+*This is a community contributed translation. It has limited support and might not match the latest English language version of the course.* Esta es una traducción aportada por la comunidad. Tiene soporte limitado y podría no coincidir con la versión más reciente del curso en inglés.
+:::
+
+:::tip Principio
+
+_Hacer más cuando la electricidad sea más limpia y hacer menos cuando la electricidad sea más sucia._
+
+:::
+
+## Introducción
+
+No toda la electricidad se produce de la misma forma. En diferentes lugares y momentos, la electricidad se genera utilizando una variedad de fuentes con diferentes emisiones de carbono. Algunas fuentes, como la eólica, la solar o la hidroeléctrica son limpias, renovables y emiten poco carbono. Por otra parte, las fuentes de combustibles fósiles emiten carbono en distintos grados al producir electricidad. Por ejemplo, tanto el gas como el carbón emiten más carbono que las fuentes renovables, pero las plantas de energía que queman gas emiten menos carbono que las plantas que queman carbón.
+
+La conciencia sobre el carbono se refiere a la idea de hacer más cuando más energía proviene de fuentes bajas en carbono y hacer menos cuando más energía proviene de fuentes altas en carbono.
+
+## Conceptos clave
+
+### Intensidad de carbono
+
+La intensidad de carbono (también llamada intensidad de emisión) mide cuánto carbono (CO2e) se emite por kilovatio-hora (kWh) de electricidad consumida. La unidad estándar de intensidad de carbono es gCO2eq/kWh, o gramos de carbono por kilovatio-hora.
+
+Si su computadora está conectada directamente a un parque eólico (o granja eólica), su electricidad tendría una intensidad de carbono de 0 gCO2eq/kWh, ya que una parque eólico no emite carbono para producir esa electricidad. Sin embargo, la mayoría de las personas no pueden conectarse directamente a parques eólicos; en su lugar, se conectan a redes eléctricas suministradas con electricidad de diversas fuentes.
+
+Una vez conectado a una red, no puede controlar qué fuentes suministran la electricidad que está usando; simplemente obtiene una mezcla de todo. Entonces, su intensidad de carbono será una mezcla de todas las fuentes de energía actuales en una red, tanto las de menor como las de mayor carbono.
+
+### Variabilidad de la intensidad de carbono
+
+La intensidad de carbono varía según la ubicación, ya que algunas regiones tienen una mezcla energética que contiene más fuentes de energía limpia que otras.
+
+![alt_text](./images/07_variability_CI.png "image_tooltip")
+
+La intensidad de carbono también cambia con el tiempo debido a la variabilidad inherente de la energía renovable causada por la incertidumbre de las condiciones meteorológicas. Por ejemplo, cuando está nublado o no hay viento, la intensidad de carbono aumenta ya que más de la electricidad en su mezcla proviene de fuentes que emiten carbono.
+
+![alt_text](./images/08_variability_CI.png "image_tooltip")
+
+### Despachabilidad y recorte
+
+La demanda de electricidad varía durante el día, y el suministro siempre necesita poder satisfacer esa demanda. Una caída de tensión (una disminución en el nivel de voltaje de la línea eléctrica) ocurre si una compañía eléctrica no produce suficiente electricidad para satisfacer la demanda. Por el contrario, si una compañía eléctrica produce más electricidad de la necesaria, entonces, para evitar que la infraestructura se queme, se disparan los interruptores y tenemos apagones.
+
+Es necesario mantener un balance o equilibrio entre la demanda y el suministro de electricidad en todo momento, y la responsabilidad de esto generalmente recae en el proveedor del servicio de electricidad o energía.
+
+En el caso de los combustibles fósiles, como el carbón, es más fácil controlar la energía producida para este suministro; esto es llamado **despachabilidad**. Sin embargo, en el caso de las fuentes de energía renovable, como los parques eólicos, la energía producida no se puede controlar fácilmente (no podemos controlar la cantidad de viento que sopla). Si la fuente de energía produce más electricidad de la necesaria, esa electricidad se desperdicia; esto es llamado **recorte**.
+
+### Intensidad marginal de carbono
+
+Si repentinamente necesita acceder a más energía, por ejemplo, si necesita encender una luz, esa energía proviene de la planta de energía marginal. La planta de energía marginal es despachable, lo que significa que las plantas de energía marginal a menudo funcionan con combustibles fósiles.
+
+La intensidad de carbono marginal es la intensidad de carbono de la planta de energía que tendría que emplearse para satisfacer cualquier nueva demanda.
+
+Las plantas de energía eléctrica que funcionan con combustibles fósiles rara vez reducen su escala a 0. Tienen un umbral mínimo de funcionamiento  y algunas no se escalan. Estas se consideran una carga base consistente y siempre activa. Debido a esto, a veces tenemos el escenario donde reducimos (desperdiciamos) energía renovable mientras seguimos consumiendo energía de plantas que funcionan con combustibles fósiles.
+
+![alt_text](./images/09_marginal_CI.png "image_tooltip")
+
+En estas situaciones, la intensidad de carbono marginal será de 0 gCO2eq/kWh, ya que sabemos que cualquier nueva demanda coincidirá con la energía renovable que estamos recortando.
+
+### Mercados de energía
+
+El modelo exacto del mercado varía en todo el mundo, pero en general sigue el mismo modelo.
+
+Cuando la demanda de electricidad disminuye, las compañías de energía eléctrica necesitan **reducir** el suministro para equilibrar la oferta y la demanda. Pueden hacerlo de de dos maneras:
+
+1. **Comprar menos energía de plantas de combustibles fósiles**
+
+![alt_text](./images/10_marginal_CI.png "image_tooltip")
+La energía de las plantas de combustibles fósiles suele ser la más costosa, por lo que este es el método preferido. Esto se traduce directamente en quemar menos combustibles fósiles.
+
+2. **Comprar menos energía de fuentes renovables**.
+   Las fuentes renovables son las más baratas, por lo que prefieren no hacerlo. Si una fuente renovable no logra vender toda su electricidad, tiene que desechar el resto.
+
+Reducir la cantidad de electricidad consumida en sus aplicaciones puede ayudar a disminuir la intensidad de carbono de la energía, ya que lo primero que se reduce son los combustibles fósiles.
+
+Cuando la demanda de electricidad aumenta, las compañías eléctricas necesitan aumentar el suministro para equilibrar la oferta y la demanda. Pueden hacerlo de dos maneras:
+
+1. **Comprar más energía de fuentes renovables que actualmente están siendo recortadas**
+
+![alt_text](./images/11_marginal_CI.png "image_tooltip")
+
+Si está recortando o reduciendo, significa que hay un exceso de energía que podría despachar. La energía renovable ya es la más barata, por lo que la energía renovable recortada será la fuente de energía despachable más barata. Las plantas renovables entonces venderán la energía que habrían tenido que recortar o reducir.
+
+2. **Comprar más energía de plantas de combustibles fósiles**.
+
+![alt_text](./images/12_marginal_CI.png "image_tooltip")
+
+Los combustibles fósiles son inherentemente despachables; pueden aumentar rápidamente la producción de energía quemando más. Sin embargo, el carbón cuesta dinero, por lo que esta es la solución menos preferida.
+
+Los mercados de energía son algunos de los mercados más complejos del mundo, por lo que la explicación anterior es una simplificación. Lo importante que hay que entender es que nuestro objetivo es aumentar la inversión en fuentes de energía con menor carbono (como las renovables), y disminuir la inversión en fuentes de mayor carbono (como el carbón). La mejor manera de asegurar que el dinero fluya en la dirección correcta es asegurarse de usar electricidad con la menor intensidad de carbono posible.
+
+## ¿Cómo ser más consciente del carbono?
+
+:::tip
+
+Usar electricidad cuando la intensidad de carbono es baja es la mejor manera de asegurar que los flujos de inversión se dirijan hacia plantas con bajas emisiones de carbono y se alejen de las plantas con altas emisiones de carbono.
+
+:::
+
+![alt_text](./images/13_carbon_aware.png "image_tooltip")
+
+Actualmente se está produciendo una transformación global. En todo el mundo, las redes eléctricas están pasando de quemar principalmente combustibles fósiles a obtener energía de fuentes con menor carbono, como la eólica y la solar. Esta es una de nuestras mejores esperanzas para cumplir con nuestros objetivos de reducción global. Como profesionales o practicantes del software verde, veamos algunas de las formas en que podemos ayudar a acelerar esa transición.
+
+El principal direccionador de la transición es económico más que cualquier objetivo de sostenibilidad. Las energías renovables están ganando porque son más baratas y se están volviendo cada vez más asequibles. Entonces, para ayudar a acelerar la transición, necesitamos hacer que las plantas renovables sean más rentables y las plantas de combustibles fósiles menos rentables. La mejor manera de hacer eso es usar más electricidad cuando proviene de fuentes con menor carbono, como las renovables, y menos electricidad cuando proviene de fuentes con mayor carbono.
+
+La intensidad de carbono es menor cuando más energía proviene de fuentes con menor carbono y mayor cuando proviene de fuentes con mayor carbono.
+
+### Cambio de la demanda
+
+Ser consciente del carbono significa responder a los cambios en la intensidad de carbono aumentando o disminuyendo su demanda. Si su trabajo le permite ser flexible con dónde y cuándo ejecutar las cargas de trabajo, puede actuar como corresponde, consumiendo electricidad cuando la intensidad de carbono sea menor y pausando el consumo cuando dicha intensidad es mayor. Por ejemplo, entrenar un modelo de aprendizaje automático en una región o momento diferente con una intensidad de carbono mucho menor.
+
+[Estudios](https://ieeexplore.ieee.org/document/6128960) muestran que estas acciones pueden resultar en reducciones de carbono del 45% al 99%, dependiendo de la cantidad de energías renovables que alimenten la red eléctrica.
+
+El desplazamiento de la demanda puede desglosarse aún más en cambio espacial y cambio temporal.
+
+#### Cambio espacial
+
+El cambio espacial significa mover las cargas de trabajo (computación) a otra ubicación física donde la intensidad de carbono actual sea más baja. Podría ser una región que naturalmente tiene fuentes de energía con menor carbono. Por ejemplo, moverse a diferentes hemisferios dependiendo de la temporada para tener más horas de sol.
+
+![alt_text](./images/14_spatial_shifting.png "image_tooltip")
+
+#### Cambio temporal
+
+Si no puede desplazar las cargas de trabajo espacialmente a otra región, otra opción es desplazarla a otro momento. Tal vez más tarde en el día o en la noche cuando haya más sol o viento y, por lo tanto, la intensidad de carbono sea más baja. Esto se llama cambio temporal de la demanda. Podemos predecir la intensidad de carbono futura razonablemente bien a través de avances en el pronóstico meteorológico.
+
+![alt_text](./images/15_temporal_shifting.png "image_tooltip")
+
+Algunas de las compañías de tecnología más grandes han reconocido la importancia de la conciencia del carbono y están utilizando técnicas avanzadas de modelado para implementar el cambio de la demanda.
+
+- **Google Carbon Aware Data Centers** - Google lanzó un proyecto para [hacer que algunas de las cargas de trabajo en la nube sean conscientes del carbono](https://blog.google/outreach-initiatives/sustainability/carbon-aware-computing-location/). Crearon modelos para predecir la intensidad de carbono y la carga de trabajo del día siguiente. Luego, ajustaron las cargas de trabajo a gran escala para que más ocurran cuando y donde la intensidad de carbono sea más baja, pero de tal manera que aún puedan manejar la carga esperada.
+- **Microsoft Carbon Aware Windows** - [Microsoft anunció un proyecto para hacer que Windows 11 sea más sostenible](https://www.techradar.com/news/windows-11-is-getting-an-eco-friendly-update-but-could-microsoft-do-more). En principio, esto significa ejecutar las actualizaciones de Windows cuando la intensidad de carbono sea más baja.
+
+### Adaptación de la demanda
+
+El cambio de la demanda es la estrategia de mover las cargas computacionales o computación a regiones o momentos en los que la intensidad de carbono sea más baja. La adaptación de la demanda es una estrategia similar. Sin embargo, en lugar de mover la demanda a una región o tiempo diferente, se ajusta la carga computacional para que coincida con la oferta existente.
+
+![alt_text](./images/16_demand_shaping.png "image_tooltip")
+
+- Si la intensidad de carbono es baja, aumenta la demanda: haga más en sus aplicaciones.
+- Si la intensidad de carbono es alta, disminuye la demanda: haga menos en sus aplicaciones.
+
+La adaptación de la demanda para aplicaciones conscientes del carbono se centra en el suministro de carbono. Cuando el costo de carbono de ejecutar su aplicación se vuelve alto, ajusta la demanda para que coincida con el suministro de carbono. Esto puede ocurrir automáticamente o manualmente si el usuario es quien toma la decisión.
+
+El modo ecológico es un ejemplo de adaptación de la demanda. Los modos ecológicos se encuentran en aparatos cotidianos como automóviles o lavadoras. Cuando se activan, se sacrifica algo de rendimiento para consumir menos recursos (gas o electricidad). Debido a que hay un sacrificio (*trade-off*)) en el rendimiento, los modos ecológicos siempre se presentan al usuario como una opción.
+
+Las aplicaciones de software también pueden tener modos ecológicos que pueden, ya sea automáticamente o con el consentimiento del usuario, tomar decisiones para reducir las emisiones de carbono.
+
+Un ejemplo de esto es el software de videoconferencia que ajusta la calidad de transmisión automáticamente. En vez de transmitir siempre a la máxima calidad posible, reduce la calidad del video para priorizar el audio cuando el ancho de banda es bajo.
+
+Otro ejemplo es TCP/IP. La velocidad de transferencia aumenta en respuesta a la cantidad de datos transmitidos a través de la red.
+
+Un tercer ejemplo es la mejora progresiva en la web. La experiencia mejora en función de los recursos y el ancho de banda disponible en el dispositivo del usuario final.
+
+La adaptación de la demanda está relacionado con un concepto más amplio en sostenibilidad, que es reducir el consumo. Podemos lograr mucho volviéndonos más eficientes con los recursos, pero también necesitamos consumir menos en algún momento.
+
+Como profesionales o practicantes del software verde, podríamos considerar cancelar un proceso cuando la intensidad de carbono es alta en lugar de transformar la demanda, reduciendo las demandas de nuestra aplicación y las expectativas de nuestros usuarios finales.
+
+## Resumen
+
+- Conciencia sobre el carbono significa comprender que la energía que consume no siempre tiene el mismo impacto en términos de intensidad de carbono.
+- La intensidad de carbono varía dependiendo del tiempo y lugar en que se consume.
+- La naturaleza de combustibles fósiles y de fuentes de energía renovable se refiere a consumir energía cuando la intensidad de carbono es baja aumenta la demanda de fuentes de energía renovable y aumenta el porcentaje de energía renovable en el suministro.
+- El cambio de la demanda significa mover su consumo de energía a diferentes lugares o momentos del día donde la intensidad de carbono es más baja.
+- La transformación de la demanda significa adaptar su consumo de energía en torno a la variabilidad de la intensidad de carbono para consumir más en períodos de baja intensidad y menos en períodos de alta intensidad.
+
+## Quiz
+
+<Quiz
+  QuizList={[
+    {
+      question: "¿Qué es la intensidad de carbono?",
+      answers: [
+        {
+          text: "La cantidad de carbono producido usando fuentes de energía limpia.",
+          isCorrect: false,
+        },
+        {
+          text: "La cantidad de carbono producido por kilovatio-hora.",
+          isCorrect: true,
+        },
+        { text: "0gCO2eq/kWh.", isCorrect: false },
+      ],
+    },
+    {
+      question: "¿Cuál es la unidad estándar de intensidad de carbono?",
+      answers: [
+        { text: "gCO2eq/kWh.", isCorrect: false },
+        { text: "gCO2e/kWh.", isCorrect: false },
+        { text: "Cualquiera de las anteriores.", isCorrect: true },
+      ],
+    },
+    {
+      question: "¿Cuáles son las dos variables afectan la intensidad de carbono?",
+      answers: [
+        { text: "Ubicación y tiempo.", isCorrect: true },
+        { text: "Oferta y demanda.", isCorrect: false },
+        { text: "Tiempo y demanda.", isCorrect: false },
+      ],
+    },
+    {
+      question: "¿Cuál de las siguientes afirmaciones no es cierta sobre las plantas de energía marginal?",
+      answers: [
+        { text: "Son despachables.", isCorrect: false },
+        { text: "Suelen quemar combustibles fósiles.", isCorrect: false },
+        {
+          text: "Están ubicadas en lugares donde no hay fuentes de energía limpia disponibles.",
+          isCorrect: true,
+        },
+      ],
+    },
+    {
+      question: "¿Qué es el recorte?",
+      answers: [
+        { text: "Exceso de oferta de energía.", isCorrect: false },
+        {
+          text: "Energía que se desecha o desperdicia debido a la sobreoferta.",
+          isCorrect: true,
+        },
+        { text: "Reducir la oferta para igualar la demanda.", isCorrect: false },
+      ],
+    },
+    {
+      question: "¿Cuál de las siguientes no es un ejemplo de computación consciente del carbono?",
+      answers: [
+        {
+          text: "Consumir más electricidad cuando la intensidad de carbono es menor.",
+          isCorrect: false,
+        },
+        { text: "Cambiar a energía renovable.", isCorrect: true },
+        {
+          text: "Pausar la producción o cargas de trabajo cuando la intensidad de carbono es mayor.",
+          isCorrect: false,
+        },
+      ],
+    },
+    {
+      question: "¿Cuáles son los dos tipos de cambio de demanda?",
+      answers: [
+        { text: "Temporal y permanente.", isCorrect: false },
+        { text: "Espacial y temporal.", isCorrect: true },
+        { text: "Recorte y despachabilidad.", isCorrect: false },
+      ],
+    },
+    {
+      question: "¿Qué es la transformación de la demanda?",
+      answers: [
+        {
+          text: "Hacer más cuando la intensidad de carbono es baja, hacer menos cuando la intensidad de carbono es alta.",
+          isCorrect: true,
+        },
+        {
+          text: "Hacer más cuando la intensidad de carbono es alta, hacer menos cuando la intensidad de carbono es baja.",
+          isCorrect: false,
+        },
+        {
+          text: "Hacer más cuando los costos son bajos, hacer menos cuando los costos son altos.",
+          isCorrect: false,
+        },
+      ],
+    },
+    {
+      question: "¿Cuál de los siguientes es un ejemplo de conciencia de carbono?",
+      answers: [
+        {
+          text: "Crear un software que produzca muy bajas emisiones.",
+          isCorrect: false,
+        },
+        {
+          text: "Cancelar un proceso cuando sabes que la intensidad de carbono es alta.",
+          isCorrect: true,
+        },
+        {
+          text: "Usar servidores en la nube en lugar de servidores internos.",
+          isCorrect: false,
+        },
+      ],
+    },
+  ]}
+/>

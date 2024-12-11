@@ -35,7 +35,7 @@ Each of these chapters will introduce some new concepts and explain in detail wh
 
 ## Principles, Patterns, and Practices.
 
-This course's key areas and content describe the **principles** of green software, a core set of competencies needed to define, run and build green software.
+This course's key areas and content describe the **principles** of green software, a core set of competencies needed to define, build and run green software.
 
 A green software [**pattern**](https://patterns.greensoftware.foundation/) is a specific example of how to apply one or more principles in a real-world example. Whereas principles describe the theory that underpins green software, patterns are the practical advice software practitioners can use in their software applications today. Patterns are vendor-neutral.
 
