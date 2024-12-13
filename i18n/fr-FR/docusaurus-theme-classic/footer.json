@@ -1,0 +1,46 @@
+{
+  "link.title.Links": {
+    "message": "Liens",
+    "description": "The title of the footer links column with title=Links in the footer"
+  },
+  "link.title.LEGAL": {
+    "message": "LEGAL",
+    "description": "The title of the footer links column with title=LEGAL in the footer"
+  },
+  "link.title.GSF Info": {
+    "message": "Information GSF",
+    "description": "The title of the footer links column with title=GSF Info in the footer"
+  },
+  "link.item.label.Github": {
+    "message": "Github",
+    "description": "The label of footer link with label=Github linking to https://github.com/Green-Software-Foundation/training/"
+  },
+  "link.item.label.Website": {
+    "message": "Site internet",
+    "description": "The label of footer link with label=Website linking to https://learn.greensoftware.foundation"
+  },
+  "link.item.label.Trademark Policy": {
+    "message": "Politique de marque",
+    "description": "The label of footer link with label=Trademark Policy linking to https://greensoftware.foundation/policy/trademark"
+  },
+  "link.item.label.Terms and Privacy Policy": {
+    "message": "Conditions et politique de confidentialité",
+    "description": "The label of footer link with label=Terms and Privacy Policy linking to https://greensoftware.foundation/policy/terms"
+  },
+  "link.item.label.Green Software Foundation": {
+    "message": "Green Software Foundation",
+    "description": "The label of footer link with label=Green Software Foundation linking to https://greensoftware.foundation"
+  },
+  "link.item.label.Twitter": {
+    "message": "Twitter",
+    "description": "The label of footer link with label=Twitter linking to https://twitter.com/gsfcommunity"
+  },
+  "link.item.label.Linkedin": {
+    "message": "Linkedin",
+    "description": "The label of footer link with label=Linkedin linking to https://www.linkedin.com/company/green-software-foundation/"
+  },
+  "copyright": {
+    "message": "Copyright © 2024 Joint Development Foundation Projects, LLC, Green Software Foundation Series",
+    "description": "The footer copyright"
+  }
+}
