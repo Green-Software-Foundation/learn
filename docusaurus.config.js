@@ -68,9 +68,9 @@ const config = {
           position: 'left',
         },
         {
-          href: "https://grnsft.org/practitioner/lf-exam",
+          href: "https://grnsft.org/mov-plat-gsp",
           position: "right",
-          label: "Take the exam",
+          label: "Take the Course",
         }, {
           href: "https://greensoftware.foundation/",
           position: "right",
