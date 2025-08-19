@@ -4,7 +4,7 @@
     "description": "Der Titel in der Navigationsleiste"
   },
   "item.label.Take the exam": {
-    "message": "Mach die Zertifizierung Green Software for Practitioners (LFC131) ",
+    "message": "Mach die Zertifizierung Green Software for Practitioners",
     "description": "Navbar-Element mit Beschriftung"
   },
   "item.label.a Green Software Foundation project": {
