@@ -74,7 +74,7 @@ const config = {
         }, {
           href: "https://greensoftware.foundation/",
           position: "right",
-          label: "a Green Software Foundation project",
+          label: "Green Software Foundation",
         },],
       },
       footer: {
