@@ -1,51 +1,52 @@
 ---
 sidebar_position: 2
-title: Introduction
+title: ভূমিকা
 ---
 
 :::note
-This is a community contributed translation. It has limited support and might not match the latest English language version of the course.
+এই অনুবাদটি গ্রিন সফটওয়্যার প্র্যাকটিশনার্স কমিউনিটি দ্বারা তৈরি। এটির সমর্থন সীমিত এবং কোর্সের সর্বশেষ ইংরেজি সংস্করণের সাথে নাও মিলতে পারে।
 :::
 
-## What is green software?
+## গ্রিন সফটওয়ার কি?
 
-Green software is an emerging discipline at the intersection of climate science, software design, electricity markets, hardware, and data center design.
+গ্রিন সফটওয়্যার একটি নতুন ক্ষেত্র, যা জলবায়ু বিজ্ঞান, সফটওয়্যার ডিজাইন, বিদ্যুৎ বাজার, হার্ডওয়্যার এবং ডেটা সেন্টার ডিজাইনের মতো বিভিন্ন বিষয়ের সমন্বয়ে গঠিত।
 
-Green software is carbon-efficient software, meaning it emits the least carbon possible. Only three activities reduce the carbon emissions of software; energy efficiency, carbon awareness, and hardware efficiency. This training will explain all of these concepts, how to apply them to your processes and how to measure them, as well as some of the international guidelines and organizations that guide and monitor this space.
+গ্রিন সফটওয়্যার হলো কার্বন-সাশ্রয়ী (carbon-efficient) সফটওয়্যার, যার অর্থ এটি সর্বনিম্ন সম্ভাব্য কার্বন নির্গমন করে। মাত্র তিনটি কাজের মাধ্যমে সফটওয়্যারের কার্বন নির্গমন হ্রাস করা সম্ভব: এনার্জি দক্ষতা (energy efficiency), কার্বন সচেতনতা (carbon awareness), এবং হার্ডওয়্যার দক্ষতা (hardware efficiency)। এই প্রশিক্ষণে এই সমস্ত ধারণা, কীভাবে সেগুলোকে আপনার সফটওয়ারে প্রয়োগ করবেন, এবং কীভাবে সেগুলো পরিমাপ করবেন তা ব্যাখ্যা করা হবে। সেই সাথে এই ক্ষেত্রটিকে নির্দেশ করে এবং পর্যবেক্ষণ করে এমন কিছু আন্তর্জাতিক নির্দেশিকা ও সংস্থা সম্পর্কেও ব্যাখ্যা করা হবে।
 
 ![alt_text](./images/01_carbon_efficiency.png "image_tooltip")
 
-## Who should read this?
+## এটি কাদের পড়া উচিত?
 
-Anyone involved in the process of building, deploying, or managing software. By studying these principles, a green software practitioner can make decisions that have a meaningful impact on the carbon pollution of their applications.
+সফটওয়্যার তৈরি করা, ডেপলয় করা এবং পরিচালনা করার প্রক্রিয়ার সাথে জড়িত যে কেউ এটি পড়তে পারবে। এই নীতিগুলো জানার মাধ্যমে, একজন গ্রিন সফটওয়্যার প্র্যাকটিশনার এমন কিছু সিদ্ধান্ত নিতে পাতবেন যা তার অ্যাপ্লিকেশনের কার্বন দূষণ কমাতে গুরুত্বপূর্ণ ভূমিকা রাখবে।
 
 ## History
 
-In 2019 the original eight principles of green software engineering were released. This 2022 update of the principles took on feedback received over the years, merging some principles and adding a new one regarding understanding climate commitments.
+সবুজ সফটওয়্যার ইঞ্জিনিয়ারিংয়ের (Green Software Engineering) মূল আটটি নীতি ২০১৯ সালে প্রকাশ করা হয়। এই নীতিগুলির ২০২২ সালের সংস্করণে বিগত বছরগুলিতে পাওয়া মতামত গ্রহণ করা হয়েছে, যার ফলে কিছু নীতিকে জুড়ে দেওয়া হয়েছে এবং জলবায়ু প্রতিশ্রুতি (Climate commitments) বুঝার জন্য একটি নতুন নীতি যোগ করা হয়েছে।
 
-## How to be a green software practitioner
+## কিভাবে একজন সবুজ সফটওয়্যার প্র্যাকটিশনার হবেন?
 
-The following training covers 6 key areas that a green software practitioner should know:
+এই প্রশিক্ষণে এমন ৬টি গুরুত্বপূর্ণ ক্ষেত্র নিয়ে আলোচনা করা হয়েছে, যা একজন গ্রিন সফটওয়্যার প্র্যাকটিশনারের জানা প্রয়োজন:
 
-1. **Carbon Efficiency**: Emit the least amount of carbon possible.
-2. **Energy Efficiency**: Use the least amount of energy possible.
-3. **Carbon Awareness**: Do more when the electricity is cleaner and do less when the electricity is dirtier.
-4. **Hardware Efficiency**: Use the least amount of embodied carbon possible.
-5. **Measurement**: What you can't measure, you can't improve.
-6. **Climate Commitments**: Understand the exact mechanism of carbon reduction.
+1. **কার্বন দক্ষতা** (Carbon Efficiency): যতটুকু সম্ভব কম কার্বন নির্গমন করুন।
+2. **শক্তি দক্ষতা** (Energy Efficiency): যতটুকু সম্ভব কম শক্তি ব্যবহার করুন।
+3. **কার্বন সচেতনতা** (Carbon Awareness): যখন বিদ্যুৎ পরিষ্কার (cleaner) থাকে, তখন বেশি কাজ করুন এবং যখন বিদ্যুৎ অপরিষ্কার (dirtier) থাকে, তখন কম কাজ করুন।
+4. **হার্ডওয়্যার দক্ষতা** (Hardware Efficiency): যতটুকু সম্ভব কম রুপায়িত কার্বন (embodied carbon) ব্যবহার করুন।
+5. **পরিমাপ** (Measurement): আপনি যা পরিমাপ করতে পারেন না, তার উন্নয়নও করতে পারেন না।
+6. **জলবায়ু অঙ্গীকার** (Climate Commitments): কার্বন হ্রাসের প্রক্রিয়াটি বুঝুন।
 
-Each of these chapters will introduce some new concepts and explain in detail why they are important in terms of the climate, and how you can apply them to your green software practices.
 
-## Principles, Patterns, and Practices.
+প্রতিটি অধ্যায় কিছু নতুন ধারণা তুলে ধরবে এবং আপনাকে বিস্তারিত ব্যাখ্যা করবে যে জলবায়ুর জন্য এই বিষয়গুলো কেন গুরুত্বপূর্ণ এবং কীভাবে আপনি আপনার গ্রিন সফটওয়্যার তৈরির ক্ষেত্রে সেগুলো কাজে লাগাতে পারেন।
 
-This course's key areas and content describe the **principles** of green software, a core set of competencies needed to define, run and build green software.
+## নীতিমালা, প্যাটার্ন, ও অনুশীলন
 
-A green software [**pattern**](https://patterns.greensoftware.foundation/) is a specific example of how to apply one or more principles in a real-world example. Whereas principles describe the theory that underpins green software, patterns are the practical advice software practitioners can use in their software applications today. Patterns are vendor-neutral.
+এই কোর্সটির মূল বিষয় এবং এর কন্টেন্টগুলো গ্রিন সফটওয়্যারের **নীতিমালা** নিয়ে আলোচনা করে। সবুজ সফটওয়্যার তৈরি এবং রক্ষণাবেক্ষণ করার জন্য যে দক্ষতাগুলো প্রয়োজন, তারই মূল অংশ এই নীতিগুলো।
 
-A green software **practice** is a pattern applied to a specific vendor's product and informs practitioners about how to use that product in a more sustainable way. 
+একটি সবুজ সফটওয়্যার [**প্যাটার্ন**](https://patterns.greensoftware.foundation/) হলো বাস্তব-জীবনে এক বা একাধিক নীতি কীভাবে প্রয়োগ করতে হয় তার একটি নির্দিষ্ট উদাহরণ। নীতিগুলি সবুজ সফটওয়্যারের পেছনের তত্ত্বকে বর্ণনা করে, সেখানে প্যাটার্নগুলি মূলত ব্যবহারিক পরামর্শ যা সফটওয়্যার প্র্যাকটিশনাররা আজই, এই মুহূর্তে, তাদের সফটওয়্যার অ্যাপ্লিকেশনগুলিতে অ্যাপ্লাই করতে পারেন। প্যাটার্নগুলি ভেন্ডর-নিরপেক্ষ (vendor-neutral)।
 
-Practices should refer to patterns that should refer to principles.
+একটি সবুজ সফটওয়্যার **অনুশীলন** (practice) হলো একটি নির্দিষ্ট ভেন্ডরের (vendor) পণ্যের উপর প্রয়োগ করা একটি প্যাটার্ন, যা প্র্যাকটিশনারদের সেই পণ্যটি আরও টেকসই (sustainable) উপায়ে কীভাবে ব্যবহার করতে হয় সে সম্পর্কে জানায়।
 
-The green software foundation also publishes a [catalog of vendor-neutral green software patterns](https://patterns.greensoftware.foundation/) across various categories.
- 
+অনুশীলনগুলো (Practices) প্যাটার্নগুলো (Patterns) উল্লেখ করবে এবং প্যাটার্নগুলো নীতিগুলো (Principles) উল্লেখ করবে।
+
+গ্রিন সফটওয়্যার ফাউন্ডেশন (Green Software Foundation) বিভিন্ন বিভাগের জন্য একটি [প্যাটার্ন ক্যাটালগ](https://patterns.greensoftware.foundation/) প্রকাশ করে।
+
 ![Green Software Principles, Patterns, and Practices](./images/GSF_Principles_Patterns_Practices_v2.png "Green Software Principles, Patterns, and Practices")
