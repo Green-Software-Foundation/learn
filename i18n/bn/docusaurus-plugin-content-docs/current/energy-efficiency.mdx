@@ -1,216 +1,224 @@
 ---
 sidebar_position: 4
-title: Energy Efficiency
+title: শক্তি দক্ষতা
 ---
 
 import Quiz from "/src/components/Quiz";
 
 :::note
-This is a community contributed translation. It has limited support and might not match the latest English language version of the course.
+এই অনুবাদটি গ্রিন সফটওয়্যার প্র্যাকটিশনার্স কমিউনিটি দ্বারা তৈরি। এটির সমর্থন সীমিত এবং কোর্সের সর্বশেষ ইংরেজি সংস্করণের সাথে নাও মিলতে পারে।
 :::
 
-:::tip Principle
+:::tip নীতি
 
-_Use the least amount of energy possible._
+_যতটুকু সম্ভব কম শক্তি ব্যবহার করুন।_
 
 :::
 
-## Introduction
+## ভূমিকা
 
-Energy is the ability to do work. There are many different forms of energy, such as heat, electrical and chemical, and one type of energy can be converted to another. For example, we convert chemical energy from coal to electrical energy. In other words, electricity is secondary energy converted from another energy type. In this way, we can think of energy as a measure of the electricity used.
+মূলত কাজ করার ক্ষমতাকেই শক্তি (Energy) বলে। তাপ, বিদ্যুৎ ও রাসায়নিকের মতো শক্তির অনেক রকম ধরণ আছে, আর এক ধরণের শক্তিকে অন্য ধরণের শক্তিতে রূপান্তর করা সম্ভব।  যেমন, আমরা কয়লার রাসায়নিক শক্তিকে বিদ্যুতে রূপান্তরিত করি। অন্য কথায়, বিদ্যুৎ হলো অন্য কোনো শক্তি থেকে রূপান্তরিত হয়ে আসা দ্বিতীয় স্তরের শক্তি। এভাবে আমরা শক্তিকে ব্যবহৃত বিদ্যুতের পরিমাপ হিসাবে ভাবতে পারি।
 
-All software, from the applications running on mobile phones to the training of Machine Learning models running in data centers, consumes electricity. One of the best ways to reduce electricity consumption and the subsequent carbon emissions made by software is to make applications more energy efficient. However, that’s not where our responsibility ends.
+মোবাইল ফোনে চলা সফটওয়্যার থেকে শুরু করে ডেটা সেন্টারে চলা মেশিন লার্নিং মডেলের প্রশিক্ষণ পর্যন্ত সব সফটওয়্যারই বিদ্যুৎ খরচ করে। সফটওয়্যার যাতে কম বিদ্যুৎ খরচ করে এবং তার ফলে কম কার্বন নিঃসরণ করে, তার সেরা উপায়গুলোর মধ্যে একটা হলো সফটওয়্যারকে আরও বেশি এনার্জি-এফিশিয়েন্ট করে তোলা। তবে আমাদের দায়িত্ব শুধু এখানেই শেষ হয় না।
 
-Green software practitioners take responsibility for the energy consumed by their products and design them to consume as little as possible. We should make sure that, at every step in the process, there is as little waste as possible and that most of the energy goes to the next step.
+গ্রিন সফটওয়্যার নিয়ে যারা কাজ করেন, তারা তাদের প্রোডাক্টের দ্বারা খরচ হওয়া বিদ্যুতের দায়িত্ব নেন এবং এমনভাবে ডিজাইন করেন যাতে সেটি যতটা সম্ভব কম বিদ্যুৎ খরচ করে। আমাদের খেয়াল রাখতে হবে যেন প্রক্রিয়ার প্রতিটি ধাপে যতটা সম্ভব কম অপচয় হয় এবং বেশিরভাগ শক্তি যেন পরের ধাপে যেতে পারে।
 
-The final step in this chain is represented by the end user of your product, not the finished product itself. This means our goal is not simply to make the most energy efficient code or the “greenest” software, but to think about the end user and how to make sure they are not creating unnecessary emissions.
+এই প্রক্রিয়ার একদম শেষ ধাপটি হলো আপনার প্রোডাক্টের ব্যবহারকারী (End users), তৈরি হয়ে যাওয়া প্রোডাক্টটি নিজে নয়। এর মানে হলো আমাদের লক্ষ্য শুধু সবচেয়ে বেশি এনার্জি-এফিশিয়েন্ট কোড বা 'সবচেয়ে পরিবেশ-বান্ধব' সফটওয়্যার বানানো নয়, বরং ব্যবহারকারী সম্পর্কে ভাবা এবং তারা যেন অকারণে কার্বন নিঃসরণ না করে, সেই ব্যবস্থা করা।
 
-This might mean batching jobs together to take advantage of energy proportionality or changing how a user uses your software. Let’s take a look at some of these concepts and some ways that you can become more energy efficient at every stage of the chain, right up to the final consumer.
+এর মানে হতে পারে এনার্জি প্রপোর্শনালিটি (Energy proportionality) ব্যবহার করে সফটওয়্যারের কাজগুলোকে এক সাথে গুছিয়ে নেওয়া (Batching), অথবা ব্যবহারকারী আপনার সফটওয়্যারটি কীভাবে ব্যবহার করছেন, তা বদলে দেওয়া। চলুন আমরা এই ধারণাগুলো এবং সেইসব উপায়গুলো দেখি, যার সাহায্যে আপনি প্রক্রিয়ার প্রতিটি ধাপে, একদম শেষ ব্যবহারকারী পর্যন্ত, আরও বেশি এনার্জি-এফিশিয়েন্ট হতে পারবেন।
 
 ![alt_text](./images/03_energy_efficiency.png "image_tooltip")
 
-## Key concepts
+## মূল ধারণাগুলো
 
-### Fossil fuels and high-carbon sources of energy
+### জীবাশ্ম জ্বালানি এবং উচ্চ-কার্বন শক্তির উৎস
 
-Most electricity is produced through burning fossil fuels, [usually coal](https://ourworldindata.org/grapher/world-electricity-by-source). Fossil fuels are made from decomposing plants and animals. These fuels are found in the Earth's crust and contain carbon and hydrogen, which can be burned for energy. Coal, oil, and natural gas are examples of fossil fuels.
+বেশিরভাগ বিদ্যুৎ তৈরি হয় জীবাশ্ম জ্বালানি, [সাধারণত কয়লা পুড়িয়ে](https://ourworldindata.org/grapher/world-electricity-by-source)। জীবাশ্ম জ্বালানি তৈরি হয় মরে যাওয়া গাছপালা আর পশুর শরীর পচে গিয়ে। এই জ্বালানিগুলো মাটির নিচে পাওয়া যায় এবং এতে কার্বন ও হাইড্রোজেন থাকে, যা পুড়িয়ে শক্তি তৈরি করা যায়। কয়লা, তেল আর প্রাকৃতিক গ্যাস হলো জীবাশ্ম জ্বালানির উদাহরণ।
 
 ![alt_text](./images/04_high-carbon_sources.png "image_tooltip")
 
-Most people think electricity is clean. Our hands don't get dirty when we plug something into a wall, and our laptops don't need exhaust pipes. However, since most electricity comes from burning fossil fuels and energy supply is the [single most significant](https://www.eea.europa.eu/data-and-maps/daviz/change-of-co2-eq-emissions-2#tab-chart_4) cause of carbon emissions, we can draw a direct line from electricity to carbon emissions. In these terms, electricity can be considered a proxy for carbon.
+বেশিরভাগ মানুষ ভাবে যে বিদ্যুৎ হলো পরিষ্কার (পরিবেশ-বান্ধব)। আমরা আমাদের বাড়ির দেয়ালে থাকা বৈদ্যুতিক socket এ কোনো plug লাগালে আমাদের হাত নোংরা হয় না, আর আমাদের ল্যাপটপের জন্য exhaust pipes লাগে না। কিন্তু, যেহেতু বেশিরভাগ বিদ্যুৎই আসে জীবাশ্ম জ্বালানি পুড়িয়ে এবং শক্তি সরবরাহ হলো [কার্বন নির্গমনের সবচেয়ে বড় কারণ](https://www.eea.europa.eu/data-and-maps/daviz/change-of-co2-eq-emissions-2#tab-chart_4), তাই বিদ্যুৎ আর কার্বন নির্গমনের মধ্যে একটা সরাসরি সম্পর্ক রয়েছে। এই কারণে, বিদ্যুৎকে কার্বনের বিকল্প (Proxy) হিসাবে ভাবা যেতে পারে।
 
-If our goal is to be carbon efficient, then it means our goal is also to be energy efficient since energy is a proxy for carbon. This means using the least amount of energy possible per unit of work.
+আমাদের লক্ষ্য যদি কার্বন এফিশিয়েন্ট হওয়া হয়, তবে এর মানে হলো আমাদের লক্ষ্য এনার্জি এফিশিয়েন্ট হওয়াও, কারণ বিদ্যুৎ হলো কার্বনের বিকল্প (Proxy)। অর্থাৎ, প্রতি ইউনিট কাজের জন্য যতটুকু সম্ভব কম শক্তি ব্যবহার করা।
 
-### Low-carbon sources of energy
+### নিম্ন-কার্বন শক্তির উৎস
 
-Clean energy comes from renewable, zero-emission sources that do not pollute the atmosphere when used and save energy through energy-efficient practices. There are overlaps between clean, green, and renewable energy. Here's how we can differentiate between them:
+পরিষ্কার শক্তি (Clean energy) তৈরি হয় এমন নবায়নযোগ্য, শূন্য-নিঃসরণ (Zero-emission) উৎস থেকে যা ব্যবহার করলে বাতাসে দূষণ ছড়ায় না এবং এনার্জি-এফিশিয়েন্ট কাজের মাধ্যমে শক্তি বাঁচায়। পরিষ্কার, সবুজ এবং নবায়নযোগ্য শক্তির মধ্যে কিছু মিল আছে। এগুলোর মধ্যে পার্থক্য বোঝার কিছু  উপায় হলো:
 
-- **Clean energy** - doesn’t produce carbon emissions e.g. nuclear.
-- **Green energy** - sources from nature
-- **Renewable energy** - sources will not expire e.g. solar, wind
+- **পরিষ্কার (Clean) শক্তি** - এটি কোনো কার্বন নির্গমন করে না, যেমন: পারমাণবিক শক্তি (nuclear)।
+- **সবুজ (Green) শক্তি** - যা প্রকৃতি থেকে পাওয়া যায়।
+- **নবায়নযোগ্য (Renewable) শক্তি** - এই উৎসগুলো ফুরিয়ে যাবে না, যেমন: সৌর (Solar), বাতাস (Wind)।
 
-### Energy measurement
+### শক্তির পরিমাপ
 
-- Energy is measured in joules (J), the [SI](https://en.wikipedia.org/wiki/International_System_of_Units) unit of energy.
-- Power is measured in watts, where 1 watt (W) is a rate corresponding to one joule per second.
-- A kilowatt (kW) is, therefore, also a rate corresponding to 1000 joules per second.
-- A kilowatt-hour (kWh) is a measure of energy (J) corresponding to one kilowatt of power sustained for one hour.
+- শক্তি মাপা হয় জুল (J) দিয়ে, যা শক্তির [SI](https://en.wikipedia.org/wiki/International_System_of_Units) একক।
+- ক্ষমতা বা power মাপা হয় ওয়াট দিয়ে, যেখানে ১ ওয়াট (W) হলো প্রতি সেকেন্ডে এক জুল (J) হারে কাজ করার সমান।
+- সেই হিসাবে, এক কিলোওয়াট (kW)-ও হলো প্রতি সেকেন্ডে ১০০০ জুল (J) হারে কাজ করার সমান।
+- এক কিলোওয়াট-ঘন্টা (kWh) হলো শক্তির (J) একটি মাপ, যা এক ঘণ্টা ধরে এক কিলোওয়াট ক্ষমতা বজায় রাখার সমান।
 
-## How to improve energy efficiency
+## কীভাবে শক্তি দক্ষতা উন্নত করা যায়?
 
-Now that we know how energy is produced and the associated cost in terms of emissions, based on whether low- or high-carbon energy sources are used, let's take a look at some of the ways green software practitioners can improve energy efficiency. Understanding power usage effectiveness and energy proportionality means you can make better decisions in terms of how to use energy in the most efficient way possible and waste less.
+আমরা এখন জানি যে শক্তি কীভাবে তৈরি হয় এবং নিম্ন বা উচ্চ-কার্বনযুক্ত শক্তির উৎস ব্যবহার করার ওপর নির্ভর করে এর নির্গমনের খরচ কত দাঁড়ায়। এইবার দেখা যাক, গ্রিন সফটওয়্যার নিয়ে যারা কাজ করেন, তারা কীভাবে শক্তির দক্ষতা বাড়াতে পারেন। পাওয়ার ইউসেজ এফেক্টিভনেস (Power usage effectiveness বা PUE) এবং এনার্জি প্রপোর্শনালিটি (Energy proportionality) কী, তা বুঝতে পারলে আপনি শক্তিকে সবচেয়ে ভালোভাবে এবং কম অপচয় করে কীভাবে ব্যবহার করা যায়, সেই বিষয়ে আরও ভালো সিদ্ধান্ত নিতে পারবেন।
 
-### Power usage effectiveness
+### শক্তি ব্যবহারের কার্যকারিতা
 
-The data center industry uses the [power usage effectiveness](https://datacenters.lbl.gov/sites/default/files/WP49-PUE%20A%20Comprehensive%20Examination%20of%20the%20Metric_v6.pdf) (PUE) metric, developed by Green Grid in 2006, to **measure data center energy efficiency**. Specifically, this relates to how much energy the computing equipment uses as compared to cooling and other overheads supporting the equipment. When a data center's PUE is close to 1.0, computing is using nearly all energy. When the PUE is 2.0, this means an additional watt of IT power is required to cool and distribute power to the IT equipment for every watt of IT power it uses.
+ডেটা সেন্টার শিল্পে (Industry) [Power usage effectiveness (PUE)](https://datacenters.lbl.gov/sites/default/files/WP49-PUE%20A%20Comprehensive%20Examination%20of%20the%20Metric_v6.pdf) নামে একটি মাপকাঠি ব্যবহার করা হয়, যা ২০০৬ সালে গ্রিন গ্রিড (Green Grid) তৈরি করেছিল, আর এটা ডেটা সেন্টারের শক্তি ব্যবহারের কার্যক্ষমতা মাপার জন্য ব্যবহৃত হয়। বিশেষ করে, এই মাপকাঠি দেখায় যে কুলিং (Cooling) এবং অন্যান্য আনুষঙ্গিক কাজের জন্য যে বিদ্যুৎ লাগে, তার তুলনায় কম্পিউটিং সরঞ্জাম কতটা বিদ্যুৎ ব্যবহার করছে। যখন একটি ডেটা সেন্টারের PUE **১.০**-এর কাছাকাছি থাকে, তার মানে হলো প্রায় সব শক্তিই কম্পিউটিং-এর কাজে লাগছে। আর PUE যখন **২.০** হয়, এর অর্থ হলো আইটি সরঞ্জামের ব্যবহৃত প্রতি এক ওয়াট বিদ্যুতের জন্য সেই সরঞ্জাম ঠান্ডা করতে এবং বিদ্যুৎ সরবরাহ করতে অতিরিক্ত আরও এক ওয়াট বিদ্যুৎ দরকার হয়।
 
-Another way to think of PUE is as a multiplier to your application’s energy consumption. So, for example, if your application consumed 10 kWh and the PUE of the data center where it is running is 1.5, then the actual consumption from the grid is 15 kWh: 5kWh goes towards the operational overhead of the data center, and 10 kWh goes to the servers that are running your application.
+PUE-কে আপনার অ্যাপ্লিকেশনের বিদ্যুৎ খরচের জন্য একটি গুণক (multiplier) হিসাবেও ভাবতে পারেন। যেমন ধরুন, আপনার অ্যাপ্লিকেশনটি যদি **১০** কিলোওয়াট-ঘন্টা (kWh) বিদ্যুৎ খরচ করে এবং ডেটা সেন্টারটির PUE হয় **১.৫**, তাহলে গ্রিড থেকে মোট খরচ হওয়া বিদ্যুতের পরিমাণ হলো **১৫** kWh। এর মধ্যে **৫** kWh ডেটা সেন্টার চালানোর আনুষঙ্গিক খরচের জন্য লাগে, আর বাকি **১০** kWh আপনার অ্যাপ্লিকেশন চালানো সার্ভারগুলোতে যায়।
 
 ![alt_text](./images/05_power_usage.png "image_tooltip")
 
-### Energy proportionality
+### এনার্জি প্রপোর্শনালিটি
 
-[Energy proportionality](https://research.google/pubs/pub33387/), first proposed in 2007 by engineers at Google, measures **the relationship between power consumed by a computer and the rate at which useful work is done** (its utilization).
+২০০৭ সালে গুগলের ইঞ্জিনিয়াররা [এনার্জি প্রপোর্শনালিটির](https://research.google/pubs/pub33387/) বিষয়ে প্রস্তাব করেছিলেন, যেটি একটি কম্পিউটার যে পরিমাণ বিদ্যুৎ খরচ করে এবং কাজের গতি বা ব্যবহারের হারের (Utilization) মধ্যেকার সম্পর্ক পরিমাপ করে।
 
-Utilization measures how much of a computer's resources are used, usually given as a percentage. A fully utilized computer running at its maximum capacity has a high percentage, while an idle computer with no utilization has a lower percentage.
 
-The relationship between power and utilization is not proportional. Mathematically speaking, proportionality between two variables means their ratios are equivalent. For example, at 0% utilization, a computer can draw 100W; at 50%, it draws 180W; and at 100%, it draws 200W. The relationship between power consumption and utilization is not linear and does not cross the origin.
+ইউটিলাইজেশন (ব্যবহারের হার) পরিমাপ করে যে একটি কম্পিউটারে কতটুকু রিসোর্স ব্যবহার করা হচ্ছে, যা সাধারণত শতাংশ (%) হিসাবে দেখানো হয়। পুরো ক্ষমতা নিয়ে চলা (Maximum capacity) একটি কম্পিউটারের ইউটিলাইজেশন বেশি হয়, আর যে কম্পিউটার অলসভাবে (Idle state) পড়ে থাকে, তার ব্যবহারের হার কম হয়।
+
+পাওয়ার (Power) এবং ব্যবহারের হারের (Utilization) মধ্যে সম্পর্কটা সমানুপাতিক (Proportional) নয়। গণিতের ভাষায় বলতে গেলে, দুটি চলকের মধ্যে সমানুপাতিক সম্পর্ক থাকলে তাদের অনুপাত সমান হয়। উদাহরণ হিসেবে বলা যায়, **০**% ব্যবহারের হারে একটি কম্পিউটার **১০০** ওয়াট নিতে পারে; **৫০**% হারে তা **১৮০** ওয়াট নেয়; আর **১০০**% হারে **২০০** ওয়াট নেয়। পাওয়ার খরচ এবং ব্যবহারের হারের মধ্যে এই সম্পর্কটা সরলরৈখিক (Linear) নয় এবং এটি শূন্যের (origin) মধ্যে দিয়েও যায় না।
 
 ![alt_text](./images/06_energy_proportionality_updated.png "image_tooltip")
 
-Because of this, the more we utilize a computer, the more efficient it becomes at converting electricity to practical computing operations. One way to improve hardware efficiency is to run the workload on as few servers as possible, with the servers running at the highest utilization rate, maximizing energy efficiency.
+এই কারণে, আমরা একটি কম্পিউটারকে যত বেশি ব্যবহার করি, বিদ্যুৎকে ব্যবহারযোগ্য কম্পিউটিং কাজে রূপান্তর করার ক্ষেত্রে তা তত বেশি কার্যকরী হয়ে ওঠে। হার্ডওয়্যারের কার্যক্ষমতা (Hardware efficiency) বাড়ানোর একটি উপায় হলো: যতটা সম্ভব কম সংখ্যক সার্ভার ব্যবহার করা, যাতে সার্ভারগুলো সর্বোচ্চ ব্যবহারের হারে চলে এবং তাতে শক্তির দক্ষতা (Energy efficiency) বাড়ে।
 
-#### Static power draw
+#### স্থির বিদ্যুৎ খরচ
 
-The static power draw of a computer is **how much electricity is drawn when in an idle state**. The static power draw varies by configuration and hardware components, but all parts have some static power draw. This is one of the reasons that PCs, laptops, and end-user devices have power-saving modes. If the device is idle, it will eventually trigger a hibernation mode and put the disk and screen to sleep or even change the CPU's frequency. These power-saving modes save on electricity, but they have other trade-offs, such as a slower restart when the device wakes up.
+একটি কম্পিউটারের স্থির বিদ্যুৎ খরচ (Static power draw) হলো যখন এটি অলস অবস্থায় (Idle state) থাকে, তখন এটি কতটা বিদ্যুৎ টানে। এই স্থির বিদ্যুৎ খরচ কনফিগারেশন এবং হার্ডওয়্যারের কম্পোনেন্ট অনুযায়ী পাল্টায়, তবে সব অংশেই কিছু না কিছু স্থির বিদ্যুৎ খরচ হয়। এই কারণেই পিসি, ল্যাপটপ এবং ব্যবহারকারীর ডিভাইসগুলোতে বিদ্যুৎ সাশ্রয়ী মোড (Power saving mode) থাকে। ডিভাইসটি অলসভাবে থাকলে, এটি হাইবারনেশন (Hibernation) মোড চালু করে এবং ডিস্ক ও স্ক্রিনকে ঘুম পাড়িয়ে দেয়, এমনকি সিপিইউ-এর গতিও পাল্টে দেয়। এই বিদ্যুৎ সাশ্রয়ী মোডগুলো বিদ্যুৎ বাঁচায় ঠিকই, তবে এদের কিছু অসুবিধা আছে, যেমন—ডিভাইসটি যখন চালু হয় তখন তা ধীরে ধীরে শুরু হয় (Slower restart)।
 
-Servers are usually not configured for aggressive or even minimal power saving. Many use cases running on servers demand total capacity as quickly as possible because the server needs to respond to rapidly changing demands, which leads to many servers in idle modes during low-demand periods. An idle server has a carbon cost from both the embedded carbon as well as its inefficient utilization.
+সার্ভারগুলো সাধারণত খুব বেশি বা সামান্য বিদ্যুৎ সাশ্রয়ের জন্যও তৈরি করা হয় না। সার্ভারে চলা অনেক কাজের জন্য দ্রুত পুরো ক্ষমতা (Total capacity) দরকার হয়, কারণ সার্ভারকে খুব তাড়াতাড়ি বদলে যাওয়া চাহিদা মেটাতে হয়। এর ফলে, যখন কাজের চাপ কম থাকে, তখন অনেক সার্ভার অলস (Idle) মোডে পড়ে থাকে। একটি অলস সার্ভারের কার্বন খরচ হয় ২ ভাবে:
 
-## Summary
+1. সার্ভার তৈরি/build করার সময় খরচ হওয়া কার্বন (embedded carbon)
+2. এর কম ব্যবহারের (Inefficient utilization) কারণে খরচ হওয়া কার্বন
 
-- Electricity is a proxy for carbon, so building an application that is energy efficient is equivalent to building an application that is carbon efficient.
-- Green software takes responsibility for its electricity consumption and is designed to consume as little as possible.
-- Quantifying the energy consumption of an application is a step in the right direction to start thinking about how an application can operate more efficiently. However, understanding your application's energy consumption is not the only story. The hardware your software is running on uses some of the electricity for operational overhead. This is called power usage efficiency (PUE) in the cloud space.
-- The concept of energy proportionality adds another layer of complexity since hardware becomes more efficient at turning electricity into useful operations the more it's used.
-- Understanding this gives green software practitioners a better insight into how their application behaves with respect to energy consumption in the real world.
+## সারাংশ
 
-## Quiz
+- বিদ্যুৎ হলো কার্বনের বিকল্প (Proxy), তাই একটি এনার্জি এফিশিয়েন্ট অ্যাপ্লিকেশন বানানো মানেই হলো একটি কার্বন এফিশিয়েন্ট অ্যাপ্লিকেশন বানানো।
+
+- গ্রিন সফটওয়্যার নিজের বিদ্যুৎ খরচের দায়িত্ব নেয় এবং এটি এমনভাবে ডিজাইন করা হয় যেন যতটা সম্ভব কম বিদ্যুৎ খরচ করে।
+
+- একটি অ্যাপ্লিকেশনের বিদ্যুৎ খরচ পরিমাপ (Quantifying energy consumption) করা হলো সঠিক দিকে একধাপ এগোনো। একটি সফটওয়্যার আরও দক্ষভাবে কীভাবে পরিচালনা করা যায়, এটি আপনাকে তা ভাবতে সাহায্য করবে। তবে, আপনার অ্যাপ্লিকেশনের বিদ্যুৎ খরচ জানাটাই একমাত্র বিষয় নয়। আপনার সফটওয়্যারটি যে হার্ডওয়্যার চালাচ্ছে, তার কিছু বিদ্যুৎ ডেটা সেন্টার চালানোর আনুষঙ্গিক (Operational overhead) কাজে লাগে। এটাকে Power Usage Efficiency (PUE) বলা হয়।
+
+- এনার্জি প্রপোর্শনালিটির ধারণাটি আরও জটিলতা যোগ করে, কারণ হার্ডওয়্যারটি যত বেশি ব্যবহার করা হয়, বিদ্যুৎকে দরকারী কাজে রূপান্তর করার ক্ষেত্রে তা তত বেশি কার্যকরী হয়ে ওঠে।
+
+- এই বিষয়গুলো বিদ্যুৎ খরচের দিক থেকে সফটওয়্যার কীভাবে কাজ করে, সে সম্পর্কে গ্রিন সফটওয়্যার প্র্যাকটিশনারদের আরও ভালো ধারণা রাখতে সাহায্য করে।
+
+## কুইজ
 
 <Quiz
   QuizList={[
     {
       question:
-        "Why do we sometimes say that electricity is a proxy for carbon?",
+        "আমরা কেন মাঝে মাঝে বলি যে বিদ্যুৎ কার্বনের একটি প্রক্সি?",
       answers: [
         {
-          text: "Electricity is a form of energy and all kinds of energy produces carbon",
+          text: "বিদ্যুৎ শক্তির একটি রূপ এবং সব ধরনের শক্তিই কার্বন তৈরি করে",
           isCorrect: false,
         },
         {
-          text: "Using electricity produces carbon emissions",
+          text: "বিদ্যুৎ ব্যবহারের ফলে কার্বন নিঃসরণ হয়",
           isCorrect: false,
         },
         {
-          text: "Fossil fuels are burned to produce electricity",
+          text: "বিদ্যুৎ উৎপাদনের জন্য জীবাশ্ম জ্বালানি পোড়ানো হয়",
           isCorrect: true,
         },
       ],
     },
     {
-      question: "What are some examples of fossil fuels?",
+      question: "জীবাশ্ম জ্বালানির কিছু উদাহরণ কী?",
       answers: [
-        { text: "Carbon and hydrogen", isCorrect: false },
-        { text: "Coal, oil and natural gas", isCorrect: true },
-        { text: "Both of the above", isCorrect: false },
+        { text: "কার্বন এবং হাইড্রোজেন", isCorrect: false },
+        { text: "কয়লা, তেল এবং প্রাকৃতিক গ্যাস", isCorrect: true },
+        { text: "উপরের দুটোই", isCorrect: false },
       ],
     },
     {
-      question: "What is clean energy?",
+      question: "পরিষ্কার শক্তি (Clean energy) কী?",
       answers: [
-        { text: "Energy that comes from renewable sources", isCorrect: false },
+        { text: "যে শক্তি নবায়নযোগ্য উৎস থেকে আসে", isCorrect: false },
         {
-          text: "Energy that doesn’t produce carbon emissions",
+          text: "যে শক্তি কার্বন নিঃসরণ করে না",
           isCorrect: true,
         },
-        { text: "Both the above", isCorrect: false },
+        { text: "উপরের দুটোই", isCorrect: false },
       ],
     },
     {
-      question: "What does PUE (power usage effectiveness) measure?",
+      question: "PUE (power usage effectiveness) কী পরিমাপ করে?",
       answers: [
-        { text: "Data center energy efficiency", isCorrect: true },
-        { text: "Energy consumption of an application", isCorrect: false },
+        { text: "ডেটা সেন্টারের শক্তি দক্ষতা (Energy efficiency)", isCorrect: true },
+        { text: "একটি অ্যাপ্লিকেশনের শক্তি খরচ", isCorrect: false },
         {
-          text: "Amount of energy used in overheads combined with that consumed by servers",
+          text: "সার্ভার দ্বারা ব্যবহৃত শক্তির সাথে আনুষঙ্গিক ব্যবহৃত শক্তির পরিমাণ",
           isCorrect: false,
         },
       ],
     },
     {
       question:
-        "Which of the following is something that is measured by energy proportionality?",
+        "নিচের কোনটি শক্তি আনুপাতিকতা (energy proportionality) দ্বারা পরিমাপ করা হয়?",
       answers: [
         {
-          text: "Relationship between the energy used in overheads and what goes towards the servers running an application",
+          text: "আনুষঙ্গিক ভাবে ব্যবহৃত শক্তি এবং অ্যাপ্লিকেশন চালানো সার্ভারগুলোতে ব্যবহৃত শক্তির মধ্যে সম্পর্ক",
           isCorrect: false,
         },
         {
-          text: "The percentage of a computers available resources that are being used",
+          text: "একটি কম্পিউটারের বিদ্যমান রিসোর্সের কত শতাংশ ব্যবহৃত হচ্ছে",
           isCorrect: false,
         },
         {
-          text: "Relationship between the power consumed by a computer and the rate at which useful work is done",
+          text: "একটি কম্পিউটার দ্বারা ব্যবহৃত শক্তি এবং দরকারী কাজ করার হারের মধ্যে সম্পর্ক",
           isCorrect: true,
         },
       ],
     },
     {
-      question: "What is the SI unit of energy?",
+      question: "শক্তির SI একক কী?",
       answers: [
         {
-          text: "Watts",
+          text: "ওয়াট",
           isCorrect: false,
         },
         {
-          text: "Kilowatts",
+          text: "কিলোওয়াট",
           isCorrect: false,
         },
         {
-          text: "Joules",
+          text: "জুল",
           isCorrect: true,
         },
       ],
     },
     {
-      question: "Which application consumes the most energy?",
+      question: "কোন অ্যাপ্লিকেশনটি সবচেয়ে বেশি শক্তি খরচ করে?",
       answers: [
         {
-          text: "An application that consumes 20kWh in a data center with a PUE of 1",
+          text: "একটি অ্যাপ্লিকেশন যা PUE ১ সহ একটি ডেটা সেন্টারে ২০ kWh খরচ করে",
           isCorrect: true,
         },
         {
-          text: "An application that consumes 15kWh in a data center with a PUE of 1.2",
+          text: "একটি অ্যাপ্লিকেশন যা PUE ১.২ সহ একটি ডেটা সেন্টারে ১৫ kWh খরচ করে",
           isCorrect: false,
         },
         {
-          text: "An application that consumes 10kWh in a data center with a PUE of 1.5",
+          text: "একটি অ্যাপ্লিকেশন যা PUE ১.৫ সহ একটি ডেটা সেন্টারে ১০ kWh খরচ করে",
           isCorrect: false,
         },
       ],
     },
     {
-      question: "What is static power draw?",
+      question: "স্থির শক্তি খরচ (Static power draw) কী?",
       answers: [
         {
-          text: "The carbon cost of applications being left on standby",
+          text: "অ্যাপ্লিকেশন স্ট্যান্ডবাইতে রেখে দেওয়ার কার্বন খরচ",
           isCorrect: false,
         },
         {
-          text: "The electricity being drawn by an application in an idle state",
+          text: "একটি নিষ্ক্রিয় অবস্থায় (Idle state) থাকা অ্যাপ্লিকেশন দ্বারা ব্যবহৃত বিদ্যুৎ",
           isCorrect: true,
         },
         {
-          text: "The electricity used by an application in eco mode",
+          text: "ইকো মোডে (Eco mode) থাকা একটি অ্যাপ্লিকেশন দ্বারা ব্যবহৃত বিদ্যুৎ",
           isCorrect: false,
         },
       ],
