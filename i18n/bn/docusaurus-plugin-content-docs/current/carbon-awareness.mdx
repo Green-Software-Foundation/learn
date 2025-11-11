@@ -1,283 +1,283 @@
 ---
 sidebar_position: 5
-TODO: Before starting this, ask Agents to see if any spelling mistakes, extra characters or discrepancies in previous sections which have translated.
-title: Carbon Awareness
+title: কার্বন সচেতনতা
 ---
+
+TODO: Add the end, check with multiple Agents if the quiz answers are consistent with the original english version
 
 import Quiz from "/src/components/Quiz";
 
 :::note
-This is a community contributed translation. It has limited support and might not match the latest English language version of the course.
+এই অনুবাদটি গ্রিন সফটওয়্যার প্র্যাকটিশনার্স কমিউনিটি দ্বারা তৈরি। এটির সমর্থন সীমিত এবং কোর্সের সর্বশেষ ইংরেজি সংস্করণের সাথে নাও মিলতে পারে।
 :::
 
-:::tip Principle
+:::tip নীতি
 
-_Do more when the electricity is cleaner and do less when the electricity is dirtier._
+_যখন বিদ্যুৎ পরিষ্কার (cleaner) থাকে, তখন বেশি কাজ করুন এবং যখন বিদ্যুৎ অপরিষ্কার (dirtier) থাকে, তখন কম কাজ করুন।_
 
 :::
 
-## Introduction
+## ভূমিকা
 
-Not all electricity is produced in the same way. In different locations and times, electricity is generated using a variety of sources with varying carbon emissions. Some sources, such as wind, solar, or hydroelectric, are clean, renewable sources that emit little carbon. On the other hand, fossil fuel sources emit carbon at varying degrees to produce electricity. For example, both gas and coal emit more carbon than renewable sources, but gas-burning power plants emit less carbon than coal-burning power plants.
+সব বিদ্যুৎ একই ভাবে তৈরি হয় না। বিভিন্ন স্থান এবং সময়ে, বিভিন্ন উৎস ব্যবহার করে বিদ্যুৎ উৎপন্ন হয়। কিছু উৎস, যেমন বায়ু, সৌর বা জলবিদ্যুৎ, হল পরিচ্ছন্ন (clean), নবায়নযোগ্য উৎস যা সামান্য কার্বন নির্গত করে। অন্যদিকে, জীবাশ্ম জ্বালানি উৎসগুলো বিদ্যুৎ উৎপাদন করতে বিভিন্ন মাত্রায় কার্বন নির্গত করে। উদাহরণস্বরূপ, গ্যাস এবং কয়লা উভয়ই নবায়নযোগ্য উৎসের চেয়ে বেশি কার্বন নির্গত করে, তবে গ্যাস-চালিত বিদ্যুৎ কেন্দ্রগুলো কয়লা-চালিত বিদ্যুৎ কেন্দ্রের চেয়ে কম কার্বন নির্গত করে।
 
-Carbon awareness is the idea of doing more when more energy comes from low carbon sources and doing less when more energy comes from high carbon sources.
+কার্বন সচেতনতা হল এমন একটি ধারণা যে, যখন কম কার্বন উৎস থেকে বেশি শক্তি আসে তখন আরও বেশি কাজ করা এবং যখন বেশি কার্বন উৎস থেকে বেশি শক্তি আসে তখন কম কাজ করা।
 
-## Key concepts
+## মূল ধারণাগুলো
 
-### Carbon intensity
+### কার্বন তীব্রতা
 
-Carbon intensity measures how much carbon (CO2e) is emitted per kilowatt-hour (KWh) of electricity consumed. The standard unit of carbon intensity is gCO2eq/kWh, or grams of carbon per kilowatt hour.
+কার্বন তীব্রতা প্রতি কিলোওয়াট-ঘণ্টা (KWh) বিদ্যুতের জন্য কতটা কার্বন (CO2e) নির্গত হয় তা পরিমাপ করে। কার্বন তীব্রতার একক হল gCO2eq/kWh, বা প্রতি কিলোওয়াট-ঘণ্টায় কার্বনের গ্রাম (grams of carbon per kilowatt hour)। যদি আপনার কম্পিউটার সরাসরি একটি উইন্ডমিল (Windmil) সাথে যুক্ত থাকে, তবে তার বিদ্যুতের কার্বন তীব্রতা হবে 0 gCO2eq/kWh, কারণ সেই উইন্ডমিল বিদ্যুৎ উৎপাদনে কোনো কার্বন নির্গত করে না। তবে, আমরা বেশিরভাগই সরাসরি উইন্ডমিলের সাথে যুক্ত হতে পারি না; আমরা বিভিন্ন উৎস থেকে বিদ্যুৎ সরবরাহ করা পাওয়ার গ্রিডের (power grid) সাথে যুক্ত হয়। একবার একটি গ্রিডে যুক্ত হলে, আপনি যে বিদ্যুৎ ব্যবহার করছেন, তা কোন উৎস থেকে আসছে তা আপনি নিয়ন্ত্রণ করতে পারবেন না; আপনি কেবল সবকিছুর একটি মিশ্রণ (mixture) পান। সুতরাং, আপনার কার্বন তীব্রতা একটি গ্রিডের সমস্ত বিদ্যুৎ উৎসের মিশ্রণ হবে, যা নিম্ন-কার্বন এবং উচ্চ-কার্বন উভয় উৎসই হতে পারে।
 
-If your computer is plugged directly into a wind farm, its electricity would have a carbon intensity of 0 gCO2eq/kWh since a wind farm emits no carbon to produce that electricity. However, most people can't plug directly into wind farms; instead, they plug into power grids supplied with electricity from various sources.
+### কার্বন তীব্রতার পরিবর্তনশীলতা
 
-Once on a grid, you can't control which sources supply the electricity you are using; you simply get a mix of everything. So, your carbon intensity will be a mix of all the current power sources in a grid, both the lower- and the higher-carbon sources.
-
-### Variability of carbon intensity
-
-Carbon intensity varies by location since some regions have an energy mix containing more clean energy sources than others.
+কার্বন তীব্রতা অবস্থান অনুসারে পরিবর্তিত হয়, কারণ কিছু অঞ্চলে অন্যদের তুলনায় বেশি পরিচ্ছন্ন শক্তির উৎস সহ একটি শক্তি মিশ্রণ থাকে।
 
 ![alt_text](./images/07_variability_CI.png "image_tooltip")
 
-Carbon intensity also changes over time due to the inherent variability of renewable energy caused by the unpredictability of weather conditions. For example, when it's cloudy or the wind isn't blowing, carbon intensity increases since more of the electricity in your mix comes from sources that emit carbon.
+কার্বন তীব্রতা সময়ের সাথেও পরিবর্তিত হয়, কারণ আবহাওয়ার অবস্থার পূর্বাভাসহীনতার ফলে নবায়নযোগ্য শক্তির সরবরাহ পরিবর্তন হয়। উদাহরণস্বরূপ, যখন আকাশ মেঘলা থাকে বা বাতাস বয় না, তখন কার্বন তীব্রতা বেড়ে যায় কারণ আপনার মিশ্রণে বিদ্যুতের বেশি অংশ কার্বন নিঃসরণকারী উৎস থেকে আসে।
 
 ![alt_text](./images/08_variability_CI.png "image_tooltip")
 
-### Dispatchability & curtailment
+### ডিসপ্যাচাবিলিটি এবং কার্টেইলমেন্ট
 
-Electricity demand varies during the day, and supply always needs to be able to meet that demand. A brownout (a dip in the voltage level of the power line) occurs if a utility doesn't produce enough electricity to meet demand. Conversely, if a utility produces more electricity than is required, then to stop infrastructure burning out, breakers trip and we have blackouts.
+দিনের বেলায় বিদ্যুতের চাহিদা পরিবর্তনশীল, এবং সরবরাহককে সর্বদা সেই চাহিদা মেটাতে সক্ষম হতে হয়। যদি কোনো ইউটিলিটি (বিদ্যুৎ সরবরাহকারী সংস্থা) চাহিদা মেটানোর জন্য পর্যাপ্ত বিদ্যুৎ উৎপাদন না করে, তাহলে ব্রাউনআউট (Brownout) (পাওয়ার লাইনের ভোল্টেজ স্তরের পতন) হয়। উল্টো দিকে, যদি একটি ইউটিলিটি প্রয়োজনীয়তার চেয়ে বেশি বিদ্যুৎ উৎপাদন করে, তাহলে অবকাঠামো পুড়ে যাওয়া বন্ধ করতে ব্রেকার ট্রিপ করে এবং ব্ল্যাকআউট (Blackouts) হয়।
 
-There needs to be a balance between the demand and supply of electricity at all times and the responsibility for this usually falls to the utility provider.
+সব সময়ে বিদ্যুতের চাহিদা এবং সরবরাহের মধ্যে একটি ভারসাম্য থাকা দরকার এবং এই দায়িত্ব সাধারণত ইউটিলিটি প্রদানকারীর উপর বর্তায়।
 
-In the case of fossil fuels such as coal, it is easier to control the power produced for this supply; this is called **dispatchability**. However, in the case of renewable power sources such as wind farms, the power produced cannot easily be controlled (we can't control how much the wind blows). If the power source produces more electricity than is needed, that electricity is thrown away; this is called **curtailment**.
 
-### Marginal carbon intensity
+কয়লার মতো জীবাশ্ম জ্বালানির ক্ষেত্রে, এই সরবরাহের জন্য উৎপাদিত বিদ্যুৎ নিয়ন্ত্রণ করা সহজ; এটিকে ডিসপ্যাচাবিলিটি (Dispatchability) বলা হয়। তবে, উইন্ডমিলের মতো নবায়নযোগ্য শক্তির উৎসের ক্ষেত্রে, উৎপাদিত বিদ্যুৎ সহজে নিয়ন্ত্রণ করা যায় না। যদি শক্তির উৎস প্রয়োজনের চেয়ে বেশি বিদ্যুৎ উৎপাদন করে, তবে সেই বিদ্যুৎ ফেলে দেওয়া/বাতিল করা হয়; এটিকে কার্টেইলমেন্ট (Curtailment) বলা হয়।
 
-If you suddenly need to access more power - for example, you need to turn on a light - that energy comes from the marginal power plant. The marginal power plant is dispatchable, which means marginal power plants are often powered by fossil fuels.
+### প্রান্তিক কার্বন তীব্রতা
 
-Marginal carbon intensity is the carbon intensity of the power plant that would have to be employed to meet any new demand.
+যদি আপনার হঠাৎ করে আরও বিদ্যুতের প্রয়োজন হয় - উদাহরণস্বরূপ, আপনার একটি আলো জ্বালানোর দরকার হয় - সেই শক্তি প্রান্তিক (Marginal) বিদ্যুৎ কেন্দ্র থেকে আসে। মার্জিনাল বিদ্যুৎ কেন্দ্র হল ডিসপ্যাচেবল, যার মানে মার্জিনাল বিদ্যুৎ কেন্দ্রগুলো প্রায়শই জীবাশ্ম জ্বালানি দ্বারা চালিত হয়।
 
-Fossil-fueled power plants rarely scale down to 0. They have a minimum functioning threshold, and some don't scale; they are considered a consistent, always-on baseload. Because of this, we sometimes have the scenario where we curtail (throw away) renewable energy while still consuming energy from fossil fuel power plants.
+মার্জিনাল কার্বন তীব্রতা হল সেই বিদ্যুৎ কেন্দ্রের কার্বন তীব্রতা যা যেকোনো নতুন চাহিদা মেটাতে ব্যবহার করতে হবে।
+
+জীবাশ্ম জ্বালানি চালিত বিদ্যুৎ কেন্দ্রগুলো খুব কমই 0 পর্যন্ত কমে আসে। তাদের একটি ন্যূনতম কার্যক্ষমতার সীমা (Minimum functioning threshold) থাকে এবং কিছু তো স্কেলও করে না; সেগুলোকে একটি সামঞ্জস্যপূর্ণ, সর্বদা-চালু বেসলোড (Baseload) হিসাবে বিবেচনা করা হয়। এই কারণে, কখনও কখনও এমন পরিস্থিতি দেখা দেয়, যখন আমরা নবায়নযোগ্য শক্তিকে অবমূল্যায়ন (বাতিল) করছি, অথচ একই সঙ্গে জীবাশ্ম জ্বালানিভিত্তিক বিদ্যুৎকেন্দ্র থেকে শক্তি গ্রহণ করে চলেছি।
 
 ![alt_text](./images/09_marginal_CI.png "image_tooltip")
 
-In these situations, the marginal carbon intensity will be 0 gCO2eq/kWh since we know that any new demand will match the renewable energy we are curtailing.
+এই পরিস্থিতিতে প্রান্তিক কার্বন তীব্রতা 0 gCO2eq/kWh হবে কারণ নতুন চাহিদা আমরা যে নবায়নযোগ্য শক্তি বাতিল করছি সেটির সঙ্গে মিলে যাবে।
 
-### Energy markets
+### বিদ্যুৎ মার্কেট
 
-The exact market model varies around the world but broadly follows the same model.
+যথাযথ বাজারের মডেল বিশ্বজুড়ে ভিন্ন হলেও মোটামুটি একই মডেল অনুসরণ করে।
 
-When the demand for electricity goes down, utilities need to **reduce** the supply to balance supply and demand. They can do this in one of two ways:
+যখন বিদ্যুতের চাহিদা কমে যায়, তখন সরবরাহ এবং চাহিদার ভারসাম্য বজায় রাখতে ইউটিলিটিগুলোকে সরবরাহ **কমাতে হয়**। তারা দুটি উপায়ের মাধ্যমে এটি করতে পারে:
 
-1. **Buy less energy from fossil fuel plants.**
+1. **জীবাশ্ম জ্বালানি কেন্দ্র থেকে কম শক্তি কিনুন।**
 
 ![alt_text](./images/10_marginal_CI.png "image_tooltip")
-Energy from fossil fuel plants is usually the most expensive so this is the preferred method. This directly translates to burning fewer fossil fuels.
+জীবাশ্ম জ্বালানি কেন্দ্র থেকে উৎপন্ন শক্তি সাধারণত সবচেয়ে দামি হয়, তাই এই উপায়টি পছন্দসই। এর ফলে সরাসরি কম জীবাশ্ম জ্বালানি পোড়ানো হয়।
 
-2. **Buy less energy from renewable sources**.
-   Renewable sources are the cheapest, so they prefer not to do this. If a renewable source doesn't manage to sell all of its electricity, it has to throw the rest away.
+2. **নবায়নযোগ্য উৎস থেকে কম শক্তি কিনুন।**. নবায়নযোগ্য উৎসগুলো সবচেয়ে সস্তা, তাই তারা এটি করতে পছন্দ করে না। যদি একটি নবায়নযোগ্য উৎস তার সমস্ত বিদ্যুৎ বিক্রি করতে না পারে, তবে তাকে বাকিটা ফেলে দিতে হয় (Curtailment)।
 
-Reducing the amount of electricity consumed in your applications can help decrease the energy's carbon intensity seeing as the first thing to be scaled back are fossil fuels.
+আপনার অ্যাপ্লিকেশনগুলোতে ব্যবহৃত বিদ্যুতের পরিমাণ কমানো বিদ্যুতের কার্বন তীব্রতা কমাতে সাহায্য করতে পারে, কারণ প্রথম যে জিনিসটি কমানো হবে তা হল জীবাশ্ম জ্বালানি। যখন বিদ্যুতের চাহিদা বেড়ে যায়, তখন সরবরাহ এবং চাহিদার ভারসাম্য বজায় রাখতে ইউটিলিটিগুলোকে সরবরাহ বাড়াতে হয়। তারা দুটি উপায়ের মধ্যে একটিতে এটি করতে পারে:
 
-When the demand for electricity goes up, utilities need to increase the supply to balance supply and demand. They can do this in one of two ways:
-
-1. **Buy more energy from renewable sources that are currently being curtailed**
+1. **বর্তমানে কার্টেইল করা হচ্ছে এমন নবায়নযোগ্য উৎস থেকে আরও বেশি শক্তি কিনুন।**
 
 ![alt_text](./images/11_marginal_CI.png "image_tooltip")
 
-If you are curtailing, it means you have excess energy you could dispatch. Renewable energy is already the cheapest, so curtailed renewable energy will be the cheapest dispatchable energy source. Renewable plants will then sell the energy they would have had to curtail.
+যদি আপনি কার্টেইল করে থাকেন, তার মানে আপনার কাছে অতিরিক্ত শক্তি আছে যা আপনি সরবরাহ করতে পারেন। নবায়নযোগ্য শক্তি ইতিমধ্যেই সবচেয়ে সস্তা, তাই কার্টেল করা নবায়নযোগ্য শক্তি হবে সবচেয়ে সস্তা ডিসপ্যাচেবল শক্তির উৎস। তখন নবায়নযোগ্য কেন্দ্রগুলো সেই শক্তি বিক্রি করবে যা তাদের কার্টেল করতে হতো।
 
-2. **Buy more energy from fossil fuel plants**.
+2. **জীবাশ্ম জ্বালানি কেন্দ্র থেকে আরও বেশি শক্তি কিনুন।**.
 
 ![alt_text](./images/12_marginal_CI.png "image_tooltip")
 
-Fossil fuels are inherently dispatchable; they can quickly increase energy production by burning more. However, coal costs money, so this is the least preferred solution.
+জীবাশ্ম জ্বালানি সহজাতভাবে ডিসপ্যাচেবল; তারা আরও জ্বালানি পুড়িয়ে দ্রুত শক্তি উৎপাদন বাড়াতে পারে। তবে, কয়লার দাম বেশি, তাই এটি সবচেয়ে কম পছন্দের সমাধান।
 
-Energy markets are some of the most complex markets in the world so the above explanation is a simplification. But what's important to understand is that our goal is to increase investment into lower carbon energy sources, like renewables, and decrease investment into higher carbon sources, like coal. The best way to ensure money flows in the right direction is to make sure you use electricity with the least carbon intensity.
+শক্তির বাজারগুলো বিশ্বের সবচেয়ে জটিল বাজারগুলোর মধ্যে অন্যতম, তাই উপরের ব্যাখ্যাটি একটি সহজ উপস্থাপন। কিন্তু গুরুত্বপূর্ণ বিষয় হল আমাদের লক্ষ্য হল নবায়নযোগ্য উৎসের মতো কম কার্বন শক্তির উৎসগুলোতে বিনিয়োগ বাড়ানো এবং কয়লার মতো উচ্চ কার্বন উৎসগুলোতে বিনিয়োগ কমানো। সঠিক দিকে অর্থ প্রবাহ নিশ্চিত করার সর্বোত্তম উপায় হল আপনি সবচেয়ে কম কার্বন তীব্রতার বিদ্যুৎ ব্যবহার করছেন তা নিশ্চিত করা।"
 
-## How to be more carbon aware
+## কীভাবে আরও কার্বন সচেতন হওয়া যায়?
 
 :::tip
 
-Using electricity when the carbon intensity is low is the best way to ensure investment flows towards low-carbon emitting plants and away from high-carbon emitting plants.
+কার্বন তীব্রতা যখন কম থাকে তখন বিদ্যুৎ ব্যবহার করা হলো কম কার্বন নি:সরণকারী কেন্দ্রগুলোর দিকে বিনিয়োগ প্রবাহিত করা এবং উচ্চ কার্বন নি:সরণকারী কেন্দ্রগুলো থেকে দূরে সরিয়ে নেওয়ার সেরা উপায়।
 
 :::
 
 ![alt_text](./images/13_carbon_aware.png "image_tooltip")
 
-There is a global transformation happening right now. All around the world, electricity grids are changing from primarily burning fossil fuels to sourcing energy from lower carbon sources like wind and solar. This is one of our best hopes for meeting our global reduction targets. As green software practitioners, let's see some of the ways we can help accelerate that transition.
+বর্তমানে বিশ্বজুড়ে একটি রূপান্তর চলছে। সারা বিশ্বে, বিদ্যুৎ গ্রিডগুলো প্রধানত জীবাশ্ম জ্বালানি পোড়ানো থেকে সরে এসে বায়ু এবং সৌরশক্তির মতো কম কার্বন উৎস থেকে শক্তি সংগ্রহ করছে। এটি আমাদের বিশ্বব্যাপী কার্বন হ্রাসের লক্ষ্যমাত্রা পূরণের জন্য অন্যতম সেরা আশা। গ্রিন সফটওয়্যার প্র্যাকটিশনার হিসাবে, চলুন দেখি আমরা সেই রূপান্তরকে ত্বরান্বিত করতে কী কী উপায়ে সাহায্য করতে পারি।
 
-The primary driver for the transition is economic rather than any sustainability target. Renewables are winning because they are cheaper and getting even more affordable over time. So, to help accelerate the transition, we need to make renewable plants more profitable and fossil fuel plants less profitable. The best way to do that is to use more electricity when it's coming from lower-carbon sources like renewables and less electricity when it's coming from higher-carbon sources.
+এই রূপান্তরের মূল চালিকাশক্তি মূলত অর্থনৈতিক, কোনো টেকসই লক্ষ্যমাত্রা নয়। নবায়নযোগ্য শক্তি জয়ী হচ্ছে কারণ সেগুলো সস্তা এবং সময়ের সাথে সাথে আরও সাশ্রয়ী হয়ে উঠছে। সুতরাং, এই রূপান্তরকে ত্বরান্বিত করতে সাহায্য করার জন্য, আমাদের নবায়নযোগ্য প্ল্যান্টগুলোকে আরও লাভজনক করতে হবে এবং জীবাশ্ম জ্বালানি প্ল্যান্টগুলোকে কম লাভজনক করতে হবে। এটি করার সর্বোত্তম উপায় হল যখন বিদ্যুৎ নবায়নযোগ্য উৎসের মতো কম-কার্বন উৎস থেকে আসে তখন বেশি বিদ্যুৎ ব্যবহার করা এবং যখন এটি উচ্চ-কার্বন উৎস থেকে আসে তখন কম বিদ্যুৎ ব্যবহার করা।
 
-Carbon intensity is lower when more energy comes from lower-carbon sources and higher when it comes from higher-carbon sources.
+যখন শক্তি কম-কার্বন উৎস থেকে আসে তখন কার্বন তীব্রতা কম হয় এবং যখন এটি উচ্চ-কার্বন উৎস থেকে আসে তখন তা বেশি হয়।
 
-### Demand shifting
+### ডিমান্ড শিফটিং
 
-Being carbon aware means responding to shifts in carbon intensity by increasing or decreasing your demand. If your work allows you to be flexible with when and where you run workloads, you can shift accordingly - consuming electricity when the carbon intensity is lower and pausing production when it is higher. For example, training a Machine Learning model at a different time or region with much lower carbon intensity.
+কার্বন সচেতন হওয়ার অর্থ হলো কার্বন তীব্রতার পরিবর্তনের প্রতি আপনার চাহিদা বাড়িয়ে বা কমিয়ে সাড়া দেওয়া। যদি আপনার কাজ আপনাকে কখন এবং কোথায় কাজের চাপ চালাবেন সে বিষয়ে নমনীয়তা দেয়, তবে আপনি সেই অনুযায়ী শিফটিং করতে পারেন - যখন কার্বন তীব্রতা কম থাকে তখন বিদ্যুৎ ব্যবহার করা এবং যখন এটি বেশি থাকে তখন উৎপাদন বন্ধ রাখা। উদাহরণস্বরূপ, একটি মেশিন লার্নিং মডেলকে এমন সময়ে বা অঞ্চলে প্রশিক্ষণ দেওয়া যেখানে কার্বন তীব্রতা অনেক কম।
 
-[Studies](https://ieeexplore.ieee.org/document/6128960) show these actions can result in 45% to 99% carbon reductions depending on the number of renewables powering the grid.
+[গবেষণায়](https://ieeexplore.ieee.org/document/6128960) দেখা গেছে যে এই পদক্ষেপগুলোর ফলে ৪৫% থেকে ৯৯% পর্যন্ত কার্বন হ্রাস হতে পারে।
 
-Demand shifting can be further broken down into spatial and temporal shifting.
+ডিমান্ড শিফটিংকে স্থানিক (spatial) এবং সাময়িক (temporal) শিফটিং-এ বিভক্ত করা যায়।
 
-#### Spatial shifting
+#### স্থানিক শিফটিং
 
-Spatial shifting means moving your computation to another physical location where the current carbon intensity is lower. It might be a region that naturally has lower carbon sources of energy. For example, moving to different hemispheres depending on the season for more sunlight hours.
+স্থানিক শিফটিং মানে আপনার কম্পিউটেশন এমন একটি ভৌগোলিক স্থানে সরিয়ে নিয়ে যাওয়া, যেখানে বর্তমান কার্বন তীব্রতা কম। এটি এমন একটি অঞ্চল হতে পারে যেখানে স্বাভাবিকভাবেই কম কার্বন শক্তির উৎস রয়েছে। উদাহরণস্বরূপ, বেশি সূর্যালোকের জন্য ঋতুভেদে বিভিন্ন গোলার্ধে চলে যাওয়া।
 
 ![alt_text](./images/14_spatial_shifting.png "image_tooltip")
 
-#### Temporal shifting
+#### সাময়িক শিফটিং
 
-If you can't shift your computation spatially to another region, another option you have is to shift to another time. Perhaps later in the day or night when it's sunnier or windier and, therefore, the carbon intensity is lower. This is called temporal demand shifting. We can predict future carbon intensity reasonably well through advances in weather forecasting.
+যদি আপনি আপনার কম্পিউটেশন স্থানিকভাবে অন্য অঞ্চলে শিফট করতে না পারেন, তাহলে আপনার কাছে অন্য একটি বিকল্প আছে, সেটি হলো অন্য সময়ে শিফট করা। এমন সময় যখন বেশি রোদ বা বাতাস থাকে, যার কারণে কার্বন তীব্রতা কম থাকে। একে সাময়িক ডিমান্ড শিফটিং বলা হয়। আবহাওয়ার পূর্বাভাসের অগ্রগতির মাধ্যমে আমরা ভবিষ্যতের কার্বন তীব্রতা যুক্তিসঙ্গতভাবে আন্দাজ করতে পরি।
 
 ![alt_text](./images/15_temporal_shifting.png "image_tooltip")
 
-Some of the biggest technology companies have recognised the importance of carbon awareness and are using advanced modeling techniques to implement demand shifting.
+কিছু বড় প্রযুক্তি সংস্থা কার্বন সচেতনতার গুরুত্ব বুঝতে পেরেছে এবং চাহিদা শিফটিং বাস্তবায়ন করতে উন্নত মডেলিং কৌশল ব্যবহার করছে।
 
-- **Google Carbon Aware Data Centers** - Google launched a project to [make some of the cloud workloads carbon aware](https://blog.google/outreach-initiatives/sustainability/carbon-aware-computing-location/). They created models to predict tomorrow's carbon intensity and workload. They then shaped large-scale workloads so more would happen when and where the carbon intensity is lowest, but in such a way that they could still handle the expected load.
-- **Microsoft Carbon Aware Windows** - [Microsoft announced a project to make Windows 11 more sustainable](https://www.techradar.com/news/windows-11-is-getting-an-eco-friendly-update-but-could-microsoft-do-more). Initially, this means running Windows updates when the carbon intensity is lower.
+- **Google Carbon Aware Data Centers** - গুগল কিছু ক্লাউড ওয়ার্কলোডকে কার্বন সচেতন করার জন্য একটি [প্রকল্প](https://blog.google/outreach-initiatives/sustainability/carbon-aware-computing-location/) চালু করেছিল।  তারা আগামীকালের কার্বন তীব্রতা এবং ওয়ার্কলোডের পূর্বাভাস দেওয়ার জন্য মডেল তৈরি করেছিল। তারপর তারা বৃহৎ পরিসরের ওয়ার্কলোডগুলোকে এমনভাবে তৈরি করেছিল যাতে কার্বন তীব্রতা যখন এবং যেখানে সবচেয়ে কম হবে তখন আরও বেশি কাজ হবে, তবে এমনভাবে যাতে তারা প্রত্যাশিত লোড সামলাতে পারে।
 
-### Demand shaping
+- **Microsoft Carbon Aware Windows** - [মাইক্রোসফট উইন্ডোজ ১১-কে আরও টেকসই করার জন্য একটি প্রকল্পের ঘোষণা করেছে](https://www.techradar.com/news/windows-11-is-getting-an-eco-friendly-update-but-could-microsoft-do-more). এর ফলে যখন কার্বন তীব্রতা কম থাকে, তখন উইন্ডোজ আপডেটগুলো চালানো হবে।
 
-Demand shifting is the strategy of moving computation to regions or times when the carbon intensity is lowest. Demand shaping is a similar strategy. However, instead of moving demand to a different region or time, we shape our computation to match the existing supply.
+### ডিমান্ড শেপিং
+
+ডিমান্ড শিফটিং হলো গণনাকে এমন অঞ্চলে বা সময়ে সরিয়ে নেওয়ার কৌশল যখন কার্বন তীব্রতা সবচেয়ে কম থাকে। ডিমান্ড শেপিং প্রায় একই ধরনের কৌশল। ভিন্ন অঞ্চল বা সময়ে সরিয়ে নেওয়ার পরিবর্তে, বিদ্যুৎ এর সাপ্লাইয়ের এর উপর ভিত্তি করে আমাদের কম্পিউটেশন কে মানিয়ে নিতে হবে।
 
 ![alt_text](./images/16_demand_shaping.png "image_tooltip")
 
-- If carbon intensity is low, increase the demand; do more in your applications.
-- If carbon intensity is high, decrease demand; do less in your applications.
+- যদি কার্বন তীব্রতা কম থাকে, তাহলে চাহিদা বাড়ান; আপনার অ্যাপ্লিকেশনগুলোতে আরও বেশি কাজ করুন।
+- যদি কার্বন তীব্রতা বেশি থাকে, তাহলে চাহিদা কমান; আপনার অ্যাপ্লিকেশনগুলোতে কম কাজ করুন।
 
-Demand shaping for carbon-aware applications is all about the supply of carbon. When the carbon cost of running your application becomes high, shape the demand to match the supply of carbon. This can happen automatically, or the user can make a choice.
+ডিমান্ড শেপিং মূলত কার্বনের সরবরাহের সাথে জড়িত। যখন আপনার অ্যাপ্লিকেশন চালানোর কার্বন খরচ বেশি হয়ে যায়, তখন কার্বনের সরবরাহের সাথে অ্যাপ্লিকেশনের চাহিদার সমন্যয় করুন। এটি স্বয়ংক্রিয়ভাবে ঘটতে পারে, অথবা ব্যবহারকারী নিজে সিদ্ধান্ত নিতে পারেন।
 
-Eco mode is an example of demand shaping. Eco modes are found in everyday appliances like cars or washing machines. When activated, some amount of performance is sacrificed in order to consume fewer resources (gas or electricity). Because there is this trade-off with performance, eco modes are always presented to a user as a choice.
+ইকো মোড (Eco mode) হলো ডিমান্ড শেপিং-এর একটি উদাহরণ। ইকো মোডগুলো গাড়ি বা ওয়াশিং মেশিনের মতো দৈনন্দিন সরঞ্জামে পাওয়া যায়। যখন এটি অ্যাক্টিভেট করা হয়, তখন কম সম্পদ (গ্যাস বা বিদ্যুৎ) ব্যবহার করার জন্য কিছু পরিমাণ কর্মক্ষমতা ত্যাগ করা হয়। যেহেতু কর্মক্ষমতার (Performance) সাথে এই আপসটি (Trade-off) রয়েছে, তাই ইকো মোডগুলো সর্বদা ব্যবহারকারীর কাছে একটি অপশন হিসাবে উপস্থাপন করা হয়।
 
-Software applications can also have eco modes that can - either automatically or with user consent - make decisions to reduce carbon emissions.
+সফটওয়্যার অ্যাপ্লিকেশনগুলোতেও ইকো মোড থাকতে পারে যা - স্বয়ংক্রিয়ভাবে বা ব্যবহারকারীর সম্মতিতে - কার্বন নি:সরণ কমানোর সিদ্ধান্ত নিতে পারে।
 
-One example of this is video conferencing software that adjusts streaming quality automatically. Rather than streaming at the highest quality possible at all times, it reduces the video quality to prioritize audio when the bandwidth is low.
+এর একটি উদাহরণ হল ভিডিও কনফারেন্সিং সফটওয়্যার যা স্বয়ংক্রিয়ভাবে স্ট্রিমিং গুণমান সামঞ্জস্য করে। সব সময় সম্ভাব্য সর্বোচ্চ কোয়ালিটিতে  স্ট্রিমিং করার পরিবর্তে, যখন ব্যান্ডউইথ কম থাকে তখন এটি অডিওকে অগ্রাধিকার দিতে ভিডিওর গুণমান কমিয়ে দেয়।
 
-Another example is TCP/IP. The transfer speed increases in response to how much data is broadcast over the wire.
+আরেকটি উদাহরণ হল TCP/IP। তারের মাধ্যমে কতটা ডেটা সম্প্রচার করা হচ্ছে তার প্রতিক্রিয়ায় স্থানান্তরের গতি বাড়ে।
 
-A third example is progressive enhancement with the web. The web experience improves depending on the resources and bandwidth available on the end user’s device.
+তৃতীয় উদাহরণটি হল ওয়েবের সাথে প্রগ্রেসিভ এনহান্সমেন্ট (Progressive enhancement)। যবহারকারীর ডিভাইসের রিসোর্স এবং ব্যান্ডউইথের উপর নির্ভর করে ওয়েব এক্সপিরিয়েন্স অ্যাডজাস্ট করা সম্ভব।
 
-Demand shaping is related to a broader concept in sustainability, which is to reduce consumption. We can achieve a lot by becoming more efficient with resources, but we also need to consume less at some point.
+ডিমান্ড শেপিং সাস্টেইনাবিলীটির (Sustainability) একটি বিস্তৃত ধারণার সাথে সম্পর্কিত, যা হলো **ব্যবহার কমানো**। রিসোর্সকে আরো দক্ষ ভাবে ব্যবহার করে আমরা অনেক কিছু অর্জন করতে পারি, তবে একটি নির্দিষ্ট সময়ে আমাদের কম ব্যবহার করারও প্রয়োজন রয়েছে।
 
-As Green Software practitioners, we would consider canceling a process when the carbon intensity is high instead of demand shifting - reducing the demands of our application and the expectations of our end users.
+গ্রিন সফটওয়্যার প্র্যাকটিশনার হিসাবে, আমরা ডিমান্ড শিফটিং না করে যখন কার্বন তীব্রতা বেশি থাকে তখন একটি প্রসেস বা কম্পিউটেশন বাতিল করার কথা বিবেচনা করব - যা আমাদের অ্যাপ্লিকেশনের চাহিদা এবং আমাদের ব্যবহারকারীদের প্রত্যাশা হ্রাস করবে।
 
-## Summary
+## সারাংশ
 
-- Carbon awareness means understanding that the energy you consume does not always have the same impact in terms of carbon intensity.
-- Carbon intensity varies depending on the time and place it is consumed.
-- The nature of fossil fuels and renewable energy sources means that consuming energy when carbon intensity is low increases the demand for renewable energy sources and increases the percentage of renewable energy in the supply.
-- Demand shifting means moving your energy consumption to different locations or times of days where the carbon intensity is lower.
-- Demand shaping means adapting your energy consumption around carbon intensity variability in order to consume more in periods of low intensity and less in periods of high intensity.
+- কার্বন সচেতনতার অর্থ হলো এটি বোঝা যে আপনি যে শক্তি ব্যবহার করেন তার প্রভাব কার্বন তীব্রতার দিক থেকে একই থাকে না।
 
-## Quiz
+- কার্বন তীব্রতার পরিবর্তন নির্ভর করে এটি যে সময় এবং স্থানে ব্যবহৃত হয় তার উপর।
+
+- জীবাশ্ম জ্বালানি এবং নবায়নযোগ্য শক্তির উৎসের ধরণ বোঝায় যে যখন কার্বন তীব্রতা কম থাকে তখন শক্তি ব্যবহার করলে নবায়নযোগ্য শক্তির উৎসের চাহিদা বাড়ে এবং সরবরাহে নবায়নযোগ্য শক্তির শতাংশ বাড়ে।
+
+- ডিমান্ড শিফটিং মানে আপনার শক্তি ব্যবহারকে ভিন্ন স্থান বা দিনের সময়ে স্থানান্তরিত করা যেখানে কার্বন তীব্রতা কম থাকে।
+
+- ডিমান্ড শেপিং মানে কম তীব্রতার সময় বেশি ব্যবহার করা এবং বেশি তীব্রতার সময় কম ব্যবহার করার জন্য কার্বন তীব্রতার পরিবর্তনশীলতার সাথে আপনার শক্তি ব্যবহারকে মানিয়ে নেওয়া।
+
+## কুইজ
 
 <Quiz
   QuizList={[
     {
-      question: "What is carbon intensity?",
+      question: "কার্বন তীব্রতা কী?",
       answers: [
         {
-          text: "The amount of carbon produced using clean energy sources",
+          text: "পরিচ্ছন্ন শক্তির উৎস ব্যবহার করে উৎপাদিত কার্বনের পরিমাণ",
           isCorrect: false,
         },
         {
-          text: "The amount of carbon produced per kilowatt hour",
+          text: "প্রতি কিলোওয়াট-ঘণ্টায় উৎপাদিত কার্বনের পরিমাণ",
           isCorrect: true,
         },
         { text: "0gCO2eq/kWh", isCorrect: false },
       ],
     },
     {
-      question: "What is the standard unit of carbon intensity?",
+      question: "কার্বন তীব্রতার একক কী?",
       answers: [
         { text: "gCO2eq/kWh", isCorrect: false },
         { text: "gCO2e/kWh", isCorrect: false },
-        { text: "Either of the above", isCorrect: true },
+        { text: "উপরের যেকোনো একটি", isCorrect: true },
       ],
     },
     {
-      question: "What two variables affect carbon intensity?",
+      question: "কোন দুটি ভেরিয়েবল কার্বন তীব্রতাকে প্রভাবিত করে?",
       answers: [
-        { text: "Location and time", isCorrect: true },
-        { text: "Supply and demand", isCorrect: false },
-        { text: "Time and demand", isCorrect: false },
-      ],
-    },
-    {
-      question:
-        "Which of the following is not true about marginal power plants?",
-      answers: [
-        { text: "They are dispatchable", isCorrect: false },
-        { text: "They usually burn fossil fuels", isCorrect: false },
-        {
-          text: "They are located in places where clean energy sources are not available",
-          isCorrect: true,
-        },
-      ],
-    },
-    {
-      question: "What is curtailment?",
-      answers: [
-        { text: "Surplus energy supply", isCorrect: false },
-        {
-          text: "Energy that is thrown away due to oversupply",
-          isCorrect: true,
-        },
-        { text: "Reducing supply to match demand", isCorrect: false },
+        { text: "অবস্থান এবং সময়", isCorrect: true },
+        { text: "সরবরাহ এবং চাহিদা", isCorrect: false },
+        { text: "সময় এবং চাহিদা", isCorrect: false },
       ],
     },
     {
       question:
-        "Which of the following is not an example of carbon aware computing?",
+        "নিচের কোনটি প্রান্তিক বিদ্যুৎ কেন্দ্র সম্পর্কে সত্য নয়?",
+      answers: [
+        { text: "এগুলো ডিসপ্যাচেবল", isCorrect: false },
+        { text: "এগুলো সাধারণত জীবাশ্ম জ্বালানি পোড়ায়", isCorrect: false },
+        {
+          text: "এগুলো এমন জায়গায় অবস্থিত যেখানে পরিচ্ছন্ন শক্তির উৎস পাওয়া যায় না",
+          isCorrect: true,
+        },
+      ],
+    },
+    {
+      question: "কার্টেইলমেন্ট কী?",
+      answers: [
+        { text: "অতিরিক্ত শক্তি সরবরাহ", isCorrect: false },
+        {
+          text: "অতিরিক্ত সরবরাহের কারণে যে শক্তি ফেলে দেওয়া হয়",
+          isCorrect: true,
+        },
+        { text: "চাহিদার সাথে মিল রাখতে সরবরাহ কমানো", isCorrect: false },
+      ],
+    },
+    {
+      question:
+        "নিচের কোনটি কার্বন সচেতন কম্পিউটিং-এর উদাহরণ নয়?",
       answers: [
         {
-          text: "Consuming more electricity when the carbon intensity is lower",
+          text: "কার্বন তীব্রতা কম থাকলে বেশি বিদ্যুৎ ব্যবহার করা",
           isCorrect: false,
         },
-        { text: "Switching to renewable energy", isCorrect: true },
+        { text: "নবায়নযোগ্য শক্তিতে স্যুইচ করা", isCorrect: true },
         {
-          text: "Pausing production when carbon intensity is higher",
+          text: "কার্বন তীব্রতা বেশি থাকলে উৎপাদন বন্ধ রাখা",
           isCorrect: false,
         },
       ],
     },
     {
-      question: "What are the two types of demand shifting?",
+      question: "ডিমান্ড শিফটিং-এর দুটি প্রকার কী কী?",
       answers: [
-        { text: "Temporal and permanent", isCorrect: false },
-        { text: "Spatial and temporal", isCorrect: true },
-        { text: "Curtailment and dispatchability", isCorrect: false },
+        { text: "সাময়িক এবং স্থায়ী", isCorrect: false },
+        { text: "স্থানিক এবং সাময়িক", isCorrect: true },
+        { text: "কার্টেইলমেন্ট এবং ডিসপ্যাচাবিলিটি", isCorrect: false },
       ],
     },
     {
-      question: "What is demand shaping?",
+      question: "ডিমান্ড শেপিং কী?",
       answers: [
         {
-          text: "Do more when carbon intensity is low, do less when carbon intensity is high",
+          text: "কার্বন তীব্রতা কম থাকলে বেশি করুন, কার্বন তীব্রতা বেশি থাকলে কম করুন",
           isCorrect: true,
         },
         {
-          text: "Do more when carbon intensity is high, do less when carbon intensity is low",
+          text: "কার্বন তীব্রতা বেশি থাকলে বেশি করুন, কার্বন তীব্রতা কম থাকলে কম করুন",
           isCorrect: false,
         },
         {
-          text: "Do more when costs are low, do less when costs are high",
+          text: "খরচ কম থাকলে বেশি করুন, খরচ বেশি থাকলে কম করুন",
           isCorrect: false,
         },
       ],
     },
     {
-      question: "Which of the following is an example of carbon awareness?",
+      question: "নিচের কোনটি কার্বন সচেতনতার উদাহরণ?",
       answers: [
         {
-          text: "Creating a piece of software that produces very low emissions",
+          text: "এমন একটি সফটওয়্যার তৈরি করা যা খুব কম কার্বন ",
           isCorrect: false,
         },
         {
-          text: "Canceling a process when you know carbon intensity is high",
+          text: "কার্বন তীব্রতা বেশি থাকলে একটি প্রসেস বাতিল করা",
           isCorrect: true,
         },
         {
-          text: "Using cloud servers instead of in-house servers",
+          text: "ইন-হাউস সার্ভারের পরিবর্তে ক্লাউড সার্ভার ব্যবহার করা",
           isCorrect: false,
         },
       ],
