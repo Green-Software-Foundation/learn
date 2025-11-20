@@ -1,188 +1,188 @@
 ---
 sidebar_position: 7
-title: Measurement
+title: পরিমাপ
 ---
 
 import Quiz from "/src/components/Quiz";
 
 :::note
-This is a community contributed translation. It has limited support and might not match the latest English language version of the course.
+এই অনুবাদটি গ্রিন সফটওয়্যার প্র্যাকটিশনার্স কমিউনিটি দ্বারা তৈরি। এটির সমর্থন সীমিত এবং কোর্সের সর্বশেষ ইংরেজি সংস্করণের সাথে নাও মিলতে পারে।
 :::
 
-:::tip Principle
+:::tip নীতি
 
-_What you can't measure, you can't improve._
+_আপনি যা পরিমাপ করতে পারেন না, তার উন্নয়নও করতে পারেন না।_
 
 :::
 
-## Introduction
+## ভূমিকা
 
-The Greenhouse Gas (GHG) protocol is the most commonly-used method for organizations to measure their total carbon emissions. Understanding GHG scopes and how to measure your software against industry standards will help you see to what extent you are applying Green Software principles and how far you have to go to improve.
+গ্রিনহাউস গ্যাস (GHG) প্রোটোকল হলো সংস্থাগুলোর মোট কার্বন নিঃসরণ পরিমাপ করার সবচেয়ে বেশি ব্যবহৃত পদ্ধতি। GHG স্কোপ এবং ইন্ডাস্ট্রি স্ট্যান্ডার্ডের বিপরীতে আপনার সফটওয়্যার কীভাবে পরিমাপ করবেন তা বুঝলে আপনি দেখতে পারবেন যে আপনি কতটুকু গ্রিন সফটওয়্যার নীতিমালা প্রয়োগ করছেন এবং উন্নতির জন্য আপনার আরও কতদূর যেতে হবে।
 
-To complement the GHG protocol, you can also use the Software Carbon Intensity (SCI) specification. While the GHG is a more generic measurement suitable for all types of organizations, the SCI is specifically for measuring a rate of software emissions and designed to incentivize the elimination of those emissions.
+GHG প্রোটোকলের পরিপূরক হিসেবে, আপনি সফটওয়্যার কার্বন ইনটেনসিটি (SCI) স্পেসিফিকেশনও ব্যবহার করতে পারেন। যেখানে GHG হলো সব ধরনের সংস্থার জন্য উপযুক্ত একটি সাধারণ পরিমাপ, সেখানে SCI বিশেষভাবে সফটওয়্যার নিঃসরণের হার পরিমাপ করার জন্য এবং সেই নিঃসরণ নির্মূল করতে উৎসাহিত করার জন্য ডিজাইন করা হয়েছে।
 
-The GHG is a protocol to measure total emissions, the SCI is a tool to enable the elimination of software driven emissions.
+GHG হলো মোট নিঃসরণ পরিমাপের একটি প্রোটোকল, আর SCI হলো সফটওয়্যার-চালিত নিঃসরণ নির্মূল করতে সক্ষম করার একটি টুল।
 
-We will look at each of the measurement methodologies and explain how to calculate in either case.
+আমরা প্রতিটি পরিমাপ পদ্ধতি দেখব এবং ব্যাখ্যা করব যে উভয় ক্ষেত্রে কীভাবে গণনা করতে হয়।
 
-## The GHG protocol
+## GHG প্রোটোকল
 
-The [Greenhouse Gas protocol](https://ghgprotocol.org) is the most widely used and internationally recognized greenhouse gas accounting standard. [92%](https://ghgprotocol.org/about-us) of Fortune 500 companies use the GHG protocol when calculating and disclosing their carbon emissions.
+[গ্রিনহাউস গ্যাস প্রোটোকল](https://ghgprotocol.org) হলো সবচেয়ে ব্যাপকভাবে ব্যবহৃত এবং আন্তর্জাতিকভাবে স্বীকৃত গ্রিনহাউস গ্যাস হিসাবরক্ষণ মান। Fortune 500 কোম্পানির [92%](https://ghgprotocol.org/about-us) তাদের কার্বন নিঃসরণ গণনা এবং প্রকাশ করার সময় GHG প্রোটোকল ব্যবহার করে।
 
-The GHG protocol divides emissions into three scopes:
+GHG প্রোটোকল নিঃসরণকে তিনটি স্কোপে ভাগ করে:
 
-- **Scope 1**: Direct emissions from **operations** owned or controlled by the reporting organization, such as on-site fuel combustion or fleet vehicles.
-- **Scope 2**: Indirect emissions related to **emission generation of purchased energy**, such as heat and electricity.
-- **Scope 3**: Other indirect emissions from all the other activities you are engaged in. Including all **emissions from an organization's supply chain;** business travel for employees, and the electricity customers may consume when using your product.
+- **স্কোপ 1**: রিপোর্টিং সংস্থার মালিকানাধীন বা নিয়ন্ত্রিত **অপারেশন** থেকে সরাসরি নিঃসরণ, যেমন অন-সাইট জ্বালানি দহন বা ফ্লিট যানবাহন।
+- **স্কোপ 2**: **ক্রয়কৃত শক্তির নিঃসরণ উৎপাদনের** সাথে সম্পর্কিত পরোক্ষ নিঃসরণ, যেমন তাপ এবং বিদ্যুৎ।
+- **স্কোপ 3**: আপনার সাথে জড়িত অন্যান্য সমস্ত কার্যক্রম থেকে অন্যান্য পরোক্ষ নিঃসরণ। এতে অন্তর্ভুক্ত রয়েছে **একটি সংস্থার সাপ্লাই চেইন থেকে সমস্ত নিঃসরণ;** কর্মচারীদের ব্যবসায়িক ভ্রমণ এবং গ্রাহকরা আপনার পণ্য ব্যবহার করার সময় যে বিদ্যুৎ ব্যবহার করতে পারে।
 
-Scope 3, sometimes referred to as value chain emissions, is the most significant source of emissions and the most complex to calculate for many organizations. These encompass the full range of activities needed to create a product or service, from conception to distribution. In the case of a laptop, for example, every raw material used in its production emits carbon when being extracted and processed. Value chain emissions also include emissions from the use of the laptop, meaning the emissions from the energy used to power the laptop after it has been sold to a customer.
+স্কোপ 3, যাকে কখনও কখনও ভ্যালু চেইন নিঃসরণ বলা হয়, এটি অনেক সংস্থার জন্য নিঃসরণের সবচেয়ে উল্লেখযোগ্য উৎস এবং গণনা করা সবচেয়ে জটিল। এটি একটি পণ্য বা সেবা তৈরি করতে প্রয়োজনীয় সম্পূর্ণ পরিসরের কার্যক্রম অন্তর্ভুক্ত করে, ধারণা থেকে শুরু করে বিতরণ পর্যন্ত। উদাহরণস্বরূপ, একটি ল্যাপটপের ক্ষেত্রে, এর উৎপাদনে ব্যবহৃত প্রতিটি কাঁচামাল উত্তোলন এবং প্রক্রিয়াকরণের সময় কার্বন নিঃসরণ করে। ভ্যালু চেইন নিঃসরণের মধ্যে ল্যাপটপ ব্যবহার থেকে নিঃসরণও অন্তর্ভুক্ত রয়েছে, অর্থাৎ গ্রাহকের কাছে বিক্রি হওয়ার পরে ল্যাপটপকে চালিত করতে ব্যবহৃত শক্তি থেকে নিঃসরণ।
 
-Through this approach, it's possible to sum up all the GHG emissions from every organization and person in the world and reach a global total.
+এই পদ্ধতির মাধ্যমে, বিশ্বের প্রতিটি সংস্থা এবং ব্যক্তির সমস্ত GHG নিঃসরণ যোগ করে একটি বৈশ্বিক মোট পৌঁছানো সম্ভব।
 
-### What scope does my application fall into?
+### আমার অ্যাপ্লিকেশন কোন স্কোপের অন্তর্ভুক্ত?
 
-We have already seen how the GHG protocol asks us to bucket software emissions according to scopes 1-3. But how does this work when it comes to software?
+আমরা ইতিমধ্যে দেখেছি যে GHG প্রোটোকল আমাদেরকে স্কোপ 1-3 অনুযায়ী সফটওয়্যার নিঃসরণকে ভাগ করতে বলে। কিন্তু সফটওয়্যারের ক্ষেত্রে এটি কীভাবে কাজ করে?
 
-Most organizations have many applications running with different architectures and in different environments. As such, the scope your emissions fall into, both in terms of energy generated as well as embodied carbon, depending on your specific scenario.
+বেশিরভাগ সংস্থার বিভিন্ন আর্কিটেকচার এবং বিভিন্ন পরিবেশে চলমান অনেক অ্যাপ্লিকেশন রয়েছে। তাই, আপনার নিঃসরণ কোন স্কোপে পড়ে, উৎপন্ন শক্তি এবং রূপায়িত কার্বন উভয় ক্ষেত্রেই, তা আপনার নির্দিষ্ট পরিস্থিতির উপর নির্ভর করে।
 
 ![alt_text](./images/22_scope.png "image_tooltip")
 
-- **For cloud applications running on servers that you own**, the energy usage of your software falls into scope 2, and the embodied carbon of all your servers falls into scope 3.
-- **For cloud applications running on a public cloud**, both the energy usage of your application and the embodied carbon fall into scope 3.
-- In scenarios where **you are running a hybrid private/public cloud application**, part of its emissions will fall into scope 2 and part will fall into scope 3.
-- Similarly, for your customer-facing **front-end application**, energy usage falls into your organization's scope 3, since your customer will purchase the energy to power their device.
+- **আপনার নিজের সার্ভারে চলমান ক্লাউড অ্যাপ্লিকেশনের জন্য**, আপনার সফটওয়্যারের শক্তি ব্যবহার স্কোপ 2-এ পড়ে এবং আপনার সমস্ত সার্ভারের রূপায়িত কার্বন স্কোপ 3-এ পড়ে।
+- **পাবলিক ক্লাউডে চলমান ক্লাউড অ্যাপ্লিকেশনের জন্য**, আপনার অ্যাপ্লিকেশনের শক্তি ব্যবহার এবং রূপায়িত কার্বন উভয়ই স্কোপ 3-এ পড়ে।
+- যে ক্ষেত্রে **আপনি একটি হাইব্রিড প্রাইভেট/পাবলিক ক্লাউড অ্যাপ্লিকেশন চালাচ্ছেন**, তার নিঃসরণের কিছু অংশ স্কোপ 2-এ এবং কিছু অংশ স্কোপ 3-এ পড়বে।
+- একইভাবে, আপনার গ্রাহক-মুখী **ফ্রন্ট-এন্ড অ্যাপ্লিকেশনের** জন্য, শক্তি ব্যবহার আপনার সংস্থার স্কোপ 3-এ পড়ে, কারণ আপনার গ্রাহক তাদের ডিভাইস চালানোর জন্য শক্তি ক্রয় করবে।
 
-For software, regardless of whether it's run on infrastructure you own, rent, or consumers own, there are three parameters to consider for bucketing emissions:
+সফটওয়্যারের জন্য, এটি আপনার মালিকানাধীন, ভাড়া নেওয়া বা ভোক্তাদের মালিকানাধীন অবকাঠামোতে চলুক না কেন, নিঃসরণ ভাগ করার জন্য তিনটি প্যারামিটার বিবেচনা করতে হবে:
 
-- How much energy it consumes
-- How clean or dirty that electricity is
-- How much hardware it needs to function
+- এটি কতটা শক্তি ব্যবহার করে
+- সেই বিদ্যুৎ কতটা পরিষ্কার বা নোংরা
+- এটি কাজ করার জন্য কতটা হার্ডওয়্যার প্রয়োজন
 
-### Is it possible to calculate a total for software carbon emissions?
+### সফটওয়্যার কার্বন নিঃসরণের মোট হিসাব করা কি সম্ভব?
 
-To calculate a total for software carbon emissions, you need access to detailed data regarding the energy consumption, carbon intensity, and hardware that your software is running on. This is challenging data to gather, even in the case of an organization's own closed-source software products where they can track its usage with telemetry or logs.
+সফটওয়্যার কার্বন নিঃসরণের মোট হিসাব করতে, আপনার সফটওয়্যার যে শক্তি খরচ, কার্বন তীব্রতা এবং হার্ডওয়্যারে চলছে সে সম্পর্কে বিস্তারিত তথ্যে প্রবেশাধিকার প্রয়োজন। এই তথ্য সংগ্রহ করা চ্যালেঞ্জিং, এমনকি একটি সংস্থার নিজস্ব ক্লোজড-সোর্স সফটওয়্যার পণ্যের ক্ষেত্রেও যেখানে তারা টেলিমেট্রি বা লগ দিয়ে এর ব্যবহার ট্র্যাক করতে পারে।
 
-Open-source software maintainers don't have the same visibility into how and where their software is used, how much energy is consumed, and on what hardware.
+ওপেন-সোর্স সফটওয়্যার রক্ষণাবেক্ষণকারীদের তাদের সফটওয়্যার কীভাবে এবং কোথায় ব্যবহৃত হয়, কতটা শক্তি ব্যবহৃত হয় এবং কোন হার্ডওয়্যারে তা দেখার একই দৃশ্যমানতা নেই।
 
-Open-source projects typically have multiple contributors from multiple organizations. As a result, it’s unclear who should be responsible for calculating the emissions as well as who is accountable for eliminating them. When you also consider that open-source software makes up 90% of a typical enterprise stack, it is clear that there is going to be a large amount of carbon emissions that are not accounted for.
+ওপেন-সোর্স প্রকল্পে সাধারণত একাধিক সংস্থা থেকে একাধিক অবদানকারী থাকে। ফলস্বরূপ, কে নিঃসরণ গণনা করার জন্য দায়বদ্ধ এবং কে সেগুলো নির্মূল করার জন্য জবাবদিহি করবে তা অস্পষ্ট। আপনি যখন এটিও বিবেচনা করেন যে ওপেন-সোর্স সফটওয়্যার একটি সাধারণ এন্টারপ্রাইজ স্ট্যাকের 90% তৈরি করে, তখন এটি স্পষ্ট যে প্রচুর পরিমাণে কার্বন নিঃসরণ হিসাব করা হবে না।
 
-### Do totals tell the whole story?
+### মোটসংখ্যা কি পুরো গল্প বলে?
 
-A total is only one metric that describes the state of something. To make the right decisions, you need to look at many different metrics.
+মোট হলো শুধুমাত্র একটি মেট্রিক যা কোনো কিছুর অবস্থা বর্ণনা করে। সঠিক সিদ্ধান্ত নিতে, আপনাকে অনেকগুলো ভিন্ন মেট্রিক দেখতে হবে।
 
-Imagine a scenario where you are the leader of an organization and charged with reducing the emissions of your software. You measure the emissions in Q1 and come out with a total of 34 tonnes. After making some investments into projects that eliminate emissions, you find that by Q2 the emissions have increased to 45 tonnes. Does this mean your efforts failed?
+একটি পরিস্থিতি কল্পনা করুন যেখানে আপনি একটি সংস্থায় নেতৃত্ব দিচ্ছেন এবং আপনার দায়িত্ব হলো সফটওয়্যারের নিঃসরণ কমানোর। আপনি Q1-এ নিঃসরণ পরিমাপ করেন এবং মোট 34 টন পান। নিঃসরণ নির্মূল করে এমন প্রকল্পে কিছু বিনিয়োগ করার পরে, আপনি দেখতে পান যে Q2-এ নিঃসরণ বেড়ে 45 টন হয়েছে। এর মানে কি আপনার প্রচেষ্টা ব্যর্থ হয়েছে?
 
-Not necessarily. We know that a total by itself doesn't tell the whole story and must look at other metrics to find out if an emissions-reduction project has been successful. For example, if you measured the carbon intensity as well as the carbon total, you might come out with a different perspective. In the same project, if the carbon intensity was 3.3g CO2eq/user in Q1, and 2.9g CO2eq/user in Q2, you might consider the project a success and continue to invest further.
+আসলে না। আমরা জানি যে একটি মোট নিজে থেকে পুরো গল্প বলে না এবং নিঃসরণ-হ্রাস প্রকল্প সফল হয়েছে কিনা তা খুঁজে বের করতে অন্যান্য মেট্রিক দেখতে হবে। উদাহরণস্বরূপ, আপনি যদি কার্বন মোটের পাশাপাশি কার্বন তীব্রতাও পরিমাপ করেন, তাহলে আপনি একটি ভিন্ন দৃষ্টিভঙ্গি পেতে পারেন। একই প্রকল্পে, যদি কার্বন তীব্রতা Q1-এ 3.3g CO2eq/user এবং Q2-এ 2.9g CO2eq/user হয়, তাহলে আপনি প্রকল্পটিকে সফল মনে করতে পারেন এবং আরও বিনিয়োগ চালিয়ে যেতে পারেন।
 
-While the total informed you that your organization's carbon emissions had increased overall, the intensity gave a more complete perspective that would help you to make a more informed decision on how to proceed.
+যদিও মোট আপনাকে জানিয়েছে যে আপনার সংস্থার কার্বন নিঃসরণ সামগ্রিকভাবে বেড়েছে, তীব্রতা আরও সম্পূর্ণ দৃষ্টিভঙ্গি দিয়েছে যা আপনাকে কীভাবে এগিয়ে যেতে হবে সে সম্পর্কে আরও সচেতন সিদ্ধান্ত নিতে সাহায্য করবে।
 
-## Software Carbon Intensity specification
+## সফটওয়্যার কার্বন ইনটেনসিটি স্পেসিফিকেশন
 
-The [Software Carbon Intensity (SCI) specification](https://grnsft.org/sci) is a methodology developed by the Standards Working Group in the Green Software Foundation, designed to score a software application along a dimension of sustainability and to encourage action towards eliminating emissions.
+[সফটওয়্যার কার্বন ইনটেনসিটি (SCI) স্পেসিফিকেশন](https://grnsft.org/sci) হলো গ্রিন সফটওয়্যার ফাউন্ডেশনের স্ট্যান্ডার্ডস ওয়ার্কিং গ্রুপ দ্বারা তৈরি একটি পদ্ধতি, যা একটি সফটওয়্যার অ্যাপ্লিকেশনকে টেকসইতার একটি মাত্রা বরাবর স্কোর করার জন্য এবং নিঃসরণ নির্মূলের দিকে পদক্ষেপ নিতে উৎসাহিত করার জন্য ডিজাইন করা হয়েছে।
 
-It's not a replacement for the GHG protocol, but an additional metric that helps software teams understand how their software behaves in terms of carbon emissions so they can make more informed decisions. While the GHG protocol calculates the **total emissions**, the SCI is about calculating the **rate of emissions**. In automotive terms, the SCI is more like a miles per gallon measurement and the GHG protocol is more like the total carbon footprint of a car manufacturer and all their cars they produce every year.
+এটি GHG প্রোটোকলের প্রতিস্থাপন নয়, তবে একটি অতিরিক্ত মেট্রিক যা সফটওয়্যার টিমগুলোকে বুঝতে সাহায্য করে যে তাদের সফটওয়্যার কার্বন নিঃসরণের ক্ষেত্রে কীভাবে আচরণ করে যাতে তারা আরও সচেতন সিদ্ধান্ত নিতে পারে। যেখানে GHG প্রোটোকল **মোট নিঃসরণ** গণনা করে, সেখানে SCI হলো **নিঃসরণের হার** গণনা সম্পর্কে। স্বয়ংচালিত পরিভাষায়, SCI হলো একটি মাইল প্রতি গ্যালন পরিমাপের মতো এবং GHG প্রোটোকল হলো একটি গাড়ি প্রস্তুতকারক এবং প্রতি বছর তারা যে সমস্ত গাড়ি উৎপাদন করে তাদের মোট কার্বন ফুটপ্রিন্টের মতো।
 
-Instead of bucketing the carbon emissions of software into scopes 1-3, it buckets them into **operational emissions** (carbon emissions from the running of software) and **embodied emissions** (carbon emissions from the physical resources required to run the software). It's also an intensity rather than a total, which is more inclusive of open-source software.
+সফটওয়্যারের কার্বন নিঃসরণকে স্কোপ 1-3-এ ভাগ করার পরিবর্তে, এটি সেগুলোকে **অপারেশনাল নিঃসরণ** (সফটওয়্যার চালানো থেকে কার্বন নিঃসরণ) এবং **রূপায়িত নিঃসরণ** (সফটওয়্যার চালাতে প্রয়োজনীয় ভৌত সংস্থান থেকে কার্বন নিঃসরণ) এ ভাগ করে। এটি একটি মোটের পরিবর্তে একটি তীব্রতা, যা ওপেন-সোর্স সফটওয়্যারের জন্য আরও অন্তর্ভুক্তিমূলক।
 
-An important thing to note is that it is not possible to reduce your SCI score by purchasing offsets in the form of neutralizations, compensations, or by offsetting electricity in the form of renewable energy credits. This means that an organization that makes no efforts towards reducing their emissions but simply spends money on carbon credits cannot achieve a good SCI score.
+একটি গুরুত্বপূর্ণ বিষয় লক্ষ্য করার মতো যে, নিরপেক্ষকরণ, ক্ষতিপূরণ বা নবায়নযোগ্য শক্তি ক্রেডিট আকারে বিদ্যুৎ অফসেট করার মাধ্যমে অফসেট ক্রয় করে আপনার SCI স্কোর কমানো সম্ভব নয়। এর মানে হলো যে একটি সংস্থা যে তাদের নিঃসরণ কমানোর দিকে কোনো প্রচেষ্টা করে না কিন্তু কেবল কার্বন ক্রেডিটে অর্থ ব্যয় করে তারা একটি ভাল SCI স্কোর অর্জন করতে পারে না।
 
-Offsets are an essential component of any climate strategy; however, offsets are not eliminations and therefore are not included in the SCI metric.
+অফসেট যেকোনো জলবায়ু কৌশলের একটি অপরিহার্য উপাদান; তবে, অফসেট নির্মূল নয় এবং তাই SCI মেট্রিকে অন্তর্ভুক্ত নয়।
 
-If you make your application more **energy efficient, hardware efficient**, or **carbon aware**, your SCI score will decrease. The only way to reduce your SCI score is to invest time or resources into one of those three principles. As such, adopting the SCI as a metric for your software application along with the GHG protocol, will drive investment into one of the three pillars of green software.
+আপনি যদি আপনার অ্যাপ্লিকেশনকে আরও **শক্তি দক্ষ, হার্ডওয়্যার দক্ষ**, বা **কার্বন সচেতন** করেন, তাহলে আপনার SCI স্কোর হ্রাস পাবে। আপনার SCI স্কোর কমানোর একমাত্র উপায় হলো এই তিনটি নীতির মধ্যে একটিতে সময় বা সম্পদ বিনিয়োগ করা। এভাবে, GHG প্রোটোকলের সাথে আপনার সফটওয়্যার অ্যাপ্লিকেশনের জন্য একটি মেট্রিক হিসাবে SCI গ্রহণ করলে, সবুজ সফটওয়্যারের তিনটি স্তম্ভের মধ্যে একটিতে বিনিয়োগ চালিত হবে।
 
-### The SCI equation
+### SCI সমীকরণ
 
-The SCI is a method of scoring any software application, not limited to just cloud or not just end-user applications, but all types of applications in between. It provides a common language to describe how software behaves with respect to carbon emissions and how a proposed change might eliminate some of them.
+SCI হলো যেকোনো সফটওয়্যার অ্যাপ্লিকেশন স্কোর করার একটি পদ্ধতি, শুধুমাত্র ক্লাউড বা শুধুমাত্র এন্ড-ইউজার অ্যাপ্লিকেশনের মধ্যে সীমাবদ্ধ নয়, বরং এর মধ্যবর্তী সব ধরনের অ্যাপ্লিকেশনের জন্য। এটি একটি সাধারণ ভাষা প্রদান করে যা বর্ণনা করে যে সফটওয়্যার কার্বন নিঃসরণের ক্ষেত্রে কীভাবে আচরণ করে এবং কীভাবে একটি প্রস্তাবিত পরিবর্তন তাদের কিছু নির্মূল করতে পারে।
 
-The equation to calculate an SCI score is elegantly simple. This simplicity means it can be applied in a number of different scenarios.
+একটি SCI স্কোর গণনা করার সমীকরণটি মার্জিতভাবে সহজ। এই সরলতার অর্থ হলো এটি বিভিন্ন পরিস্থিতিতে প্রয়োগ করা যেতে পারে।
 
 ![alt_text](./images/23_SCI.png "image_tooltip")
 
 `SCI = ((E *I) + M) per R`
 
-`E` = Energy consumed by a software system
-`I` = Location-based marginal carbon emissions*
-`M` = Embodied emissions of a software system.*
-`R` = Functional unit (e.g. carbon per additional user, API-call, ML job, etc)
+`E` = একটি সফটওয়্যার সিস্টেম দ্বারা ব্যবহৃত শক্তি
+`I` = অবস্থান-ভিত্তিক প্রান্তিক কার্বন নিঃসরণ*
+`M` = একটি সফটওয়্যার সিস্টেমের রূপায়িত নিঃসরণ*
+`R` = ফাংশনাল ইউনিট (যেমন প্রতি অতিরিক্ত ব্যবহারকারী, API-কল, ML জব ইত্যাদি প্রতি কার্বন)
 
-This summarizes to:
+এটি সংক্ষেপে:
 
-`SCI = C per R` (Carbon per `R`)
+`SCI = C per R` (`R` প্রতি কার্বন)
 
-`R` is the core characteristic of the SCI and turns it into an intensity rather than a total. This is what we call a _functional unit_.
+`R` হলো SCI-এর মূল বৈশিষ্ট্য এবং এটিকে একটি মোটের পরিবর্তে একটি তীব্রতায় পরিণত করে। এটিই আমরা _ফাংশনাল ইউনিট_ বলি।
 
-## How to calculate your SCI score
+## আপনার SCI স্কোর কীভাবে গণনা করবেন
 
-Follow these four steps to calculate your SCI score.
+আপনার SCI স্কোর গণনা করতে এই চারটি ধাপ অনুসরণ করুন।
 
-1. Decide what to include
+1. কী অন্তর্ভুক্ত করবেন তা সিদ্ধান্ত নিন
 
-What software components to include or exclude in the SCI score means defining the boundaries of your software; where it starts and where it ends.
+SCI স্কোরে কোন সফটওয়্যার উপাদান অন্তর্ভুক্ত করবেন বা বাদ দেবেন তার অর্থ হলো আপনার সফটওয়্যারের সীমানা নির্ধারণ করা; এটি কোথায় শুরু হয় এবং কোথায় শেষ হয়।
 
-For every software component you include, you will need to measure its impact. For every major component you exclude, you need to explain why.
+আপনি যে প্রতিটি সফটওয়্যার উপাদান অন্তর্ভুক্ত করবেন, আপনার তার প্রভাব পরিমাপ করতে হবে। আপনি যে প্রতিটি প্রধান উপাদান বাদ দেবেন, আপনার ব্যাখ্যা করতে হবে কেন।
 
-The SCI specification doesn't currently make any demands regarding what to include and what not to include. However, you must include all supporting infrastructure and systems that significantly contribute to the software operation.
+SCI স্পেসিফিকেশন বর্তমানে কী অন্তর্ভুক্ত করতে হবে এবং কী অন্তর্ভুক্ত করতে হবে না সে সম্পর্কে কোনো দাবি করে না। তবে, আপনাকে অবশ্যই সফটওয়্যার অপারেশনে উল্লেখযোগ্যভাবে অবদান রাখে এমন সমস্ত সহায়ক অবকাঠামো এবং সিস্টেম অন্তর্ভুক্ত করতে হবে।
 
-Your SCI score might decrease because you tightened your software boundary and excluded more software components. Conversely, your SCI score might increase because you are including software components you previously excluded. Therefore, when you report your SCI score, especially any improvements in the score, it's essential to disclose your software boundary.
+আপনার SCI স্কোর কমতে পারে কারণ আপনি আপনার সফটওয়্যার সীমানা কঠোর করেছেন এবং আরও সফটওয়্যার উপাদান বাদ দিয়েছেন। বিপরীতভাবে, আপনার SCI স্কোর বৃদ্ধি পেতে পারে কারণ আপনি পূর্বে বাদ দেওয়া সফটওয়্যার উপাদান অন্তর্ভুক্ত করছেন। তাই, যখন আপনি আপনার SCI স্কোর রিপোর্ট করবেন, বিশেষ করে স্কোরের যেকোনো উন্নতি, তখন আপনার সফটওয়্যার সীমানা প্রকাশ করা অপরিহার্য।
 
-2. Choose your functional unit
+2. আপনার ফাংশনাল ইউনিট বেছে নিন
 
-As we have seen, the SCI is a rate rather than a total and measures the intensity of emissions according to the chosen functional unit. The specification currently doesn't prescribe the functional unit and you are free to pick whichever best describes how your application scales. For example, if your application scales by the number of users, then pick users as your functional unit.
+যেমন আমরা দেখেছি, SCI একটি মোটের পরিবর্তে একটি হার এবং নির্বাচিত ফাংশনাল ইউনিট অনুযায়ী নিঃসরণের তীব্রতা পরিমাপ করে। স্পেসিফিকেশনটি বর্তমানে ফাংশনাল ইউনিট নির্ধারণ করে না এবং আপনি আপনার অ্যাপ্লিকেশন কীভাবে স্কেল করে তা সবচেয়ে ভালভাবে বর্ণনা করে এমন যেকোনোটি বেছে নিতে স্বাধীন। উদাহরণস্বরূপ, যদি আপনার অ্যাপ্লিকেশন ব্যবহারকারীদের সংখ্যা দ্বারা স্কেল করে, তাহলে ব্যবহারকারীদের আপনার ফাংশনাল ইউনিট হিসাবে বেছে নিন।
 
-Future iterations of the SCI might prescribe specific functional units for different types of applications to aid with comparability. For instance, we might ask streaming applications to choose minutes as their functional unit in order to standardize measurement across all streaming applications.
+SCI-এর ভবিষ্যত পুনরাবৃত্তি তুলনাযোগ্যতায় সহায়তা করার জন্য বিভিন্ন ধরনের অ্যাপ্লিকেশনের জন্য নির্দিষ্ট ফাংশনাল ইউনিট নির্ধারণ করতে পারে। উদাহরণস্বরূপ, আমরা স্ট্রিমিং অ্যাপ্লিকেশনগুলোকে সমস্ত স্ট্রিমিং অ্যাপ্লিকেশন জুড়ে পরিমাপ মানসম্মত করার জন্য তাদের ফাংশনাল ইউনিট হিসাবে মিনিট বেছে নিতে বলতে পারি।
 
-3. Decide how to measure your emissions
+3. আপনার নিঃসরণ কীভাবে পরিমাপ করবেন তা সিদ্ধান্ত নিন
 
-Now you have a list of the software components you want to measure and the functional unit you will use to measure them. The next step is to decide how you will quantify the emissions of each software component.
+এখন আপনার কাছে আপনি যে সফটওয়্যার উপাদানগুলো পরিমাপ করতে চান এবং আপনি সেগুলো পরিমাপ করতে যে ফাংশনাল ইউনিট ব্যবহার করবেন তার একটি তালিকা রয়েছে। পরবর্তী ধাপটি হলো আপনি প্রতিটি সফটওয়্যার উপাদানের নিঃসরণ কীভাবে পরিমাপ করবেন তা সিদ্ধান্ত নেওয়া।
 
-There are two methods of quantification; measurement and calculation.
+পরিমাপের দুটি পদ্ধতি রয়েছে; মাপ এবং গণনা।
 
-- **Measurement** is using counters of some form. For example, measuring the energy consumption of your software component by using a hardware device in the wall socket. Or using counters on hardware that directly measure energy consumption. If you can directly count your units, you should use the measurement approach.
-- **Calculation** involves indirect counting, often using a model of some form. For instance, if you cannot directly measure your application's energy consumption but instead have a model that estimates the energy consumption based on the CPU utilization, this is considered calculation rather than measurement.
+- **মাপ** হলো কিছু ধরনের কাউন্টার ব্যবহার করা। উদাহরণস্বরূপ, দেয়ালের সকেটে একটি হার্ডওয়্যার ডিভাইস ব্যবহার করে আপনার সফটওয়্যার উপাদানের শক্তি খরচ পরিমাপ করা। বা হার্ডওয়্যারে কাউন্টার ব্যবহার করা যা সরাসরি শক্তি খরচ পরিমাপ করে। আপনি যদি সরাসরি আপনার ইউনিট গণনা করতে পারেন, তাহলে আপনার মাপ পদ্ধতি ব্যবহার করা উচিত।
+- **গণনা** পরোক্ষ গণনা জড়িত, প্রায়শই কোনো ধরনের মডেল ব্যবহার করে। উদাহরণস্বরূপ, আপনি যদি সরাসরি আপনার অ্যাপ্লিকেশনের শক্তি খরচ পরিমাপ করতে না পারেন কিন্তু পরিবর্তে CPU ব্যবহারের ভিত্তিতে শক্তি খরচ অনুমান করে এমন একটি মডেল থাকে, তাহলে এটি মাপের পরিবর্তে গণনা হিসাবে বিবেচিত হয়।
 
-These resources can help you to decide on measurement and calculation methods:
+এই সম্পদগুলো আপনাকে মাপ এবং গণনা পদ্ধতি সিদ্ধান্ত নিতে সাহায্য করতে পারে:
 
-- Look at the [Software Carbon Intensity Guide](https://sci-guide.greensoftware.foundation/) project. This project is responsible for providing advice on how to quantify different software components' emissions.
+- [সফটওয়্যার কার্বন ইনটেনসিটি গাইড](https://sci-guide.greensoftware.foundation/) প্রকল্পটি দেখুন। এই প্রকল্পটি বিভিন্ন সফটওয়্যার উপাদানের নিঃসরণ কীভাবে পরিমাপ করতে হয় সে সম্পর্কে পরামর্শ প্রদানের জন্য দায়বদ্ধ।
 
-4. Quantify
+4. পরিমাপ করুন
 
-Now you are ready to execute. Using the methodology described in the previous steps, start to quantify the SCI score for each software component in your boundary. Your total SCI score of your software application is the combined score of all the different components.
+এখন আপনি সম্পাদনের জন্য প্রস্তুত। পূর্ববর্তী ধাপে বর্ণিত পদ্ধতি ব্যবহার করে, আপনার সীমানার মধ্যে প্রতিটি সফটওয়্যার উপাদানের জন্য SCI স্কোর পরিমাপ শুরু করুন। আপনার সফটওয়্যার অ্যাপ্লিকেশনের মোট SCI স্কোর হলো সমস্ত বিভিন্ন উপাদানের সম্মিলিত স্কোর।
 
-You may calculate multiple SCI scores for the same application. The SCI score is helpful information to understand how your application behaves with respect to carbon emissions in different scenarios. For example, a streaming application might choose carbon per minute as a metric. It might also calculate the carbon per user per day. The carbon per $ revenue metric might give another helpful dimension.
+আপনি একই অ্যাপ্লিকেশনের জন্য একাধিক SCI স্কোর গণনা করতে পারেন। SCI স্কোর বিভিন্ন পরিস্থিতিতে আপনার অ্যাপ্লিকেশন কার্বন নিঃসরণের ক্ষেত্রে কীভাবে আচরণ করে তা বোঝার জন্য সহায়ক তথ্য। উদাহরণস্বরূপ, একটি স্ট্রিমিং অ্যাপ্লিকেশন প্রতি মিনিট কার্বনকে একটি মেট্রিক হিসাবে বেছে নিতে পারে। এটি প্রতি ব্যবহারকারী প্রতি দিন কার্বনও গণনা করতে পারে। প্রতি $ রাজস্ব কার্বন মেট্রিক আরেকটি সহায়ক মাত্রা দিতে পারে।
 
-## Summary
+## সারসংক্ষেপ
 
-- The GHG protocol is a metric for measuring an organization's total carbon emissions and is used by organizations all over the world.
-- The GHG protocol puts carbon emissions into three scopes. Scope 3, also known as value chain emissions, refers to the emissions from organizations that supply others in a chain. In this way, one organization's scope 1 and 2 will sum up into another organization's scope 3.
-- Calculating software-driven emissions using the GHG protocol is possible but can be difficult for open-source software.
-- The SCI is a metric designed specifically to calculate software emissions and is a rate rather than a total.
-- The functional unit of measurement is not prescribed in the SCI and you should choose something that reflects your application.
+- GHG প্রোটোকল হলো একটি সংস্থার মোট কার্বন নিঃসরণ পরিমাপ করার একটি মেট্রিক এবং বিশ্বজুড়ে সংস্থাগুলো দ্বারা ব্যবহৃত হয়।
+- GHG প্রোটোকল কার্বন নিঃসরণকে তিনটি স্কোপে রাখে। স্কোপ 3, যা ভ্যালু চেইন নিঃসরণ নামেও পরিচিত, সেই সংস্থাগুলোর নিঃসরণ বোঝায় যা একটি চেইনে অন্যদের সরবরাহ করে। এইভাবে, একটি সংস্থার স্কোপ 1 এবং 2 অন্য সংস্থার স্কোপ 3-এ যোগ হবে।
+- GHG প্রোটোকল ব্যবহার করে সফটওয়্যার-চালিত নিঃসরণ গণনা করা সম্ভব তবে ওপেন-সোর্স সফটওয়্যারের জন্য কঠিন হতে পারে।
+- SCI হলো একটি মেট্রিক যা বিশেষভাবে সফটওয়্যার নিঃসরণ গণনা করার জন্য ডিজাইন করা হয়েছে এবং এটি একটি মোটের পরিবর্তে একটি হার।
+- পরিমাপের ফাংশনাল ইউনিট SCI-তে নির্ধারিত নয় এবং আপনার এমন কিছু বেছে নেওয়া উচিত যা আপনার অ্যাপ্লিকেশন প্রতিফলিত করে।
 
-## Quiz
+## কুইজ
 
 <Quiz
   QuizList={[
     {
       question:
-        "How does the Greenhouse Gas protocol ask us to measure emissions?",
+        "গ্রিনহাউস গ্যাস প্রোটোকল আমাদের কীভাবে নিঃসরণ পরিমাপ করতে বলে?",
       answers: [
         {
-          text: "By dividing emissions into three scopes",
+          text: "নিঃসরণকে তিনটি স্কোপে ভাগ করে",
           isCorrect: true,
         },
         {
-          text: "By dividing emissions into embodied carbon and day-to-day emissions",
+          text: "নিঃসরণকে রূপায়িত কার্বন এবং দৈনন্দিন নিঃসরণে ভাগ করে",
           isCorrect: false,
         },
         {
-          text: "By dividing emissions from applications running on the public cloud and the private cloud",
+          text: "পাবলিক ক্লাউড এবং প্রাইভেট ক্লাউডে চলমান অ্যাপ্লিকেশন থেকে নিঃসরণ ভাগ করে",
           isCorrect: false,
         },
       ],
     },
     {
       question:
-        "Which of the 3 scopes used in the GHG protocol is also known as ‘value chain emissions’?",
+        "GHG প্রোটোকলে ব্যবহৃত 3টি স্কোপের মধ্যে কোনটি 'ভ্যালু চেইন নিঃসরণ' নামেও পরিচিত?",
       answers: [
         {
           text: "1",
@@ -197,57 +197,57 @@ You may calculate multiple SCI scores for the same application. The SCI score is
           isCorrect: true,
         },
         {
-          text: "1 and 2",
+          text: "1 এবং 2",
           isCorrect: false,
         },
         {
-          text: "all of the above",
+          text: "উপরের সবগুলো",
           isCorrect: false,
         },
       ],
     },
     {
       question:
-        "If you are a cloud application, which GHG scope does your energy consumption fall into?",
+        "আপনি যদি একটি ক্লাউড অ্যাপ্লিকেশন হন, তাহলে আপনার শক্তি খরচ কোন GHG স্কোপের অন্তর্ভুক্ত?",
       answers: [
         {
-          text: "Scopes 2 and 3",
+          text: "স্কোপ 2 এবং 3",
           isCorrect: false,
         },
         {
-          text: "Scope 2",
+          text: "স্কোপ 2",
           isCorrect: false,
         },
         {
-          text: "Scope 3",
+          text: "স্কোপ 3",
           isCorrect: false,
         },
         {
-          text: "Depends whether it’s public, private or hybrid",
+          text: "এটি পাবলিক, প্রাইভেট বা হাইব্রিড কিনা তার উপর নির্ভর করে",
           isCorrect: true,
         },
       ],
     },
     {
       question:
-        "Which of the following scenarios is more challenging to measure using the GHG protocol?",
+        "নিম্নলিখিত কোন পরিস্থিতি GHG প্রোটোকল ব্যবহার করে পরিমাপ করা আরও চ্যালেঞ্জিং?",
       answers: [
         {
-          text: "Closed-source software",
+          text: "ক্লোজড-সোর্স সফটওয়্যার",
           isCorrect: false,
         },
         {
-          text: "Open-source software",
+          text: "ওপেন-সোর্স সফটওয়্যার",
           isCorrect: true,
         },
         {
-          text: "Both of the above",
+          text: "উপরের উভয়ই",
           isCorrect: false,
         },
       ],
     },
     {
-      question: "What does the acronym SCI stand for?",
+      question: "SCI সংক্ষিপ্ত রূপটি কীসের জন্য দাঁড়ায়?",
       answers: [
         {
           text: "Software Carbon Index",
@@ -264,53 +264,53 @@ You may calculate multiple SCI scores for the same application. The SCI score is
       ],
     },
     {
-      question: "What does ((E*I) + M) represent in the SCI equation?",
+      question: "SCI সমীকরণে ((E*I) + M) কী প্রতিনিধিত্ব করে?",
       answers: [
         {
-          text: "Carbon",
+          text: "কার্বন",
           isCorrect: true,
         },
         {
-          text: "Energy",
+          text: "শক্তি",
           isCorrect: false,
         },
         {
-          text: "Carbon intensity",
+          text: "কার্বন তীব্রতা",
           isCorrect: false,
         },
       ],
     },
     {
-      question: "What does the ‘R’ represent in the SCI equation?",
+      question: "SCI সমীকরণে 'R' কী প্রতিনিধিত্ব করে?",
       answers: [
         {
-          text: "Repetition",
+          text: "পুনরাবৃত্তি",
           isCorrect: false,
         },
         {
-          text: "Rate",
+          text: "হার",
           isCorrect: false,
         },
         {
-          text: "Functional unit",
+          text: "ফাংশনাল ইউনিট",
           isCorrect: true,
         },
       ],
     },
     {
       question:
-        "What are the key things to consider before calculating your SCI score?",
+        "আপনার SCI স্কোর গণনা করার আগে বিবেচনা করার মূল বিষয়গুলো কী কী?",
       answers: [
         {
-          text: "What to include and the functional unit you will use",
+          text: "কী অন্তর্ভুক্ত করতে হবে এবং আপনি যে ফাংশনাল ইউনিট ব্যবহার করবেন",
           isCorrect: false,
         },
         {
-          text: "What to include, the functional unit you will use and method of quantification",
+          text: "কী অন্তর্ভুক্ত করতে হবে, আপনি যে ফাংশনাল ইউনিট ব্যবহার করবেন এবং পরিমাপের পদ্ধতি",
           isCorrect: true,
         },
         {
-          text: "What to include, the functional unit you will use, method of quantification and GHG score",
+          text: "কী অন্তর্ভুক্ত করতে হবে, আপনি যে ফাংশনাল ইউনিট ব্যবহার করবেন, পরিমাপের পদ্ধতি এবং GHG স্কোর",
           isCorrect: false,
         },
       ],
