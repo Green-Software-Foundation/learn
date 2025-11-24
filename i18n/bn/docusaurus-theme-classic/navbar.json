@@ -1,14 +1,14 @@
 {
   "title": {
-    "message": "Green Software for Practitioners",
+    "message": "প্র্যাকটিশনার্সদের জন্য গ্রীন সফটওয়্যার",
     "description": "The title in the navbar"
   },
   "item.label.Take the exam": {
-    "message": "Take the final quiz",
+    "message": "চূড়ান্ত কুইজ দিন",
     "description": "Navbar item with label Take the exam"
   },
   "item.label.a Green Software Foundation project": {
-    "message": "a Green Software Foundation project",
+    "message": "একটি গ্রীন সফটওয়্যার ফাউন্ডেশন প্রকল্প",
     "description": "Navbar item with label a Green Software Foundation project"
   }
 }
