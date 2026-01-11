@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "البرمجيات الخضراء للممارسين",
+    "description": "The title in the navbar"
+  },
+  "item.label.Take the exam": {
+    "message": "أخذ الاختبار النهائي",
+    "description": "Navbar item with label Take the exam"
+  },
+  "item.label.a Green Software Foundation project": {
+    "message": "مشروع تابع لمؤسسة البرمجيات الخضراء",
+    "description": "Navbar item with label a Green Software Foundation project"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "link.title.Links": {
+    "message": "الروابط",
+    "description": "The title of the footer links column with title=Links in the footer"
+  },
+  "link.title.LEGAL": {
+    "message": "الشؤون القانونية",
+    "description": "The title of the footer links column with title=LEGAL in the footer"
+  },
+  "link.title.GSF Info": {
+    "message": "معلومات عن مؤسسة البرمجيات الخضراء",
+    "description": "The title of the footer links column with title=GSF Info in the footer"
+  },
+  "link.item.label.Github": {
+    "message": "Github",
+    "description": "The label of footer link with label=Github linking to https://github.com/Green-Software-Foundation/training/"
+  },
+  "link.item.label.Website": {
+    "message": "الموقع الإلكتروني",
+    "description": "The label of footer link with label=Website linking to https://learn.greensoftware.foundation"
+  },
+  "link.item.label.Trademark Policy": {
+    "message": "سياسة العلامات التجارية",
+    "description": "The label of footer link with label=Trademark Policy linking to https://greensoftware.foundation/policy/trademark"
+  },
+  "link.item.label.Terms and Privacy Policy": {
+    "message": "شروط الاستخدام وسياسة الخصوصية",
+    "description": "The label of footer link with label=Terms and Privacy Policy linking to https://greensoftware.foundation/policy/terms"
+  },
+  "link.item.label.Green Software Foundation": {
+    "message": "مؤسسة البرمجيات الخضراء",
+    "description": "The label of footer link with label=Green Software Foundation linking to https://greensoftware.foundation"
+  },
+  "link.item.label.Twitter": {
+    "message": "تويتر",
+    "description": "The label of footer link with label=Twitter linking to https://twitter.com/gsfcommunity"
+  },
+  "link.item.label.Linkedin": {
+    "message": "لينكدإن",
+    "description": "The label of footer link with label=Linkedin linking to https://www.linkedin.com/company/green-software-foundation/"
+  },
+  "copyright": {
+    "message": " حقوق الطبع والنشر © 2023 مشاريع مؤسسة التطوير المشترك (LLC)، سلسلة مؤسسة البرمجيات الخضراء",
+    "description": "The footer copyright"
+  }
+}
