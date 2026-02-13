@@ -1,0 +1,10 @@
+{
+  "version.label": {
+    "message": "التالي",
+    "description": "The label for version current"
+  },
+  "sidebar.sidebar.category.Welcome": {
+    "message": "مرحبًا",
+    "description": "The label for category Welcome in sidebar sidebar"
+  }
+}
